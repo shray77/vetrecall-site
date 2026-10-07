@@ -12,6 +12,7 @@
     --text: #e8ecf3; --muted: #93a0b4; --faint: #5d6a7d;
     --red: #f87171; --red-dim: rgba(248,113,113,.12);
     --amber: #fbbf24; --amber-dim: rgba(251,191,36,.12);
+    --green: #34d399; --green-dim: rgba(52,211,153,.1);
     --blue: #7dd3fc; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
   }
   * { box-sizing: border-box; }
@@ -34,42 +35,52 @@
   .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); flex: none; }
   .dot.ok { background: var(--red); box-shadow: 0 0 8px rgba(248,113,113,.7); }
 
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 24px 0 8px; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 24px 0 8px; }
   .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
   .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
   .stat span { color: var(--muted); font-size: 12.5px; }
 
-  .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 6px; }
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 4px; }
   #q {
     flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
     border-radius: 10px; padding: 9px 14px; font-size: 14px; outline: none;
   }
   #q:focus { border-color: rgba(248,113,113,.5); }
-  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 6px; }
   .chip-btn {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     font: 12px var(--mono); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: .15s;
   }
   .chip-btn:hover { color: var(--text); }
   .chip-btn.active { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
+  .chip-btn.dim { border-style: dashed; }
 
   .card {
     background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--red-dim);
-    border-radius: 14px; padding: 16px 18px 12px; margin-bottom: 12px; transition: border-color .15s;
+    border-radius: 14px; padding: 16px 18px 12px; margin-bottom: 12px; transition: border-color .15s, opacity .15s;
   }
   .card.recall:hover { border-left-color: var(--red); }
   .card.outbreak { border-left-color: var(--amber-dim); }
   .card.outbreak:hover { border-left-color: var(--amber); }
-  .card-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; align-items: center; }
-  .type { font: 700 11px var(--mono); letter-spacing: .08em; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; }
+  .card.noise { opacity: .55; }
+  .card-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; align-items: center; flex-wrap: wrap; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .type, .verdict { font: 700 11px var(--mono); letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; }
   .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid rgba(248,113,113,.3); }
   .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(251,191,36,.3); }
+  .verdict.confirmed { color: var(--red); background: var(--red-dim); border: 1px solid rgba(248,113,113,.4); }
+  .verdict.probable { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(251,191,36,.35); }
+  .verdict.noise { color: var(--faint); background: #171c27; border: 1px solid var(--border); }
+  .verdict.pending { color: var(--muted); background: #171c27; border: 1px dashed var(--border); }
   .pub { color: var(--faint); font-size: 12.5px; font-family: var(--mono); white-space: nowrap; }
   .card h2 { font-size: 16.5px; line-height: 1.45; margin: 0 0 8px; font-weight: 650; }
   .card h2 a { color: var(--text); text-decoration: none; }
   .card h2 a:hover { color: var(--red); }
+  .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; border-left: 2px solid rgba(52,211,153,.4); padding-left: 10px; }
   .matched { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
   .kw { font: 11.5px var(--mono); color: var(--muted); background: #171c27; border: 1px solid var(--border); padding: 2px 9px; border-radius: 999px; }
+  .fields { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; font: 12.5px var(--mono); color: var(--blue); }
+  .fields span { white-space: nowrap; }
   .card-foot { display: flex; gap: 14px; align-items: center; margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--border); }
   .card-foot a, .card-foot span { color: var(--faint); font-size: 12.5px; font-family: var(--mono); text-decoration: none; }
   .card-foot a:hover { color: var(--blue); }
@@ -89,7 +100,7 @@
       <div class="logo">🚨</div>
       <div>
         <h1>VetRecall</h1>
-        <p>Радар Россельхознадзора: отозванные серии, фальсификат, недоброкачественные препараты и вспышки болезней.</p>
+        <p>Радар Россельхознадзора: отозванные серии, фальсификат, недоброкачественные препараты и вспышки болезней. Ключевые слова ловят, ИИ сортирует.</p>
       </div>
     </div>
     <div class="live" id="meta"><span class="dot"></span><span>загрузка…</span></div>
@@ -99,22 +110,23 @@
 <main class="wrap">
   <section class="stats" id="stats"></section>
   <section class="filters">
-    <input id="q" type="search" placeholder="Поиск по заголовкам и ключевым словам…">
-    <div class="chips" id="chips"></div>
+    <input id="q" type="search" placeholder="Поиск по заголовкам, резюме и ключевым словам…">
   </section>
+  <div class="chips" id="chips-verdict"></div>
+  <div class="chips" id="chips-type"></div>
   <section id="feed"></section>
 </main>
 
 <footer>
   <div class="wrap foot">
-    <span>данные: <a href="./signals.json">signals.json</a>, скан после каждого инжеста ФСВПС</span>
+    <span>данные: <a href="./signals.json">signals.json</a> · скан + ИИ-фильтр после каждого инжеста ФСВПС</span>
     <a href="https://shray77.github.io/rss-core-site/">статус конвейера →</a>
     <a href="https://github.com/shray77/vetrecall">репозиторий</a>
   </div>
 </footer>
 
 <script>
-let ALL = [], q = "", type = "";
+let ALL = [], q = "", verdict = "real", type = "";
 
 const timeAgo = (iso) => {
   const ms = Date.now() - new Date(iso).getTime();
@@ -129,46 +141,69 @@ const timeAgo = (iso) => {
 const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
+const VERDICT_RU = { confirmed: "подтверждено", probable: "вероятно", noise: "шум", pending: "ждёт ИИ" };
+
 function card(it) {
   const kws = JSON.parse(it.matched || "[]").map(k => `<span class="kw">${esc(k)}</span>`).join("");
-  return `<article class="card ${it.signal_type}">
-    <div class="card-top"><span class="type ${it.signal_type}">${it.signal_type === "recall" ? "отзыв / брак" : "вспышка"}</span><span class="pub">${fmtDT(it.published_at)}</span></div>
+  const v = it.verdict || "pending";
+  const fields = [
+    it.product && `💊 ${esc(it.product)}`,
+    it.series && `🧪 серия ${esc(it.series)}`,
+    it.region && `📍 ${esc(it.region)}`,
+    it.disease && `🦠 ${esc(it.disease)}`,
+    it.order_no && `📄 приказ ${esc(it.order_no)}`,
+  ].filter(Boolean).join("");
+  return `<article class="card ${it.signal_type} ${v === "noise" ? "noise" : ""}">
+    <div class="card-top">
+      <div class="badges"><span class="type ${it.signal_type}">${it.signal_type === "recall" ? "отзыв / брак" : "вспышка"}</span><span class="verdict ${v}">${VERDICT_RU[v]}</span></div>
+      <span class="pub">${fmtDT(it.published_at)}</span>
+    </div>
     <h2><a href="${it.url}" target="_blank" rel="noopener">${esc(it.title)}</a></h2>
+    ${it.ai_summary ? `<p class="ai-sum">${esc(it.ai_summary)}</p>` : ""}
     ${kws ? `<div class="matched">${kws}</div>` : ""}
-    <div class="card-foot"><a href="${it.url}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id)}</span><span>${fmtDT(it.created_at)}</span></div>
+    ${fields ? `<div class="fields">${fields}</div>` : ""}
+    <div class="card-foot"><a href="${it.url}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id.replace("bing-", ""))}</span><span>${fmtDT(it.created_at)}</span></div>
   </article>`;
 }
 
 function render() {
   const feed = document.getElementById("feed");
-  const list = ALL.filter(it =>
-    (!type || it.signal_type === type) &&
-    (!q || (it.title + " " + it.matched).toLowerCase().includes(q)));
+  const list = ALL.filter(it => {
+    const v = it.verdict || "pending";
+    if (verdict === "real" && v === "noise") return false;
+    if (verdict !== "real" && verdict !== "all" && v !== verdict) return false;
+    if (verdict === "all" && v === "noise") return true; // "all" shows everything
+    if (type && it.signal_type !== type) return false;
+    if (q && !(it.title + " " + (it.ai_summary || "") + " " + it.matched + " " + (it.product || "") + " " + (it.series || "")).toLowerCase().includes(q)) return false;
+    return true;
+  });
   if (!list.length) {
-    feed.innerHTML = `<div class="empty"><b>Сигналов нет</b>Либо всё чисто, либо радар ещё не сканировал. Нажми run-now в репозитории.</div>`;
+    feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбрось фильтры или запусти скан (run-now в репозитории).</div>`;
     return;
   }
   feed.innerHTML = list.map(card).join("");
 }
 
 function renderMeta(j) {
-  document.getElementById("meta").innerHTML =
-    `<span class="dot ok"></span><span>скан ${timeAgo(j.generated_at)}</span>`;
-  const recalls = j.items.filter(i => i.signal_type === "recall").length;
-  const outbreaks = j.items.filter(i => i.signal_type === "outbreak").length;
-  const week = j.items.filter(i => Date.now() - new Date(i.created_at).getTime() < 7 * 864e5).length;
+  document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span>скан ${timeAgo(j.generated_at)}</span>`;
+  const n = (p) => j.items.filter(p).length;
   document.getElementById("stats").innerHTML =
     `<div class="stat"><b>${j.items.length}</b><span>сигналов в радаре</span></div>` +
-    `<div class="stat"><b>${week}</b><span>за последние 7 дней</span></div>` +
-    `<div class="stat"><b style="color:var(--red)">${recalls}</b><span>отзывов и брака</span></div>` +
-    `<div class="stat"><b style="color:var(--amber)">${outbreaks}</b><span>вспышек болезней</span></div>`;
+    `<div class="stat"><b style="color:var(--red)">${n(i => i.verdict === "confirmed")}</b><span>подтверждено ИИ</span></div>` +
+    `<div class="stat"><b style="color:var(--amber)">${n(i => i.verdict === "probable")}</b><span>вероятных</span></div>` +
+    `<div class="stat"><b style="color:var(--faint)">${n(i => i.verdict === "noise")}</b><span>отсеяно как шум</span></div>` +
+    `<div class="stat"><b style="color:var(--muted)">${n(i => !i.verdict)}</b><span>в очереди на ИИ</span></div>`;
+}
+
+function chipRow(el, pairs, active, cb) {
+  document.getElementById(el).innerHTML = pairs.map(([v, l, dim]) =>
+    `<button class="chip-btn ${active === v ? "active" : ""} ${dim ? "dim" : ""}" data-v="${v}">${l}</button>`).join("");
+  document.querySelectorAll(`#${el} .chip-btn`).forEach(b => b.onclick = () => { cb(b.dataset.v); renderChips(); render(); });
 }
 
 function renderChips() {
-  document.getElementById("chips").innerHTML =
-    [["", "все"], ["recall", "отзывы / брак"], ["outbreak", "вспышки"]]
-      .map(([t, l]) => `<button class="chip-btn ${type === t ? "active" : ""}" data-t="${t}">${l}</button>`).join("");
-  document.querySelectorAll(".chip-btn").forEach(b => b.onclick = () => { type = b.dataset.t; renderChips(); render(); });
+  chipRow("chips-verdict", [["real", "без шума"], ["confirmed", "подтверждено"], ["probable", "вероятно"], ["noise", "шум", true], ["all", "вообще всё", true]], verdict, v => verdict = v);
+  chipRow("chips-type", [["", "все типы"], ["recall", "отзывы / брак"], ["outbreak", "вспышки"]], type, t => type = t);
 }
 
 async function refresh() {
