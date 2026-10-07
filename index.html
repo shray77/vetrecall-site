@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VetRecall — радар брака, фальсификата и вспышек</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚨</text></svg>">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
+    --text: #e8ecf3; --muted: #93a0b4; --faint: #5d6a7d;
+    --red: #f87171; --red-dim: rgba(248,113,113,.12);
+    --amber: #fbbf24; --amber-dim: rgba(251,191,36,.12);
+    --blue: #7dd3fc; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
+
+  header.top {
+    background: linear-gradient(180deg, rgba(248,113,113,.07), transparent 70%);
+    border-bottom: 1px solid var(--border); padding: 28px 0 22px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 14px; background: var(--red-dim);
+    border: 1px solid rgba(248,113,113,.35); display: grid; place-items: center; font-size: 26px;
+  }
+  h1 { font-size: 24px; margin: 0; letter-spacing: -.02em; }
+  .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+  .live { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; font-family: var(--mono); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); flex: none; }
+  .dot.ok { background: var(--red); box-shadow: 0 0 8px rgba(248,113,113,.7); }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 24px 0 8px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
+  .stat span { color: var(--muted); font-size: 12.5px; }
+
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 6px; }
+  #q {
+    flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    border-radius: 10px; padding: 9px 14px; font-size: 14px; outline: none;
+  }
+  #q:focus { border-color: rgba(248,113,113,.5); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip-btn {
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+    font: 12px var(--mono); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: .15s;
+  }
+  .chip-btn:hover { color: var(--text); }
+  .chip-btn.active { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--red-dim);
+    border-radius: 14px; padding: 16px 18px 12px; margin-bottom: 12px; transition: border-color .15s;
+  }
+  .card.recall:hover { border-left-color: var(--red); }
+  .card.outbreak { border-left-color: var(--amber-dim); }
+  .card.outbreak:hover { border-left-color: var(--amber); }
+  .card-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; align-items: center; }
+  .type { font: 700 11px var(--mono); letter-spacing: .08em; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; }
+  .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid rgba(248,113,113,.3); }
+  .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(251,191,36,.3); }
+  .pub { color: var(--faint); font-size: 12.5px; font-family: var(--mono); white-space: nowrap; }
+  .card h2 { font-size: 16.5px; line-height: 1.45; margin: 0 0 8px; font-weight: 650; }
+  .card h2 a { color: var(--text); text-decoration: none; }
+  .card h2 a:hover { color: var(--red); }
+  .matched { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+  .kw { font: 11.5px var(--mono); color: var(--muted); background: #171c27; border: 1px solid var(--border); padding: 2px 9px; border-radius: 999px; }
+  .card-foot { display: flex; gap: 14px; align-items: center; margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--border); }
+  .card-foot a, .card-foot span { color: var(--faint); font-size: 12.5px; font-family: var(--mono); text-decoration: none; }
+  .card-foot a:hover { color: var(--blue); }
+  .empty { color: var(--muted); text-align: center; padding: 48px 0; }
+  .empty b { display: block; font-size: 18px; color: var(--text); margin-bottom: 6px; }
+
+  footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 18px 0 30px; }
+  .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
+  .foot a { color: var(--muted); text-decoration: none; }
+  .foot a:hover { color: var(--red); }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap topbar">
+    <div class="brand">
+      <div class="logo">🚨</div>
+      <div>
+        <h1>VetRecall</h1>
+        <p>Радар Россельхознадзора: отозванные серии, фальсификат, недоброкачественные препараты и вспышки болезней.</p>
+      </div>
+    </div>
+    <div class="live" id="meta"><span class="dot"></span><span>загрузка…</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="stats" id="stats"></section>
+  <section class="filters">
+    <input id="q" type="search" placeholder="Поиск по заголовкам и ключевым словам…">
+    <div class="chips" id="chips"></div>
+  </section>
+  <section id="feed"></section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>данные: <a href="./signals.json">signals.json</a>, скан после каждого инжеста ФСВПС</span>
+    <a href="https://shray77.github.io/rss-core-site/">статус конвейера →</a>
+    <a href="https://github.com/shray77/vetrecall">репозиторий</a>
+  </div>
+</footer>
+
+<script>
+let ALL = [], q = "", type = "";
+
+const timeAgo = (iso) => {
+  const ms = Date.now() - new Date(iso).getTime();
+  if (isNaN(ms)) return "";
+  const m = Math.floor(ms / 60000);
+  if (m < 1) return "только что";
+  if (m < 60) return m + " мин назад";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + " ч назад";
+  return Math.floor(h / 24) + " дн назад";
+};
+const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+function card(it) {
+  const kws = JSON.parse(it.matched || "[]").map(k => `<span class="kw">${esc(k)}</span>`).join("");
+  return `<article class="card ${it.signal_type}">
+    <div class="card-top"><span class="type ${it.signal_type}">${it.signal_type === "recall" ? "отзыв / брак" : "вспышка"}</span><span class="pub">${fmtDT(it.published_at)}</span></div>
+    <h2><a href="${it.url}" target="_blank" rel="noopener">${esc(it.title)}</a></h2>
+    ${kws ? `<div class="matched">${kws}</div>` : ""}
+    <div class="card-foot"><a href="${it.url}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id)}</span><span>${fmtDT(it.created_at)}</span></div>
+  </article>`;
+}
+
+function render() {
+  const feed = document.getElementById("feed");
+  const list = ALL.filter(it =>
+    (!type || it.signal_type === type) &&
+    (!q || (it.title + " " + it.matched).toLowerCase().includes(q)));
+  if (!list.length) {
+    feed.innerHTML = `<div class="empty"><b>Сигналов нет</b>Либо всё чисто, либо радар ещё не сканировал. Нажми run-now в репозитории.</div>`;
+    return;
+  }
+  feed.innerHTML = list.map(card).join("");
+}
+
+function renderMeta(j) {
+  document.getElementById("meta").innerHTML =
+    `<span class="dot ok"></span><span>скан ${timeAgo(j.generated_at)}</span>`;
+  const recalls = j.items.filter(i => i.signal_type === "recall").length;
+  const outbreaks = j.items.filter(i => i.signal_type === "outbreak").length;
+  const week = j.items.filter(i => Date.now() - new Date(i.created_at).getTime() < 7 * 864e5).length;
+  document.getElementById("stats").innerHTML =
+    `<div class="stat"><b>${j.items.length}</b><span>сигналов в радаре</span></div>` +
+    `<div class="stat"><b>${week}</b><span>за последние 7 дней</span></div>` +
+    `<div class="stat"><b style="color:var(--red)">${recalls}</b><span>отзывов и брака</span></div>` +
+    `<div class="stat"><b style="color:var(--amber)">${outbreaks}</b><span>вспышек болезней</span></div>`;
+}
+
+function renderChips() {
+  document.getElementById("chips").innerHTML =
+    [["", "все"], ["recall", "отзывы / брак"], ["outbreak", "вспышки"]]
+      .map(([t, l]) => `<button class="chip-btn ${type === t ? "active" : ""}" data-t="${t}">${l}</button>`).join("");
+  document.querySelectorAll(".chip-btn").forEach(b => b.onclick = () => { type = b.dataset.t; renderChips(); render(); });
+}
+
+async function refresh() {
+  try {
+    const j = await (await fetch("./signals.json", { cache: "no-store" })).json();
+    ALL = j.items || [];
+    renderMeta(j); renderChips(); render();
+  } catch (e) {
+    document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span>signals.json недоступен</span>`;
+  }
+}
+document.getElementById("q").oninput = (e) => { q = e.target.value.toLowerCase().trim(); render(); };
+refresh();
+setInterval(refresh, 5 * 60 * 1000);
+</script>
+</body>
+</html>
