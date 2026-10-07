@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-07T15:35:06.420Z",
+  "generated_at": "2026-10-07T15:44:23.408Z",
   "items": [
     {
       "fingerprint": "2ed76066941fd6eba8f7ab0b2b39f9141d638b24",
@@ -11,7 +11,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
       "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
       "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "probable",
+      "ai_summary": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+      "product": null,
+      "series": null,
+      "region": "Монголия",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:03"
     },
     {
       "fingerprint": "dfee9f06bf5a7598e4ce278604e4f9ea1e93f9cf",
@@ -22,7 +30,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2ffedpress.ru%2farticle%2f3454906&c=6100531080255409732&mkt=en-us",
       "summary": "Какие вирусы активно распространяются по миру осенью 2026 года: Эбола, корь, денге, чикунгунья, вирус Западного Нила, COVID и птичий грипп H5N1. Где фиксируют крупнейшие вспышки и есть ли риск новой п ...",
       "published_at": "2026-10-06T10:07:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:05"
     },
     {
       "fingerprint": "5f83eaa08d5a10e5dc470da2373be9cb062669ad",
@@ -33,7 +49,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fdoctor.rambler.ru%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=12120049874192793591&mkt=en-us",
       "summary": "В Молдавии распространяется птичий грипп — заболевание может передаваться человеку и имеет высокий уровень летальности. Рассказываем, существует ли угроза для России и как можно защититься от заражени ...",
       "published_at": "2026-10-06T04:43:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "probable",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": "Молдавия",
+      "disease": "птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:08"
     },
     {
       "fingerprint": "7f2d3dd8f5cd4905e160f4dc0708c0ebe0714957",
@@ -44,7 +68,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "В Приднестровье ограничен ввоз свинины из села Софиевка из-за неблагополучной эпизоотической ситуации по африканской чуме свиней",
+      "product": null,
+      "series": null,
+      "region": "Приднестровье",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:15"
     },
     {
       "fingerprint": "882759ef57927ba2a1f517970f704822b8b1c3b3",
@@ -55,7 +87,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "В Россельхознадзоре сообщили о выявленном в серии №20 вирусе Ауески в препарате \"Мультикана-8\".",
+      "product": "Мультикана-8",
+      "series": "серия №20",
+      "region": null,
+      "disease": "вирус Ауески",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:21"
     },
     {
       "fingerprint": "5d113c8a1cb4ad743a138aa6b4f0bc8034e6bc08",
@@ -66,7 +106,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fprofile.ru%2fnews%2fsociety%2frosselhoznadzor-potreboval-unichtozhit-seriju-vakciny-multikan-8-1901968%2f&c=11115095188650725219&mkt=en-us",
       "summary": "Россельхознадзор принял решение об изъятии из обращения и последующем уничтожении 20-й ...",
       "published_at": "2026-09-16T07:00:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
+      "product": "Мультикан-8",
+      "series": "20-я",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:25"
     },
     {
       "fingerprint": "be249d6331273366ac47711dae6633a1eee3aae5",
@@ -77,7 +125,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2frg62.info%2f2026%2f09%2f16%2frosselhoznadzor-obyazal-unichtozhit-opasnyj-veterinarnyj-preparat-multikan-8-serii-20%2f&c=6066545201467284756&mkt=en-us",
       "summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный ...",
       "published_at": "2026-09-16T06:04:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный препарат “Мультикан-8”",
+      "product": null,
+      "series": "20",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:30"
     },
     {
       "fingerprint": "56293d53dd2803102f4dbba16a14dc054917fca4",
@@ -88,7 +144,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
       "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
       "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Рособрнадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+      "product": "Мультикан-8",
+      "series": "20-я",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:34"
     },
     {
       "fingerprint": "fd811b47eb7206eac5f4e80ff48f90556899edd7",
@@ -99,7 +163,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
       "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
       "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор поручил уничтожить 20-ю серию вакцины \"Мультикан-8\"",
+      "product": "Мультикан-8",
+      "series": "20-я серия",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:40"
     },
     {
       "fingerprint": "443a09338f9c95800c018ed6901392f189f056da",
@@ -110,7 +182,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fnews.ru%2fvlast%2frosselhoznadzor-raskryl-reshenie-po-multikanu-8&c=6241773828793732331&mkt=en-us",
       "summary": "Федеральной службой по ветеринарному и фитосанитарному надзору на основании приказа от 11.09.2026 № 1163 принято решение об изъятии из обращения с последующим уничтожением лекарственного препарата для ...",
       "published_at": "2026-09-16T05:03:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Изъятие лекарственного препарата из обращения с последующим уничтожением",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": "1163",
+      "ai_at": "2026-10-07 15:43:43"
     },
     {
       "fingerprint": "0b46a841176084f4443477d387f7a30e30489c48",
@@ -121,7 +201,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2fwww.ural56.ru%2fnews%2f787121%2f&c=1394080859793551177&mkt=en-us",
       "summary": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187;. Речь о 20 серии вакцины ...",
       "published_at": "2026-09-16T04:13:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор обязал уничтожить серию вакцины «Мультикан-8»",
+      "product": "вакцина Мультикан-8",
+      "series": "20",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:47"
     },
     {
       "fingerprint": "d60cba83ada61d7234f07d031dd9c62b44df8e1a",
@@ -132,7 +220,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
       "summary": "Сама 20-я серия объёмом более 60 тыс. доз разошлась по 10 регионам, но жалобы поступали в основном из Ярославской области.",
       "published_at": "2026-09-16T02:39:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор потребовал уничтожить вакцину",
+      "product": "Мультикан-8",
+      "series": "20-я",
+      "region": "Ярославская область, 10 регионов",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:51"
     },
     {
       "fingerprint": "adbfd6c1116c572ef647f09969ec33fdf36cbd4b",
@@ -143,7 +239,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2fwww.kp.ru%2fonline%2fnews%2f7175275%2f&c=12577660734397481661&mkt=en-us",
       "summary": "Россельхознадзор обязал изъять из обращения и уничтожить лекарственный препарат для ...",
       "published_at": "2026-09-15T19:28:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": null,
+      "product": null,
+      "series": "20-я серии",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:54"
     },
     {
       "fingerprint": "2dc71089f7047ce39844d400de6bdddb3de6e19b",
@@ -154,7 +258,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2ftv29.ru%2fnew%2findex.php%2fbk-obshchestvo%2f49482-v-pomore-budut-sudit-muzhika-za-nedobrokachestvennyj-remont-kamaza-iz-za-chego-postradal-rebenok&c=16102795942206672997&mkt=en-us",
       "summary": "Прокуратура Виноградовского района утвердила обвинительное заключение по уголовному делу в отношении 38-летнего гражданина, обвиняемого в ...",
       "published_at": "2026-08-28T02:27:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:43:57"
     },
     {
       "fingerprint": "e1e98846b15b5305ddfe74aa1f9267f039fae0b9",
@@ -165,7 +277,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fcv.znaj.ua%2fru%2f558060-spalah-afrikanskoji-chumi-sviney-v-ukrajini-karantin-na-40-dniv-i-zaborona-prodazhu-m-yasa&c=17243948799048823314&mkt=en-us",
       "summary": "На Николаевщине впервые за полтора года зафиксировали вспышку африканской чумы свиней — в регионе введены жесткие карантинные ...",
       "published_at": "2026-08-11T04:40:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Впервые за полтора года зафиксирована вспышка африканской чумы свиней в Николаевской области Украины",
+      "product": null,
+      "series": null,
+      "region": "Украина",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:02"
     },
     {
       "fingerprint": "f611e155606befbc668e4b66030b2568e9e9ba54",
@@ -176,7 +296,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnews.rambler.ua%2fcommunity%2f56760748-v-bryanskoy-oblasti-vspyshka-achs-u-dikih-kabanov%2f&c=169100696861137091&mkt=en-us",
       "summary": "В регионе зафиксирована вспышка АЧС среди популяции диких кабанов. Вирус выявлен Брянской испытательной лабораторией ФГБУ &#171;ВНИИЗЖ ...",
       "published_at": "2026-07-15T09:08:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Зафиксирована вспышка АЧС среди диких кабанов в Брянской области.",
+      "product": null,
+      "series": null,
+      "region": "Брянская область",
+      "disease": "АЧС",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:05"
     },
     {
       "fingerprint": "ad05b4faceb44e367d86f17ea927f32bf209a94e",
@@ -187,7 +315,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2frus.lsm.lv%2fstatja%2fnovosti%2fproisshestvija%2f23.01.2026-na-svinoferme-v-vainyode-iz-za-vspyski-acs-likvidiruyut-vsex-svinei.a631345%2f&c=13326614645874940439&mkt=en-us",
       "summary": "На свиноферме Vaiņodes bekons в волости Вайнёде Южнокурземского края из-за вспышки африканской чумы свиней (АЧС), будет ликвидировано 22 262 свиньи ...",
       "published_at": "2026-01-23T07:53:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Из-за вспышки АЧС на свиноферме ликвидируют 22 262 свиней",
+      "product": null,
+      "series": null,
+      "region": "Вайнёде Южнокурземского края",
+      "disease": "Африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:10"
     },
     {
       "fingerprint": "380855939a9093a2b5c7a551aa31efb39602b410",
@@ -198,7 +334,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2frus.lsm.lv%2fstatja%2fnovosti%2fekonomika%2f21.01.2026-v-vainyode-vspyska-afrikanskoi-cumy-svinei.a630901%2f&c=1217485270397268406&mkt=en-us",
       "summary": "В Латвии выявлена первая в этом году вспышка африканской чумы свиней (АЧС) на свиноферме. Заболевание выявлено в волости Вайнёде ...",
       "published_at": "2026-01-21T05:31:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "В Латвии выявлена первая в этом году вспышка африканской чумы свиней на свиноферме",
+      "product": null,
+      "series": null,
+      "region": "Латвия",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:15"
     },
     {
       "fingerprint": "51fd461b4391626fe9f742bbe0c33aa5ace7c08b",
@@ -209,7 +353,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fvedom.ru%2fnews%2f2025%2f11%2f05%2f76320-rosselhoznadzor-vyyavil-v-obrashchenii-nedobrokachestvennyy-veterinarnyy-preparat&c=17144780384420107569&mkt=en-us",
       "summary": "Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Владимирской, Костромской и Ивановской областям сообщает о ...",
       "published_at": "2025-11-05T11:40:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор выявил в обращении недоброкачественный ветеринарный препарат",
+      "product": null,
+      "series": null,
+      "region": "Владимирская, Костромская, Ивановская области",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:21"
     },
     {
       "fingerprint": "fc953374387465cee39e873446c18bc6b3ef9564",
@@ -220,7 +372,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fwww.bbc.com%2frussian%2farticles%2fc2lxeqrg7ewo&c=4136141474182628040&mkt=en-us",
       "summary": "В начале 2025 года в TikTok завирусились таблетки под названием &#171;Молекула&#187;. Подростки и молодые женщины рассказывали, как препарат эффективно ...",
       "published_at": "2025-10-08T21:30:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-07 15:44:23"
     },
     {
       "fingerprint": "bca5f238ae7e469884abb1e99ecc0001d33de664",
@@ -231,7 +391,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
       "summary": "Для проверки от спама разрешите функциональные cookie. По данным, опубликованным Еврокомиссией, наибольшее количество случаев заражения АЧС ...",
       "published_at": "2025-10-03T07:03:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     },
     {
       "fingerprint": "d54599687fa2410799f08d87d577f8d7f2bdf033",
@@ -242,7 +410,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2faif.ru%2fhealth%2flife%2fvirusy-vs-bakterii-kak-i-chem-lechit-pishchevoe-otravlenie&c=17073513814740572450&mkt=en-us",
       "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
       "published_at": "2025-06-23T17:00:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     },
     {
       "fingerprint": "9ef35bb5f6e89a8c9461b75cd5abc07ec893d820",
@@ -253,7 +429,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fvmeste-rf.tv%2fnews%2f12226%2f&c=9272355802448390484&mkt=en-us",
       "summary": "Полицейские досматривают все машины, выезжающие из села Ливенка Белгородской области, где была зафиксирована вспышка африканской чумы ...",
       "published_at": "2025-03-18T05:28:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     },
     {
       "fingerprint": "8f2a20918146383c462d8060295bce79b3f8aa57",
@@ -264,7 +448,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     },
     {
       "fingerprint": "753b2c92c0831e80f1705a3d56d4458d50fbeb49",
@@ -275,7 +467,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2ftv8.md%2fru%2f2025%2f02%2f03%2fvideo-vspishka-achs-dve-krupneishie-svinofermi-priostanovili-prodazhu-myasa%2f274873&c=16870573050850836979&mkt=en-us",
       "summary": "Две крупнейшие свинофермы в стране больше не могут продавать свое мясо после подтверждения вспышки африканской чумы свиней в Чимишенах ...",
       "published_at": "2025-02-03T09:46:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     },
     {
       "fingerprint": "7b0be099913f739302501fb94d6faeed638d38d8",
@@ -286,7 +486,15 @@
       "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fwww.blackseanews.net%2fread%2f46282&c=4012801141854373616&mkt=en-us",
       "summary": "Случаи заболевания зарегистрированы на ферме, где содержится свыше 12-ти тысяч животных. Об ...",
       "published_at": "2024-07-28T17:00:00.000Z",
-      "created_at": "2026-10-07 15:35:06"
+      "created_at": "2026-10-07 15:35:06",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null
     }
   ]
 }
