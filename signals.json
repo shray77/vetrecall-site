@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-07T15:44:23.408Z",
+  "generated_at": "2026-10-07T15:45:16.710Z",
   "items": [
     {
       "fingerprint": "2ed76066941fd6eba8f7ab0b2b39f9141d638b24",
@@ -392,14 +392,14 @@
       "summary": "Для проверки от спама разрешите функциональные cookie. По данным, опубликованным Еврокомиссией, наибольшее количество случаев заражения АЧС ...",
       "published_at": "2025-10-03T07:03:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "В Европе отмечена новая вспышка африканской чумы свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Европа",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:44:55"
     },
     {
       "fingerprint": "d54599687fa2410799f08d87d577f8d7f2bdf033",
@@ -411,14 +411,14 @@
       "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
       "published_at": "2025-06-23T17:00:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "noise",
+      "ai_summary": "Вирусы vs бактерии. Как и чем лечить пищевое отравление",
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:44:59"
     },
     {
       "fingerprint": "9ef35bb5f6e89a8c9461b75cd5abc07ec893d820",
@@ -430,14 +430,14 @@
       "summary": "Полицейские досматривают все машины, выезжающие из села Ливенка Белгородской области, где была зафиксирована вспышка африканской чумы ...",
       "published_at": "2025-03-18T05:28:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Полицейские досматривают машины, выезжающие из села Ливенка, где зафиксирована вспышка африканской чумы",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Белгородская область",
+      "disease": "африканской чумы",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:45:05"
     },
     {
       "fingerprint": "8f2a20918146383c462d8060295bce79b3f8aa57",
@@ -449,14 +449,14 @@
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
+      "verdict": "noise",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:45:07"
     },
     {
       "fingerprint": "753b2c92c0831e80f1705a3d56d4458d50fbeb49",
@@ -468,14 +468,14 @@
       "summary": "Две крупнейшие свинофермы в стране больше не могут продавать свое мясо после подтверждения вспышки африканской чумы свиней в Чимишенах ...",
       "published_at": "2025-02-03T09:46:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Две крупнейшие свинофермы в стране больше не могут продавать свое мясо после вспышки африканской чумы свиней в Чимишенах",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Чимишены",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:45:12"
     },
     {
       "fingerprint": "7b0be099913f739302501fb94d6faeed638d38d8",
@@ -487,14 +487,14 @@
       "summary": "Случаи заболевания зарегистрированы на ферме, где содержится свыше 12-ти тысяч животных. Об ...",
       "published_at": "2024-07-28T17:00:00.000Z",
       "created_at": "2026-10-07 15:35:06",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Новая вспышка АЧС выявлена на ферме в Краснодарском крае",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Краснодарский край",
+      "disease": "АЧС",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-07 15:45:16"
     }
   ]
 }
