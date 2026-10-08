@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T16:20:57.666Z",
+  "generated_at": "2026-10-08T18:21:55.677Z",
   "items": [
     {
       "fingerprint": "3eb79c819b52b67daee634aecfe27b407662ced6",
@@ -387,6 +387,55 @@
       ]
     },
     {
+      "fingerprint": "7a756b4f439778331e9042cce76d30869c2065db",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
+      "published_at": "2026-09-29T10:07:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+      "product": null,
+      "series": null,
+      "region": "Приднестровье",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 18:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье",
+      "dup_count": 5,
+      "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        }
+      ]
+    },
+    {
       "fingerprint": "d439f46779749b33bd964e928af59d7813b60b94",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
@@ -408,49 +457,6 @@
       "series_digits": null,
       "region_norm": "приднестровье",
       "dup_count": 1
-    },
-    {
-      "fingerprint": "74f5b0a80dddab49fa211c4d588e29fc96f66ca9",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:48",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье",
-      "dup_count": 4,
-      "dups": [
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        }
-      ]
     },
     {
       "fingerprint": "d8966bacaf3fd5168fd20aa891a38109f641d7d3",
@@ -551,13 +557,19 @@
       "product_norm": "мультикан 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 8,
+      "dup_count": 11,
       "dups": [
         {
           "title": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fprofile.ru%2fnews%2fsociety%2frosselhoznadzor-potreboval-unichtozhit-seriju-vakciny-multikan-8-1901968%2f&c=11115095188650725219&mkt=en-us",
           "source_id": "bing-recall-vet",
           "published_at": "2026-09-16T07:00:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+          "source_id": "bing-recall-fals",
+          "published_at": "2026-09-16T05:21:00.000Z"
         },
         {
           "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
@@ -585,6 +597,12 @@
         },
         {
           "title": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187; — препарат для животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2fwww.ural56.ru%2fnews%2f787121%2f&c=1394080859793551177&mkt=en-us",
+          "source_id": "bing-recall-fals",
+          "published_at": "2026-09-16T04:13:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187; — препарат для животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2fwww.ural56.ru%2fnews%2f787121%2f&c=1394080859793551177&mkt=en-us",
           "source_id": "bing-recall-fals",
           "published_at": "2026-09-16T04:13:00.000Z"
@@ -594,6 +612,12 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-09-16T02:39:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор обязал изъять и уничтожить вакцину \"Мультикан-8\" 20-й серии",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2fwww.kp.ru%2fonline%2fnews%2f7175275%2f&c=12577660734397481661&mkt=en-us",
+          "source_id": "bing-recall-fals",
+          "published_at": "2026-09-15T19:28:00.000Z"
         }
       ]
     },
@@ -682,6 +706,28 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-08 12:07:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "af0dfe1009727b2278f9384ddd59691be747ea99",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-fals",
+      "title": "Россельхознадзор обязал уничтожить опасный ветеринарный препарат &#171;Мультикан-8&#187; серии 20",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2frg62.info%2f2026%2f09%2f16%2frosselhoznadzor-obyazal-unichtozhit-opasnyj-veterinarnyj-preparat-multikan-8-serii-20%2f&c=6066545201467284756&mkt=en-us",
+      "summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный ...",
+      "published_at": "2026-09-16T06:04:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный препарат \"Мультикан-8\" серии 20",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 18:21:01",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
@@ -995,6 +1041,29 @@
       "region_norm": null
     },
     {
+      "fingerprint": "2a7f9eb47f5cdcf277cd79d1ee0e67e7bfc5f8a6",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Вспышка африканской чумы свиней в Украине: карантин на 40 дней и запрет продажи мяса",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fcv.znaj.ua%2fru%2f558060-spalah-afrikanskoji-chumi-sviney-v-ukrajini-karantin-na-40-dniv-i-zaborona-prodazhu-m-yasa&c=17243948799048823314&mkt=en-us",
+      "summary": "На Николаевщине впервые за полтора года зафиксировали вспышку африканской чумы свиней — в регионе введены жесткие карантинные ...",
+      "published_at": "2026-08-11T04:40:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "В Николаевской области зафиксирована вспышка африканской чумы свиней, введены карантин и запрет продажи мяса.",
+      "product": null,
+      "series": null,
+      "region": "Украина",
+      "disease": "африканской чумы свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 18:21:17",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "украина",
+      "dup_count": 1
+    },
+    {
       "fingerprint": "e1e98846b15b5305ddfe74aa1f9267f039fae0b9",
       "signal_type": "outbreak",
       "matched": "[\"вспышк\"]",
@@ -1015,7 +1084,15 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "украина",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Африканская чума свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2025-02-06T04:15:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "9d951c1a703999d7f54261ec6f5c1ea7ec83e015",
@@ -1116,26 +1193,57 @@
       ]
     },
     {
-      "fingerprint": "f611e155606befbc668e4b66030b2568e9e9ba54",
+      "fingerprint": "d8c6b9a589364e273f502272f35f4bba2aba7e56",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"вспышк\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Брянской области вспышка АЧС у диких кабанов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnews.rambler.ua%2fcommunity%2f56760748-v-bryanskoy-oblasti-vspyshka-achs-u-dikih-kabanov%2f&c=169100696861137091&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fnews.rambler.ua%2fcommunity%2f56760748-v-bryanskoy-oblasti-vspyshka-achs-u-dikih-kabanov%2f&c=169100696861137091&mkt=en-us",
       "summary": "В регионе зафиксирована вспышка АЧС среди популяции диких кабанов. Вирус выявлен Брянской испытательной лабораторией ФГБУ &#171;ВНИИЗЖ ...",
       "published_at": "2026-07-15T09:08:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
+      "created_at": "2026-10-08 18:20:50",
       "verdict": "confirmed",
-      "ai_summary": "Зафиксирована вспышка АЧС среди диких кабанов в Брянской области.",
+      "ai_summary": "В регионе зафиксирована вспышка АЧС среди популяции диких кабанов",
       "product": null,
       "series": null,
       "region": "Брянская область",
       "disease": "АЧС",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:05",
+      "ai_at": "2026-10-08 18:21:22",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "брянская область",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Брянской области вспышка АЧС у диких кабанов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnews.rambler.ua%2fcommunity%2f56760748-v-bryanskoy-oblasti-vspyshka-achs-u-dikih-kabanov%2f&c=169100696861137091&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-07-15T09:08:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "0c72100f2a045ac16d1b21f14cbe2308c0b92065",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "На свиноферме в Вайнёде из-за вспышки АЧС ликвидируют всех свиней",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2frus.lsm.lv%2fstatja%2fnovosti%2fproisshestvija%2f23.01.2026-na-svinoferme-v-vainyode-iz-za-vspyski-acs-likvidiruyut-vsex-svinei.a631345%2f&c=13326614645874940439&mkt=en-us",
+      "summary": "На свиноферме Vaiņodes bekons в волости Вайнёде Южнокурземского края из-за вспышки африканской чумы свиней (АЧС), будет ликвидировано 22 262 свиньи ...",
+      "published_at": "2026-01-23T07:53:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "ликвидируется свиноферма из-за вспышки АЧС на 22 262 свиньи",
+      "product": null,
+      "series": null,
+      "region": "Волость Вайнёде Южнокурземского края",
+      "disease": "Африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 18:21:27",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "волость вайнеде южнокурземского края",
       "dup_count": 1
     },
     {
@@ -1159,6 +1267,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "вайнеде южнокурземского края",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "84d9b7a63207cd63966025009f8fc5db3f0fe9dc",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Вайнёде — вспышка африканской чумы свиней",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2frus.lsm.lv%2fstatja%2fnovosti%2fekonomika%2f21.01.2026-v-vainyode-vspyska-afrikanskoi-cumy-svinei.a630901%2f&c=1217485270397268406&mkt=en-us",
+      "summary": "В Латвии выявлена первая в этом году вспышка африканской чумы свиней (АЧС) на свиноферме. Заболевание выявлено в волости Вайнёде ...",
+      "published_at": "2026-01-21T05:31:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "В Латвии выявлена первая в этом году вспышка африканской чумы свиней на свиноферме.",
+      "product": null,
+      "series": null,
+      "region": "Вайнёде, Латвия",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 18:21:32",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "вайнеде латвия",
       "dup_count": 1
     },
     {
@@ -1229,27 +1360,35 @@
       "region_norm": null
     },
     {
-      "fingerprint": "bca5f238ae7e469884abb1e99ecc0001d33de664",
+      "fingerprint": "ffb1843be891b1245b08b4cd75b7399ba21bca1b",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"вспышк\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Европе отмечена новая вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
       "summary": "Для проверки от спама разрешите функциональные cookie. По данным, опубликованным Еврокомиссией, наибольшее количество случаев заражения АЧС ...",
       "published_at": "2025-10-03T07:03:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
+      "created_at": "2026-10-08 18:20:50",
       "verdict": "probable",
-      "ai_summary": "В Европе отмечена новая вспышка африканской чумы свиней",
+      "ai_summary": "Еврокомиссия опубликовала данные о вспышке АЧС в Европе",
       "product": null,
       "series": null,
       "region": "Европа",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:55",
+      "ai_at": "2026-10-08 18:21:37",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "европа",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Европе отмечена новая вспышка африканской чумы свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2025-10-03T07:03:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "ea546958c53bcbfb0128b536ad8d82f33f648ee0",
@@ -1430,6 +1569,29 @@
       "region_norm": null
     },
     {
+      "fingerprint": "ed440f9ee813e6088a373a25d20f7b8f317d21ef",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "РЕПОРТАЖ: Полиция досматривает машины, выезжающие из села, где зафиксирована вспышка АЧС",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fvmeste-rf.tv%2fnews%2f12226%2f&c=9272355802448390484&mkt=en-us",
+      "summary": "Полицейские досматривают все машины, выезжающие из села Ливенка Белгородской области, где была зафиксирована вспышка африканской чумы ...",
+      "published_at": "2025-03-18T05:28:00.000Z",
+      "created_at": "2026-10-08 18:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "В селе Ливенка Белгородской области зафиксирована вспышка африканской чумы",
+      "product": null,
+      "series": null,
+      "region": "Белгородская область",
+      "disease": "африканская чума",
+      "order_no": null,
+      "ai_at": "2026-10-08 18:21:41",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "белгородская область",
+      "dup_count": 1
+    },
+    {
       "fingerprint": "9ef35bb5f6e89a8c9461b75cd5abc07ec893d820",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"вспышк\"]",
@@ -1451,226 +1613,6 @@
       "series_digits": null,
       "region_norm": "белгородская область",
       "dup_count": 1
-    },
-    {
-      "fingerprint": "914129d1d1e483d221890738e3dc8a53dbdea209",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-08 14:20:54",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:27",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "81691787a1972d624bcf28266259bb7a990e75e0",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:38",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "326d81adf6ad680ef44990fe434e35228426e325",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:40",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "4575687d7454e5f9cf0c4ec38341f7993668b6be",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:43",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "725de5dc837a91a6a806e68d7b8c92bc9351d332",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:46",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "8f2a20918146383c462d8060295bce79b3f8aa57",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Африканская чума свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
-      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
-      "published_at": "2025-02-06T04:15:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:45:07",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "753b2c92c0831e80f1705a3d56d4458d50fbeb49",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "/ВИДЕО/ Вспышка АЧС: две крупнейшие свинофермы приостановили продажу мяса",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2ftv8.md%2fru%2f2025%2f02%2f03%2fvideo-vspishka-achs-dve-krupneishie-svinofermi-priostanovili-prodazhu-myasa%2f274873&c=16870573050850836979&mkt=en-us",
-      "summary": "Две крупнейшие свинофермы в стране больше не могут продавать свое мясо после подтверждения вспышки африканской чумы свиней в Чимишенах ...",
-      "published_at": "2025-02-03T09:46:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Две крупнейшие свинофермы в стране больше не могут продавать свое мясо после вспышки африканской чумы свиней в Чимишенах",
-      "product": null,
-      "series": null,
-      "region": "Чимишены",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:45:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "чимишены"
-    },
-    {
-      "fingerprint": "7b0be099913f739302501fb94d6faeed638d38d8",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Новая вспышка АЧС выявлена в Краснодарском крае",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fwww.blackseanews.net%2fread%2f46282&c=4012801141854373616&mkt=en-us",
-      "summary": "Случаи заболевания зарегистрированы на ферме, где содержится свыше 12-ти тысяч животных. Об ...",
-      "published_at": "2024-07-28T17:00:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Новая вспышка АЧС выявлена на ферме в Краснодарском крае",
-      "product": null,
-      "series": null,
-      "region": "Краснодарский край",
-      "disease": "АЧС",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:45:16",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "краснодарский край",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "d99e16f1dd8dd5b631d0df7d3b90bde73f8d6f1d",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\",\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "АЧС | африканская чума свиней - последние новости",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
-      "published_at": "2020-01-23T16:00:00.000Z",
-      "created_at": "2026-10-08 14:20:54",
-      "verdict": "confirmed",
-      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
-      "product": null,
-      "series": null,
-      "region": "Польша",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:33",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "польша",
-      "dup_count": 4,
-      "dups": [
-        {
-          "title": "АЧС | африканская чума свиней - последние новости",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2020-01-23T16:00:00.000Z"
-        },
-        {
-          "title": "АЧС | африканская чума свиней - последние новости",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2020-01-23T16:00:00.000Z"
-        },
-        {
-          "title": "АЧС | африканская чума свиней - последние новости",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2020-01-23T16:00:00.000Z"
-        }
-      ]
     }
   ]
 }
