@@ -368,13 +368,22 @@ function dupKey(it) {
 }
 const plural = (n) => n === 1 ? "дубль" : n < 5 ? "дубля" : "дублей";
 
+/* воркер с v3 сам дедуплицирует ленту: свернутые дубли лежат в it.dups —
+   сеем их в группу, чтобы кнопка «ещё N дублей» не потеряла старые ссылки */
+function seedDups(it) {
+  return (it.dups || []).map(d => ({
+    title: d.title || "", url: d.url || "",
+    source_id: d.source_id || "", published_at: d.published_at || "",
+  }));
+}
+
 function renderGroups(list) {
   const groups = new Map();
   const seq = [];
   for (const it of list) {
     const k = dupKey(it);
-    if (!k) { seq.push({ main: it, members: [] }); continue; }
-    if (!groups.has(k)) { const g = { main: it, members: [] }; groups.set(k, g); seq.push(g); }
+    if (!k) { seq.push({ main: it, members: seedDups(it) }); continue; }
+    if (!groups.has(k)) { const g = { main: it, members: seedDups(it) }; groups.set(k, g); seq.push(g); }
     else groups.get(k).members.push(it);
   }
   let html = "", last = "";
