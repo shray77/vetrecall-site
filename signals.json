@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T14:21:53.280Z",
+  "generated_at": "2026-10-08T15:40:25.964Z",
   "items": [
     {
       "fingerprint": "3eb79c819b52b67daee634aecfe27b407662ced6",
@@ -19,7 +19,54 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:27"
+      "ai_at": "2026-10-08 12:20:27",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "4cf78a0b67cc3ae732c11895b8acdd23ee3c88c2",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fulan.mk.ru%2fsocial%2f2026%2f10%2f08%2fmongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-vakciny-ot-yashhura.html&c=3281823236804984974&mkt=en-us",
+      "summary": "История с иркутянкой, якобы заболевшей чумой в пограничной зоне Бурятии, оказалась интернет-&#171;уткой&#187; или фейком, как нынче принято говорить ...",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "probable",
+      "ai_summary": "История о якобы заболевшей чумой иркутянке в Бурятии оказалась фейком",
+      "product": null,
+      "series": null,
+      "region": "РФ",
+      "disease": "чума",
+      "order_no": null,
+      "ai_at": "2026-10-08 15:39:54",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "рф"
+    },
+    {
+      "fingerprint": "4eb3e12d2a1398bc915cd69555d8e075e42a9e87",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+      "summary": "– Да, а именно: водоплавающие и болотные птицы, у которых отсутствуют видимые признаки заболевания. А вот переносчики вируса птичьего гриппа ...",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "noise",
+      "ai_summary": "Описание симптомов и мер профилактики птичьего гриппа.",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "Птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-08 15:39:59",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "3b1e78a3515862e9bed19259cde504522fb35595",
@@ -38,7 +85,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:12"
+      "ai_at": "2026-10-08 11:38:12",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "b73df7e85c33ffc41e0cd67814cd8719f580d2ed",
@@ -57,7 +107,10 @@
       "region": null,
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:14"
+      "ai_at": "2026-10-08 11:38:14",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "11ba3fdff445eb91403195648adaddf80829fbed",
@@ -76,7 +129,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:16"
+      "ai_at": "2026-10-08 11:38:16",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "08a11a8c05fdde6fa293d4386c00d08e2903cacc",
@@ -95,7 +151,32 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:30"
+      "ai_at": "2026-10-08 12:20:30",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "cf681b16b65223f5e476b1cdb58a664d707704a4",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+      "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
+      "published_at": "2026-10-06T21:59:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "probable",
+      "ai_summary": "Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура",
+      "product": null,
+      "series": null,
+      "region": "Монголия",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-10-08 15:40:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "монголия"
     },
     {
       "fingerprint": "e15649e782f0936e25e55a7e64a358e8fab24c81",
@@ -114,7 +195,10 @@
       "region": "Монголия",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:19"
+      "ai_at": "2026-10-08 11:38:19",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "монголия"
     },
     {
       "fingerprint": "6ff0eaa9e7ec0edbae3361b933fcbaa8b777dc2b",
@@ -133,7 +217,10 @@
       "region": "Монголия",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:23"
+      "ai_at": "2026-10-08 11:38:23",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "монголия"
     },
     {
       "fingerprint": "23efb08bf21209f631f3724a3f0d8be6802ab5ee",
@@ -152,7 +239,10 @@
       "region": null,
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:25"
+      "ai_at": "2026-10-08 11:38:25",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "2ed76066941fd6eba8f7ab0b2b39f9141d638b24",
@@ -171,7 +261,32 @@
       "region": "Монголия",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:03"
+      "ai_at": "2026-10-07 15:43:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "монголия"
+    },
+    {
+      "fingerprint": "e3a9498b15e3a5902aefdbc2b04d87c19cb85568",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Какие вирусы распространяются в мире осенью 2026 года: самые важные данные",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2ffedpress.ru%2farticle%2f3454906&c=6100531080255409732&mkt=en-us",
+      "summary": "Какие вирусы активно распространяются по миру осенью 2026 года: Эбола, корь, денге, чикунгунья, вирус Западного Нила, COVID и птичий грипп H5N1. Где фиксируют крупнейшие вспышки и есть ли риск новой п ...",
+      "published_at": "2026-10-06T10:07:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 15:40:06",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "968b57b2950f3e7a06737b1cdcca56cc829bf0a0",
@@ -190,7 +305,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:28"
+      "ai_at": "2026-10-08 11:38:28",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "af94520cfb320092356c65c794aa2359b352e954",
@@ -209,7 +327,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:30"
+      "ai_at": "2026-10-08 11:38:30",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "cab2243a4986ab2d754a9b8bd94a1a8ea4a83fed",
@@ -228,7 +349,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:33"
+      "ai_at": "2026-10-08 11:38:33",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "dfee9f06bf5a7598e4ce278604e4f9ea1e93f9cf",
@@ -247,7 +371,32 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:05"
+      "ai_at": "2026-10-07 15:43:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "6df66f14c268d50630e73dc4c8763392841c595b",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fdoctor.rambler.ru%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=12120049874192793591&mkt=en-us",
+      "summary": "В Молдавии распространяется птичий грипп — заболевание может передаваться человеку и имеет высокий уровень летальности. Рассказываем, существует ли угроза для России и как можно защититься от заражени ...",
+      "published_at": "2026-10-06T04:43:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "probable",
+      "ai_summary": "В Молдавии распространяется птичий грипп — заболевание может передаваться человеку и имеет высокий уровень летальности.",
+      "product": null,
+      "series": null,
+      "region": "Молдавия",
+      "disease": "птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-08 15:40:12",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "молдавия"
     },
     {
       "fingerprint": "5dcf4f3b1440758285ef7cfc60b0d684f3cd5c22",
@@ -266,7 +415,10 @@
       "region": "Молдавия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:37"
+      "ai_at": "2026-10-08 11:38:37",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "молдавия"
     },
     {
       "fingerprint": "aa14bc42a908dc995d12018587e1939a4308a84a",
@@ -285,7 +437,10 @@
       "region": null,
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:40"
+      "ai_at": "2026-10-08 11:38:40",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "342db8f96993920883b9b3bd958b5d4e5e7139e0",
@@ -304,7 +459,10 @@
       "region": "Молдавия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:44"
+      "ai_at": "2026-10-08 11:38:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "молдавия"
     },
     {
       "fingerprint": "5f83eaa08d5a10e5dc470da2373be9cb062669ad",
@@ -323,7 +481,10 @@
       "region": "Молдавия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:08"
+      "ai_at": "2026-10-07 15:43:08",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "молдавия"
     },
     {
       "fingerprint": "d439f46779749b33bd964e928af59d7813b60b94",
@@ -342,7 +503,10 @@
       "region": "Приднестровье",
       "disease": "африканской чуме свиней (АЧС)",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:02"
+      "ai_at": "2026-10-08 14:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье"
     },
     {
       "fingerprint": "74f5b0a80dddab49fa211c4d588e29fc96f66ca9",
@@ -361,7 +525,10 @@
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:48"
+      "ai_at": "2026-10-08 11:38:48",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье"
     },
     {
       "fingerprint": "347f23395e1ba74af1d1490658574e388f39f6e2",
@@ -380,7 +547,10 @@
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:53"
+      "ai_at": "2026-10-08 11:38:53",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье"
     },
     {
       "fingerprint": "9f9b1c9f81352e287f949c4ab3f70aaf9d9babd2",
@@ -399,7 +569,10 @@
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 11:38:57"
+      "ai_at": "2026-10-08 11:38:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье"
     },
     {
       "fingerprint": "d8966bacaf3fd5168fd20aa891a38109f641d7d3",
@@ -418,7 +591,10 @@
       "region": "Приднестровье/Молдавия",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 11:39:03"
+      "ai_at": "2026-10-08 11:39:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье молдавия"
     },
     {
       "fingerprint": "7f2d3dd8f5cd4905e160f4dc0708c0ebe0714957",
@@ -437,7 +613,32 @@
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:15"
+      "ai_at": "2026-10-07 15:43:15",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приднестровье"
+    },
+    {
+      "fingerprint": "ee83db3b0258b6a87f35871ab5899dc5068ecd62",
+      "signal_type": "recall",
+      "matched": "[\"отозван\"]",
+      "source_id": "bing-recall-series",
+      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
+      "published_at": "2026-09-17T23:40:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "confirmed",
+      "ai_summary": "В Россельхознадзоре сообщили о выявлении вируса Ауески в серии Мультикана-8",
+      "product": "Мультикана-8",
+      "series": "20",
+      "region": null,
+      "disease": "вирус Ауески",
+      "order_no": null,
+      "ai_at": "2026-10-08 15:40:17",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "53ed2274ef076a41bcde44a56918c8ed65592bea",
@@ -456,7 +657,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:04"
+      "ai_at": "2026-10-08 12:07:04",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "08fe8de1b30504e8675fd3e13cfad6665274ec3c",
@@ -475,7 +679,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:08"
+      "ai_at": "2026-10-08 12:07:08",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "8f3fc48fb4eadc94121fe9baf634a6ba32b17145",
@@ -494,7 +701,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:14"
+      "ai_at": "2026-10-08 12:07:14",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "704e7527b39947e47b28d43ac7ec5992f6c9d9a7",
@@ -513,7 +723,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:21"
+      "ai_at": "2026-10-08 12:07:21",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "b7fd90bc691dcb5bd73ea06b0f04f8306e0d239f",
@@ -532,7 +745,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:27"
+      "ai_at": "2026-10-08 12:07:27",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "882759ef57927ba2a1f517970f704822b8b1c3b3",
@@ -551,7 +767,10 @@
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:21"
+      "ai_at": "2026-10-07 15:43:21",
+      "product_norm": "мультикана 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "78b951420e27cbc4f1b28dbe05d7f814e8ea7bf4",
@@ -570,7 +789,10 @@
       "region": "Кубани",
       "disease": "смертельно опасная для собак вакцина",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:31"
+      "ai_at": "2026-10-08 12:07:31",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "кубани"
     },
     {
       "fingerprint": "a9cd665167fee69fc4c9585493fbc15a4a7086f7",
@@ -589,7 +811,10 @@
       "region": "Кубани",
       "disease": "смертельно опасная для собак",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:36"
+      "ai_at": "2026-10-08 12:07:36",
+      "product_norm": "мультикан",
+      "series_digits": null,
+      "region_norm": "кубани"
     },
     {
       "fingerprint": "2f4fe4491c8a51226b5480453bf3221447d289e6",
@@ -608,7 +833,10 @@
       "region": "Кубани",
       "disease": "смертельно опасная для собак вакцина",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:41"
+      "ai_at": "2026-10-08 12:07:41",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "кубани"
     },
     {
       "fingerprint": "0169d44b18377e0d90e4c1fa652e8236f674cdb5",
@@ -627,7 +855,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:44"
+      "ai_at": "2026-10-08 12:07:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "5d113c8a1cb4ad743a138aa6b4f0bc8034e6bc08",
@@ -646,7 +877,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:25"
+      "ai_at": "2026-10-07 15:43:25",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "be249d6331273366ac47711dae6633a1eee3aae5",
@@ -665,7 +899,32 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:30"
+      "ai_at": "2026-10-07 15:43:30",
+      "product_norm": null,
+      "series_digits": "20",
+      "region_norm": null
+    },
+    {
+      "fingerprint": "e3285532c0223474bf5743e5cb7d2e1ce427e2f7",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
+      "published_at": "2026-09-16T05:21:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор поручил уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за которой погибли собаки",
+      "product": "Мультикан-8",
+      "series": "20-я серия",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 15:40:21",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "03055a978187628ee1760b15f8d8c0906b7b6076",
@@ -684,7 +943,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:49"
+      "ai_at": "2026-10-08 12:07:49",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "56293d53dd2803102f4dbba16a14dc054917fca4",
@@ -703,7 +965,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:34"
+      "ai_at": "2026-10-07 15:43:34",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "fd811b47eb7206eac5f4e80ff48f90556899edd7",
@@ -722,7 +987,32 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:40"
+      "ai_at": "2026-10-07 15:43:40",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
+    },
+    {
+      "fingerprint": "96ca4a4df9d917b699fe64c0ab0dd030db3510fe",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор раскрыл решение по &#171;Мультикану-8&#187;",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2fnews.ru%2fvlast%2frosselhoznadzor-raskryl-reshenie-po-multikanu-8&c=6241773828793732331&mkt=en-us",
+      "summary": "Федеральной службой по ветеринарному и фитосанитарному надзору на основании приказа от 11.09.2026 № 1163 принято решение об изъятии из обращения с последующим уничтожением лекарственного препарата для ...",
+      "published_at": "2026-09-16T05:03:00.000Z",
+      "created_at": "2026-10-08 15:39:49",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор изъял из обращения лекарственный препарат",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": "1163",
+      "ai_at": "2026-10-08 15:40:25",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "443a09338f9c95800c018ed6901392f189f056da",
@@ -741,7 +1031,10 @@
       "region": null,
       "disease": null,
       "order_no": "1163",
-      "ai_at": "2026-10-07 15:43:43"
+      "ai_at": "2026-10-07 15:43:43",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "0b46a841176084f4443477d387f7a30e30489c48",
@@ -760,7 +1053,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:47"
+      "ai_at": "2026-10-07 15:43:47",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "d60cba83ada61d7234f07d031dd9c62b44df8e1a",
@@ -779,7 +1075,10 @@
       "region": "Ярославская область, 10 регионов",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:51"
+      "ai_at": "2026-10-07 15:43:51",
+      "product_norm": "мультикан 8",
+      "series_digits": "20",
+      "region_norm": "ярославская область 10 регионов"
     },
     {
       "fingerprint": "adbfd6c1116c572ef647f09969ec33fdf36cbd4b",
@@ -798,7 +1097,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:54"
+      "ai_at": "2026-10-07 15:43:54",
+      "product_norm": null,
+      "series_digits": "20",
+      "region_norm": null
     },
     {
       "fingerprint": "a40e503a1a56ba84c8c692b7e0f70b07ae70b129",
@@ -817,7 +1119,10 @@
       "region": "Беларусь",
       "disease": "АЧС",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:06"
+      "ai_at": "2026-10-08 14:21:06",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "беларусь"
     },
     {
       "fingerprint": "4d1223089eb8199010302e960eef69e3256473bb",
@@ -836,7 +1141,10 @@
       "region": "Беларусь",
       "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:53"
+      "ai_at": "2026-10-08 12:07:53",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "беларусь"
     },
     {
       "fingerprint": "26d25c956f554fb10e125653a708d519e0225e36",
@@ -855,7 +1163,10 @@
       "region": "Беларусь",
       "disease": "аfrican чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:07:58"
+      "ai_at": "2026-10-08 12:07:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "беларусь"
     },
     {
       "fingerprint": "5d4f628a0d4bb16d7427b357b0224e7735e54f8b",
@@ -874,7 +1185,10 @@
       "region": "Беларусь",
       "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:05"
+      "ai_at": "2026-10-08 12:08:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "беларусь"
     },
     {
       "fingerprint": "3d3e0f5e5f5f8b3f14a6703f498a71a6547584e3",
@@ -893,7 +1207,10 @@
       "region": "Беларусь",
       "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:09"
+      "ai_at": "2026-10-08 12:08:09",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "беларусь"
     },
     {
       "fingerprint": "2dc71089f7047ce39844d400de6bdddb3de6e19b",
@@ -912,7 +1229,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:43:57"
+      "ai_at": "2026-10-07 15:43:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "d084a9ce23093e53ccb578a7d66947749606eb89",
@@ -931,7 +1251,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:13"
+      "ai_at": "2026-10-08 12:08:13",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "1fc0cf751c7b62822cb822a610de7311e332b12c",
@@ -950,7 +1273,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:22"
+      "ai_at": "2026-10-08 12:08:22",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "13e0810d7b7028546aec98ebf0114d977e6fbd73",
@@ -969,7 +1295,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:26"
+      "ai_at": "2026-10-08 12:08:26",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "42c9e34b1883d8982a6331337e4e8ecf16f312cd",
@@ -988,7 +1317,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:30"
+      "ai_at": "2026-10-08 12:08:30",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "e1e98846b15b5305ddfe74aa1f9267f039fae0b9",
@@ -1007,7 +1339,10 @@
       "region": "Украина",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:02"
+      "ai_at": "2026-10-07 15:44:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "украина"
     },
     {
       "fingerprint": "9d951c1a703999d7f54261ec6f5c1ea7ec83e015",
@@ -1026,7 +1361,10 @@
       "region": "Тюменская область",
       "disease": "чумы",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:11"
+      "ai_at": "2026-10-08 14:21:11",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область"
     },
     {
       "fingerprint": "b7f505ca727c740d1407220ee5d0e4e8d344da16",
@@ -1045,7 +1383,10 @@
       "region": "Тюменская область",
       "disease": "чумы",
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:33"
+      "ai_at": "2026-10-08 12:08:33",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область"
     },
     {
       "fingerprint": "879a163b7c50080f331b2d716625369f2b33c4bb",
@@ -1064,7 +1405,10 @@
       "region": "Тюменская область",
       "disease": "чумы",
       "order_no": null,
-      "ai_at": "2026-10-08 12:08:37"
+      "ai_at": "2026-10-08 12:08:37",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область"
     },
     {
       "fingerprint": "cc401615bfc0a9e403de2f3857f308d97ea00d78",
@@ -1083,7 +1427,10 @@
       "region": "Тюменская область",
       "disease": "чумы",
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:41"
+      "ai_at": "2026-10-08 12:20:41",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область"
     },
     {
       "fingerprint": "52a09cc5af097203078b6cde8b7057fb91c4da27",
@@ -1102,7 +1449,10 @@
       "region": "Тюменская область",
       "disease": "чумы",
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:44"
+      "ai_at": "2026-10-08 12:20:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область"
     },
     {
       "fingerprint": "e02ce595a177b641c743e6f7cdae95c06a58fa5e",
@@ -1121,7 +1471,10 @@
       "region": "Владимирская область",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:16"
+      "ai_at": "2026-10-08 14:21:16",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская область"
     },
     {
       "fingerprint": "8df14a095d48bf0eaf8443faaa18ceb49774f79c",
@@ -1140,7 +1493,10 @@
       "region": "Владимирская область",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:49"
+      "ai_at": "2026-10-08 12:20:49",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская область"
     },
     {
       "fingerprint": "499e4c94c712a89baa8f13be9914895acda6375c",
@@ -1159,7 +1515,10 @@
       "region": "Владимирская область",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:55"
+      "ai_at": "2026-10-08 12:20:55",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская область"
     },
     {
       "fingerprint": "08c1af909488152a5fe4f73cc31ed1a7a6abbb58",
@@ -1178,7 +1537,10 @@
       "region": "Владимирская область",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:00"
+      "ai_at": "2026-10-08 12:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская область"
     },
     {
       "fingerprint": "bb7c1605d01fea3ab3d89dd4e3f5cd92ad23a596",
@@ -1197,7 +1559,10 @@
       "region": "Владимирская область",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:06"
+      "ai_at": "2026-10-08 12:21:06",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская область"
     },
     {
       "fingerprint": "f611e155606befbc668e4b66030b2568e9e9ba54",
@@ -1216,7 +1581,10 @@
       "region": "Брянская область",
       "disease": "АЧС",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:05"
+      "ai_at": "2026-10-07 15:44:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "брянская область"
     },
     {
       "fingerprint": "ad05b4faceb44e367d86f17ea927f32bf209a94e",
@@ -1235,7 +1603,10 @@
       "region": "Вайнёде Южнокурземского края",
       "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:10"
+      "ai_at": "2026-10-07 15:44:10",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "вайнеде южнокурземского края"
     },
     {
       "fingerprint": "380855939a9093a2b5c7a551aa31efb39602b410",
@@ -1254,7 +1625,10 @@
       "region": "Латвия",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:15"
+      "ai_at": "2026-10-07 15:44:15",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "латвия"
     },
     {
       "fingerprint": "51fd461b4391626fe9f742bbe0c33aa5ace7c08b",
@@ -1273,7 +1647,10 @@
       "region": "Владимирская, Костромская, Ивановская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:21"
+      "ai_at": "2026-10-07 15:44:21",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "владимирская костромская ивановская области"
     },
     {
       "fingerprint": "fc953374387465cee39e873446c18bc6b3ef9564",
@@ -1292,7 +1669,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:23"
+      "ai_at": "2026-10-07 15:44:23",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "bca5f238ae7e469884abb1e99ecc0001d33de664",
@@ -1311,7 +1691,10 @@
       "region": "Европа",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:55"
+      "ai_at": "2026-10-07 15:44:55",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "европа"
     },
     {
       "fingerprint": "ea546958c53bcbfb0128b536ad8d82f33f648ee0",
@@ -1330,7 +1713,10 @@
       "region": "Эстония",
       "disease": "вирус африканской чумы свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:21"
+      "ai_at": "2026-10-08 14:21:21",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "эстония"
     },
     {
       "fingerprint": "4e1669664cccc1f20e72afc34fca32ac0c7e726e",
@@ -1349,7 +1735,10 @@
       "region": "Эстония",
       "disease": "вирус африканской чумы свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:11"
+      "ai_at": "2026-10-08 12:21:11",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "эстония"
     },
     {
       "fingerprint": "acc816ecd5a626ff32782a0b1af8375c26fa0d9f",
@@ -1368,7 +1757,10 @@
       "region": "Эстония",
       "disease": "вирус африканской чумы свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:15"
+      "ai_at": "2026-10-08 12:21:15",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "эстония"
     },
     {
       "fingerprint": "a421d5a4c681cece4a512acd73406d2980570d72",
@@ -1387,7 +1779,10 @@
       "region": "Эстония",
       "disease": "вирус африканской чумы свиней (АЧС)",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:20"
+      "ai_at": "2026-10-08 12:21:20",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "эстония"
     },
     {
       "fingerprint": "002c8d15e1cd08324ca3f44cf8a91bf6ddb37741",
@@ -1406,7 +1801,10 @@
       "region": "Эстония",
       "disease": "вирус африканской чумы свиней (АЧС)",
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:25"
+      "ai_at": "2026-10-08 12:21:25",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "эстония"
     },
     {
       "fingerprint": "76632890a10b04c947af057161845384f2e77c64",
@@ -1425,7 +1823,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:24"
+      "ai_at": "2026-10-08 14:21:24",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "51c223d4783308fe016bc3e2afdda497dca2a5ad",
@@ -1444,7 +1845,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:28"
+      "ai_at": "2026-10-08 12:21:28",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "3feece70a4ea89d9c207c26210cdb8856d3ea9d5",
@@ -1463,7 +1867,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:32"
+      "ai_at": "2026-10-08 12:21:32",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "436d7c19dc0921f199838cccbf38cc526b7628db",
@@ -1482,7 +1889,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:35"
+      "ai_at": "2026-10-08 12:21:35",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "d54599687fa2410799f08d87d577f8d7f2bdf033",
@@ -1501,7 +1911,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:44:59"
+      "ai_at": "2026-10-07 15:44:59",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "9ef35bb5f6e89a8c9461b75cd5abc07ec893d820",
@@ -1520,7 +1933,10 @@
       "region": "Белгородская область",
       "disease": "африканской чумы",
       "order_no": null,
-      "ai_at": "2026-10-07 15:45:05"
+      "ai_at": "2026-10-07 15:45:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "белгородская область"
     },
     {
       "fingerprint": "914129d1d1e483d221890738e3dc8a53dbdea209",
@@ -1539,7 +1955,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:27"
+      "ai_at": "2026-10-08 14:21:27",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "81691787a1972d624bcf28266259bb7a990e75e0",
@@ -1558,7 +1977,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:38"
+      "ai_at": "2026-10-08 12:21:38",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "326d81adf6ad680ef44990fe434e35228426e325",
@@ -1577,7 +1999,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:40"
+      "ai_at": "2026-10-08 12:21:40",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "4575687d7454e5f9cf0c4ec38341f7993668b6be",
@@ -1596,7 +2021,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:43"
+      "ai_at": "2026-10-08 12:21:43",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "725de5dc837a91a6a806e68d7b8c92bc9351d332",
@@ -1615,7 +2043,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-08 12:21:46"
+      "ai_at": "2026-10-08 12:21:46",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "8f2a20918146383c462d8060295bce79b3f8aa57",
@@ -1634,7 +2065,10 @@
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-07 15:45:07"
+      "ai_at": "2026-10-07 15:45:07",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "753b2c92c0831e80f1705a3d56d4458d50fbeb49",
@@ -1653,7 +2087,10 @@
       "region": "Чимишены",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-07 15:45:12"
+      "ai_at": "2026-10-07 15:45:12",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "чимишены"
     },
     {
       "fingerprint": "7b0be099913f739302501fb94d6faeed638d38d8",
@@ -1672,7 +2109,10 @@
       "region": "Краснодарский край",
       "disease": "АЧС",
       "order_no": null,
-      "ai_at": "2026-10-07 15:45:16"
+      "ai_at": "2026-10-07 15:45:16",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "краснодарский край"
     },
     {
       "fingerprint": "d99e16f1dd8dd5b631d0df7d3b90bde73f8d6f1d",
@@ -1691,7 +2131,10 @@
       "region": "Польша",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:33"
+      "ai_at": "2026-10-08 14:21:33",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "польша"
     },
     {
       "fingerprint": "962ec7f3943521aa0e84f4c107ca416291e16552",
@@ -1710,7 +2153,10 @@
       "region": "Польша",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 12:20:36"
+      "ai_at": "2026-10-08 12:20:36",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "польша"
     },
     {
       "fingerprint": "8ed99879ae0b153181acf7c6fa00d7429dd7fef3",
@@ -1729,7 +2175,10 @@
       "region": "Польша",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:40"
+      "ai_at": "2026-10-08 14:21:40",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "польша"
     },
     {
       "fingerprint": "33a128ff37c43c2f32a1e9a5325cca94fd144baa",
@@ -1748,26 +2197,10 @@
       "region": "Польша",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-08 14:21:46"
-    },
-    {
-      "fingerprint": "7839c4bdd84955492ae4fd0f5c4ec8b578206f6a",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\",\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "АЧС | африканская чума свиней - последние новости",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
-      "published_at": "2020-01-23T16:00:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
-      "product": null,
-      "series": null,
-      "region": "Польша",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:52"
+      "ai_at": "2026-10-08 14:21:46",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "польша"
     }
   ]
 }
