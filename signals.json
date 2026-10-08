@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T16:10:13.632Z",
+  "generated_at": "2026-10-08T16:14:04.990Z",
   "items": [
     {
       "fingerprint": "3eb79c819b52b67daee634aecfe27b407662ced6",
@@ -44,7 +44,8 @@
       "ai_at": "2026-10-08 15:39:54",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "рф"
+      "region_norm": "рф",
+      "dup_count": 1
     },
     {
       "fingerprint": "4eb3e12d2a1398bc915cd69555d8e075e42a9e87",
@@ -66,7 +67,22 @@
       "ai_at": "2026-10-08 15:39:59",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null
+      "region_norm": null,
+      "dup_count": 3,
+      "dups": [
+        {
+          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f32a3474e489423ac2b4ce537fd&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-07T17:00:00.000Z"
+        },
+        {
+          "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7319170bb45bfbd39e1666ef968b5&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T04:43:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "3b1e78a3515862e9bed19259cde504522fb35595",
@@ -86,28 +102,6 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-08 11:38:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "b73df7e85c33ffc41e0cd67814cd8719f580d2ed",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f32a3474e489423ac2b4ce537fd&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
-      "summary": "– Да, а именно: водоплавающие и болотные птицы, у которых отсутствуют видимые признаки заболевания. А вот переносчики вируса птичьего гриппа ...",
-      "published_at": "2026-10-07T17:00:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:14",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
@@ -176,7 +170,22 @@
       "ai_at": "2026-10-08 15:40:03",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "монголия"
+      "region_norm": "монголия",
+      "dup_count": 3,
+      "dups": [
+        {
+          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7319170bb45bfbd39e1666ef968b5&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T21:59:00.000Z"
+        },
+        {
+          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T21:59:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "e15649e782f0936e25e55a7e64a358e8fab24c81",
@@ -198,29 +207,8 @@
       "ai_at": "2026-10-08 11:38:19",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "монголия"
-    },
-    {
-      "fingerprint": "6ff0eaa9e7ec0edbae3361b933fcbaa8b777dc2b",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7319170bb45bfbd39e1666ef968b5&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-      "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
-      "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "noise",
-      "ai_summary": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "product": null,
-      "series": null,
-      "region": "Монголия",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:23",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "монголия"
+      "region_norm": "монголия",
+      "dup_count": 1
     },
     {
       "fingerprint": "23efb08bf21209f631f3724a3f0d8be6802ab5ee",
@@ -242,29 +230,8 @@
       "ai_at": "2026-10-08 11:38:25",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "2ed76066941fd6eba8f7ab0b2b39f9141d638b24",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-      "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
-      "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "probable",
-      "ai_summary": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "product": null,
-      "series": null,
-      "region": "Монголия",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:03",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "монголия"
+      "region_norm": null,
+      "dup_count": 1
     },
     {
       "fingerprint": "e3a9498b15e3a5902aefdbc2b04d87c19cb85568",
@@ -396,95 +363,28 @@
       "ai_at": "2026-10-08 15:40:12",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "молдавия"
-    },
-    {
-      "fingerprint": "5dcf4f3b1440758285ef7cfc60b0d684f3cd5c22",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f32a3474e489423ac2b4ce537fd&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
-      "summary": "Однако опасен птичий грипп и для человека, поскольку может передаваться от заражённых птиц. У него достаточно высокая летальность — около 50%. Вирус вызывает молниеносное развитие пневмонии, ...",
-      "published_at": "2026-10-06T04:43:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "probable",
-      "ai_summary": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
-      "product": null,
-      "series": null,
-      "region": "Молдавия",
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:37",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "молдавия"
-    },
-    {
-      "fingerprint": "aa14bc42a908dc995d12018587e1939a4308a84a",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7319170bb45bfbd39e1666ef968b5&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
-      "summary": "Однако опасен птичий грипп и для человека, поскольку может передаваться от заражённых птиц. У него достаточно высокая летальность — около 50%. Вирус вызывает молниеносное развитие пневмонии, ...",
-      "published_at": "2026-10-06T04:43:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:40",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "342db8f96993920883b9b3bd958b5d4e5e7139e0",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c108ba0c4b7388149125e95f7aaf&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
-      "summary": "Однако опасен птичий грипп и для человека, поскольку может передаваться от заражённых птиц. У него достаточно высокая летальность — около 50%. Вирус вызывает молниеносное развитие пневмонии, ...",
-      "published_at": "2026-10-06T04:43:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "probable",
-      "ai_summary": "Опасен птичий грипп и для человека",
-      "product": null,
-      "series": null,
-      "region": "Молдавия",
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:44",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "молдавия"
-    },
-    {
-      "fingerprint": "5f83eaa08d5a10e5dc470da2373be9cb062669ad",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fdoctor.rambler.ru%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=12120049874192793591&mkt=en-us",
-      "summary": "В Молдавии распространяется птичий грипп — заболевание может передаваться человеку и имеет высокий уровень летальности. Рассказываем, существует ли угроза для России и как можно защититься от заражени ...",
-      "published_at": "2026-10-06T04:43:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "probable",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": "Молдавия",
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:08",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "молдавия"
+      "region_norm": "молдавия",
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f32a3474e489423ac2b4ce537fd&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T04:43:00.000Z"
+        },
+        {
+          "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c108ba0c4b7388149125e95f7aaf&url=https%3a%2f%2fnews.rambler.ua%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=18303990767928443799&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T04:43:00.000Z"
+        },
+        {
+          "title": "Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6668162c243a0836c21b27717c7c2&url=https%3a%2f%2fdoctor.rambler.ru%2fbolezni%2f57183983-ptichiy-gripp-rasprostranyaetsya-v-moldavii-est-li-ugroza-dlya-rossii-i-kak-zaschititsya%2f&c=12120049874192793591&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T04:43:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "d439f46779749b33bd964e928af59d7813b60b94",
@@ -506,7 +406,8 @@
       "ai_at": "2026-10-08 14:21:02",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "приднестровье"
+      "region_norm": "приднестровье",
+      "dup_count": 1
     },
     {
       "fingerprint": "74f5b0a80dddab49fa211c4d588e29fc96f66ca9",
@@ -528,51 +429,28 @@
       "ai_at": "2026-10-08 11:38:48",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "приднестровье"
-    },
-    {
-      "fingerprint": "347f23395e1ba74af1d1490658574e388f39f6e2",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:53",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье"
-    },
-    {
-      "fingerprint": "9f9b1c9f81352e287f949c4ab3f70aaf9d9babd2",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из села Софиевка",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:38:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье"
+      "region_norm": "приднестровье",
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "d8966bacaf3fd5168fd20aa891a38109f641d7d3",
@@ -594,29 +472,8 @@
       "ai_at": "2026-10-08 11:39:03",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "приднестровье молдавия"
-    },
-    {
-      "fingerprint": "7f2d3dd8f5cd4905e160f4dc0708c0ebe0714957",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из села Софиевка из-за неблагополучной эпизоотической ситуации по африканской чуме свиней",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:15",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье"
+      "region_norm": "приднестровье молдавия",
+      "dup_count": 1
     },
     {
       "fingerprint": "ee83db3b0258b6a87f35871ab5899dc5068ecd62",
@@ -638,7 +495,40 @@
       "ai_at": "2026-10-08 15:40:17",
       "product_norm": "мультикана 8",
       "series_digits": "20",
-      "region_norm": null
+      "region_norm": null,
+      "dup_count": 6,
+      "dups": [
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac74dac055c4c9ba3e51b8f39c67bee&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac71574ce594a419d8337031a60e0a2&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6dd26f1ce4f91b8a4a4d3b344e649&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a4eebd0044439feb5fda57bbea44&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "53ed2274ef076a41bcde44a56918c8ed65592bea",
@@ -660,117 +550,52 @@
       "ai_at": "2026-10-08 12:07:04",
       "product_norm": "мультикан 8",
       "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "08fe8de1b30504e8675fd3e13cfad6665274ec3c",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac74dac055c4c9ba3e51b8f39c67bee&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Россельхознадзор сообщили о вирусе Ауески в серии Мультикана-8",
-      "product": "Мультикана-8",
-      "series": "20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:08",
-      "product_norm": "мультикана 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "8f3fc48fb4eadc94121fe9baf634a6ba32b17145",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac71574ce594a419d8337031a60e0a2&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Россельхознадзоре сообщили о распространении вируса Ауески в серии Мультикана-8. Отозваны следующие серии.",
-      "product": "Мультикана-8",
-      "series": "20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:14",
-      "product_norm": "мультикана 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "704e7527b39947e47b28d43ac7ec5992f6c9d9a7",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6dd26f1ce4f91b8a4a4d3b344e649&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В серии 20 препарата Мультикана-8 обнаружен вирус Ауески. Отзываются все серии",
-      "product": "Мультикана-8",
-      "series": "20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:21",
-      "product_norm": "мультикана 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "b7fd90bc691dcb5bd73ea06b0f04f8306e0d239f",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6a4eebd0044439feb5fda57bbea44&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "Отозвана серия Мультикана-8 с вирусом Ауески",
-      "product": "Мультикана-8",
-      "series": "серия №20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:27",
-      "product_norm": "мультикана 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "882759ef57927ba2a1f517970f704822b8b1c3b3",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "В Россельхознадзоре сообщили о выявленном в серии №20 вирусе Ауески в препарате \"Мультикана-8\".",
-      "product": "Мультикана-8",
-      "series": "серия №20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:21",
-      "product_norm": "мультикана 8",
-      "series_digits": "20",
-      "region_norm": null
+      "region_norm": null,
+      "dup_count": 8,
+      "dups": [
+        {
+          "title": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fprofile.ru%2fnews%2fsociety%2frosselhoznadzor-potreboval-unichtozhit-seriju-vakciny-multikan-8-1901968%2f&c=11115095188650725219&mkt=en-us",
+          "source_id": "bing-recall-vet",
+          "published_at": "2026-09-16T07:00:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-16T05:21:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f33219e471f9d807af172435562&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-16T05:21:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-16T05:21:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+          "source_id": "bing-recall-fals",
+          "published_at": "2026-09-16T05:21:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187; — препарат для животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2fwww.ural56.ru%2fnews%2f787121%2f&c=1394080859793551177&mkt=en-us",
+          "source_id": "bing-recall-fals",
+          "published_at": "2026-09-16T04:13:00.000Z"
+        },
+        {
+          "title": "Россельхознадзор потребовал уничтожить вакцину \"Мультикан-8\" после гибели собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-16T02:39:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "78b951420e27cbc4f1b28dbe05d7f814e8ea7bf4",
@@ -814,7 +639,8 @@
       "ai_at": "2026-10-08 12:07:36",
       "product_norm": "мультикан",
       "series_digits": null,
-      "region_norm": "кубани"
+      "region_norm": "кубани",
+      "dup_count": 1
     },
     {
       "fingerprint": "2f4fe4491c8a51226b5480453bf3221447d289e6",
@@ -861,28 +687,6 @@
       "region_norm": null
     },
     {
-      "fingerprint": "5d113c8a1cb4ad743a138aa6b4f0bc8034e6bc08",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-vet",
-      "title": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fprofile.ru%2fnews%2fsociety%2frosselhoznadzor-potreboval-unichtozhit-seriju-vakciny-multikan-8-1901968%2f&c=11115095188650725219&mkt=en-us",
-      "summary": "Россельхознадзор принял решение об изъятии из обращения и последующем уничтожении 20-й ...",
-      "published_at": "2026-09-16T07:00:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
-      "product": "Мультикан-8",
-      "series": "20-я",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:25",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
       "fingerprint": "be249d6331273366ac47711dae6633a1eee3aae5",
       "signal_type": "recall",
       "matched": "[\"изъят\",\"уничтож\"]",
@@ -901,94 +705,6 @@
       "order_no": null,
       "ai_at": "2026-10-07 15:43:30",
       "product_norm": null,
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "e3285532c0223474bf5743e5cb7d2e1ce427e2f7",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
-      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
-      "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-08 15:39:49",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор поручил уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за которой погибли собаки",
-      "product": "Мультикан-8",
-      "series": "20-я серия",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 15:40:21",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "03055a978187628ee1760b15f8d8c0906b7b6076",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f33219e471f9d807af172435562&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
-      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
-      "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор изъял и уничтожил 20-ю серию вакцины \"Мультикан-8\"",
-      "product": "Мультикан-8",
-      "series": "20-я",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:49",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "56293d53dd2803102f4dbba16a14dc054917fca4",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
-      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
-      "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Рособрнадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "product": "Мультикан-8",
-      "series": "20-я",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:34",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "fd811b47eb7206eac5f4e80ff48f90556899edd7",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
-      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
-      "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор поручил уничтожить 20-ю серию вакцины \"Мультикан-8\"",
-      "product": "Мультикан-8",
-      "series": "20-я серия",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:40",
-      "product_norm": "мультикан 8",
       "series_digits": "20",
       "region_norm": null
     },
@@ -1035,50 +751,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
-    },
-    {
-      "fingerprint": "0b46a841176084f4443477d387f7a30e30489c48",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187; — препарат для животных",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2fwww.ural56.ru%2fnews%2f787121%2f&c=1394080859793551177&mkt=en-us",
-      "summary": "Россельхознадзор обязал уничтожить серию вакцины &#171;Мультикан-8&#187;. Речь о 20 серии вакцины ...",
-      "published_at": "2026-09-16T04:13:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор обязал уничтожить серию вакцины «Мультикан-8»",
-      "product": "вакцина Мультикан-8",
-      "series": "20",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:47",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "d60cba83ada61d7234f07d031dd9c62b44df8e1a",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор потребовал уничтожить вакцину \"Мультикан-8\" после гибели собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
-      "summary": "Сама 20-я серия объёмом более 60 тыс. доз разошлась по 10 регионам, но жалобы поступали в основном из Ярославской области.",
-      "published_at": "2026-09-16T02:39:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор потребовал уничтожить вакцину",
-      "product": "Мультикан-8",
-      "series": "20-я",
-      "region": "Ярославская область, 10 регионов",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:51",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": "ярославская область 10 регионов"
     },
     {
       "fingerprint": "adbfd6c1116c572ef647f09969ec33fdf36cbd4b",
@@ -1342,7 +1014,8 @@
       "ai_at": "2026-10-07 15:44:02",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "украина"
+      "region_norm": "украина",
+      "dup_count": 1
     },
     {
       "fingerprint": "9d951c1a703999d7f54261ec6f5c1ea7ec83e015",
@@ -1364,95 +1037,34 @@
       "ai_at": "2026-10-08 14:21:11",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "тюменская область"
-    },
-    {
-      "fingerprint": "b7f505ca727c740d1407220ee5d0e4e8d344da16",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
-      "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
-      "published_at": "2026-08-10T21:12:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "probable",
-      "ai_summary": "В Тюменской области выявлены вспышки чумы. Забивают свиней.",
-      "product": null,
-      "series": null,
-      "region": "Тюменская область",
-      "disease": "чумы",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:08:33",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "тюменская область"
-    },
-    {
-      "fingerprint": "879a163b7c50080f331b2d716625369f2b33c4bb",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
-      "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
-      "published_at": "2026-08-10T21:12:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "probable",
-      "ai_summary": "В Тюменской области из-за опасной болезни начали забивать свиней",
-      "product": null,
-      "series": null,
-      "region": "Тюменская область",
-      "disease": "чумы",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:08:37",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "тюменская область"
-    },
-    {
-      "fingerprint": "cc401615bfc0a9e403de2f3857f308d97ea00d78",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
-      "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
-      "published_at": "2026-08-10T21:12:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "probable",
-      "ai_summary": "В Тюменской области начали забивать свиней из-за опасной болезни",
-      "product": null,
-      "series": null,
-      "region": "Тюменская область",
-      "disease": "чумы",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:41",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "тюменская область"
-    },
-    {
-      "fingerprint": "52a09cc5af097203078b6cde8b7057fb91c4da27",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
-      "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
-      "published_at": "2026-08-10T21:12:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "probable",
-      "ai_summary": "В Тюменской области подозревают вспышку чумы и начинают забивать свиней",
-      "product": null,
-      "series": null,
-      "region": "Тюменская область",
-      "disease": "чумы",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:44",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "тюменская область"
+      "region_norm": "тюменская область",
+      "dup_count": 5,
+      "dups": [
+        {
+          "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-08-10T21:12:00.000Z"
+        },
+        {
+          "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-08-10T21:12:00.000Z"
+        },
+        {
+          "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-08-10T21:12:00.000Z"
+        },
+        {
+          "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-08-10T21:12:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "e02ce595a177b641c743e6f7cdae95c06a58fa5e",
@@ -1474,95 +1086,34 @@
       "ai_at": "2026-10-08 14:21:16",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "владимирская область"
-    },
-    {
-      "fingerprint": "8df14a095d48bf0eaf8443faaa18ceb49774f79c",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-      "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
-      "published_at": "2026-07-27T08:30:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Владимирской области зафиксирована вспышка африканской чумы свиней",
-      "product": null,
-      "series": null,
-      "region": "Владимирская область",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:49",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "владимирская область"
-    },
-    {
-      "fingerprint": "499e4c94c712a89baa8f13be9914895acda6375c",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-      "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
-      "published_at": "2026-07-27T08:30:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Владимирской области зарегистрированная вспышка африканской чумы свиней в поселке Уршельском.",
-      "product": null,
-      "series": null,
-      "region": "Владимирская область",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:55",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "владимирская область"
-    },
-    {
-      "fingerprint": "08c1af909488152a5fe4f73cc31ed1a7a6abbb58",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-      "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
-      "published_at": "2026-07-27T08:30:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней.",
-      "product": null,
-      "series": null,
-      "region": "Владимирская область",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:00",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "владимирская область"
-    },
-    {
-      "fingerprint": "bb7c1605d01fea3ab3d89dd4e3f5cd92ad23a596",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-      "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
-      "published_at": "2026-07-27T08:30:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней",
-      "product": null,
-      "series": null,
-      "region": "Владимирская область",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "владимирская область"
+      "region_norm": "владимирская область",
+      "dup_count": 5,
+      "dups": [
+        {
+          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-07-27T08:30:00.000Z"
+        },
+        {
+          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-07-27T08:30:00.000Z"
+        },
+        {
+          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-07-27T08:30:00.000Z"
+        },
+        {
+          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-07-27T08:30:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "f611e155606befbc668e4b66030b2568e9e9ba54",
@@ -1584,7 +1135,8 @@
       "ai_at": "2026-10-07 15:44:05",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "брянская область"
+      "region_norm": "брянская область",
+      "dup_count": 1
     },
     {
       "fingerprint": "ad05b4faceb44e367d86f17ea927f32bf209a94e",
@@ -1606,7 +1158,8 @@
       "ai_at": "2026-10-07 15:44:10",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "вайнеде южнокурземского края"
+      "region_norm": "вайнеде южнокурземского края",
+      "dup_count": 1
     },
     {
       "fingerprint": "380855939a9093a2b5c7a551aa31efb39602b410",
@@ -1628,7 +1181,8 @@
       "ai_at": "2026-10-07 15:44:15",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "латвия"
+      "region_norm": "латвия",
+      "dup_count": 1
     },
     {
       "fingerprint": "51fd461b4391626fe9f742bbe0c33aa5ace7c08b",
@@ -1694,7 +1248,8 @@
       "ai_at": "2026-10-07 15:44:55",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "европа"
+      "region_norm": "европа",
+      "dup_count": 1
     },
     {
       "fingerprint": "ea546958c53bcbfb0128b536ad8d82f33f648ee0",
@@ -1716,51 +1271,22 @@
       "ai_at": "2026-10-08 14:21:21",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "эстония"
-    },
-    {
-      "fingerprint": "4e1669664cccc1f20e72afc34fca32ac0c7e726e",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
-      "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
-      "published_at": "2025-08-14T10:49:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Эстонии заражены свиньи",
-      "product": null,
-      "series": null,
-      "region": "Эстония",
-      "disease": "вирус африканской чумы свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:11",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "эстония"
-    },
-    {
-      "fingerprint": "acc816ecd5a626ff32782a0b1af8375c26fa0d9f",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
-      "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
-      "published_at": "2025-08-14T10:49:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Эстонии заражено 10% домашних свиней",
-      "product": null,
-      "series": null,
-      "region": "Эстония",
-      "disease": "вирус африканской чумы свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:15",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "эстония"
+      "region_norm": "эстония",
+      "dup_count": 3,
+      "dups": [
+        {
+          "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2025-08-14T10:49:00.000Z"
+        },
+        {
+          "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2025-08-14T10:49:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "a421d5a4c681cece4a512acd73406d2980570d72",
@@ -1782,29 +1308,16 @@
       "ai_at": "2026-10-08 12:21:20",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "эстония"
-    },
-    {
-      "fingerprint": "002c8d15e1cd08324ca3f44cf8a91bf6ddb37741",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
-      "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
-      "published_at": "2025-08-14T10:49:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Эстонии заражены свиньи от вируса африканской чумы свиней",
-      "product": null,
-      "series": null,
-      "region": "Эстония",
-      "disease": "вирус африканской чумы свиней (АЧС)",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:21:25",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "эстония"
+      "region_norm": "эстония",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2025-08-14T10:49:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "76632890a10b04c947af057161845384f2e77c64",
@@ -1936,7 +1449,8 @@
       "ai_at": "2026-10-07 15:45:05",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "белгородская область"
+      "region_norm": "белгородская область",
+      "dup_count": 1
     },
     {
       "fingerprint": "914129d1d1e483d221890738e3dc8a53dbdea209",
@@ -2112,7 +1626,8 @@
       "ai_at": "2026-10-07 15:45:16",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "краснодарский край"
+      "region_norm": "краснодарский край",
+      "dup_count": 1
     },
     {
       "fingerprint": "d99e16f1dd8dd5b631d0df7d3b90bde73f8d6f1d",
@@ -2134,73 +1649,28 @@
       "ai_at": "2026-10-08 14:21:33",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "польша"
-    },
-    {
-      "fingerprint": "962ec7f3943521aa0e84f4c107ca416291e16552",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\",\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "АЧС | африканская чума свиней - последние новости",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
-      "published_at": "2020-01-23T16:00:00.000Z",
-      "created_at": "2026-10-08 12:20:24",
-      "verdict": "confirmed",
-      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
-      "product": null,
-      "series": null,
-      "region": "Польша",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:36",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "польша"
-    },
-    {
-      "fingerprint": "8ed99879ae0b153181acf7c6fa00d7429dd7fef3",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\",\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "АЧС | африканская чума свиней - последние новости",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
-      "published_at": "2020-01-23T16:00:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "probable",
-      "ai_summary": "Власти Польши задействовали военнослужащих для поиска диких кабанов, зараженных африканской чумой свиней",
-      "product": null,
-      "series": null,
-      "region": "Польша",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:40",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "польша"
-    },
-    {
-      "fingerprint": "33a128ff37c43c2f32a1e9a5325cca94fd144baa",
-      "signal_type": "outbreak",
-      "matched": "[\"африканская чума\",\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "АЧС | африканская чума свиней - последние новости",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
-      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
-      "published_at": "2020-01-23T16:00:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней",
-      "product": null,
-      "series": null,
-      "region": "Польша",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:46",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "польша"
+      "region_norm": "польша",
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "АЧС | африканская чума свиней - последние новости",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2020-01-23T16:00:00.000Z"
+        },
+        {
+          "title": "АЧС | африканская чума свиней - последние новости",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2020-01-23T16:00:00.000Z"
+        },
+        {
+          "title": "АЧС | африканская чума свиней - последние новости",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2020-01-23T16:00:00.000Z"
+        }
+      ]
     }
   ]
 }
