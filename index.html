@@ -144,6 +144,21 @@
   .empty { color: var(--muted); text-align: center; padding: 48px 0; }
   .empty b { display: block; font-size: 18px; color: var(--text); margin-bottom: 6px; }
 
+  .skel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin-bottom: 12px; }
+  .sk { position: relative; overflow: hidden; background: #1a2030; border-radius: 6px; height: 12px; margin-bottom: 10px; }
+  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(232,236,243,.07), transparent); animation: shimmer 1.4s infinite; }
+  @keyframes shimmer { 100% { transform: translateX(100%); } }
+  .sk.t { height: 15px; width: 62%; }
+  .sk.w40 { width: 40%; }
+  .sk.w85 { width: 85%; }
+
+  /* группа дублей: одна новость из разных фидов */
+  .dup-toggle { margin: -4px 0 14px; }
+  .dup-list { margin: -6px 0 14px; display: grid; gap: 6px; }
+  .dup-row { display: flex; gap: 12px; align-items: baseline; background: var(--surface); border: 1px dashed var(--border); border-radius: 10px; padding: 8px 12px; color: var(--muted); font-size: 13px; text-decoration: none; }
+  .dup-row:hover { color: var(--text); border-color: rgba(248,113,113,.35); }
+  .dup-row .pub { margin-left: auto; flex: none; }
+
   #totop {
     position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border-radius: 50%;
     background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 18px;
@@ -197,7 +212,12 @@
   </section>
   <div class="chips" id="chips-verdict"></div>
   <div class="chips" id="chips-type"></div>
-  <section id="feed"></section>
+  <div class="chips" id="chips-dup"></div>
+  <section id="feed">
+    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
+    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk w85"></div></div>
+    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
+  </section>
 </main>
 
 <footer>
@@ -211,7 +231,7 @@
 <button id="totop" title="наверх">↑</button>
 
 <script>
-let ALL = [], q = "", verdict = "real", type = "", region = "", lastGen = null;
+let ALL = [], q = "", verdict = "real", type = "", region = "", lastGen = null, groupDup = true;
 
 const timeAgo = (iso) => {
   const ms = Date.now() - new Date(iso).getTime();
@@ -252,6 +272,9 @@ function productMatch(a, b) {
   if (a.includes(b) || b.includes(a)) return true;
   return a.length >= 4 && b.length >= 4 && lev(a, b) <= 2;
 }
+/* цифры серии: воркер публикует series_digits, старые строки считаем сами */
+const sdOf = (it) => it.series_digits != null ? it.series_digits : seriesDigits(it.series);
+const pnOf = (it) => it.product_norm || (it.product ? normTxt(it.product) : "");
 
 let lastCheck = null;
 function runCheck() {
@@ -267,8 +290,8 @@ function runCheck() {
   lastCheck = { p: pIn, s: sIn };
   const pn = normTxt(pIn), sd = seriesDigits(sIn);
   const pool = ALL.filter(it => it.verdict === "confirmed" || it.verdict === "probable");
-  const hits = pool.filter(it => it.product && productMatch(pn, normTxt(it.product)));
-  const same = sd ? hits.filter(it => seriesDigits(it.series) === sd) : [];
+  const hits = pool.filter(it => it.product && productMatch(pn, pnOf(it)));
+  const same = sd ? hits.filter(it => sdOf(it) === sd) : [];
   if (same.length) {
     const ex = same[0];
     const extra = [...new Set(same.map(h => fmtDT(h.published_at)))].slice(0, 4).join(", ");
@@ -333,6 +356,42 @@ function card(it) {
   </article>`;
 }
 
+/* ---------- группировка дублей ---------- */
+/* одна и та же новость приходит из разных фидов (bing-*, fsvps-*):
+   recall группируем по препарату+серии, outbreak по болезни+региону */
+function dupKey(it) {
+  const pn = pnOf(it);
+  if (it.signal_type === "recall" && pn) return "r|" + pn + "|" + (sdOf(it) || "");
+  const dn = normTxt(it.disease || ""), rn = it.region_norm || normTxt(it.region || "");
+  if (it.signal_type === "outbreak" && (dn || rn)) return "o|" + dn + "|" + rn;
+  return null;
+}
+const plural = (n) => n === 1 ? "дубль" : n < 5 ? "дубля" : "дублей";
+
+function renderGroups(list) {
+  const groups = new Map();
+  const seq = [];
+  for (const it of list) {
+    const k = dupKey(it);
+    if (!k) { seq.push({ main: it, members: [] }); continue; }
+    if (!groups.has(k)) { const g = { main: it, members: [] }; groups.set(k, g); seq.push(g); }
+    else groups.get(k).members.push(it);
+  }
+  let html = "", last = "";
+  for (const g of seq) {
+    const d = (g.main.published_at || "").slice(0, 10);
+    if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(g.main.published_at)}</div>`; }
+    html += card(g.main);
+    if (g.members.length) {
+      html +=
+        `<button class="chip-btn dup-toggle">▸ ещё ${g.members.length} ${plural(g.members.length)} этой новости</button>
+         <div class="dup-list" hidden>${g.members.map(m =>
+           `<a class="dup-row" href="${esc(m.url)}" target="_blank" rel="noopener"><span>${esc(m.title)}</span><span class="pub">${fmtDT(m.published_at)} · ${esc((m.source_id || "").replace("bing-", ""))}</span></a>`).join("")}</div>`;
+    }
+  }
+  return html;
+}
+
 function render() {
   const feed = document.getElementById("feed");
   const list = ALL.filter(it => {
@@ -352,13 +411,15 @@ function render() {
     feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбрось фильтры или запусти скан (run-now в репозитории).</div>`;
     return;
   }
-  let html = "", last = "";
-  for (const it of list) {
-    const d = (it.published_at || "").slice(0, 10);
-    if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(it.published_at)}</div>`; }
-    html += card(it);
-  }
-  feed.innerHTML = html;
+  feed.innerHTML = groupDup ? renderGroups(list) : (() => {
+    let html = "", last = "";
+    for (const it of list) {
+      const d = (it.published_at || "").slice(0, 10);
+      if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(it.published_at)}</div>`; }
+      html += card(it);
+    }
+    return html;
+  })();
 }
 
 function tickMeta() {
@@ -393,10 +454,21 @@ function chipRow(el, pairs, active, cb) {
 function renderChips() {
   chipRow("chips-verdict", [["real", "без шума"], ["confirmed", "подтверждено"], ["probable", "вероятно"], ["noise", "шум", true], ["all", "вообще всё", true]], verdict, v => verdict = v);
   chipRow("chips-type", [["", "все типы"], ["recall", "отзывы / брак"], ["outbreak", "вспышки"]], type, t => type = t);
+  chipRow("chips-dup", [["on", "дубли группой"], ["off", "все отдельно", true]], groupDup ? "on" : "off", v => groupDup = v === "on");
 }
 
-/* клик по ключевому слову → поиск в ленте */
+/* клик по ключевому слову → поиск в ленте; клик по «ещё N дублей» → развернуть */
 document.getElementById("feed").addEventListener("click", (e) => {
+  const dt = e.target.closest(".dup-toggle");
+  if (dt) {
+    const listEl = dt.nextElementSibling;
+    if (listEl && listEl.classList.contains("dup-list")) {
+      const willOpen = listEl.hidden;
+      listEl.hidden = !willOpen;
+      dt.textContent = dt.textContent.replace(willOpen ? "▸" : "▾", willOpen ? "▾" : "▸");
+    }
+    return;
+  }
   const kw = e.target.closest(".kw");
   if (!kw) return;
   q = kw.textContent.toLowerCase().trim();
@@ -415,6 +487,7 @@ async function refresh() {
     if (lastCheck) runCheck();
   } catch (e) {
     document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span>signals.json недоступен</span>`;
+    document.getElementById("feed").innerHTML = `<div class="empty"><b>Не удалось загрузить signals.json</b>Обнови страницу или зайди позже.</div>`;
   }
 }
 refresh();
