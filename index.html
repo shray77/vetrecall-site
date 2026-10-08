@@ -16,6 +16,7 @@
   .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 920px; margin: 0 auto; padding: 12px 20px 0; }
   .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
   .hub a:hover { color: var(--text); border-color: #2c3543; }
+  .hub a.on { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
   :root {
     color-scheme: dark;
     --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
@@ -26,6 +27,8 @@
     --blue: #7dd3fc; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
   body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
 
   header.top {
@@ -50,12 +53,46 @@
   .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
   .stat span { color: var(--muted); font-size: 12.5px; }
 
+  .check-card {
+    background: var(--surface); border: 1px solid rgba(248,113,113,.35); border-radius: 14px;
+    padding: 16px 18px; margin: 18px 0 8px;
+  }
+  .check-head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
+  .check-head b { font-size: 15px; }
+  .check-head span { color: var(--muted); font-size: 12.5px; }
+  .check-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .check-row input {
+    flex: 1 1 200px; background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 10px; padding: 9px 12px; font-size: 14px; outline: none;
+  }
+  .check-row input:focus { border-color: rgba(248,113,113,.5); }
+  #check-go {
+    background: var(--red-dim); border: 1px solid rgba(248,113,113,.5); color: var(--red);
+    border-radius: 10px; padding: 9px 16px; font: 600 13px var(--mono); cursor: pointer;
+  }
+  #check-go:hover { background: rgba(248,113,113,.2); }
+  .check-row.shake { animation: shake .3s; }
+  @keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+  .check-res { margin-top: 10px; border-radius: 10px; padding: 12px 14px; font-size: 14px; line-height: 1.55; }
+  .check-res.bad { background: rgba(248,113,113,.09); border: 1px solid rgba(248,113,113,.4); }
+  .check-res.warn { background: rgba(251,191,36,.07); border: 1px solid rgba(251,191,36,.35); }
+  .check-res.ok { background: rgba(52,211,153,.07); border: 1px solid rgba(52,211,153,.3); }
+  .check-res b { display: block; margin-bottom: 4px; font-size: 14.5px; }
+  .check-res .small { color: var(--faint); font-size: 12px; margin-top: 8px; }
+  .check-res a { color: var(--blue); }
+  .check-res .chip-btn { margin-top: 8px; }
+
   .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 4px; }
   #q {
     flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
     border-radius: 10px; padding: 9px 14px; font-size: 14px; outline: none;
   }
   #q:focus { border-color: rgba(248,113,113,.5); }
+  #region {
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+    border-radius: 10px; padding: 9px 12px; font-size: 13px; outline: none; max-width: 240px; cursor: pointer;
+  }
+  #region:focus { border-color: rgba(248,113,113,.5); }
   .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 6px; }
   .chip-btn {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
@@ -64,6 +101,12 @@
   .chip-btn:hover { color: var(--text); }
   .chip-btn.active { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
   .chip-btn.dim { border-style: dashed; }
+
+  .date-sep {
+    display: flex; align-items: center; gap: 12px; margin: 26px 0 12px;
+    color: var(--red); font-size: 12.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  }
+  .date-sep::after { content: ""; flex: 1; height: 1px; background: var(--border); }
 
   .card {
     background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--red-dim);
@@ -88,7 +131,11 @@
   .card h2 a:hover { color: var(--red); }
   .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; border-left: 2px solid rgba(52,211,153,.4); padding-left: 10px; }
   .matched { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
-  .kw { font: 11.5px var(--mono); color: var(--muted); background: #171c27; border: 1px solid var(--border); padding: 2px 9px; border-radius: 999px; }
+  .kw {
+    font: 11.5px var(--mono); color: var(--muted); background: #171c27; border: 1px solid var(--border);
+    padding: 2px 9px; border-radius: 999px; cursor: pointer; transition: .15s;
+  }
+  .kw:hover { color: var(--red); border-color: rgba(248,113,113,.4); }
   .fields { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; font: 12.5px var(--mono); color: var(--blue); }
   .fields span { white-space: nowrap; }
   .card-foot { display: flex; gap: 14px; align-items: center; margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--border); }
@@ -96,6 +143,14 @@
   .card-foot a:hover { color: var(--blue); }
   .empty { color: var(--muted); text-align: center; padding: 48px 0; }
   .empty b { display: block; font-size: 18px; color: var(--text); margin-bottom: 6px; }
+
+  #totop {
+    position: fixed; right: 20px; bottom: 20px; width: 44px; height: 44px; border-radius: 50%;
+    background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 18px;
+    cursor: pointer; opacity: 0; pointer-events: none; transition: .2s; z-index: 50;
+  }
+  #totop.show { opacity: 1; pointer-events: auto; }
+  #totop:hover { color: var(--red); border-color: rgba(248,113,113,.45); }
 
   footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 18px 0 30px; }
   .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
@@ -125,8 +180,20 @@
 
 <main class="wrap">
   <section class="stats" id="stats"></section>
+
+  <section class="check-card" id="check">
+    <div class="check-head"><b>Проверка серии</b><span>введите препарат и номер серии — сверим с радаром</span></div>
+    <div class="check-row" id="check-row">
+      <input id="check-product" placeholder="Препарат, напр. Мультикан-8" autocomplete="off">
+      <input id="check-series" placeholder="Серия, напр. 20" autocomplete="off">
+      <button id="check-go">Проверить</button>
+    </div>
+    <div id="check-result"></div>
+  </section>
+
   <section class="filters">
-    <input id="q" type="search" placeholder="Поиск по заголовкам, резюме и ключевым словам…">
+    <input id="q" type="search" placeholder="Поиск: препарат, серия, регион, болезнь, приказ…">
+    <select id="region"><option value="">все регионы</option></select>
   </section>
   <div class="chips" id="chips-verdict"></div>
   <div class="chips" id="chips-type"></div>
@@ -141,8 +208,10 @@
   </div>
 </footer>
 
+<button id="totop" title="наверх">↑</button>
+
 <script>
-let ALL = [], q = "", verdict = "real", type = "";
+let ALL = [], q = "", verdict = "real", type = "", region = "", lastGen = null;
 
 const timeAgo = (iso) => {
   const ms = Date.now() - new Date(iso).getTime();
@@ -155,12 +224,94 @@ const timeAgo = (iso) => {
   return Math.floor(h / 24) + " дн назад";
 };
 const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
+const fmtDay = (s) => new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+const ts = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : 0;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 const VERDICT_RU = { confirmed: "подтверждено", probable: "вероятно", noise: "шум", pending: "ждёт ИИ" };
 
+/* ---------- нормализация и матчинг для «Проверь серию» ---------- */
+const STOP = new Set(["вакцина", "вакцин", "серия", "серии", "серию", "номер", "препарат"]);
+const normTxt = (s) => String(s || "").toLowerCase().replace(/ё/g, "е")
+  .replace(/[^a-zа-я0-9]+/gi, " ").trim().split(/\s+/).filter(w => w && !STOP.has(w) && w !== "№").join(" ");
+const seriesDigits = (s) => { const m = String(s || "").match(/\d+/g); return m ? m.join("") : ""; };
+function lev(a, b) {
+  const m = a.length, n = b.length;
+  if (!m || !n) return m || n;
+  let prev = Array.from({ length: n + 1 }, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[n];
+}
+function productMatch(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  if (a.includes(b) || b.includes(a)) return true;
+  return a.length >= 4 && b.length >= 4 && lev(a, b) <= 2;
+}
+
+let lastCheck = null;
+function runCheck() {
+  const pIn = document.getElementById("check-product").value.trim();
+  const sIn = document.getElementById("check-series").value.trim();
+  const res = document.getElementById("check-result");
+  if (!pIn) {
+    const row = document.getElementById("check-row");
+    row.classList.remove("shake"); void row.offsetWidth; row.classList.add("shake");
+    res.innerHTML = `<div class="check-res warn">Укажите хотя бы название препарата — серию можно оставить пустой.</div>`;
+    return;
+  }
+  lastCheck = { p: pIn, s: sIn };
+  const pn = normTxt(pIn), sd = seriesDigits(sIn);
+  const pool = ALL.filter(it => it.verdict === "confirmed" || it.verdict === "probable");
+  const hits = pool.filter(it => it.product && productMatch(pn, normTxt(it.product)));
+  const same = sd ? hits.filter(it => seriesDigits(it.series) === sd) : [];
+  if (same.length) {
+    const ex = same[0];
+    const extra = [...new Set(same.map(h => fmtDT(h.published_at)))].slice(0, 4).join(", ");
+    res.innerHTML = `<div class="check-res bad">
+      🚫 <b>Серия значится в радаре</b>
+      ${esc(ex.product)} · серия ${esc(ex.series || "—")} · ${fmtDT(ex.published_at)}${ex.region ? " · " + esc(ex.region) : ""}${extra ? " · сигналы: " + extra : ""}<br>
+      ${esc(ex.ai_summary || ex.title || "")}<br>
+      <a href="${esc(ex.url)}" target="_blank" rel="noopener">первоисточник ↗</a><br>
+      <button class="chip-btn show-in-feed">показать в ленте →</button>
+      <div class="small">радар не заменяет официальный реестр — при сомнении проверьте препарат в системе ФСВПС</div>
+    </div>`;
+  } else if (hits.length) {
+    const series = [...new Set(hits.map(h => (h.series || "").replace(/\s+/g, " ").trim()).filter(Boolean))].slice(0, 6).map(esc).join(" · ");
+    const dates = [...new Set(hits.map(h => fmtDT(h.published_at)))].slice(0, 5).join(", ");
+    res.innerHTML = `<div class="check-res warn">
+      ⚠ <b>Препарат фигурирует в сигналах${sd ? " — серия не совпала" : " (серия не указана)"}</b>
+      ${series ? "Серии из сигналов: " + series + "." : ""}${dates ? " Даты сигналов: " + dates + "." : ""}<br>
+      <button class="chip-btn show-in-feed">показать в ленте →</button>
+      <div class="small">указанная серия в списке не значится — сверьте упаковку ещё раз перед применением</div>
+    </div>`;
+  } else {
+    res.innerHTML = `<div class="check-res ok">
+      ✓ <b>В радаре не значится</b>
+      По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет.
+      <div class="small">радар покрывает только публичные сигналы за последние недели — официальный статус проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
+    </div>`;
+  }
+  res.querySelectorAll(".show-in-feed").forEach(b => b.onclick = () => {
+    const target = hits[0];
+    type = "recall";
+    q = (target && target.product ? target.product : pIn).toLowerCase();
+    document.getElementById("q").value = q;
+    renderChips(); render();
+    document.getElementById("feed").scrollIntoView({ behavior: "smooth" });
+  });
+}
+document.getElementById("check-go").onclick = runCheck;
+["check-product", "check-series"].forEach(id =>
+  document.getElementById(id).addEventListener("keydown", (e) => { if (e.key === "Enter") runCheck(); }));
+
+/* ---------- карточки и лента ---------- */
 function card(it) {
-  const kws = JSON.parse(it.matched || "[]").map(k => `<span class="kw">${esc(k)}</span>`).join("");
+  const kws = JSON.parse(it.matched || "[]").map(k => `<button class="kw" title="найти в ленте">${esc(k)}</button>`).join("");
   const v = it.verdict || "pending";
   const fields = [
     it.product && `💊 ${esc(it.product)}`,
@@ -178,7 +329,7 @@ function card(it) {
     ${it.ai_summary ? `<p class="ai-sum">${esc(it.ai_summary)}</p>` : ""}
     ${kws ? `<div class="matched">${kws}</div>` : ""}
     ${fields ? `<div class="fields">${fields}</div>` : ""}
-    <div class="card-foot"><a href="${it.url}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id.replace("bing-", ""))}</span><span>${fmtDT(it.created_at)}</span></div>
+    <div class="card-foot"><a href="${it.url}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id.replace("bing-", ""))}</span></div>
   </article>`;
 }
 
@@ -186,22 +337,39 @@ function render() {
   const feed = document.getElementById("feed");
   const list = ALL.filter(it => {
     const v = it.verdict || "pending";
-    if (verdict === "real" && v === "noise") return false;
-    if (verdict !== "real" && verdict !== "all" && v !== verdict) return false;
-    if (verdict === "all" && v === "noise") return true; // "all" shows everything
+    const vOk = verdict === "all" ? true : (verdict === "real" ? v !== "noise" : v === verdict);
+    if (!vOk) return false;
     if (type && it.signal_type !== type) return false;
-    if (q && !(it.title + " " + (it.ai_summary || "") + " " + it.matched + " " + (it.product || "") + " " + (it.series || "")).toLowerCase().includes(q)) return false;
+    if (region && (it.region || "").trim() !== region) return false;
+    if (q) {
+      const hay = (it.title + " " + (it.ai_summary || "") + " " + it.matched + " " + (it.product || "") + " " + (it.series || "") + " " + (it.region || "") + " " + (it.disease || "") + " " + (it.order_no || "")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
     return true;
-  });
+  }).sort((a, b) => ts(b.published_at) - ts(a.published_at));
+
   if (!list.length) {
     feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбрось фильтры или запусти скан (run-now в репозитории).</div>`;
     return;
   }
-  feed.innerHTML = list.map(card).join("");
+  let html = "", last = "";
+  for (const it of list) {
+    const d = (it.published_at || "").slice(0, 10);
+    if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(it.published_at)}</div>`; }
+    html += card(it);
+  }
+  feed.innerHTML = html;
+}
+
+function tickMeta() {
+  if (!lastGen) return;
+  const t = document.querySelector("#meta .t");
+  if (t) t.textContent = "скан " + timeAgo(lastGen);
 }
 
 function renderMeta(j) {
-  document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span>скан ${timeAgo(j.generated_at)}</span>`;
+  lastGen = j.generated_at;
+  document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span class="t">скан ${timeAgo(j.generated_at)}</span>`;
   const n = (p) => j.items.filter(p).length;
   document.getElementById("stats").innerHTML =
     `<div class="stat"><b>${j.items.length}</b><span>сигналов в радаре</span></div>` +
@@ -209,6 +377,12 @@ function renderMeta(j) {
     `<div class="stat"><b style="color:var(--amber)">${n(i => i.verdict === "probable")}</b><span>вероятных</span></div>` +
     `<div class="stat"><b style="color:var(--faint)">${n(i => i.verdict === "noise")}</b><span>отсеяно как шум</span></div>` +
     `<div class="stat"><b style="color:var(--muted)">${n(i => !i.verdict)}</b><span>в очереди на ИИ</span></div>`;
+  const regions = {};
+  for (const it of ALL) { const r = (it.region || "").trim(); if (r) regions[r] = (regions[r] || 0) + 1; }
+  const opts = Object.entries(regions).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  document.getElementById("region").innerHTML =
+    `<option value="">все регионы</option>` +
+    opts.map(([r, c]) => `<option value="${esc(r)}" ${region === r ? "selected" : ""}>${esc(r)} (${c})</option>`).join("");
 }
 
 function chipRow(el, pairs, active, cb) {
@@ -216,24 +390,49 @@ function chipRow(el, pairs, active, cb) {
     `<button class="chip-btn ${active === v ? "active" : ""} ${dim ? "dim" : ""}" data-v="${v}">${l}</button>`).join("");
   document.querySelectorAll(`#${el} .chip-btn`).forEach(b => b.onclick = () => { cb(b.dataset.v); renderChips(); render(); });
 }
-
 function renderChips() {
   chipRow("chips-verdict", [["real", "без шума"], ["confirmed", "подтверждено"], ["probable", "вероятно"], ["noise", "шум", true], ["all", "вообще всё", true]], verdict, v => verdict = v);
   chipRow("chips-type", [["", "все типы"], ["recall", "отзывы / брак"], ["outbreak", "вспышки"]], type, t => type = t);
 }
+
+/* клик по ключевому слову → поиск в ленте */
+document.getElementById("feed").addEventListener("click", (e) => {
+  const kw = e.target.closest(".kw");
+  if (!kw) return;
+  q = kw.textContent.toLowerCase().trim();
+  document.getElementById("q").value = q;
+  render();
+});
+
+document.getElementById("q").oninput = (e) => { q = e.target.value.toLowerCase().trim(); render(); };
+document.getElementById("region").onchange = (e) => { region = e.target.value; render(); };
 
 async function refresh() {
   try {
     const j = await (await fetch("./signals.json", { cache: "no-store" })).json();
     ALL = j.items || [];
     renderMeta(j); renderChips(); render();
+    if (lastCheck) runCheck();
   } catch (e) {
     document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span>signals.json недоступен</span>`;
   }
 }
-document.getElementById("q").oninput = (e) => { q = e.target.value.toLowerCase().trim(); render(); };
 refresh();
 setInterval(refresh, 5 * 60 * 1000);
+setInterval(tickMeta, 30 * 1000);
+
+/* автопроверка из ссылки: #check=Мультикан-8|20 */
+const mh = location.hash.match(/check=([^&]+)/);
+if (mh) {
+  const [p, s] = decodeURIComponent(mh[1]).split("|");
+  if (p) document.getElementById("check-product").value = p;
+  if (s) document.getElementById("check-series").value = s;
+  runCheck();
+}
+
+const totop = document.getElementById("totop");
+addEventListener("scroll", () => totop.classList.toggle("show", scrollY > 600), { passive: true });
+totop.onclick = () => scrollTo({ top: 0, behavior: "smooth" });
 </script>
 </body>
 </html>
