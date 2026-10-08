@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T12:21:47.164Z",
+  "generated_at": "2026-10-08T14:21:53.280Z",
   "items": [
     {
       "fingerprint": "3eb79c819b52b67daee634aecfe27b407662ced6",
@@ -324,6 +324,25 @@
       "disease": "птичий грипп",
       "order_no": null,
       "ai_at": "2026-10-07 15:43:08"
+    },
+    {
+      "fingerprint": "d439f46779749b33bd964e928af59d7813b60b94",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
+      "published_at": "2026-09-29T10:07:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "confirmed",
+      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней",
+      "product": null,
+      "series": null,
+      "region": "Приднестровье",
+      "disease": "африканской чуме свиней (АЧС)",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:02"
     },
     {
       "fingerprint": "74f5b0a80dddab49fa211c4d588e29fc96f66ca9",
@@ -782,6 +801,25 @@
       "ai_at": "2026-10-07 15:43:54"
     },
     {
+      "fingerprint": "a40e503a1a56ba84c8c692b7e0f70b07ae70b129",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Свиней уничтожают, власти молчат. АЧС снова в Беларуси",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fudf.name%2fnews%2fmain_news%2f292794-svinej-unichtozhajut-vlasti-molchat-achs-snova-v-belarusi.html&c=16892290445148598332&mkt=en-us",
+      "summary": "Об обнаружении африканской чумы свиней в деревне Турок Петриковского района стало известно 26 августа. &#171;Еврорадио&#187; сообщило об этом со ...",
+      "published_at": "2026-08-28T04:24:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "confirmed",
+      "ai_summary": "Обнаружена вспышка африканской чумы свиней в Беларуси",
+      "product": null,
+      "series": null,
+      "region": "Беларусь",
+      "disease": "АЧС",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:06"
+    },
+    {
       "fingerprint": "4d1223089eb8199010302e960eef69e3256473bb",
       "signal_type": "recall",
       "matched": "[\"уничтож\"]",
@@ -972,6 +1010,25 @@
       "ai_at": "2026-10-07 15:44:02"
     },
     {
+      "fingerprint": "9d951c1a703999d7f54261ec6f5c1ea7ec83e015",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Вспышка чумы? В селах под Тюменью начали забивать свиней из-за опасной болезни",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fnashgorod.ru%2fnews%2f2026-08-11%2fvspyshka-chumy-v-selah-pod-tyumenyu-nachali-zabivat-sviney-iz-za-opasnoy-bolezni-5657125&c=15176520320672789969&mkt=en-us",
+      "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
+      "published_at": "2026-08-10T21:12:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "probable",
+      "ai_summary": "В Тюменской области начали забивать свиней из-за опасной болезни",
+      "product": null,
+      "series": null,
+      "region": "Тюменская область",
+      "disease": "чумы",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:11"
+    },
+    {
       "fingerprint": "b7f505ca727c740d1407220ee5d0e4e8d344da16",
       "signal_type": "outbreak",
       "matched": "[\"вспышк\"]",
@@ -1046,6 +1103,25 @@
       "disease": "чумы",
       "order_no": null,
       "ai_at": "2026-10-08 12:20:44"
+    },
+    {
+      "fingerprint": "e02ce595a177b641c743e6f7cdae95c06a58fa5e",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
+      "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
+      "published_at": "2026-07-27T08:30:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "confirmed",
+      "ai_summary": "Вспышка африканской чумы свиней в Владимирской области",
+      "product": null,
+      "series": null,
+      "region": "Владимирская область",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:16"
     },
     {
       "fingerprint": "8df14a095d48bf0eaf8443faaa18ceb49774f79c",
@@ -1238,6 +1314,25 @@
       "ai_at": "2026-10-07 15:44:55"
     },
     {
+      "fingerprint": "ea546958c53bcbfb0128b536ad8d82f33f648ee0",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Эстонии сообщили о массовом заражении домашних свиней вирусом африканской чумы",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fbelta.by%2fworld%2fview%2fv-estonii-soobschili-o-massovom-zarazhenii-domashnih-svinej-virusom-afrikanskoj-chumy-731969-2025%2f&c=8438679960706511732&mkt=en-us",
+      "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
+      "published_at": "2025-08-14T10:49:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "confirmed",
+      "ai_summary": "В Эстонии заражены свиньи АЧС",
+      "product": null,
+      "series": null,
+      "region": "Эстония",
+      "disease": "вирус африканской чумы свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:21"
+    },
+    {
       "fingerprint": "4e1669664cccc1f20e72afc34fca32ac0c7e726e",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
@@ -1312,6 +1407,25 @@
       "disease": "вирус африканской чумы свиней (АЧС)",
       "order_no": null,
       "ai_at": "2026-10-08 12:21:25"
+    },
+    {
+      "fingerprint": "76632890a10b04c947af057161845384f2e77c64",
+      "signal_type": "recall",
+      "matched": "[\"недоброкачественн\"]",
+      "source_id": "bing-recall-vet",
+      "title": "Вирусы vs бактерии. Как и чем лечить пищевое отравление",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a2236ffe4be5960cc1c7a031712e&url=https%3a%2f%2faif.ru%2fhealth%2flife%2fvirusy-vs-bakterii-kak-i-chem-lechit-pishchevoe-otravlenie&c=17073513814740572450&mkt=en-us",
+      "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
+      "published_at": "2025-06-23T17:00:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "probable",
+      "ai_summary": "Вирусное или бактериальное заражение",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:24"
     },
     {
       "fingerprint": "51c223d4783308fe016bc3e2afdda497dca2a5ad",
@@ -1407,6 +1521,25 @@
       "disease": "африканской чумы",
       "order_no": null,
       "ai_at": "2026-10-07 15:45:05"
+    },
+    {
+      "fingerprint": "914129d1d1e483d221890738e3dc8a53dbdea209",
+      "signal_type": "outbreak",
+      "matched": "[\"африканская чума\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Африканская чума свиней",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fkorrespondent.net%2ftag%2f172512%2f&c=15800660706784365219&mkt=en-us",
+      "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
+      "published_at": "2025-02-06T04:15:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:27"
     },
     {
       "fingerprint": "81691787a1972d624bcf28266259bb7a990e75e0",
@@ -1542,6 +1675,25 @@
       "ai_at": "2026-10-07 15:45:16"
     },
     {
+      "fingerprint": "d99e16f1dd8dd5b631d0df7d3b90bde73f8d6f1d",
+      "signal_type": "outbreak",
+      "matched": "[\"африканская чума\",\"ачс\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "АЧС | африканская чума свиней - последние новости",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
+      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
+      "published_at": "2020-01-23T16:00:00.000Z",
+      "created_at": "2026-10-08 14:20:54",
+      "verdict": "confirmed",
+      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
+      "product": null,
+      "series": null,
+      "region": "Польша",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 14:21:33"
+    },
+    {
       "fingerprint": "962ec7f3943521aa0e84f4c107ca416291e16552",
       "signal_type": "outbreak",
       "matched": "[\"африканская чума\",\"ачс\"]",
@@ -1570,14 +1722,14 @@
       "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
       "published_at": "2020-01-23T16:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "Власти Польши задействовали военнослужащих для поиска диких кабанов, зараженных африканской чумой свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Польша",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 14:21:40"
     },
     {
       "fingerprint": "33a128ff37c43c2f32a1e9a5325cca94fd144baa",
@@ -1589,14 +1741,14 @@
       "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
       "published_at": "2020-01-23T16:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Польша",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 14:21:46"
     },
     {
       "fingerprint": "7839c4bdd84955492ae4fd0f5c4ec8b578206f6a",
@@ -1608,14 +1760,14 @@
       "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
       "published_at": "2020-01-23T16:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Польша",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 14:21:52"
     }
   ]
 }
