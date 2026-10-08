@@ -4,8 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>VetRecall — радар брака, фальсификата и вспышек</title>
+<meta name="description" content="Радар отзывов и брака ветпрепаратов + вспышки болезней РФ: приостановленные серии, фальсификат, сигналы Россельхознадзора.">
+<meta property="og:title" content="VetRecall — отзывы ветпрепаратов и вспышки">
+<meta property="og:description" content="Проверь серию перед уколом: сигналы надзора РФ с ИИ-извлечением препарата, серии и региона.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shray77.github.io/vetrecall-site/">
+<meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="VetRecall — отзывы ветпрепаратов и вспышки — RSS" href="./signals.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚨</text></svg>">
 <style>
+  .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 920px; margin: 0 auto; padding: 12px 20px 0; }
+  .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
+  .hub a:hover { color: var(--text); border-color: #2c3543; }
   :root {
     color-scheme: dark;
     --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
@@ -94,6 +104,12 @@
 </style>
 </head>
 <body>
+<nav class="hub">
+  <a href="https://shray77.github.io/vetdigest-site/" data-s="vetdigest-site">🐾 Дайджест науки</a>
+  <a href="https://shray77.github.io/vetrecall-site/" data-s="vetrecall-site" class="on">🚨 Отзывы и вспышки РФ</a>
+  <a href="https://shray77.github.io/biothreat-site/" data-s="biothreat-site">🌍 Биоугрозы мира</a>
+  <a href="https://shray77.github.io/rss-core-site/" data-s="rss-core-site">🛰️ Статус ядра</a>
+</nav>
 <header class="top">
   <div class="wrap topbar">
     <div class="brand">
@@ -119,7 +135,7 @@
 
 <footer>
   <div class="wrap foot">
-    <span>данные: <a href="./signals.json">signals.json</a> · скан + ИИ-фильтр после каждого инжеста ФСВПС</span>
+    <span>данные: <a href="./signals.xml">RSS</a> · <a href="./signals.json">signals.json</a> · скан + ИИ-фильтр после каждого инжеста ФСВПС</span>
     <a href="https://shray77.github.io/rss-core-site/">статус конвейера →</a>
     <a href="https://github.com/shray77/vetrecall">репозиторий</a>
   </div>
