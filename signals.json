@@ -1,7 +1,26 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T12:08:37.505Z",
+  "generated_at": "2026-10-08T12:21:47.164Z",
   "items": [
+    {
+      "fingerprint": "3eb79c819b52b67daee634aecfe27b407662ced6",
+      "signal_type": "outbreak",
+      "matched": "[\"бешенств\"]",
+      "source_id": "fsvps-news",
+      "title": "Подведомственное Россельхознадзору ФГБУ «ВНИИЗЖ» представило на конференции ВОЗЖ опыт России в профилактике и борьбе с бешенством",
+      "url": "https://fsvps.gov.ru/news/podvedomstvennoe-rosselhoznadzoru-fgbu-vniizzh-predstavilo-na-konferenczii-vozzh-opyt-rossii-v-profilaktike-i-borbe-s-beshenstvom/",
+      "summary": "7 октября 2026 года представители подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» приняли участие в научно-практической конференции «Всемирный день борьбы с бешенством. Сильнее вместе», посвящённой вопросам профилактики зоонозных заболеваний и укрепления межсекторального взаимодействия в рамках подхода «Единое здоровье». Мероприятие приурочено ко Всемирному дню борьбы с бешенством, который ежегодно отмечается 28 сентября. Организаторами выступили представительства Всемирной организации здравоохранения (ВОЗ), [&#8230;]",
+      "published_at": "2026-10-08T05:44:39Z",
+      "created_at": "2026-10-08 12:20:24",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 12:20:27"
+    },
     {
       "fingerprint": "3b1e78a3515862e9bed19259cde504522fb35595",
       "signal_type": "outbreak",
@@ -58,6 +77,25 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-08 11:38:16"
+    },
+    {
+      "fingerprint": "08a11a8c05fdde6fa293d4386c00d08e2903cacc",
+      "signal_type": "outbreak",
+      "matched": "[\"оспа\"]",
+      "source_id": "fsvps-news",
+      "title": "Разработка подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» вышла в финал Всероссийского конкурса «Успешный патент 2026»",
+      "url": "https://fsvps.gov.ru/news/razrabotka-podvedomstvennogo-rosselhoznadzoru-fgbu-vniizzh-vyshla-v-final-vserossijskogo-konkursa-uspeshnyj-patent-2026/",
+      "summary": "7 октября 2026 года состоялось заседание жюри Всероссийского конкурса Роспатента «Успешный патент 2026». По итогам отбора разработка подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» вошла в число 30 лучших из 260 представленных на конкурс работ. На конкурс институт направил разработку «Штамм «ВНИИЗЖ G7» вируса ньюкаслской болезни птиц для изготовления биопрепаратов для диагностики и специфической профилактики ньюкаслской болезни птиц». [&#8230;]",
+      "published_at": "2026-10-07T12:45:27Z",
+      "created_at": "2026-10-08 12:20:24",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-08 12:20:30"
     },
     {
       "fingerprint": "e15649e782f0936e25e55a7e64a358e8fab24c81",
@@ -981,14 +1019,14 @@
       "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
       "published_at": "2026-08-10T21:12:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "В Тюменской области начали забивать свиней из-за опасной болезни",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Тюменская область",
+      "disease": "чумы",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:20:41"
     },
     {
       "fingerprint": "52a09cc5af097203078b6cde8b7057fb91c4da27",
@@ -1000,14 +1038,14 @@
       "summary": "Серия бедствий испытывает этим летом Тюменскую область на прочность. Не успел регион справиться с последствиями дождевого паводка, как ...",
       "published_at": "2026-08-10T21:12:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "В Тюменской области подозревают вспышку чумы и начинают забивать свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Тюменская область",
+      "disease": "чумы",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:20:44"
     },
     {
       "fingerprint": "8df14a095d48bf0eaf8443faaa18ceb49774f79c",
@@ -1019,14 +1057,14 @@
       "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
       "published_at": "2026-07-27T08:30:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Владимирской области зафиксирована вспышка африканской чумы свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Владимирская область",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:20:49"
     },
     {
       "fingerprint": "499e4c94c712a89baa8f13be9914895acda6375c",
@@ -1038,14 +1076,14 @@
       "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
       "published_at": "2026-07-27T08:30:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Владимирской области зарегистрированная вспышка африканской чумы свиней в поселке Уршельском.",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Владимирская область",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:20:55"
     },
     {
       "fingerprint": "08c1af909488152a5fe4f73cc31ed1a7a6abbb58",
@@ -1057,14 +1095,14 @@
       "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
       "published_at": "2026-07-27T08:30:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней.",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Владимирская область",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:00"
     },
     {
       "fingerprint": "bb7c1605d01fea3ab3d89dd4e3f5cd92ad23a596",
@@ -1076,14 +1114,14 @@
       "summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней. Как стало известно Зебра ТВ, заражение ...",
       "published_at": "2026-07-27T08:30:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В поселке Уршельский Гусь-Хрустального района зафиксирована вспышка африканской чумы свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Владимирская область",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:06"
     },
     {
       "fingerprint": "f611e155606befbc668e4b66030b2568e9e9ba54",
@@ -1209,14 +1247,14 @@
       "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
       "published_at": "2025-08-14T10:49:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Эстонии заражены свиньи",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Эстония",
+      "disease": "вирус африканской чумы свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:11"
     },
     {
       "fingerprint": "acc816ecd5a626ff32782a0b1af8375c26fa0d9f",
@@ -1228,14 +1266,14 @@
       "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
       "published_at": "2025-08-14T10:49:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Эстонии заражено 10% домашних свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Эстония",
+      "disease": "вирус африканской чумы свиней",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:15"
     },
     {
       "fingerprint": "a421d5a4c681cece4a512acd73406d2980570d72",
@@ -1247,14 +1285,14 @@
       "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
       "published_at": "2025-08-14T10:49:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Эстонии заражено 10% домашних свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Эстония",
+      "disease": "вирус африканской чумы свиней (АЧС)",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:20"
     },
     {
       "fingerprint": "002c8d15e1cd08324ca3f44cf8a91bf6ddb37741",
@@ -1266,14 +1304,14 @@
       "summary": "14 августа, Минск /Корр. БЕЛТА/. В Эстонии порядка 10% домашних свиней заражены вирусом африканской чумы свиней (АЧС), что ставит под угрозу ...",
       "published_at": "2025-08-14T10:49:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "В Эстонии заражены свиньи от вируса африканской чумы свиней",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Эстония",
+      "disease": "вирус африканской чумы свиней (АЧС)",
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:25"
     },
     {
       "fingerprint": "51c223d4783308fe016bc3e2afdda497dca2a5ad",
@@ -1285,14 +1323,14 @@
       "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
       "published_at": "2025-06-23T17:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "Вопрос о причине пищевого отравления",
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:28"
     },
     {
       "fingerprint": "3feece70a4ea89d9c207c26210cdb8856d3ea9d5",
@@ -1304,14 +1342,14 @@
       "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
       "published_at": "2025-06-23T17:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "noise",
+      "ai_summary": "Вирусные и бактериальные пищевые отравления: причины и лечение.",
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:32"
     },
     {
       "fingerprint": "436d7c19dc0921f199838cccbf38cc526b7628db",
@@ -1323,14 +1361,14 @@
       "summary": "Но что послужило причиной болезни: недоброкачественный продукт, плохо вымытые руки или инфекция, – предстоит выяснить. В зависимости от возбудителя лечение будет разным.",
       "published_at": "2025-06-23T17:00:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
+      "verdict": "probable",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:35"
     },
     {
       "fingerprint": "d54599687fa2410799f08d87d577f8d7f2bdf033",
@@ -1380,14 +1418,14 @@
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
+      "verdict": "noise",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:38"
     },
     {
       "fingerprint": "326d81adf6ad680ef44990fe434e35228426e325",
@@ -1399,14 +1437,14 @@
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
+      "verdict": "noise",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:40"
     },
     {
       "fingerprint": "4575687d7454e5f9cf0c4ec38341f7993668b6be",
@@ -1418,14 +1456,14 @@
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
+      "verdict": "noise",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:43"
     },
     {
       "fingerprint": "725de5dc837a91a6a806e68d7b8c92bc9351d332",
@@ -1437,14 +1475,14 @@
       "summary": "Субъект в сфере онлайн-медиа Название онлайн-медиа - &#171;КореспонденТ.net&#187; Адрес: 02091, місто Київ, ХАРКІВСЬКЕ ШОСЕ, будинок 172-Б, офіс 208/1 E-mail: sunlight@mediadim.com.ua Телефон: 044-205-43-00 ...",
       "published_at": "2025-02-06T04:15:00.000Z",
       "created_at": "2026-10-08 12:06:56",
-      "verdict": null,
+      "verdict": "noise",
       "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
       "disease": null,
       "order_no": null,
-      "ai_at": null
+      "ai_at": "2026-10-08 12:21:46"
     },
     {
       "fingerprint": "8f2a20918146383c462d8060295bce79b3f8aa57",
@@ -1502,6 +1540,25 @@
       "disease": "АЧС",
       "order_no": null,
       "ai_at": "2026-10-07 15:45:16"
+    },
+    {
+      "fingerprint": "962ec7f3943521aa0e84f4c107ca416291e16552",
+      "signal_type": "outbreak",
+      "matched": "[\"африканская чума\",\"ачс\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "АЧС | африканская чума свиней - последние новости",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fwww.belnovosti.by%2fachs-afrikanskaya-chuma-sviney&c=11541166669760415021&mkt=en-us",
+      "summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней. С ...",
+      "published_at": "2020-01-23T16:00:00.000Z",
+      "created_at": "2026-10-08 12:20:24",
+      "verdict": "confirmed",
+      "ai_summary": "Власти Польши задействовали военнослужащих для масштабной операции по поиску диких кабанов, зараженных африканской чумой свиней.",
+      "product": null,
+      "series": null,
+      "region": "Польша",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-08 12:20:36"
     },
     {
       "fingerprint": "8ed99879ae0b153181acf7c6fa00d7429dd7fef3",
