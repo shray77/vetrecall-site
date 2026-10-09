@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-09T02:21:36.460Z",
+  "generated_at": "2026-10-09T04:20:57.393Z",
   "items": [
     {
       "fingerprint": "15851abc6ff917eb2610a408b70efeb9d24029eb",
@@ -673,28 +673,34 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "62285caf34c95ba0933d4ea428b9bb91ffeb686d",
+      "fingerprint": "8e1ae9ef490364bfb29a8fcc0feb74e96a3db52e",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
       "source_id": "bing-recall-series",
       "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8599613404752a33923504d04f8f1&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-09 00:20:38",
+      "created_at": "2026-10-09 04:20:41",
       "verdict": "confirmed",
-      "ai_summary": "Отозвана серия 20 Мультикана-8 с вирусом Ауески",
+      "ai_summary": "В Россельхознадзоре сообщили о вспышке вируса Ауески в серии Мультикана-8",
       "product": "Мультикана-8",
       "series": "20",
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-09 00:20:44",
+      "ai_at": "2026-10-09 04:20:48",
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 8,
+      "dup_count": 9,
       "dups": [
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7f66c28d24126901670b23b9343f8&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
@@ -977,6 +983,50 @@
       "ai_at": "2026-10-07 15:43:30",
       "product_norm": null,
       "series_digits": "20",
+      "region_norm": null
+    },
+    {
+      "fingerprint": "ff7dce8e9373d37768b5e6c67b2c28495a7e1db2",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8599613404752a33923504d04f8f1&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
+      "published_at": "2026-09-16T05:21:00.000Z",
+      "created_at": "2026-10-09 04:20:41",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+      "product": null,
+      "series": "20-ю серию",
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-09 04:20:53",
+      "product_norm": null,
+      "series_digits": "20",
+      "region_norm": null
+    },
+    {
+      "fingerprint": "cb438740fc02205294019f13fbfb98f48684c559",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор раскрыл решение по &#171;Мультикану-8&#187;",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8599613404752a33923504d04f8f1&url=https%3a%2f%2fnews.ru%2fvlast%2frosselhoznadzor-raskryl-reshenie-po-multikanu-8&c=6241773828793732331&mkt=en-us",
+      "summary": "Федеральной службой по ветеринарному и фитосанитарному надзору на основании приказа от 11.09.2026 № 1163 принято решение об изъятии из обращения с последующим уничтожением лекарственного препарата для ...",
+      "published_at": "2026-09-16T05:03:00.000Z",
+      "created_at": "2026-10-09 04:20:41",
+      "verdict": "confirmed",
+      "ai_summary": "Изъятие лекарственного препарата",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": "1163",
+      "ai_at": "2026-10-09 04:20:56",
+      "product_norm": null,
+      "series_digits": null,
       "region_norm": null
     },
     {
@@ -1482,27 +1532,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "владимирская область",
-      "dup_count": 4,
-      "dups": [
-        {
-          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac81288d1a246f9a4f599bb9a20bf65&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-07-27T08:30:00.000Z"
-        },
-        {
-          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-07-27T08:30:00.000Z"
-        },
-        {
-          "title": "Во Владимирской области зафиксирована первая в этом году вспышка африканской чумы свиней",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fzebra-tv.ru%2fnovosti%2fjizn%2fvo-vladimirskoy-oblasti-zafiksirovana-pervaya-v-etom-godu-vspyshka-afrikanskoy-chumy-sviney%2f&c=5601388954661663446&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-07-27T08:30:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
