@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-08T22:21:10.820Z",
+  "generated_at": "2026-10-09T00:20:56.232Z",
   "items": [
     {
       "fingerprint": "15851abc6ff917eb2610a408b70efeb9d24029eb",
@@ -588,28 +588,34 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "d49b3dea560a381de75374f8485d756e995bb3d8",
+      "fingerprint": "62285caf34c95ba0933d4ea428b9bb91ffeb686d",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
       "source_id": "bing-recall-series",
       "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7f66c28d24126901670b23b9343f8&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 20:20:38",
+      "created_at": "2026-10-09 00:20:38",
       "verdict": "confirmed",
-      "ai_summary": "Отозвана серия 20 препарата Мультикана-8 с вирусом Ауески",
+      "ai_summary": "Отозвана серия 20 Мультикана-8 с вирусом Ауески",
       "product": "Мультикана-8",
       "series": "20",
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-08 20:21:07",
+      "ai_at": "2026-10-09 00:20:44",
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 7,
+      "dup_count": 8,
       "dups": [
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7f66c28d24126901670b23b9343f8&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
@@ -669,7 +675,7 @@
       "product_norm": "мультикан 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 11,
+      "dup_count": 12,
       "dups": [
         {
           "title": "Россельхознадзор потребовал уничтожить серию вакцины \"Мультикан-8\"",
@@ -721,15 +727,15 @@
         },
         {
           "title": "Россельхознадзор потребовал уничтожить вакцину \"Мультикан-8\" после гибели собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-09-16T02:39:00.000Z"
         },
         {
-          "title": "Россельхознадзор обязал изъять и уничтожить вакцину \"Мультикан-8\" 20-й серии",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2fwww.kp.ru%2fonline%2fnews%2f7175275%2f&c=12577660734397481661&mkt=en-us",
-          "source_id": "bing-recall-fals",
-          "published_at": "2026-09-15T19:28:00.000Z"
+          "title": "Россельхознадзор потребовал уничтожить вакцину \"Мультикан-8\" после гибели собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667dfdc344f4a57f49c55500708b&url=https%3a%2f%2fwww.dp.ru%2fa%2f2026%2f09%2f16%2frosselhoznadzor-potreboval&c=7977076383654873458&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-16T02:39:00.000Z"
         }
       ]
     },
@@ -887,6 +893,51 @@
       "product_norm": null,
       "series_digits": "20",
       "region_norm": null
+    },
+    {
+      "fingerprint": "6adf3805eac04ed9707f3675e64c9207321d6b3b",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
+      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
+      "published_at": "2026-09-16T05:21:00.000Z",
+      "created_at": "2026-10-09 00:20:38",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "904f91a622a69e3df644195a4b70a9895ba5b215",
+      "signal_type": "recall",
+      "matched": "[\"изъят\",\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор раскрыл решение по &#171;Мультикану-8&#187;",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2fnews.ru%2fvlast%2frosselhoznadzor-raskryl-reshenie-po-multikanu-8&c=6241773828793732331&mkt=en-us",
+      "summary": "Федеральной службой по ветеринарному и фитосанитарному надзору на основании приказа от 11.09.2026 № 1163 принято решение об изъятии из обращения с последующим уничтожением лекарственного препарата для ...",
+      "published_at": "2026-09-16T05:03:00.000Z",
+      "created_at": "2026-10-09 00:20:38",
+      "verdict": "confirmed",
+      "ai_summary": "Изъятие из обращения с последующим уничтожением лекарственного препарата",
+      "product": "Мультикан-8",
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": "1163",
+      "ai_at": "2026-10-09 00:20:49",
+      "product_norm": "мультикан 8",
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
     },
     {
       "fingerprint": "96ca4a4df9d917b699fe64c0ab0dd030db3510fe",
@@ -1496,81 +1547,6 @@
       "series_digits": null,
       "region_norm": "латвия",
       "dup_count": 1
-    },
-    {
-      "fingerprint": "51fd461b4391626fe9f742bbe0c33aa5ace7c08b",
-      "signal_type": "recall",
-      "matched": "[\"недоброкачественн\"]",
-      "source_id": "bing-recall-vet",
-      "title": "Россельхознадзор выявил в обращении недоброкачественный ветеринарный препарат",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fvedom.ru%2fnews%2f2025%2f11%2f05%2f76320-rosselhoznadzor-vyyavil-v-obrashchenii-nedobrokachestvennyy-veterinarnyy-preparat&c=17144780384420107569&mkt=en-us",
-      "summary": "Управление Федеральной службы по ветеринарному и фитосанитарному надзору по Владимирской, Костромской и Ивановской областям сообщает о ...",
-      "published_at": "2025-11-05T11:40:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор выявил в обращении недоброкачественный ветеринарный препарат",
-      "product": null,
-      "series": null,
-      "region": "Владимирская, Костромская, Ивановская области",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:44:21",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "владимирская костромская ивановская области"
-    },
-    {
-      "fingerprint": "fc953374387465cee39e873446c18bc6b3ef9564",
-      "signal_type": "recall",
-      "matched": "[\"запрещен\"]",
-      "source_id": "bing-recall-vet",
-      "title": "Жиросжигатель для молодежи. Российские подростки скупают запрещенную &#171;Молекулу&#187; благодаря ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667f97224546868c4d1477978eea&url=https%3a%2f%2fwww.bbc.com%2frussian%2farticles%2fc2lxeqrg7ewo&c=4136141474182628040&mkt=en-us",
-      "summary": "В начале 2025 года в TikTok завирусились таблетки под названием &#171;Молекула&#187;. Подростки и молодые женщины рассказывали, как препарат эффективно ...",
-      "published_at": "2025-10-08T21:30:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:44:23",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "ffb1843be891b1245b08b4cd75b7399ba21bca1b",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Европе отмечена новая вспышка африканской чумы свиней",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
-      "summary": "Для проверки от спама разрешите функциональные cookie. По данным, опубликованным Еврокомиссией, наибольшее количество случаев заражения АЧС ...",
-      "published_at": "2025-10-03T07:03:00.000Z",
-      "created_at": "2026-10-08 18:20:50",
-      "verdict": "probable",
-      "ai_summary": "Еврокомиссия опубликовала данные о вспышке АЧС в Европе",
-      "product": null,
-      "series": null,
-      "region": "Европа",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 18:21:37",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "европа",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "В Европе отмечена новая вспышка африканской чумы свиней",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2flogos-pres.md%2fru%2fnovosti%2fv-evrope-otmechena-novaya-vspyshka-afrikanskoj-chumy-svinej%2f&c=8748904634860615802&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2025-10-03T07:03:00.000Z"
-        }
-      ]
     }
   ]
 }
