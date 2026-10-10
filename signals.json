@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-10T02:21:00.759Z",
+  "generated_at": "2026-10-10T04:23:41.199Z",
   "items": [
     {
       "fingerprint": "95537db734749b5662cd333421a1c428fa8af09d",
@@ -878,28 +878,34 @@
       ]
     },
     {
-      "fingerprint": "2f165f8710b3a6905127430c656392842fcc27a1",
+      "fingerprint": "96da7113923948b05bca0a90ba666cb5ed040121",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac98037c1304b15be30fcd5cfb740f9&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b87bc07f4f23be4e9a98251f17e4&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-10 00:20:38",
+      "created_at": "2026-10-10 04:20:40",
       "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней.",
       "product": null,
       "series": null,
       "region": "Приднестровье",
-      "disease": "африканская чума свиней",
+      "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-10 00:20:44",
+      "ai_at": "2026-10-10 04:20:45",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
-      "dup_count": 11,
+      "dup_count": 12,
       "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac98037c1304b15be30fcd5cfb740f9&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947fad5a54c01bfe4f4eed6f71045&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
@@ -951,12 +957,6 @@
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6f9550df449d4b6337e64b4354690&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac66680fe6a4b00a9009030052b6ebf&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
           "source_id": "bing-outbreak-achs",
           "published_at": "2026-09-29T10:07:00.000Z"
         }
@@ -1032,28 +1032,34 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "db7d784970b0141f901a4d033635c90d24d121ea",
+      "fingerprint": "71a362a104eec8e07f2706e637f87dba3554001d",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
       "source_id": "bing-recall-series",
       "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac98038a29440799a8c419f3df70356&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b87c983d4c47ae52984735f67365&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-10 00:20:38",
+      "created_at": "2026-10-10 04:20:40",
       "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор сообщил о вирусе Ауески в серии Мультикана-8.",
+      "ai_summary": "В Россельхознадзоре сообщили о выявлении вируса Ауески в серии №20 препарата \"Мультикана-8\"",
       "product": "Мультикана-8",
       "series": "20",
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-10 00:20:49",
+      "ai_at": "2026-10-10 04:20:57",
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 13,
+      "dup_count": 14,
       "dups": [
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac98038a29440799a8c419f3df70356&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947fb957444ceb86bb3aea058c642&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
@@ -1105,12 +1111,6 @@
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac71574ce594a419d8337031a60e0a2&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6dd26f1ce4f91b8a4a4d3b344e649&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-09-17T23:40:00.000Z"
         }
@@ -1174,6 +1174,28 @@
           "published_at": "2026-09-16T07:00:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "221093aef1068571118de49968b356a64fc129b6",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "На Кубани запретили оборот смертельно опасной для собак вакцины &#171;Мультикан&#187;",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b87c983d4c47ae52984735f67365&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&c=11806923777614841060&mkt=en-us",
+      "summary": "Южное межрегиональное управление Россельхознадзора сообщило о приостановке обращения на ...",
+      "published_at": "2026-09-17T05:08:00.000Z",
+      "created_at": "2026-10-10 04:20:40",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "b052c37d79acd6ceab263408ba98f5901943e20f",
@@ -1380,72 +1402,6 @@
       "ai_at": "2026-10-08 12:07:44",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "af0dfe1009727b2278f9384ddd59691be747ea99",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Россельхознадзор обязал уничтожить опасный ветеринарный препарат &#171;Мультикан-8&#187; серии 20",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb163c434eb71a59f62591add5&url=https%3a%2f%2frg62.info%2f2026%2f09%2f16%2frosselhoznadzor-obyazal-unichtozhit-opasnyj-veterinarnyj-preparat-multikan-8-serii-20%2f&c=6066545201467284756&mkt=en-us",
-      "summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный ...",
-      "published_at": "2026-09-16T06:04:00.000Z",
-      "created_at": "2026-10-08 18:20:50",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный препарат \"Мультикан-8\" серии 20",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 18:21:01",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "be249d6331273366ac47711dae6633a1eee3aae5",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Россельхознадзор обязал уничтожить опасный ветеринарный препарат &#171;Мультикан-8&#187; серии 20",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6667e516341e49bf1dd3098e3229d&url=https%3a%2f%2frg62.info%2f2026%2f09%2f16%2frosselhoznadzor-obyazal-unichtozhit-opasnyj-veterinarnyj-preparat-multikan-8-serii-20%2f&c=6066545201467284756&mkt=en-us",
-      "summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный ...",
-      "published_at": "2026-09-16T06:04:00.000Z",
-      "created_at": "2026-10-07 15:35:06",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор обязал изъять из обращения с последующим уничтожением лекарственный препарат “Мультикан-8”",
-      "product": null,
-      "series": "20",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-07 15:43:30",
-      "product_norm": null,
-      "series_digits": "20",
-      "region_norm": null
-    },
-    {
-      "fingerprint": "ff7dce8e9373d37768b5e6c67b2c28495a7e1db2",
-      "signal_type": "recall",
-      "matched": "[\"изъят\",\"уничтож\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8599613404752a33923504d04f8f1&url=https%3a%2f%2frg.ru%2f2026%2f09%2f16%2frosselhoznadzor-poruchil-unichtozhit-seriiu-vakciny-iz-za-kotoroj-pogibli-sobaki.html&c=11270095264357624279&mkt=en-us",
-      "summary": "Россельхознадзор решил изъять из оборота и уничтожить 20-ю серию вакцины \"Мультикан-8\", из-за ...",
-      "published_at": "2026-09-16T05:21:00.000Z",
-      "created_at": "2026-10-09 04:20:41",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор поручил уничтожить серию вакцины, из-за которой погибли собаки",
-      "product": null,
-      "series": "20-ю серию",
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-09 04:20:53",
-      "product_norm": null,
-      "series_digits": "20",
       "region_norm": null
     }
   ]
