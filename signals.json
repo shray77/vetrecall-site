@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-10T14:21:15.029Z",
+  "generated_at": "2026-10-10T16:21:44.000Z",
   "items": [
     {
       "fingerprint": "093baf1ddb3f20d4c64f82ab92cf329ac9ce86af",
@@ -1040,28 +1040,34 @@
       ]
     },
     {
-      "fingerprint": "a407ccee4d313d85f86a81345a3e7e6b7b43d102",
+      "fingerprint": "24585d73f9ade6e14400ee81871a89d3c420dc80",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f5be5845e19a168a806151b2a9&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca61724b6b4b56a151374619cf76f1&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-10 12:20:41",
+      "created_at": "2026-10-10 16:20:56",
       "verdict": "confirmed",
-      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по АЧС",
+      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка из-за африканской чумы свиней",
       "product": null,
       "series": null,
       "region": "Приднестровье",
-      "disease": "Африканская чума свиней",
+      "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-10 12:20:47",
+      "ai_at": "2026-10-10 16:21:03",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
-      "dup_count": 14,
+      "dup_count": 15,
       "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f5be5845e19a168a806151b2a9&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9f66f6f5a4f4ca582ce41068d2026&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
@@ -1113,12 +1119,6 @@
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7d9eb3fff493396f18e2463f12a91&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
           "source_id": "bing-outbreak-achs",
           "published_at": "2026-09-29T10:07:00.000Z"
         }
@@ -1216,50 +1216,34 @@
       "region_norm": "армения"
     },
     {
-      "fingerprint": "01a05920152569cecef8f4818d6c6eb8b8209661",
+      "fingerprint": "738203b41f710cdf7d2933523047f570961a3bf4",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
       "source_id": "bing-recall-series",
       "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f4462e46b1880503cb9159482a&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca6170b8014cf18673608a9869ef23&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-10 12:20:41",
+      "created_at": "2026-10-10 16:20:56",
       "verdict": "confirmed",
-      "ai_summary": "В Россельхознадзоре сообщили о выявлении вируса Ауески в серии Мультикан-8",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-10 12:20:54",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "70921c6c8fa4a5c31e21c7d181b4135fe8b4f36d",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9f670b9974beaa9f37a237e7e8fd1&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
-      "verdict": "confirmed",
-      "ai_summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 Мультикана-8.",
+      "ai_summary": "Отозвана серия Мультикана-8 с вирусом Ауески.",
       "product": "Мультикана-8",
-      "series": "20",
+      "series": "серия №20",
       "region": null,
       "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-10 10:21:47",
+      "ai_at": "2026-10-10 16:21:08",
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
       "dup_count": 5,
       "dups": [
+        {
+          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9f670b9974beaa9f37a237e7e8fd1&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-09-17T23:40:00.000Z"
+        },
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b87c983d4c47ae52984735f67365&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
@@ -1277,33 +1261,27 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947fb957444ceb86bb3aea058c642&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90fe6b29e4f7fbcb3edf164e37e0d&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
         }
       ]
     },
     {
-      "fingerprint": "b1aed5644e11bb6c29a6b891ef71487292711af2",
+      "fingerprint": "01a05920152569cecef8f4818d6c6eb8b8209661",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
       "source_id": "bing-recall-series",
       "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8d76fcb8545f6aeb9188efd30efe4&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f4462e46b1880503cb9159482a&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
       "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
       "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-09 12:20:38",
+      "created_at": "2026-10-10 12:20:41",
       "verdict": "confirmed",
-      "ai_summary": "Оповещение о вспышке",
+      "ai_summary": "В Россельхознадзоре сообщили о выявлении вируса Ауески в серии Мультикан-8",
       "product": null,
       "series": null,
       "region": null,
-      "disease": "вируса Ауески",
+      "disease": "вирус Ауески",
       "order_no": null,
-      "ai_at": "2026-10-09 12:20:48",
+      "ai_at": "2026-10-10 12:20:54",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
