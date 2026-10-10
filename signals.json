@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-10T10:22:48.598Z",
+  "generated_at": "2026-10-10T12:21:45.846Z",
   "items": [
     {
       "fingerprint": "bf7f5d0b65d677409142817adb3db07ff959005a",
@@ -982,28 +982,34 @@
       ]
     },
     {
-      "fingerprint": "de24bd71e0b8ba9738a09e720418f13c6d080ea4",
+      "fingerprint": "a407ccee4d313d85f86a81345a3e7e6b7b43d102",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9f66f6f5a4f4ca582ce41068d2026&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f5be5845e19a168a806151b2a9&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
+      "created_at": "2026-10-10 12:20:41",
       "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по АЧС",
       "product": null,
       "series": null,
       "region": "Приднестровье",
-      "disease": "африканская чума свиней",
+      "disease": "Африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-10 10:21:30",
+      "ai_at": "2026-10-10 12:20:47",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
-      "dup_count": 13,
+      "dup_count": 14,
       "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9f66f6f5a4f4ca582ce41068d2026&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9b87bc07f4f23be4e9a98251f17e4&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
@@ -1055,12 +1061,6 @@
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac769c8803e4ec88f4b679cbb12227b&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7318f7a324b73baecae9fee11a8bd&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
           "source_id": "bing-outbreak-achs",
           "published_at": "2026-09-29T10:07:00.000Z"
         }
@@ -1158,6 +1158,28 @@
       "region_norm": "армения"
     },
     {
+      "fingerprint": "01a05920152569cecef8f4818d6c6eb8b8209661",
+      "signal_type": "recall",
+      "matched": "[\"отозван\"]",
+      "source_id": "bing-recall-series",
+      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca28f4462e46b1880503cb9159482a&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
+      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
+      "published_at": "2026-09-17T23:40:00.000Z",
+      "created_at": "2026-10-10 12:20:41",
+      "verdict": "confirmed",
+      "ai_summary": "В Россельхознадзоре сообщили о выявлении вируса Ауески в серии Мультикан-8",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "вирус Ауески",
+      "order_no": null,
+      "ai_at": "2026-10-10 12:20:54",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
       "fingerprint": "70921c6c8fa4a5c31e21c7d181b4135fe8b4f36d",
       "signal_type": "recall",
       "matched": "[\"отозван\"]",
@@ -1178,7 +1200,7 @@
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 13,
+      "dup_count": 11,
       "dups": [
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
