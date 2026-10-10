@@ -1,30 +1,36 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-10T13:54:57.753Z",
+  "generated_at": "2026-10-10T14:21:15.029Z",
   "items": [
     {
-      "fingerprint": "bf7f5d0b65d677409142817adb3db07ff959005a",
+      "fingerprint": "093baf1ddb3f20d4c64f82ab92cf329ac9ce86af",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
       "summary": "– Да, а именно: водоплавающие и болотные птицы, у которых отсутствуют видимые признаки заболевания. А вот переносчики вируса птичьего гриппа ...",
       "published_at": "2026-10-09T17:00:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
+      "created_at": "2026-10-10 14:20:45",
       "verdict": "noise",
-      "ai_summary": "Симптомы, риски и меры профилактики",
+      "ai_summary": null,
       "product": null,
       "series": null,
       "region": null,
-      "disease": "птичий грипп",
+      "disease": "Птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-10 10:20:48",
+      "ai_at": "2026-10-10 14:20:49",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 5,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T17:00:00.000Z"
+        },
         {
           "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
@@ -52,15 +58,15 @@
       ]
     },
     {
-      "fingerprint": "95537db734749b5662cd333421a1c428fa8af09d",
+      "fingerprint": "35f664cd257edcc4f47a2652beefce50253de1fc",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947f83515497dbfda09775440121d&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
       "summary": "В Забайкальском крае ввели режим повышенной готовности из-за вспышек ящура в сопредельных странах — Китае и Монголии. Губернатор региона Александр Осипов заявил, что меры необходимы для недопущения ра ...",
       "published_at": "2026-10-09T06:09:00.000Z",
-      "created_at": "2026-10-09 20:20:38",
+      "created_at": "2026-10-10 14:20:45",
       "verdict": "probable",
       "ai_summary": "В Забайкальском крае ввели режим повышенной готовности из-за вспышек ящура в сопредельных странах",
       "product": null,
@@ -68,17 +74,29 @@
       "region": "Забайкальский край",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-09 20:20:44",
+      "ai_at": "2026-10-10 14:20:52",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 9,
+      "dup_count": 11,
       "dups": [
+        {
+          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947f83515497dbfda09775440121d&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T06:09:00.000Z"
+        },
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8f3a8a4114a29be139b2eaf74badf&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T06:09:00.000Z"
+        },
+        {
+          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-08T20:20:00.000Z"
         },
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
@@ -125,28 +143,34 @@
       ]
     },
     {
-      "fingerprint": "f806f5c416e3954cc736f4338915d55232ec6a07",
+      "fingerprint": "5d17994f55c638a8b46097dedabdba9428d68688",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
       "summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран - Новости мира - Информатор - Украина ...",
       "published_at": "2026-10-09T03:03:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
+      "created_at": "2026-10-10 14:20:45",
       "verdict": "probable",
-      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран",
+      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура",
       "product": null,
       "series": null,
       "region": "РФ",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 10:20:55",
+      "ai_at": "2026-10-10 14:20:57",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 5,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
@@ -197,28 +221,34 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "af525d8c0287fb92800196b5beffa8589343422f",
+      "fingerprint": "992e31eb26318fcc562a930f3da867d395d9c119",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
       "summary": "Роспотребнадзор сообщил об отсутствии эпидемических рисков для жителей Приангарья. В Забайкальском крае меры направлены на предотвращение заноса инфекции ...",
       "published_at": "2026-10-09T01:35:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
+      "created_at": "2026-10-10 14:20:45",
       "verdict": "probable",
-      "ai_summary": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
+      "ai_summary": "Роспотребнадзор сообщил об отсутствии эпидемических рисков для жителей Приангарья",
       "product": null,
       "series": null,
       "region": "Приангарье, Забайкальский край",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 10:21:03",
+      "ai_at": "2026-10-10 14:21:02",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приангарье забайкальский край",
-      "dup_count": 4,
+      "dup_count": 5,
       "dups": [
+        {
+          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T01:35:00.000Z"
+        },
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
@@ -347,6 +377,28 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-08 12:20:27",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "88b0ba4abdee560c3fbb2bf165c4d22d8b7e1ffe",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fulan.mk.ru%2fsocial%2f2026%2f10%2f08%2fmongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-vakciny-ot-yashhura.html&c=3281823236804984974&mkt=en-us",
+      "summary": "История с иркутянкой, якобы заболевшей чумой в пограничной зоне Бурятии, оказалась интернет-&#171;уткой&#187; или фейком, как нынче принято говорить ...",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "created_at": "2026-10-10 14:20:45",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-10 14:21:09",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
@@ -617,28 +669,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "d0f450e1452f8c78b84de6ffcb30a5c9daa0314f",
+      "fingerprint": "25a231ee48d3b9cb7c9299be5646a1a3c2bf4b6a",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
       "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
       "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-10 10:20:39",
+      "created_at": "2026-10-10 14:20:45",
       "verdict": "noise",
-      "ai_summary": "Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура",
+      "ai_summary": null,
       "product": null,
       "series": null,
       "region": "Монголия",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 10:21:23",
+      "ai_at": "2026-10-10 14:21:12",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "монголия",
-      "dup_count": 10,
+      "dup_count": 11,
       "dups": [
+        {
+          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T21:59:00.000Z"
+        },
         {
           "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
@@ -1200,7 +1258,7 @@
       "product_norm": "мультикана 8",
       "series_digits": "20",
       "region_norm": null,
-      "dup_count": 11,
+      "dup_count": 5,
       "dups": [
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
@@ -1223,42 +1281,6 @@
         {
           "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90fe6b29e4f7fbcb3edf164e37e0d&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89f54ce0b4e4bacb10e4fbd99eed5&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8599613404752a33923504d04f8f1&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8247b10844209a1603de07fb5c8c0&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7f66c28d24126901670b23b9343f8&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b94345c74f91ad63e3792d0f74b9&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-09-17T23:40:00.000Z"
-        },
-        {
-          "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac74dac055c4c9ba3e51b8f39c67bee&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-09-17T23:40:00.000Z"
         }
@@ -1285,29 +1307,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
-    },
-    {
-      "fingerprint": "53ed2274ef076a41bcde44a56918c8ed65592bea",
-      "signal_type": "recall",
-      "matched": "[\"отозван\"]",
-      "source_id": "bing-recall-series",
-      "title": "Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f33219e471f9d807af172435562&url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&c=10833224992778729372&mkt=en-us",
-      "summary": "Россельхознадзор сообщил о вирусе Ауески в серии №20 &#171;Мультикана-8&#187;. Какие серии отозваны, как проверить ветпаспорт и что делать после прививки.",
-      "published_at": "2026-09-17T23:40:00.000Z",
-      "created_at": "2026-10-08 12:06:56",
-      "verdict": "confirmed",
-      "ai_summary": "В Россельхознадзоре сообщили о вспышке вируса Ауески в серии №20 препарата Мультикана-8.",
-      "product": "Мультикан-8",
-      "series": "20",
-      "region": null,
-      "disease": "вирус Ауески",
-      "order_no": null,
-      "ai_at": "2026-10-08 12:07:04",
-      "product_norm": "мультикан 8",
-      "series_digits": "20",
-      "region_norm": null,
-      "dup_count": 1
     }
   ]
 }
