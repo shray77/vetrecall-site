@@ -6,11 +6,11 @@
     <description>Сигналы надзора: приостановленные серии, фальсификат, недоброкачественные препараты и вспышки болезней. Проверяй серию перед уколом.</description>
     <language>ru</language>
     <item>
-      <title>Вспышка: Птичий грипп — Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9d4a734864ab2bf1a33cc9166b1a0&amp;url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&amp;c=7634371107191762270&amp;mkt=en-us</link>
-      <guid isPermaLink="false">3955c7a5ac931d83d6257416416066e29e14bbec</guid>
+      <title>Вспышка: птичий грипп — Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач</title>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6aca0cfc40494c9cbea56999da61df6e&amp;url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&amp;c=7634371107191762270&amp;mkt=en-us</link>
+      <guid isPermaLink="false">bf7f5d0b65d677409142817adb3db07ff959005a</guid>
       <pubDate>Fri, 09 Oct 2026 17:00:00 GMT</pubDate>
-      <description>verdict: noise · Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач</description>
+      <description>Симптомы, риски и меры профилактики · verdict: noise · Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач</description>
     </item>
     <item>
       <title>Вспышка: Забайкальский край, ящур — В Забайкалье ввели режим повышенной готовности из-за ящура</title>
@@ -21,8 +21,8 @@
     </item>
     <item>
       <title>Вспышка: РФ, ящур — За чумой на Россию надвинулась новая напасть – что известно о ящуре</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9d4a734864ab2bf1a33cc9166b1a0&amp;url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&amp;c=16299702573415315604&amp;mkt=en-us</link>
-      <guid isPermaLink="false">82e7792ad47f07d57a25f9749d455c8fd31f5e4f</guid>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6aca0cfc40494c9cbea56999da61df6e&amp;url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&amp;c=16299702573415315604&amp;mkt=en-us</link>
+      <guid isPermaLink="false">f806f5c416e3954cc736f4338915d55232ec6a07</guid>
       <pubDate>Fri, 09 Oct 2026 03:03:00 GMT</pubDate>
       <description>Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран · verdict: probable · За чумой на Россию надвинулась новая напасть – что известно о ящуре</description>
     </item>
@@ -35,10 +35,10 @@
     </item>
     <item>
       <title>Вспышка: Приангарье, Забайкальский край, ящур — В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9d4a734864ab2bf1a33cc9166b1a0&amp;url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&amp;c=14824497050695648116&amp;mkt=en-us</link>
-      <guid isPermaLink="false">a3106e2dba307f06fec18786eba496bd68b26534</guid>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6aca0cfc40494c9cbea56999da61df6e&amp;url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&amp;c=14824497050695648116&amp;mkt=en-us</link>
+      <guid isPermaLink="false">af525d8c0287fb92800196b5beffa8589343422f</guid>
       <pubDate>Fri, 09 Oct 2026 01:35:00 GMT</pubDate>
-      <description>Противоэпидемические мероприятия завершены в Приангарье, усилены в Забайкалье · verdict: probable · В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура</description>
+      <description>В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура · verdict: probable · В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура</description>
     </item>
     <item>
       <title>Вспышка: Приангарье, Забайкальский край, ячменная лихорадка — В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура</title>
@@ -74,6 +74,13 @@
       <guid isPermaLink="false">3eb79c819b52b67daee634aecfe27b407662ced6</guid>
       <pubDate>Thu, 08 Oct 2026 05:44:39 GMT</pubDate>
       <description>verdict: noise · Подведомственное Россельхознадзору ФГБУ «ВНИИЗЖ» представило на конференции ВОЗЖ опыт России в профилактике и борьбе с бешенством</description>
+    </item>
+    <item>
+      <title>Вспышка — Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура</title>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6aca0cfc40494c9cbea56999da61df6e&amp;url=https%3a%2f%2fulan.mk.ru%2fsocial%2f2026%2f10%2f08%2fmongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-vakciny-ot-yashhura.html&amp;c=3281823236804984974&amp;mkt=en-us</link>
+      <guid isPermaLink="false">2ef480c91409538e381cf618e76eac6a74e95637</guid>
+      <pubDate>Wed, 07 Oct 2026 17:00:00 GMT</pubDate>
+      <description>verdict: noise · Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура</description>
     </item>
     <item>
       <title>Вспышка — Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура</title>
@@ -154,10 +161,10 @@
     </item>
     <item>
       <title>Вспышка: Монголия, ящур — Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9d4a734864ab2bf1a33cc9166b1a0&amp;url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&amp;c=15172491833940335569&amp;mkt=en-us</link>
-      <guid isPermaLink="false">4934f8e3e03c8edda4af95dd71587d3dce55dc3c</guid>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6aca0cfc40494c9cbea56999da61df6e&amp;url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&amp;c=15172491833940335569&amp;mkt=en-us</link>
+      <guid isPermaLink="false">d0f450e1452f8c78b84de6ffcb30a5c9daa0314f</guid>
       <pubDate>Tue, 06 Oct 2026 21:59:00 GMT</pubDate>
-      <description>verdict: noise · Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура</description>
+      <description>Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура · verdict: noise · Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура</description>
     </item>
     <item>
       <title>Вспышка: Монголия — Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура</title>
@@ -237,11 +244,11 @@
       <description>В Молдавии распространяется птичий грипп — заболевание может передаваться человеку и имеет высокий уровень летальности. · verdict: probable · Птичий грипп распространяется в Молдавии: есть ли угроза для России и как защититься</description>
     </item>
     <item>
-      <title>Вспышка: Приднестровье, Африканская чума свиней — В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9b87bc07f4f23be4e9a98251f17e4&amp;url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&amp;c=9155419759437937012&amp;mkt=en-us</link>
-      <guid isPermaLink="false">96da7113923948b05bca0a90ba666cb5ed040121</guid>
+      <title>Вспышка: Приднестровье, африканская чума свиней — В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</title>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9f66f6f5a4f4ca582ce41068d2026&amp;url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&amp;c=9155419759437937012&amp;mkt=en-us</link>
+      <guid isPermaLink="false">de24bd71e0b8ba9738a09e720418f13c6d080ea4</guid>
       <pubDate>Tue, 29 Sep 2026 10:07:00 GMT</pubDate>
-      <description>В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней. · verdict: confirmed · В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</description>
+      <description>В Приднестровье ограничен ввоз свинины из молдавского села Софиевка · verdict: confirmed · В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</description>
     </item>
     <item>
       <title>Вспышка: Приднестровье, африканская чума свиней (АЧС) — В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</title>
@@ -265,11 +272,18 @@
       <description>В Приднестровье ограничен ввоз свинины из молдавского села Софиевка · verdict: confirmed · В Приднестровье ограничен ввоз свинины из молдавского села Софиевка</description>
     </item>
     <item>
+      <title>Отзыв/брак: Армения — Россельхознадзор: Запрет на ввоз в РФ рыбы и молока из Армении остается в силе</title>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9f670b9974beaa9f37a237e7e8fd1&amp;url=https%3a%2f%2frg.ru%2f2026%2f09%2f25%2frosselhoznadzor-zapret-na-vvoz-v-rf-ryby-i-moloka-iz-armenii-ostaetsia-v-sile.html&amp;c=5664211271620649397&amp;mkt=en-us</link>
+      <guid isPermaLink="false">da1581e0c641f05ff2da3d2f122f7c111c0220ce</guid>
+      <pubDate>Fri, 25 Sep 2026 13:46:00 GMT</pubDate>
+      <description>Запрет на ввоз в РФ рыбы и молока из Армении остается в силе · verdict: confirmed · Россельхознадзор: Запрет на ввоз в РФ рыбы и молока из Армении остается в силе</description>
+    </item>
+    <item>
       <title>Отзыв/брак: Мультикана-8, серия 20, вирус Ауески — Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9b87c983d4c47ae52984735f67365&amp;url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&amp;c=10833224992778729372&amp;mkt=en-us</link>
-      <guid isPermaLink="false">71a362a104eec8e07f2706e637f87dba3554001d</guid>
+      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9f670b9974beaa9f37a237e7e8fd1&amp;url=https%3a%2f%2flife.ru%2fp%2fv-multikane-8-nashli-virus-aueski-kakie-serii-otozvany-i-chto-delat-vladeltsam&amp;c=10833224992778729372&amp;mkt=en-us</link>
+      <guid isPermaLink="false">70921c6c8fa4a5c31e21c7d181b4135fe8b4f36d</guid>
       <pubDate>Thu, 17 Sep 2026 23:40:00 GMT</pubDate>
-      <description>В Россельхознадзоре сообщили о выявлении вируса Ауески в серии №20 препарата &quot;Мультикана-8&quot; · verdict: confirmed · Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак</description>
+      <description>Россельхознадзор сообщил о вирусе Ауески в серии №20 Мультикана-8. · verdict: confirmed · Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак</description>
     </item>
     <item>
       <title>Отзыв/брак: вируса Ауески — Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак</title>
@@ -284,55 +298,6 @@
       <guid isPermaLink="false">53ed2274ef076a41bcde44a56918c8ed65592bea</guid>
       <pubDate>Thu, 17 Sep 2026 23:40:00 GMT</pubDate>
       <description>В Россельхознадзоре сообщили о вспышке вируса Ауески в серии №20 препарата Мультикана-8. · verdict: confirmed · Мультикан-8: серия 20 с вирусом Ауески, какие серии отозваны и что делать владельцам собак</description>
-    </item>
-    <item>
-      <title>Отзыв/брак: Кубани — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac9b87c983d4c47ae52984735f67365&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">221093aef1068571118de49968b356a64fc129b6</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>На Кубани запретили оборот смертельно опасной для собак вакцины «Мультикан». · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac98038a29440799a8c419f3df70356&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">b052c37d79acd6ceab263408ba98f5901943e20f</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>На Кубани запретили оборот смертельно опасной для собак вакцины &quot;Мультикан&quot; · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак: Кубани, смертельно опасная для собак вакцина — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac947fb957444ceb86bb3aea058c642&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">949a798f9d4360f2dd5456212a2fb419fc3044c5</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>На Кубани запретили оборот смертельно опасной для собак вакцины «Мультикан» · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак: Мультикан, Кубань, смертельно опасная для собак — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac90fe6b29e4f7fbcb3edf164e37e0d&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">9808c8528cb4fe8e1d7c9ee5eb5a582a4780baa2</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>Запретили оборот смертельно опасной для собак вакцины на Кубани · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac8d76fcb8545f6aeb9188efd30efe4&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">1f4e380c1afa8e56b71f91369ed1db68c0783e47</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>На Кубани запретили оборот смертельно опасной для собак вакцины · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac89f54ce0b4e4bacb10e4fbd99eed5&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">063969507937c89413ace06426cff2da468aa7b7</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
-    </item>
-    <item>
-      <title>Отзыв/брак: Кубани, смертельно опасная для собак вакцины — На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</title>
-      <link>http://www.bing.com/news/apiclick.aspx?ref=FexRss&amp;aid=&amp;tid=6ac7f66c28d24126901670b23b9343f8&amp;url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f8956903&amp;c=11806923777614841060&amp;mkt=en-us</link>
-      <guid isPermaLink="false">75b5abc0a805d51f59136a162dce5670013b337b</guid>
-      <pubDate>Thu, 17 Sep 2026 05:08:00 GMT</pubDate>
-      <description>приостановлена продажа вакцины &quot;Мультикан&quot; · verdict: confirmed · На Кубани запретили оборот смертельно опасной для собак вакцины &amp;#171;Мультикан&amp;#187;</description>
     </item>
   </channel>
 </rss>
