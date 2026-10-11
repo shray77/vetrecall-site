@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-11T04:21:06.320Z",
+  "generated_at": "2026-10-11T06:21:35.826Z",
   "items": [
     {
       "fingerprint": "a8f8d9bd361ea26ca0e51a9d8698642c83270931",
@@ -1187,28 +1187,34 @@
       ]
     },
     {
-      "fingerprint": "ede3554f5a27b3cef2703a632df8e675bf34f353",
+      "fingerprint": "43d653bf2ab26ff3a6fc19cef11bdf9fdbb5e43c",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaedde067849f7b58a7d0690084675&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb263a09cb40f6a1ba4328aedf4267&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-11 02:20:38",
+      "created_at": "2026-10-11 06:20:40",
       "verdict": "confirmed",
-      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по АЧС",
+      "ai_summary": "В Приднестровье ограничен ввоз свинины из села Софиевка",
       "product": null,
       "series": null,
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-11 02:20:45",
+      "ai_at": "2026-10-11 06:20:45",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
       "dup_count": 4,
       "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acaedde067849f7b58a7d0690084675&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22f08af4e6693fc04fef44d3177&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
@@ -1218,12 +1224,6 @@
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca8ebcc4a14479aafb9c3580273033&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca61724b6b4b56a151374619cf76f1&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
           "source_id": "bing-outbreak-achs",
           "published_at": "2026-09-29T10:07:00.000Z"
         }
