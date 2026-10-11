@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-10T22:20:39.159Z",
+  "generated_at": "2026-10-11T00:22:05.780Z",
   "items": [
     {
       "fingerprint": "9f13c1e21da0ff8ff4d1e8e9740cf988507cd36f",
@@ -23,7 +23,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 7,
+      "dup_count": 8,
       "dups": [
         {
           "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
@@ -42,6 +42,12 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T17:00:00.000Z"
+        },
+        {
+          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-07T17:00:00.000Z"
         },
         {
           "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
@@ -64,28 +70,56 @@
       ]
     },
     {
-      "fingerprint": "9e3855c33dd818f299626732bafb179e6efd495f",
+      "fingerprint": "7eb886c5d44dc44a11a2d07572e91b3e7ea47a3c",
+      "signal_type": "recall",
+      "matched": "[\"аннулирован\"]",
+      "source_id": "bing-recall-fals",
+      "title": "Россельхознадзор аннулировал две декларации на пшеницу &#171;Калужской нивы&#187;",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22f182f4bf5b35c3fecf2c01f7c&url=https%3a%2f%2fkaluganews.ru%2ffn_1966280.html&c=2840663644658115155&mkt=en-us",
+      "summary": "Две декларации на пшеницу урожая 2026 года от сельхозпроизводителя &#171;Калужская нива&#187; аннулированы из-за отсутствия исследований на остаточное содержание пестицида. Это нарушение стало типичным в ходе п ...",
+      "published_at": "2026-10-09T06:46:00.000Z",
+      "created_at": "2026-10-11 00:20:38",
+      "verdict": "confirmed",
+      "ai_summary": "Две декларации на пшеницу ‘Калужской нивы’ аннулированы из-за отсутствия исследований на остаточное содержание пестицида.",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-11 00:20:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "d0879bbe333a3031945d3ad2a012c01d1ba31778",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
       "summary": "В Забайкальском крае ввели режим повышенной готовности из-за вспышек ящура в сопредельных странах — Китае и Монголии. Губернатор региона Александр Осипов заявил, что меры необходимы для недопущения ра ...",
       "published_at": "2026-10-09T06:09:00.000Z",
-      "created_at": "2026-10-10 18:20:47",
-      "verdict": "confirmed",
+      "created_at": "2026-10-11 00:20:38",
+      "verdict": "probable",
       "ai_summary": "В Забайкальском крае ввели режим повышенной готовности из-за вспышек ящура в сопредельных странах",
       "product": null,
       "series": null,
       "region": "Забайкальский край",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 18:20:57",
+      "ai_at": "2026-10-11 00:20:49",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 14,
+      "dup_count": 17,
       "dups": [
+        {
+          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T06:09:00.000Z"
+        },
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
@@ -106,9 +140,21 @@
         },
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T01:35:00.000Z"
+        },
+        {
+          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T01:35:00.000Z"
+        },
+        {
+          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-08T20:20:00.000Z"
         },
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
@@ -127,50 +173,38 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-08T20:20:00.000Z"
-        },
-        {
-          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-08T20:20:00.000Z"
-        },
-        {
-          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac998457c634ddcb65ff5830399f01e&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-08T20:20:00.000Z"
-        },
-        {
-          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947f83515497dbfda09775440121d&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-08T20:20:00.000Z"
         }
       ]
     },
     {
-      "fingerprint": "72c6c9e2f2e5f52dd609783c23ebcd464e0632cc",
+      "fingerprint": "1c90ec1544bdba65400e9863bcc0865d221079d1",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
       "summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран - Новости мира - Информатор - Украина ...",
       "published_at": "2026-10-09T03:03:00.000Z",
-      "created_at": "2026-10-10 18:20:47",
+      "created_at": "2026-10-11 00:20:38",
       "verdict": "probable",
-      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран",
+      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура",
       "product": null,
       "series": null,
       "region": "РФ",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 18:21:01",
+      "ai_at": "2026-10-11 00:20:55",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 7,
+      "dup_count": 8,
       "dups": [
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
@@ -389,6 +423,28 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-08 12:20:27",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "d07d2b49eb5787da55ccc1974950f5a63674a84f",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fulan.mk.ru%2fsocial%2f2026%2f10%2f08%2fmongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-vakciny-ot-yashhura.html&c=3281823236804984974&mkt=en-us",
+      "summary": "История с иркутянкой, якобы заболевшей чумой в пограничной зоне Бурятии, оказалась интернет-&#171;уткой&#187; или фейком, как нынче принято говорить ...",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "created_at": "2026-10-11 00:20:38",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-11 00:21:06",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
@@ -703,15 +759,15 @@
       "region_norm": null
     },
     {
-      "fingerprint": "017ede249d396c01ec62cd86f5d1647eb1d5ab74",
+      "fingerprint": "8cc98440a07cade05d1b947d145490698f48416e",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
       "source_id": "bing-outbreak-other",
       "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
       "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
       "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-10 18:20:47",
+      "created_at": "2026-10-11 00:20:38",
       "verdict": "noise",
       "ai_summary": null,
       "product": null,
@@ -719,12 +775,18 @@
       "region": "Монголия",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-10 18:21:16",
+      "ai_at": "2026-10-11 00:21:13",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "монголия",
-      "dup_count": 12,
+      "dup_count": 13,
       "dups": [
+        {
+          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T21:59:00.000Z"
+        },
         {
           "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
@@ -776,12 +838,6 @@
         {
           "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7319170bb45bfbd39e1666ef968b5&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-06T21:59:00.000Z"
         }
@@ -1074,15 +1130,15 @@
       ]
     },
     {
-      "fingerprint": "d995944052c5a1a14601bf4f6b6d66254377d25c",
+      "fingerprint": "b38ffde7d956d717369b1d6100cd9995239397b2",
       "signal_type": "outbreak",
       "matched": "[\"ачс\"]",
       "source_id": "bing-outbreak-achs",
       "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca8ebcc4a14479aafb9c3580273033&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22f08af4e6693fc04fef44d3177&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
       "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
       "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-10 20:20:38",
+      "created_at": "2026-10-11 00:20:38",
       "verdict": "confirmed",
       "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
       "product": null,
@@ -1090,12 +1146,18 @@
       "region": "Приднестровье",
       "disease": "африканская чума свиней",
       "order_no": null,
-      "ai_at": "2026-10-10 20:20:46",
+      "ai_at": "2026-10-11 00:21:18",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
-      "dup_count": 15,
+      "dup_count": 9,
       "dups": [
+        {
+          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca8ebcc4a14479aafb9c3580273033&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-09-29T10:07:00.000Z"
+        },
         {
           "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca61724b6b4b56a151374619cf76f1&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
@@ -1137,24 +1199,6 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac90fe5df3c4dde9873f0779f462f99&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
           "source_id": "bing-outbreak-achs",
           "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89f51bdc94fe0a2b22ff8a3f0d8fe&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac84ae340ea41778d237c650e4889f1&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
-        },
-        {
-          "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac81288d1a246f9a4f599bb9a20bf65&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-          "source_id": "bing-outbreak-achs",
-          "published_at": "2026-09-29T10:07:00.000Z"
         }
       ]
     },
@@ -1179,52 +1223,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приднестровье",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "d439f46779749b33bd964e928af59d7813b60b94",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7a22599a3455e8a7a3daf406ffbec&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-08 14:20:54",
-      "verdict": "confirmed",
-      "ai_summary": "В селе Софиевка сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье",
-      "disease": "африканской чуме свиней (АЧС)",
-      "order_no": null,
-      "ai_at": "2026-10-08 14:21:02",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "d8966bacaf3fd5168fd20aa891a38109f641d7d3",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac6c107758949f4928cb628e6e8a1d5&url=https%3a%2f%2fnovostipmr.com%2fru%2fnews%2f26-09-29%2fv-pridnestrove-ogranichen-vvoz-svininy-iz-moldavskogo-sela&c=9155419759437937012&mkt=en-us",
-      "summary": "Тирасполь, 29 сентября. /Новости Приднестровья/. В селе Софиевка Тараклийского района сохраняется неблагополучная эпизоотическая ситуация по африканской чуме свиней (АЧС). В связи с этим из населённог ...",
-      "published_at": "2026-09-29T10:07:00.000Z",
-      "created_at": "2026-10-08 11:38:08",
-      "verdict": "confirmed",
-      "ai_summary": "В Приднестровье ограничен ввоз свинины из молдавского села Софиевка",
-      "product": null,
-      "series": null,
-      "region": "Приднестровье/Молдавия",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-08 11:39:03",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приднестровье молдавия",
       "dup_count": 1
     }
   ]
