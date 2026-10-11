@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-11T16:22:25.236Z",
+  "generated_at": "2026-10-11T18:20:54.430Z",
   "items": [
     {
       "fingerprint": "a8f8d9bd361ea26ca0e51a9d8698642c83270931",
@@ -859,41 +859,25 @@
       "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
       "published_at": "2026-10-06T21:59:00.000Z",
       "created_at": "2026-10-11 16:20:50",
-      "verdict": null,
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": null,
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "8cc98440a07cade05d1b947d145490698f48416e",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-      "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
-      "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-11 00:20:38",
-      "verdict": "noise",
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура",
       "product": null,
       "series": null,
       "region": "Монголия",
       "disease": "ящур",
       "order_no": null,
-      "ai_at": "2026-10-11 00:21:13",
+      "ai_at": "2026-10-11 18:20:46",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "монголия",
-      "dup_count": 13,
+      "dup_count": 14,
       "dups": [
+        {
+          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-06T21:59:00.000Z"
+        },
         {
           "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
@@ -945,12 +929,6 @@
         {
           "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7f66c05514d309b0af38095a0634c&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-06T21:59:00.000Z"
         }
