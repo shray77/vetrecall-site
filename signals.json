@@ -1,17 +1,40 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-12T08:21:30.415Z",
+  "generated_at": "2026-10-12T10:22:12.352Z",
   "items": [
     {
-      "fingerprint": "66ca01d508e555cab4539b1bdee1cea714742c5b",
+      "fingerprint": "8a5652451859a044b2820d71d0168a7a68073507",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
+      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
+      "published_at": "2026-10-12T00:53:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "probable",
+      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "product": null,
+      "series": null,
+      "region": "Дон",
+      "disease": "птичий грипп, АЧС",
+      "order_no": null,
+      "ai_at": "2026-10-12 10:20:44",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "дон",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "044bd74865db09725978805b4e3e58fa90f6756c",
       "signal_type": "outbreak",
       "matched": "[\"вспышк\"]",
       "source_id": "bing-outbreak-other",
       "title": "Очередной очаг пастереллеза выявили в Приморье",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
       "summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза. Опасную инфекцию обнаружили у животных в личном подсобном хозяйстве.",
       "published_at": "2026-10-11T20:45:00.000Z",
-      "created_at": "2026-10-12 06:20:38",
+      "created_at": "2026-10-12 10:20:38",
       "verdict": "confirmed",
       "ai_summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза.",
       "product": null,
@@ -19,95 +42,49 @@
       "region": "Приморье",
       "disease": "пастереллез",
       "order_no": null,
-      "ai_at": "2026-10-12 06:20:46",
+      "ai_at": "2026-10-12 10:20:49",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приморье",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "43b6ec9a4ad9fa274712bc324ad9c84344c45984",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
-      "summary": "Калифорния столкнулась с аномальным нашествием комаров, которое привело к рекордному росту случаев заражения лихорадкой Западного Нила. Об этом 11 октября сообщила газета The Guardian.По данным местно ...",
-      "published_at": "2026-10-11T11:44:00.000Z",
-      "created_at": "2026-10-12 06:20:38",
-      "verdict": "confirmed",
-      "ai_summary": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-      "product": null,
-      "series": null,
-      "region": "Калифорния",
-      "disease": "лихорадка Западного Нила",
-      "order_no": null,
-      "ai_at": "2026-10-12 06:20:51",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "калифорния",
-      "dup_count": 3,
+      "dup_count": 2,
       "dups": [
         {
-          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
+          "title": "Очередной очаг пастереллеза выявили в Приморье",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
           "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T11:44:00.000Z"
-        },
-        {
-          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbe6c5319e43998b0a02f527b79247&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T11:44:00.000Z"
+          "published_at": "2026-10-11T20:45:00.000Z"
         }
       ]
     },
     {
-      "fingerprint": "93cad544b94bc47c675fad08754036338e2522b7",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
-      "published_at": "2026-10-11T10:51:00.000Z",
-      "created_at": "2026-10-12 06:20:38",
-      "verdict": "probable",
-      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС до конца ноября",
-      "product": null,
-      "series": null,
-      "region": "Дон",
-      "disease": "птичьий грипп и АЧС",
-      "order_no": null,
-      "ai_at": "2026-10-12 06:20:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дон",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "813d6b34bfd27b63c292f2a50bcfe00b8e330f44",
+      "fingerprint": "b8984b62d52ff1f01de278b3f861894b3ed45223",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
       "summary": "– Да, а именно: водоплавающие и болотные птицы, у которых отсутствуют видимые признаки заболевания. А вот переносчики вируса птичьего гриппа ...",
-      "published_at": "2026-10-09T17:00:00.000Z",
-      "created_at": "2026-10-12 00:20:38",
-      "verdict": "noise",
-      "ai_summary": null,
+      "published_at": "2026-10-11T17:00:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "probable",
+      "ai_summary": "Профилактика птичьего гриппа",
       "product": null,
       "series": null,
       "region": null,
-      "disease": "Птичий грипп",
+      "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-12 00:20:47",
+      "ai_at": "2026-10-12 10:20:53",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 11,
+      "dup_count": 12,
       "dups": [
+        {
+          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T17:00:00.000Z"
+        },
         {
           "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
@@ -161,14 +138,74 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac7b943d9284239862cfa280ab31526&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-07T17:00:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac77f32a3474e489423ac2b4ce537fd&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-07T17:00:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "e77ea470d057be539912ff3b9bc2ac38aa1fa3dd",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
+      "summary": "Калифорния столкнулась с аномальным нашествием комаров, которое привело к рекордному росту случаев заражения лихорадкой Западного Нила. Об этом 11 октября сообщила газета The Guardian.По данным местно ...",
+      "published_at": "2026-10-11T11:44:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "confirmed",
+      "ai_summary": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
+      "product": null,
+      "series": null,
+      "region": "Калифорния",
+      "disease": "лихорадка Западного Нила",
+      "order_no": null,
+      "ai_at": "2026-10-12 10:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "калифорния",
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-11T11:44:00.000Z"
+        },
+        {
+          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-11T11:44:00.000Z"
+        },
+        {
+          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbe6c5319e43998b0a02f527b79247&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-11T11:44:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "93cad544b94bc47c675fad08754036338e2522b7",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
+      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
+      "published_at": "2026-10-11T10:51:00.000Z",
+      "created_at": "2026-10-12 06:20:38",
+      "verdict": "probable",
+      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС до конца ноября",
+      "product": null,
+      "series": null,
+      "region": "Дон",
+      "disease": "птичьий грипп и АЧС",
+      "order_no": null,
+      "ai_at": "2026-10-12 06:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "дон",
+      "dup_count": 1
     },
     {
       "fingerprint": "7eb886c5d44dc44a11a2d07572e91b3e7ea47a3c",
@@ -213,7 +250,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 26,
+      "dup_count": 27,
       "dups": [
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
@@ -274,6 +311,91 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T01:35:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "f445229ae75fa53ce6ef44f30aa7bb3b7851d044",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+      "summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран - Новости мира - Информатор - Украина ...",
+      "published_at": "2026-10-09T03:03:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "probable",
+      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран",
+      "product": null,
+      "series": null,
+      "region": "РФ",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-10-12 10:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "рф",
+      "dup_count": 11,
+      "dups": [
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbace0069b4064bbcab303f64f749f&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947f83515497dbfda09775440121d&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8f3a8a4114a29be139b2eaf74badf&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-09T03:03:00.000Z"
+        },
+        {
+          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89f501c0348a0aad736b85ef95ba0&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-08T13:03:00.000Z"
         }
       ]
     },
@@ -347,85 +469,6 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "d41bc3498349419efbb34d38df1af72859478258",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbace0069b4064bbcab303f64f749f&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-      "summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран - Новости мира - Информатор - Украина ...",
-      "published_at": "2026-10-09T03:03:00.000Z",
-      "created_at": "2026-10-11 16:20:50",
-      "verdict": "probable",
-      "ai_summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран.",
-      "product": null,
-      "series": null,
-      "region": "РФ",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-11 16:20:58",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "рф",
-      "dup_count": 10,
-      "dups": [
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac947f83515497dbfda09775440121d&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8f3a8a4114a29be139b2eaf74badf&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac89f501c0348a0aad736b85ef95ba0&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-08T13:03:00.000Z"
-        }
-      ]
-    },
-    {
       "fingerprint": "6b1886fb474bd6c232cbf16b6e94c88231fd16b4",
       "signal_type": "outbreak",
       "matched": "[\"ящур\"]",
@@ -446,6 +489,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "d6f3c26c87f3e76a6fb70e7b83fdf6fe1e5909fb",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
+      "summary": "Роспотребнадзор сообщил об отсутствии эпидемических рисков для жителей Приангарья. В Забайкальском крае меры направлены на предотвращение заноса инфекции ...",
+      "published_at": "2026-10-09T01:35:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "probable",
+      "ai_summary": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
+      "product": null,
+      "series": null,
+      "region": "Приангарье и Забайкалье",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-10-12 10:21:10",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "приангарье и забайкалье",
       "dup_count": 1
     },
     {
@@ -674,6 +740,28 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-12 06:21:24",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
+      "fingerprint": "01d0bd161b4e0d4c6f0c5deee6780381c47ab10d",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия сотрудничает с РФ и КНР в производстве вакцины от ящура",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fulan.mk.ru%2fsocial%2f2026%2f10%2f08%2fmongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-vakciny-ot-yashhura.html&c=3281823236804984974&mkt=en-us",
+      "summary": "История с иркутянкой, якобы заболевшей чумой в пограничной зоне Бурятии, оказалась интернет-&#171;уткой&#187; или фейком, как нынче принято говорить ...",
+      "published_at": "2026-10-07T17:00:00.000Z",
+      "created_at": "2026-10-12 10:20:38",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-12 10:21:17",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
@@ -1096,89 +1184,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null
-    },
-    {
-      "fingerprint": "08a11a8c05fdde6fa293d4386c00d08e2903cacc",
-      "signal_type": "outbreak",
-      "matched": "[\"оспа\"]",
-      "source_id": "fsvps-news",
-      "title": "Разработка подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» вышла в финал Всероссийского конкурса «Успешный патент 2026»",
-      "url": "https://fsvps.gov.ru/news/razrabotka-podvedomstvennogo-rosselhoznadzoru-fgbu-vniizzh-vyshla-v-final-vserossijskogo-konkursa-uspeshnyj-patent-2026/",
-      "summary": "7 октября 2026 года состоялось заседание жюри Всероссийского конкурса Роспатента «Успешный патент 2026». По итогам отбора разработка подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» вошла в число 30 лучших из 260 представленных на конкурс работ. На конкурс институт направил разработку «Штамм «ВНИИЗЖ G7» вируса ньюкаслской болезни птиц для изготовления биопрепаратов для диагностики и специфической профилактики ньюкаслской болезни птиц». [&#8230;]",
-      "published_at": "2026-10-07T12:45:27Z",
-      "created_at": "2026-10-08 12:20:24",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-08 12:20:30",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "2588e0fd853f0f87f635bc0b295669a776f83613",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbace0069b4064bbcab303f64f749f&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-      "summary": "УЛАН-БАТОР, 7 октября. /ТАСС/. Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура.",
-      "published_at": "2026-10-06T21:59:00.000Z",
-      "created_at": "2026-10-11 16:20:50",
-      "verdict": "probable",
-      "ai_summary": "Министерство продовольствия, сельского хозяйства и легкой промышленности Монголии сотрудничает с Россией и Китаем для производства вакцины от ящура",
-      "product": null,
-      "series": null,
-      "region": "Монголия",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-11 18:20:46",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "монголия",
-      "dup_count": 7,
-      "dups": [
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac9d4a734864ab2bf1a33cc9166b1a0&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        },
-        {
-          "title": "Монголия сотрудничает с РФ и КНР в производстве своей вакцины от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac998457c634ddcb65ff5830399f01e&url=https%3a%2f%2fnews.rambler.ru%2fincidents%2f57189218-mongoliya-sotrudnichaet-s-rf-i-knr-v-proizvodstve-svoey-vaktsiny-ot-yaschura%2f&c=15172491833940335569&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-06T21:59:00.000Z"
-        }
-      ]
     }
   ]
 }
