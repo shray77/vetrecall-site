@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-13T18:21:17.609Z",
+  "generated_at": "2026-10-13T20:21:27.698Z",
   "items": [
     {
       "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
@@ -71,28 +71,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "464c55859352b73e1c1e38c57f5e2aa3b47a7f56",
+      "fingerprint": "8c58aa9b5b042803c5fbe643aa35706432b817ea",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0fe6608f4e8a9f9a18924ad78f5d&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace8df236714de991e87d08f05564a5&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-13 12:20:55",
+      "created_at": "2026-10-13 20:20:38",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение серии ветпрепарата в Рязанской и Тамбовской областях",
+      "ai_summary": "Приостановлено обращение серии чешского ветпрепарата",
       "product": "Лецирелин",
       "series": null,
       "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-13 12:21:01",
+      "ai_at": "2026-10-13 20:20:44",
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 3,
+      "dup_count": 4,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0fe6608f4e8a9f9a18924ad78f5d&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acda13f6f824fcd96d360294706279f&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -1152,29 +1158,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приангарье забайкальский край",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "085dac3f81fe6da7a6afa53328a6a35a6398d2fd",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Забайкалье ввели режим повышенной готовности из-за ящура в соседних странах",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd588c9b83407984f8d62c0f164b87&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2fv-zabaykale-vveli-rezhim-povyshennoy-gotovnosti-iz-za-yashchura-v-sosednikh-stranakh%2f&c=16794527158083400946&mkt=en-us",
-      "summary": "В Забайкальском крае с 8 октября ввели режим повышенной готовности из-за угрозы распространения ящура через государственную границу.",
-      "published_at": "2026-10-08T20:20:00.000Z",
-      "created_at": "2026-10-12 22:20:38",
-      "verdict": "probable",
-      "ai_summary": "В Забайкальском крае ввели режим повышенной готовности из-за угрозы распространения ящура",
-      "product": null,
-      "series": null,
-      "region": "Забайкальск",
-      "disease": "Ящур",
-      "order_no": null,
-      "ai_at": "2026-10-12 22:21:40",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "забайкальск",
       "dup_count": 1
     }
   ]
