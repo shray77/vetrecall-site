@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-13T14:21:32.704Z",
+  "generated_at": "2026-10-13T16:21:41.209Z",
   "items": [
+    {
+      "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"болезнь ньюкасла\"]",
+      "source_id": "fsvps-news",
+      "title": "В Красноярский край под контролем Россельхознадзора ввезено порядка 130 тысяч инкубационных яиц из Узбекистана",
+      "url": "https://fsvps.gov.ru/news/v-krasnoyarskij-kraj-pod-kontrolem-rosselhoznadzora-vvezeno-poryadka-130-tysyach-inkubaczionnyh-yaicz-iz-uzbekistana/",
+      "summary": "Специалистами Управления Россельхознадзора по Красноярскому краю 10 октября проведен ветеринарный контроль 17 с начала 2026 года партии инкубационных яиц кур. 129,6 тыс. яиц завезено из Узбекистана на одну из птицефабрик региона для дальнейшего выращивания. Яйца исследованы на сальмонеллёз, болезнь Ньюкасла, инфекционный бронхит, пуллороз и грипп птиц. Также проведена их влажная дезинфекция. В ходе [&#8230;]",
+      "published_at": "2026-10-13T06:09:24Z",
+      "created_at": "2026-10-13 16:20:56",
+      "verdict": "probable",
+      "ai_summary": "Проведен ветеринарный контроль партии инкубационных яиц из Узбекистана",
+      "product": null,
+      "series": null,
+      "region": "Красноярский край",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-13 16:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "красноярский край",
+      "dup_count": 1
+    },
     {
       "fingerprint": "8ebcf2d5a844b2a40c3ab52d99b6af69bbae1d0f",
       "signal_type": "outbreak",
@@ -640,7 +663,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 19,
+      "dup_count": 18,
       "dups": [
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
