@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-14T02:21:24.492Z",
+  "generated_at": "2026-10-14T04:21:48.386Z",
   "items": [
     {
       "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
@@ -24,6 +24,28 @@
       "series_digits": null,
       "region_norm": "красноярский край",
       "dup_count": 1
+    },
+    {
+      "fingerprint": "0204461d5e412aa8b2d219a247d209589b580e65",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
+      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
+      "published_at": "2026-10-12T23:32:00.000Z",
+      "created_at": "2026-10-14 04:21:03",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-14 04:21:07",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "7c142046f64b421a4f0640683bbc4550595dae30",
@@ -94,28 +116,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "6e490b4328b425e4702c9510a321ed73c602f6cc",
+      "fingerprint": "abaf94ba6ba770f4160dedf8f5bf31bffd330f24",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb97080104b5392a518d33d414098&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec31b4f4addb43fabb482632254&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-14 00:20:38",
+      "created_at": "2026-10-14 04:21:03",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение серии ветпрепарата",
+      "ai_summary": "Приостановлено обращение чешского ветпрепарата Лецирелин в Рязанской и Тамбовской областях",
       "product": "Лецирелин",
       "series": null,
-      "region": "Рязанская область, Тамбовская область",
+      "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-14 00:20:49",
+      "ai_at": "2026-10-14 04:21:12",
       "product_norm": "лецирелин",
       "series_digits": null,
-      "region_norm": "рязанская область тамбовская область",
-      "dup_count": 5,
+      "region_norm": "рязанская и тамбовская области",
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb97080104b5392a518d33d414098&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace8df236714de991e87d08f05564a5&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -185,6 +213,28 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край"
+    },
+    {
+      "fingerprint": "bb8fda29b7fe84f2426a738e1fb210b3b804fd05",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Лучшие компании по дезинфекции в Санкт-Петербурге — 2026",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fvc.ru%2fid5977440%2f3190347-kompanii-po-dezinfektsii-v-sankt-peterburge&c=11938447098537865989&mkt=en-us",
+      "summary": "Дезинфекция помещений в Санкт-Петербурге, услуги по уничтожению вирусов и плесени, профессиональная обработка жилых и офисных пространств ...",
+      "published_at": "2026-10-12T04:42:00.000Z",
+      "created_at": "2026-10-14 04:21:03",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-14 04:21:15",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "460afb444ea6bda0c70ab0512298ef95285a2d90",
@@ -341,6 +391,37 @@
       "region_norm": "санкт петербург"
     },
     {
+      "fingerprint": "26fb6a2ce6d53aebc923e5b1373e0948cc2164b8",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
+      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
+      "published_at": "2026-10-12T00:53:00.000Z",
+      "created_at": "2026-10-14 04:21:03",
+      "verdict": "probable",
+      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "product": null,
+      "series": null,
+      "region": "Дон",
+      "disease": "птичьий грипп и АЧС",
+      "order_no": null,
+      "ai_at": "2026-10-14 04:21:20",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "дон",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-11T10:51:00.000Z"
+        }
+      ]
+    },
+    {
       "fingerprint": "cc0141fb687d02604ea464115f81d7bfaf5d85fb",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
@@ -480,28 +561,34 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "626dfd89e5dc9595942c49c3c1a42f00807b8adc",
+      "fingerprint": "5068225b2d4c16f53a431dbcd9f9079d445dc1e2",
       "signal_type": "outbreak",
       "matched": "[\"вспышк\"]",
       "source_id": "bing-outbreak-other",
       "title": "Очередной очаг пастереллеза выявили в Приморье",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb96d6ae442e5b9ca82e07c83ac78&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
       "summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза. Опасную инфекцию обнаружили у животных в личном подсобном хозяйстве.",
       "published_at": "2026-10-11T20:45:00.000Z",
-      "created_at": "2026-10-14 00:20:38",
+      "created_at": "2026-10-14 04:21:03",
       "verdict": "confirmed",
-      "ai_summary": "В приморском селе ввели карантин из-за вспышки пастереллеза у животных",
+      "ai_summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза",
       "product": null,
       "series": null,
       "region": "Приморье",
       "disease": "пастереллез",
       "order_no": null,
-      "ai_at": "2026-10-14 00:21:09",
+      "ai_at": "2026-10-14 04:21:25",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приморье",
-      "dup_count": 8,
+      "dup_count": 9,
       "dups": [
+        {
+          "title": "Очередной очаг пастереллеза выявили в Приморье",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb96d6ae442e5b9ca82e07c83ac78&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-11T20:45:00.000Z"
+        },
         {
           "title": "Очередной очаг пастереллеза выявили в Приморье",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace749ec8a849888e35ed39e6165c81&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
@@ -740,29 +827,6 @@
       ]
     },
     {
-      "fingerprint": "93cad544b94bc47c675fad08754036338e2522b7",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
-      "published_at": "2026-10-11T10:51:00.000Z",
-      "created_at": "2026-10-12 06:20:38",
-      "verdict": "probable",
-      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС до конца ноября",
-      "product": null,
-      "series": null,
-      "region": "Дон",
-      "disease": "птичьий грипп и АЧС",
-      "order_no": null,
-      "ai_at": "2026-10-12 06:20:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дон",
-      "dup_count": 1
-    },
-    {
       "fingerprint": "96f5682a434a204a040c0a6883993941ab0a4ba1",
       "signal_type": "recall",
       "matched": "[\"аннулирован\"]",
@@ -827,7 +891,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 12,
+      "dup_count": 11,
       "dups": [
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
@@ -1097,7 +1161,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приангарье забайкальский край",
-      "dup_count": 7,
+      "dup_count": 4,
       "dups": [
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
@@ -1114,24 +1178,6 @@
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T01:35:00.000Z"
-        },
-        {
-          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T01:35:00.000Z"
-        },
-        {
-          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbe6c5319e43998b0a02f527b79247&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T01:35:00.000Z"
-        },
-        {
-          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbace0069b4064bbcab303f64f749f&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T01:35:00.000Z"
         }
@@ -1181,29 +1227,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приангарье и забайкалье",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "7c16714e04da1df32a291431e1e5f6ebd5278b33",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-      "summary": "Роспотребнадзор сообщил об отсутствии эпидемических рисков для жителей Приангарья. В Забайкальском крае меры направлены на предотвращение заноса инфекции ...",
-      "published_at": "2026-10-09T01:35:00.000Z",
-      "created_at": "2026-10-11 04:20:39",
-      "verdict": "probable",
-      "ai_summary": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-      "product": null,
-      "series": null,
-      "region": "Приангарье",
-      "disease": "епидемические риски",
-      "order_no": null,
-      "ai_at": "2026-10-11 04:20:54",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приангарье",
       "dup_count": 1
     }
   ]
