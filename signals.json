@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-14T06:21:38.745Z",
+  "generated_at": "2026-10-14T08:21:30.529Z",
   "items": [
     {
       "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
@@ -827,6 +827,28 @@
       ]
     },
     {
+      "fingerprint": "8f911c4c6e6540fd4cc8c124af7b8770756119a0",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "Нам Дону аннулировали 164 декларации на молоко, мясо и рыбу",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf2fa23a424a6d8988daf20cb0c1bb&url=https%3a%2f%2fshakhty-media.ru%2fnam-donu-annulirovali-164-deklaraczii-na-moloko-myaso-i-rybu%2f&c=11786696337815707496&mkt=en-us",
+      "summary": "С начала года региональным Управлением Россельхознадзора приостановлено действие 164 декларации о соответствии на продукцию животного происхождения донских производителей ...",
+      "published_at": "2026-10-09T06:53:00.000Z",
+      "created_at": "2026-10-14 08:21:04",
+      "verdict": "probable",
+      "ai_summary": "приостановлено действие 164 деклараций на продукцию животного происхождения",
+      "product": null,
+      "series": null,
+      "region": "Дон",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-14 08:21:13",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "дон"
+    },
+    {
       "fingerprint": "96f5682a434a204a040c0a6883993941ab0a4ba1",
       "signal_type": "recall",
       "matched": "[\"аннулирован\"]",
@@ -1161,7 +1183,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приангарье забайкальский край",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
@@ -1172,12 +1194,6 @@
         {
           "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accf92270cb460a9f65564a51196142&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T01:35:00.000Z"
-        },
-        {
-          "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T01:35:00.000Z"
         }
