@@ -1,30 +1,36 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-14T20:20:53.352Z",
+  "generated_at": "2026-10-14T22:22:17.977Z",
   "items": [
     {
-      "fingerprint": "ae179a6d032abb684432deae67b1870a44c8d096",
+      "fingerprint": "d7e6de2d9ed735ae739459825aff10430391c400",
       "signal_type": "outbreak",
       "matched": "[\"бешенств\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Башкирии за год выявили 26 случаев бешенства",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff5e4bcc74ed88d8ef8867dda076f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
       "summary": "По его словам, одна из главных проблем – бешенство. В 2026 году в Башкирии зарегистрировали 26 случаев, и это заметно больше, чем в предыдущие годы. Для сравнения: в 2023 году было 7 случаев, в 2024 – ...",
       "published_at": "2026-10-13T17:00:00.000Z",
-      "created_at": "2026-10-14 16:20:48",
-      "verdict": "probable",
+      "created_at": "2026-10-14 22:20:54",
+      "verdict": "noise",
       "ai_summary": "В Башкирии за год выявили 26 случаев бешенства",
       "product": null,
       "series": null,
       "region": "Башкирия",
       "disease": "бешенство",
       "order_no": null,
-      "ai_at": "2026-10-14 16:20:53",
+      "ai_at": "2026-10-14 22:21:00",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "башкирия",
-      "dup_count": 2,
+      "dup_count": 3,
       "dups": [
+        {
+          "title": "В Башкирии за год выявили 26 случаев бешенства",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-13T17:00:00.000Z"
+        },
         {
           "title": "В Башкирии за год выявили 26 случаев бешенства",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf52f05691482ab7c6480509dbb751&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
@@ -54,6 +60,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "красноярский край",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "42a9a9a2042a99897702be5c9952623585cfacae",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff5e4bcc74ed88d8ef8867dda076f&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
+      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
+      "published_at": "2026-10-12T23:32:00.000Z",
+      "created_at": "2026-10-14 22:20:54",
+      "verdict": "probable",
+      "ai_summary": "С начала текущего года исследовано более 9 тысяч проб на грипп птиц",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "грипп птиц",
+      "order_no": null,
+      "ai_at": "2026-10-14 22:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -1155,7 +1184,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 10,
+      "dup_count": 8,
       "dups": [
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
@@ -1196,18 +1225,6 @@
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca454079a54cb982583ba7c41878c2&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca0cfc40494c9cbea56999da61df6e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T03:03:00.000Z"
         }
