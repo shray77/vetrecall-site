@@ -1,17 +1,17 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-14T14:22:29.091Z",
+  "generated_at": "2026-10-14T16:21:18.367Z",
   "items": [
     {
-      "fingerprint": "01d0fb4857f9c4b8dc27c680df88669d9b738389",
+      "fingerprint": "ae179a6d032abb684432deae67b1870a44c8d096",
       "signal_type": "outbreak",
       "matched": "[\"бешенств\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Башкирии за год выявили 26 случаев бешенства",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf52f05691482ab7c6480509dbb751&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
       "summary": "По его словам, одна из главных проблем – бешенство. В 2026 году в Башкирии зарегистрировали 26 случаев, и это заметно больше, чем в предыдущие годы. Для сравнения: в 2023 году было 7 случаев, в 2024 – ...",
       "published_at": "2026-10-13T17:00:00.000Z",
-      "created_at": "2026-10-14 10:21:05",
+      "created_at": "2026-10-14 16:20:48",
       "verdict": "probable",
       "ai_summary": "В Башкирии за год выявили 26 случаев бешенства",
       "product": null,
@@ -19,11 +19,19 @@
       "region": "Башкирия",
       "disease": "бешенство",
       "order_no": null,
-      "ai_at": "2026-10-14 10:21:09",
+      "ai_at": "2026-10-14 16:20:53",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "башкирия",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Башкирии за год выявили 26 случаев бешенства",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf52f05691482ab7c6480509dbb751&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-13T17:00:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
@@ -47,6 +55,28 @@
       "series_digits": null,
       "region_norm": "красноярский край",
       "dup_count": 1
+    },
+    {
+      "fingerprint": "d2c0a6b013a4309a6c3c83b36bff4c5997c5a69d",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
+      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
+      "published_at": "2026-10-12T23:32:00.000Z",
+      "created_at": "2026-10-14 16:20:48",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-14 16:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
     },
     {
       "fingerprint": "d08ab6fecb27bbde2d5e3db027add919cf338e8d",
@@ -246,6 +276,28 @@
       "region_norm": "забайкальский край"
     },
     {
+      "fingerprint": "7a8b69654b08e9342dbb892f1ce842ec8f02a454",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Лучшие компании по дезинфекции в Санкт-Петербурге — 2026",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fvc.ru%2fid5977440%2f3190347-kompanii-po-dezinfektsii-v-sankt-peterburge&c=11938447098537865989&mkt=en-us",
+      "summary": "Дезинфекция помещений в Санкт-Петербурге, услуги по уничтожению вирусов и плесени, профессиональная обработка жилых и офисных пространств ...",
+      "published_at": "2026-10-12T04:42:00.000Z",
+      "created_at": "2026-10-14 16:20:48",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-14 16:20:59",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
       "fingerprint": "b0422b434c897315977755e9278b2ba67bd69df9",
       "signal_type": "recall",
       "matched": "[\"уничтож\"]",
@@ -442,6 +494,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "санкт петербург"
+    },
+    {
+      "fingerprint": "8b708f8fd89c8d2ba809deadd405eea7aadb5d0d",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
+      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
+      "published_at": "2026-10-12T00:53:00.000Z",
+      "created_at": "2026-10-14 16:20:48",
+      "verdict": "probable",
+      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС на Дону",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "птичьий грипп, африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-10-14 16:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
     },
     {
       "fingerprint": "e60580812bca2228ee2c1c646224a0512740dfca",
@@ -1074,7 +1149,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 13,
+      "dup_count": 11,
       "dups": [
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
@@ -1213,52 +1288,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "6b1886fb474bd6c232cbf16b6e94c88231fd16b4",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac998457c634ddcb65ff5830399f01e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-      "summary": "Забайкальский край РФ ввел режим повышенной готовности из-за угрозы ящура из пограничных стран - Новости мира - Информатор - Украина ...",
-      "published_at": "2026-10-09T03:03:00.000Z",
-      "created_at": "2026-10-10 02:20:38",
-      "verdict": "probable",
-      "ai_summary": "Забайкальский край ввел режим повышенной готовности из-за угрозы ящура",
-      "product": null,
-      "series": null,
-      "region": "РФ",
-      "disease": "ячменная чума",
-      "order_no": null,
-      "ai_at": "2026-10-10 02:20:43",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "рф",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "89af9f176fda9dc958c25d1b03829022a2c9b236",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0168eacf4a4391c674af289c3f7f&url=https%3a%2f%2fnia.eco%2f2026%2f10%2f09%2f144167%2f&c=14824497050695648116&mkt=en-us",
-      "summary": "Роспотребнадзор сообщил об отсутствии эпидемических рисков для жителей Приангарья. В Забайкальском крае меры направлены на предотвращение заноса инфекции ...",
-      "published_at": "2026-10-09T01:35:00.000Z",
-      "created_at": "2026-10-13 10:20:39",
-      "verdict": "probable",
-      "ai_summary": "В Приангарье завершили противоэпидемические мероприятия, в Забайкалье усилили защиту от ящура",
-      "product": null,
-      "series": null,
-      "region": "Приангарье, Забайкальский край",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-13 10:21:14",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приангарье забайкальский край",
       "dup_count": 1
     }
   ]
