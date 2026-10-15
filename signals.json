@@ -1,7 +1,29 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-15T20:21:47.664Z",
+  "generated_at": "2026-10-15T22:21:04.001Z",
   "items": [
+    {
+      "fingerprint": "bf5b97d532f622e14509e7b07c2bdea2840b4d86",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором в аэропорту Сургута выявлено и уничтожено 37 кг растительного происхождения",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-v-aeroportu-surguta-vyyavleno-i-unichtozheno-37-kg-rastitelnogo-proishozhdeniya/",
+      "summary": "",
+      "published_at": "2026-10-15T20:55:16Z",
+      "created_at": "2026-10-15 22:20:51",
+      "verdict": "confirmed",
+      "ai_summary": "Россельхознадзором в аэропорту Сургута выявлено и уничтожено 37 кг растительного происхождения",
+      "product": null,
+      "series": null,
+      "region": "аэропорт Сургута",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-15 22:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "аэропорт сургута"
+    },
     {
       "fingerprint": "e0eb328cb6c1708b72d6c3ab42a8a8e4de38df2e",
       "signal_type": "recall",
@@ -1270,6 +1292,28 @@
       ]
     },
     {
+      "fingerprint": "01b945cc9797a6a2f3c180ca34fabffd5af32143",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "Нам Дону аннулировали 164 декларации на молоко, мясо и рыбу",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad149d8739547ecb107511e16351f2d&url=https%3a%2f%2fshakhty-media.ru%2fnam-donu-annulirovali-164-deklaraczii-na-moloko-myaso-i-rybu%2f&c=11786696337815707496&mkt=en-us",
+      "summary": "С начала года региональным Управлением Россельхознадзора приостановлено действие 164 декларации о соответствии на продукцию животного происхождения донских производителей ...",
+      "published_at": "2026-10-09T06:53:00.000Z",
+      "created_at": "2026-10-15 22:20:51",
+      "verdict": "probable",
+      "ai_summary": "С начала года региональным Управлением Россельхознадзора приостановлено действие 164 деклараций о соответствии на продукцию животного происхождения донских прои",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-15 22:21:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
       "fingerprint": "8f911c4c6e6540fd4cc8c124af7b8770756119a0",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
@@ -1356,7 +1400,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "забайкальский край",
-      "dup_count": 6,
+      "dup_count": 4,
       "dups": [
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
@@ -1373,18 +1417,6 @@
         {
           "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T06:09:00.000Z"
-        },
-        {
-          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbe6c5319e43998b0a02f527b79247&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T06:09:00.000Z"
-        },
-        {
-          "title": "В Забайкалье ввели режим повышенной готовности из-за ящура",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2fru.themoscowtimes.com%2f2026%2f10%2f09%2fvzabaikale-vveli-rezhim-povishennoi-gotovnosti-iz-za-yaschura-a208232&c=18431887711765219871&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T06:09:00.000Z"
         }
