@@ -1,30 +1,36 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-15T00:21:29.794Z",
+  "generated_at": "2026-10-15T02:21:32.232Z",
   "items": [
     {
-      "fingerprint": "d7e6de2d9ed735ae739459825aff10430391c400",
+      "fingerprint": "08aea4d0dbb22bea61212fae7eeb39ad727ba531",
       "signal_type": "outbreak",
       "matched": "[\"бешенств\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Башкирии за год выявили 26 случаев бешенства",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff5e4bcc74ed88d8ef8867dda076f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad033f8a95d47eb88cf669dca82518e&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
       "summary": "По его словам, одна из главных проблем – бешенство. В 2026 году в Башкирии зарегистрировали 26 случаев, и это заметно больше, чем в предыдущие годы. Для сравнения: в 2023 году было 7 случаев, в 2024 – ...",
       "published_at": "2026-10-13T17:00:00.000Z",
-      "created_at": "2026-10-14 22:20:54",
-      "verdict": "noise",
-      "ai_summary": "В Башкирии за год выявили 26 случаев бешенства",
+      "created_at": "2026-10-15 02:20:53",
+      "verdict": "probable",
+      "ai_summary": "В Башкирии зарегистрировали 26 случаев бешенства",
       "product": null,
       "series": null,
       "region": "Башкирия",
       "disease": "бешенство",
       "order_no": null,
-      "ai_at": "2026-10-14 22:21:00",
+      "ai_at": "2026-10-15 02:20:57",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "башкирия",
-      "dup_count": 3,
+      "dup_count": 4,
       "dups": [
+        {
+          "title": "В Башкирии за год выявили 26 случаев бешенства",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff5e4bcc74ed88d8ef8867dda076f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-13T17:00:00.000Z"
+        },
         {
           "title": "В Башкирии за год выявили 26 случаев бешенства",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
@@ -60,6 +66,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "красноярский край",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "cc3752a6d7d6e7b51b81807840cc8a5cf508af22",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad033f8a95d47eb88cf669dca82518e&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
+      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
+      "published_at": "2026-10-12T23:32:00.000Z",
+      "created_at": "2026-10-15 02:20:53",
+      "verdict": "probable",
+      "ai_summary": "исследовано более 9 тысяч проб на грипп птиц",
+      "product": null,
+      "series": null,
+      "region": "Брянский филиал",
+      "disease": "вируса гриппа птиц",
+      "order_no": null,
+      "ai_at": "2026-10-15 02:21:10",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "брянский филиал",
       "dup_count": 1
     },
     {
@@ -206,28 +235,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "f2c9471e0727400f157adc55ca9a335775b1f6a9",
+      "fingerprint": "ee3586f64e5925941afa812e2c66c95a5ba6ff7c",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfc2d549104f61959cf98103f736bb&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad033f9e8c845279905e40dc44e041a&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-14 18:20:59",
+      "created_at": "2026-10-15 02:20:53",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение серии чешского ветпрепарата Лецирелин",
+      "ai_summary": "Приостановлено обращение ветеринарного препарата в Рязанской и Тамбовской областях",
       "product": "Лецирелин",
       "series": null,
       "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-14 18:21:05",
+      "ai_at": "2026-10-15 02:21:15",
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 7,
+      "dup_count": 8,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfc2d549104f61959cf98103f736bb&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec31b4f4addb43fabb482632254&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -1184,7 +1219,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рф",
-      "dup_count": 8,
+      "dup_count": 5,
       "dups": [
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
@@ -1207,24 +1242,6 @@
         {
           "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbace0069b4064bbcab303f64f749f&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb0a1fbda3477bbc5e42d487c83ab4&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acac22d8fc14f38b52fd7397a67d35c&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-09T03:03:00.000Z"
-        },
-        {
-          "title": "За чумой на Россию надвинулась новая напасть – что известно о ящуре",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca7d90a53a4d75bd4b871306ef924e&url=https%3a%2f%2finformator.ua%2fru%2fza-chumoy-na-rossiyu-nadvinulas-novaya-napast-chto-izvestno-o-yashchure&c=16299702573415315604&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-09T03:03:00.000Z"
         }
