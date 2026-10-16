@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-16T20:21:28.605Z",
+  "generated_at": "2026-10-16T22:20:36.864Z",
   "items": [
     {
       "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
@@ -503,17 +503,11 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 3,
+      "dup_count": 2,
       "dups": [
         {
           "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace39cb08a047c881634c280a9a0413&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T17:00:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: симптомы, риски и меры профилактики – рассказывает врач",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0168eacf4a4391c674af289c3f7f&url=https%3a%2f%2fwww.vitbichi.by%2fnews%2fzdorove%2fptichiy_gripp_simptomy_riski_i_mery_profilaktiki_rasskazyvaet_vrach%2f&c=7634371107191762270&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-11T17:00:00.000Z"
         }
@@ -781,28 +775,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "8fad3f3a04f9c363b65687a0b39b341977aa08f6",
+      "fingerprint": "84fa4c70b2562eb87564e9bada41b173f3970838",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270ffedc74a34b9b5399fbc401eb2&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad29e77c53b4428ae5219c780cc2fb9&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-16 20:20:16",
+      "created_at": "2026-10-16 22:20:17",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение чешского ветпрепарата «Лецирелин» в Рязанской и Тамбовской областях",
+      "ai_summary": "Приостановлено обращение ветеринарного препарата Лецирелин в Рязанской и Тамбовской областях.",
       "product": "Лецирелин",
       "series": null,
       "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-16 20:20:48",
+      "ai_at": "2026-10-16 22:20:23",
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 12,
+      "dup_count": 13,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270ffedc74a34b9b5399fbc401eb2&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3e2212472ab5be1239a8654fe2&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -854,12 +854,6 @@
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0fe6608f4e8a9f9a18924ad78f5d&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acda13f6f824fcd96d360294706279f&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-10-12T15:59:00.000Z"
         }
