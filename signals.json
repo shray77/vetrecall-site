@@ -1,7 +1,51 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-16T10:21:43.957Z",
+  "generated_at": "2026-10-16T12:21:22.941Z",
   "items": [
+    {
+      "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "По материалам Россельхознадзора в Тульской области судом у собственников изъято около 25 га сельхозземель",
+      "url": "https://fsvps.gov.ru/news/po-materialam-rosselhoznadzora-v-tulskoj-oblasti-sudom-u-sobstvennikov-izyato-okolo-25-ga-selhozzemel/",
+      "summary": "14 октября 2026 года в Управление Россельхознадзора по городу Москва, Московской и Тульской областям поступило решение суда, которым были удовлетворены требования об изъятии у собственников земельного участка сельскохозяйственного назначения площадью 24,9 га, расположенного в Чернском районе Тульской области, и о его продаже с публичных торгов. Собственниками земельного участка являются Пекарский Р.Ф., Пекарский Ф.Р. и Пекарский [&#8230;]",
+      "published_at": "2026-10-16T09:48:35Z",
+      "created_at": "2026-10-16 12:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "Судом изъят земельный участок в Тульской области",
+      "product": null,
+      "series": null,
+      "region": "Тульская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-16 12:20:55",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тульская область"
+    },
+    {
+      "fingerprint": "c2fe94fce80cd74bcfecc1c2c167289d5a3120cb",
+      "signal_type": "recall",
+      "matched": "[\"запрещен\"]",
+      "source_id": "fsvps-news",
+      "title": "В Челябинской области Россельхознадзором запрещен импорт 17,4 тонны фруктов из-за недействительного фитосанитарного сертификата",
+      "url": "https://fsvps.gov.ru/news/v-chelyabinskoj-oblasti-rosselhoznadzorom-zapreshhen-import-174-tonny-fruktov-iz-za-nedejstvitelnogo-fitosanitarnogo-sertifikata/",
+      "summary": "16 октября должностные лица Уральского межрегионального управления Россельхознадзора во время проведения проверки документов на 145 км автодороги А310 Екатеринбург-Алматы установили, что на территорию России из Казахстана с нарушениями ввезен подкарантинный груз высокого фитосанитарного риска. ТС с 17,4 т фруктов китайского происхождения (11,4 т манго и 6 т груш) следовала из Казахстана в Екатеринбург. При проверке [&#8230;]",
+      "published_at": "2026-10-16T08:39:16Z",
+      "created_at": "2026-10-16 12:20:50",
+      "verdict": "confirmed",
+      "ai_summary": "миграционный запрет на импорт фруктов из-за недействительного фитосертификата",
+      "product": null,
+      "series": null,
+      "region": "Челябинская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-16 12:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "челябинская область"
+    },
     {
       "fingerprint": "bf5b97d532f622e14509e7b07c2bdea2840b4d86",
       "signal_type": "recall",
@@ -1343,7 +1387,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "калифорния",
-      "dup_count": 11,
+      "dup_count": 9,
       "dups": [
         {
           "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
@@ -1390,18 +1434,6 @@
         {
           "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc74afc9194d40abb510690f4a19cf&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T11:44:00.000Z"
-        },
-        {
-          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc2334702b4e0ba8af4d9dc1d2fda9&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T11:44:00.000Z"
-        },
-        {
-          "title": "В Калифорнии зафиксировали рекордную вспышку лихорадки Западного Нила",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acbe6c5319e43998b0a02f527b79247&url=https%3a%2f%2fiz.ru%2f2182474%2f2026-10-11%2fv-kalifornii-zafiksirovali-rekordnuiu-vspyshku-likhoradki-zapadnogo-nila&c=3966238126782567004&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-11T11:44:00.000Z"
         }
