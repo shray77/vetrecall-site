@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-17T04:20:46.384Z",
+  "generated_at": "2026-10-17T06:21:26.487Z",
   "items": [
     {
       "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
@@ -69,6 +69,29 @@
       "region_norm": "аэропорт сургута"
     },
     {
+      "fingerprint": "677fa6e50318f576d93d6c47d69e53e65d30a881",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
+      "summary": "Пятерых жителей подмосковного Жуковского госпитализировали с подозрением на оспу обезьян – все они проживали в ...",
+      "published_at": "2026-10-15T19:42:00.000Z",
+      "created_at": "2026-10-17 06:20:58",
+      "verdict": "probable",
+      "ai_summary": "Подозревают вспышку оспы обезьян в Подмосковье",
+      "product": null,
+      "series": null,
+      "region": "Россия",
+      "disease": "оспа обезьян",
+      "order_no": null,
+      "ai_at": "2026-10-17 06:21:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "россия",
+      "dup_count": 1
+    },
+    {
       "fingerprint": "e0eb328cb6c1708b72d6c3ab42a8a8e4de38df2e",
       "signal_type": "recall",
       "matched": "[\"фальсифиц\"]",
@@ -91,6 +114,28 @@
       "region_norm": "ставропольский край тверь"
     },
     {
+      "fingerprint": "2075d4e6a99c4c1674b2fab4bb43f6ff879c90ba",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
+      "published_at": "2026-10-15T11:55:00.000Z",
+      "created_at": "2026-10-17 06:20:58",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-17 06:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null
+    },
+    {
       "fingerprint": "deb0228d6bc0f4b7488649b11afe2062933b47a3",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
@@ -111,13 +156,19 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 2,
+      "dup_count": 3,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T05:20:00.000Z"
         }
       ]
     },
@@ -229,28 +280,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "8ccecc098d80df90efde87525f1def89ab3ea640",
+      "fingerprint": "1399edc5a433714db4ebf69e87e55c5edd3bc93d",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Ученые узнали, что убило тысячи пингвинов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
       "summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии. Ученые опасались катастрофы для пингвинов, живущих огромными колониями. Архипелаг ...",
       "published_at": "2026-10-15T06:04:00.000Z",
-      "created_at": "2026-10-17 00:20:13",
+      "created_at": "2026-10-17 06:20:58",
       "verdict": "confirmed",
-      "ai_summary": "В Антарктике обнаружен вирус птичьего гриппа H5N1 у погибших птиц на Южной Георгии.",
+      "ai_summary": "Птичий грипп H5N1 впервые достиг Антарктики и убило тысячи пингвинов",
       "product": null,
       "series": null,
       "region": "Южная Георгия",
       "disease": "Птичий грипп H5N1",
       "order_no": null,
-      "ai_at": "2026-10-17 00:20:24",
+      "ai_at": "2026-10-17 06:21:10",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "южная георгия",
-      "dup_count": 5,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "Ученые узнали, что убило тысячи пингвинов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T06:04:00.000Z"
+        },
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
@@ -353,15 +410,15 @@
       "region_norm": null
     },
     {
-      "fingerprint": "8f961716a84a2bb793665400c4245ed07b31b3bd",
+      "fingerprint": "122bda79e2c68036c1ec134f78215a407a727191",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
       "summary": "Птичий грипп H5 обнаружили в образцах южного морского слона и водорослевой чайки на австралийском острове Маккуори.",
       "published_at": "2026-10-15T02:19:00.000Z",
-      "created_at": "2026-10-17 00:20:13",
+      "created_at": "2026-10-17 06:20:58",
       "verdict": "confirmed",
       "ai_summary": "Птичий грипп H5 обнаружен на острове Маккуори",
       "product": null,
@@ -369,12 +426,18 @@
       "region": "остров Маккуори",
       "disease": "Птичий грипп H5",
       "order_no": null,
-      "ai_at": "2026-10-17 00:20:31",
+      "ai_at": "2026-10-17 06:21:16",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "остров маккуори",
-      "dup_count": 6,
+      "dup_count": 7,
       "dups": [
+        {
+          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T02:19:00.000Z"
+        },
         {
           "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
@@ -1353,72 +1416,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дон",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "5068225b2d4c16f53a431dbcd9f9079d445dc1e2",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Очередной очаг пастереллеза выявили в Приморье",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-      "summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза. Опасную инфекцию обнаружили у животных в личном подсобном хозяйстве.",
-      "published_at": "2026-10-11T20:45:00.000Z",
-      "created_at": "2026-10-14 04:21:03",
-      "verdict": "confirmed",
-      "ai_summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза",
-      "product": null,
-      "series": null,
-      "region": "Приморье",
-      "disease": "пастереллез",
-      "order_no": null,
-      "ai_at": "2026-10-14 04:21:25",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приморье",
-      "dup_count": 4,
-      "dups": [
-        {
-          "title": "Очередной очаг пастереллеза выявили в Приморье",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb96d6ae442e5b9ca82e07c83ac78&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T20:45:00.000Z"
-        },
-        {
-          "title": "Очередной очаг пастереллеза выявили в Приморье",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace749ec8a849888e35ed39e6165c81&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T20:45:00.000Z"
-        },
-        {
-          "title": "Очередной очаг пастереллеза выявили в Приморье",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace39cb08a047c881634c280a9a0413&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T20:45:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "0b72205fab4b043d4a16603317f0fb0dcd30443e",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Очередной очаг пастереллеза выявили в Приморье",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0168eacf4a4391c674af289c3f7f&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-      "summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза. Опасную инфекцию обнаружили у животных в личном подсобном хозяйстве.",
-      "published_at": "2026-10-11T20:45:00.000Z",
-      "created_at": "2026-10-13 10:20:39",
-      "verdict": "confirmed",
-      "ai_summary": "В приморском селе Тереховка Надеждинского округа ввели карантин из-за вспышки пастереллеза.",
-      "product": null,
-      "series": null,
-      "region": "Приморье, село Тереховка",
-      "disease": "пастереллез",
-      "order_no": null,
-      "ai_at": "2026-10-13 10:20:54",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "приморье село тереховка",
       "dup_count": 1
     }
   ]
