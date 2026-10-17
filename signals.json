@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-17T14:22:29.316Z",
+  "generated_at": "2026-10-17T16:21:05.487Z",
   "items": [
     {
       "fingerprint": "6ce7ad083f7affede5c25b27e2c38a7711a5ef7e",
@@ -943,17 +943,17 @@
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
       "created_at": "2026-10-17 14:20:58",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "confirmed",
+      "ai_summary": "Приостановлено обращение чешского ветпрепарата \"Лецирелин\"",
       "product": null,
       "series": null,
-      "region": null,
+      "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": null,
+      "ai_at": "2026-10-17 16:21:05",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null
+      "region_norm": "рязанская и тамбовская области"
     },
     {
       "fingerprint": "fc81ffd0a9857253a4cd93b811de008f68223a93",
