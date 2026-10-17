@@ -1,7 +1,61 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-17T08:20:58.307Z",
+  "generated_at": "2026-10-17T10:22:53.170Z",
   "items": [
+    {
+      "fingerprint": "698b3da4bcb185415a1cdb21a13d6e9767465536",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
+      "published_at": "2026-10-16T23:21:00.000Z",
+      "created_at": "2026-10-17 10:20:58",
+      "verdict": "probable",
+      "ai_summary": "В Австралии обнаружены зараженные морской слоном и чайкой",
+      "product": null,
+      "series": null,
+      "region": "Австралия",
+      "disease": "птичий грипп H5",
+      "order_no": null,
+      "ai_at": "2026-10-17 10:21:08",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "австралия",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T02:19:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "60e70f6b2890c82ac946ca95ff235ebd0ce058da",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
+      "published_at": "2026-10-16T13:54:00.000Z",
+      "created_at": "2026-10-17 10:20:58",
+      "verdict": "confirmed",
+      "ai_summary": "Выявили высокопатогенный вирус птичьего гриппа на острове Маккуори",
+      "product": null,
+      "series": null,
+      "region": "Австралия",
+      "disease": "вирус птичьего гриппа H5",
+      "order_no": null,
+      "ai_at": "2026-10-17 10:21:13",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "австралия",
+      "dup_count": 1
+    },
     {
       "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
       "signal_type": "recall",
@@ -114,6 +168,49 @@
       "region_norm": "ставропольский край тверь"
     },
     {
+      "fingerprint": "643ff66fc3d5b48f7a76fd6c1026026f8b3783c3",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
+      "published_at": "2026-10-15T11:55:00.000Z",
+      "created_at": "2026-10-17 10:20:58",
+      "verdict": "probable",
+      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "птичья холера",
+      "order_no": null,
+      "ai_at": "2026-10-17 10:21:16",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T05:20:00.000Z"
+        }
+      ]
+    },
+    {
       "fingerprint": "2075d4e6a99c4c1674b2fab4bb43f6ff879c90ba",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
@@ -136,43 +233,6 @@
       "region_norm": null
     },
     {
-      "fingerprint": "deb0228d6bc0f4b7488649b11afe2062933b47a3",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-17 00:20:13",
-      "verdict": "probable",
-      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1.",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичья холера",
-      "order_no": null,
-      "ai_at": "2026-10-17 02:20:46",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 3,
-      "dups": [
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        }
-      ]
-    },
-    {
       "fingerprint": "04a48236e4ea8ec4fa86ee2c6e83dad492a6ad87",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
@@ -193,7 +253,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 11,
+      "dup_count": 12,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
@@ -206,6 +266,12 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T05:20:00.000Z"
         },
         {
           "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
@@ -248,12 +314,6 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0e1dc2b70435b9442771b84ac38df&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T02:20:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T21:56:00.000Z"
         }
       ]
     },
@@ -280,28 +340,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "1399edc5a433714db4ebf69e87e55c5edd3bc93d",
+      "fingerprint": "7144460b1d10e62854245b96e7e66fced0a4a721",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Ученые узнали, что убило тысячи пингвинов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
       "summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии. Ученые опасались катастрофы для пингвинов, живущих огромными колониями. Архипелаг ...",
       "published_at": "2026-10-15T06:04:00.000Z",
-      "created_at": "2026-10-17 06:20:58",
+      "created_at": "2026-10-17 10:20:58",
       "verdict": "confirmed",
-      "ai_summary": "Птичий грипп H5N1 впервые достиг Антарктики и убило тысячи пингвинов",
+      "ai_summary": "В Антарктике обнаружен вирус птичьего гриппа H5N1 у погибших пингвинов",
       "product": null,
       "series": null,
       "region": "Южная Георгия",
       "disease": "Птичий грипп H5N1",
       "order_no": null,
-      "ai_at": "2026-10-17 06:21:10",
+      "ai_at": "2026-10-17 10:21:21",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "южная георгия",
-      "dup_count": 6,
+      "dup_count": 7,
       "dups": [
+        {
+          "title": "Ученые узнали, что убило тысячи пингвинов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T06:04:00.000Z"
+        },
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
@@ -469,29 +535,6 @@
           "published_at": "2026-10-15T02:19:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "a54b20720a37c42d416271a043311bfe019d96f6",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-      "summary": "Птичий грипп H5 обнаружили в образцах южного морского слона и водорослевой чайки на австралийском острове Маккуори.",
-      "published_at": "2026-10-15T02:19:00.000Z",
-      "created_at": "2026-10-15 20:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "Птичий грипп H5 обнаружен в образцах южного морского слона и водорослевой чайки на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-15 20:21:05",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 1
     },
     {
       "fingerprint": "51bd2ae55db4cb76bc0439cee3e3c60f5fb38c41",
@@ -1300,15 +1343,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дон",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0168eacf4a4391c674af289c3f7f&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-12T00:53:00.000Z"
-        }
-      ]
+      "dup_count": 1
     },
     {
       "fingerprint": "c3c939945c931e91c66c04b88a8a594b3ce6d5e1",
@@ -1331,15 +1366,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дон",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accf92270cb460a9f65564a51196142&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-12T00:53:00.000Z"
-        }
-      ]
+      "dup_count": 1
     },
     {
       "fingerprint": "4bb246d547eac89a0586ffed960a793ca8b0aad7",
@@ -1359,60 +1386,6 @@
       "disease": "птичий грипп, АЧС",
       "order_no": null,
       "ai_at": "2026-10-13 14:21:13",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дон",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accafe131ff48568f2d8c727b326b79&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-12T00:53:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "76532530c86eb2575213f79069dfd1761a38a121",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd90e15f194ed1808516de2f346db0&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
-      "published_at": "2026-10-12T00:53:00.000Z",
-      "created_at": "2026-10-13 02:20:38",
-      "verdict": "probable",
-      "ai_summary": "Вакцинируют ветеринаров из-за угрозы птичьего гриппа и АЧС на Дону",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "avian influenza, african swine fever",
-      "order_no": null,
-      "ai_at": "2026-10-13 02:20:48",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "373e280d6e0f293f3b0fa998ac0bf2a7acaf46d1",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"грипп птиц\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На Дону вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd588c9b83407984f8d62c0f164b87&url=https%3a%2f%2fwww.kommersant.ru%2fdoc%2f9024321&c=1715456360585469765&mkt=en-us",
-      "summary": "До конца ноября птицеводческие и свиноводческие предприятия должны провести исследования на высокопатогенный грипп птиц и африканскую чуму свиней. Также предусмотрены мониторинг диких животных, ...",
-      "published_at": "2026-10-12T00:53:00.000Z",
-      "created_at": "2026-10-12 22:20:38",
-      "verdict": "probable",
-      "ai_summary": "Вакцинируют животноводов из-за угрозы птичьего гриппа и АЧС",
-      "product": null,
-      "series": null,
-      "region": "Дон",
-      "disease": "грипп птиц, африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-10-12 22:20:55",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дон",
