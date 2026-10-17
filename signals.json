@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-17T00:21:01.924Z",
+  "generated_at": "2026-10-17T02:20:47.443Z",
   "items": [
     {
       "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
@@ -100,40 +100,26 @@
       "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
       "published_at": "2026-10-15T11:55:00.000Z",
       "created_at": "2026-10-17 00:20:13",
-      "verdict": null,
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": null,
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "40c3d02dc5fdabd578f70dc0c5d9ca6feaf8bafa",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-16 20:20:16",
       "verdict": "probable",
-      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на Антарктиде стала птичья холера",
+      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1.",
       "product": null,
       "series": null,
       "region": null,
       "disease": "птичья холера",
       "order_no": null,
-      "ai_at": "2026-10-16 20:20:21",
+      "ai_at": "2026-10-17 02:20:46",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "04a48236e4ea8ec4fa86ee2c6e83dad492a6ad87",
@@ -813,28 +799,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "84fa4c70b2562eb87564e9bada41b173f3970838",
+      "fingerprint": "fc81ffd0a9857253a4cd93b811de008f68223a93",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad29e77c53b4428ae5219c780cc2fb9&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2d6beb5d34837bf6c60340189be53&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-16 22:20:17",
+      "created_at": "2026-10-17 02:20:20",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение ветеринарного препарата Лецирелин в Рязанской и Тамбовской областях.",
+      "ai_summary": "Приостановлено обращение ветеринарного препарата",
       "product": "Лецирелин",
       "series": null,
       "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-16 22:20:23",
+      "ai_at": "2026-10-17 02:20:25",
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 13,
+      "dup_count": 14,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad29e77c53b4428ae5219c780cc2fb9&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270ffedc74a34b9b5399fbc401eb2&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -886,12 +878,6 @@
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace8df236714de991e87d08f05564a5&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace0fe6608f4e8a9f9a18924ad78f5d&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-10-12T15:59:00.000Z"
         }
@@ -1390,7 +1376,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "приморье",
-      "dup_count": 5,
+      "dup_count": 4,
       "dups": [
         {
           "title": "Очередной очаг пастереллеза выявили в Приморье",
@@ -1407,12 +1393,6 @@
         {
           "title": "Очередной очаг пастереллеза выявили в Приморье",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace39cb08a047c881634c280a9a0413&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-11T20:45:00.000Z"
-        },
-        {
-          "title": "Очередной очаг пастереллеза выявили в Приморье",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acd90e15f194ed1808516de2f346db0&url=https%3a%2f%2fwww.eastrussia.ru%2fnews%2focherednoy-ochag-pasterelleza-vyyavili-v-primore%2f&c=7157416209156953312&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-11T20:45:00.000Z"
         }
