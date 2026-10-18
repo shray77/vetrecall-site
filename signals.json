@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-18T16:22:38.247Z",
+  "generated_at": "2026-10-18T18:21:35.626Z",
   "items": [
+    {
+      "fingerprint": "edb5821dc26d414ad5f38906405cf21246739b2d",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Саратовской области отступили АЧС и птичий грипп",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+      "summary": "С начала текущего года саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных ...",
+      "published_at": "2026-10-17T17:00:00.000Z",
+      "created_at": "2026-10-18 18:20:58",
+      "verdict": "probable",
+      "ai_summary": "Саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных",
+      "product": null,
+      "series": null,
+      "region": "Саратовская область",
+      "disease": "АЧС, птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-18 18:21:04",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "саратовская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "eb6f0ba390d50f8dfbafacd3da1f1138da850065",
       "signal_type": "outbreak",
@@ -65,27 +88,35 @@
       ]
     },
     {
-      "fingerprint": "0a30a67214e47cc2baf9a42dd98c528651301416",
+      "fingerprint": "a030758fefce2fd8ae500d1264a57a0834585c53",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
       "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
       "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-18 04:20:58",
+      "created_at": "2026-10-18 18:20:58",
       "verdict": "confirmed",
-      "ai_summary": "Заражены морской слон и чайка",
+      "ai_summary": "В Антарктике обнаружены зараженные птичий гриппом животные",
       "product": null,
       "series": null,
       "region": "Антарктика",
       "disease": "Птичий грипп H5",
       "order_no": null,
-      "ai_at": "2026-10-18 04:21:03",
+      "ai_at": "2026-10-18 18:21:06",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктика",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "4ebe1a527f7a8fda9c9de12d5e2374f6fb043311",
@@ -177,15 +208,15 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "4e7d156e2ff53b5d1dc2b399329c68b3d3a4bb7f",
+      "fingerprint": "7f141de75d2612e08529b035e68d9796032da041",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
       "source_id": "bing-outbreak-other",
       "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
       "summary": "&#171;Исследования, проведенные в Австралийском центре готовности к заболеваниям Государственного объединения научных и прикладных исследований Австралии, подтвердили наличие высокопатогенного вируса ...",
       "published_at": "2026-10-16T20:04:00.000Z",
-      "created_at": "2026-10-18 04:20:58",
+      "created_at": "2026-10-18 18:20:58",
       "verdict": "confirmed",
       "ai_summary": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
       "product": null,
@@ -193,12 +224,18 @@
       "region": "Австралия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-18 04:21:08",
+      "ai_at": "2026-10-18 18:21:10",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 4,
+      "dup_count": 5,
       "dups": [
+        {
+          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T20:04:00.000Z"
+        },
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
@@ -1141,7 +1178,7 @@
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 14,
+      "dup_count": 12,
       "dups": [
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
@@ -1204,28 +1241,6 @@
           "published_at": "2026-10-12T15:59:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "c01d85eeee723a3f2b5fbfd07ca1c1885334e1a3",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "fsvps-news",
-      "title": "В Саратовской области уничтожено почти 50 га наркосодержащей конопли, выявленной Россельхознадзором",
-      "url": "https://fsvps.gov.ru/news/v-saratovskoj-oblasti-unichtozheno-pochti-50-ga-narkosoderzhashhej-konopli-vyyavlennoj-rosselhoznadzorom/",
-      "summary": "",
-      "published_at": "2026-10-12T15:25:50Z",
-      "created_at": "2026-10-12 16:20:49",
-      "verdict": "noise",
-      "ai_summary": "В Саратовской области уничтожено почти 50 га наркосодержащей конопли",
-      "product": null,
-      "series": null,
-      "region": "Саратовская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-12 16:20:54",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "саратовская область"
     }
   ]
 }
