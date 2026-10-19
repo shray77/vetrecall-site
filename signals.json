@@ -1,29 +1,74 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-18T22:21:02.810Z",
+  "generated_at": "2026-10-19T00:22:06.328Z",
   "items": [
     {
-      "fingerprint": "edb5821dc26d414ad5f38906405cf21246739b2d",
+      "fingerprint": "b701b466b92893e4a22f03db3d1e012b3f3e962e",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Саратовской области отступили АЧС и птичий грипп",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
       "summary": "С начала текущего года саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных ...",
       "published_at": "2026-10-17T17:00:00.000Z",
-      "created_at": "2026-10-18 18:20:58",
-      "verdict": "probable",
-      "ai_summary": "Саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных",
+      "created_at": "2026-10-19 00:20:58",
+      "verdict": "confirmed",
+      "ai_summary": "С начала года привиты свыше 4,5 миллиона сельхозживотных",
       "product": null,
       "series": null,
       "region": "Саратовская область",
       "disease": "АЧС, птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-18 18:21:04",
+      "ai_at": "2026-10-19 00:21:02",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Саратовской области отступили АЧС и птичий грипп",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "ad0ef6cadbf00e5472334ced881921220e08bbcd",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
+      "published_at": "2026-10-17T03:54:00.000Z",
+      "created_at": "2026-10-19 00:20:58",
+      "verdict": "confirmed",
+      "ai_summary": "Выявили высокопатогенный вирус птичьего гриппа на острове Маккуори",
+      "product": null,
+      "series": null,
+      "region": "Австралия",
+      "disease": "вирус птичьего гриппа H5",
+      "order_no": null,
+      "ai_at": "2026-10-19 00:21:06",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "австралия",
+      "dup_count": 3,
+      "dups": [
+        {
+          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T03:54:00.000Z"
+        },
+        {
+          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T13:54:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "eb6f0ba390d50f8dfbafacd3da1f1138da850065",
@@ -57,33 +102,33 @@
       ]
     },
     {
-      "fingerprint": "f27a1ad7965b84e3ff84436d4e618a130385bb52",
+      "fingerprint": "1faaf13fceb1b721fdf00a6541dccf5ec32dafd2",
       "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
+      "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
-      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
-      "published_at": "2026-10-17T03:54:00.000Z",
-      "created_at": "2026-10-17 20:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Высокопатогенный вирус птичьего гриппа обнаружен на острове Маккуори",
+      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
+      "published_at": "2026-10-16T23:21:00.000Z",
+      "created_at": "2026-10-19 00:20:58",
+      "verdict": "probable",
+      "ai_summary": "Заражены морской слон и чайка на острове Маккуори в австралийском штате Тасмания",
       "product": null,
       "series": null,
-      "region": "Австралия",
-      "disease": "вирус птичьего гриппа H5",
+      "region": null,
+      "disease": "птичий грипп H5",
       "order_no": null,
-      "ai_at": "2026-10-17 20:21:02",
+      "ai_at": "2026-10-19 00:21:10",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "австралия",
+      "region_norm": null,
       "dup_count": 2,
       "dups": [
         {
-          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T13:54:00.000Z"
+          "published_at": "2026-10-16T23:21:00.000Z"
         }
       ]
     },
@@ -139,7 +184,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 4,
+      "dup_count": 5,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
@@ -154,35 +199,18 @@
           "published_at": "2026-10-16T23:21:00.000Z"
         },
         {
+          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T21:52:00.000Z"
+        },
+        {
           "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T02:19:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "0534dc16f8823073f565120fab4055a7eafb2186",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
-      "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-17 20:20:58",
-      "verdict": "noise",
-      "ai_summary": "Вирус птичьего гриппа H5 впервые выявлен у морского млекопитающего в Австралии",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-17 20:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 1
     },
     {
       "fingerprint": "967cf24541e18e8df2a9909b51a4c5b8662e8a7d",
@@ -208,15 +236,15 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "7f141de75d2612e08529b035e68d9796032da041",
+      "fingerprint": "891a82bc55fb0fbf8f5442cf82d9105063305978",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
       "source_id": "bing-outbreak-other",
       "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
       "summary": "&#171;Исследования, проведенные в Австралийском центре готовности к заболеваниям Государственного объединения научных и прикладных исследований Австралии, подтвердили наличие высокопатогенного вируса ...",
       "published_at": "2026-10-16T20:04:00.000Z",
-      "created_at": "2026-10-18 18:20:58",
+      "created_at": "2026-10-19 00:20:58",
       "verdict": "confirmed",
       "ai_summary": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
       "product": null,
@@ -224,12 +252,18 @@
       "region": "Австралия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-18 18:21:10",
+      "ai_at": "2026-10-19 00:21:18",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 5,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T20:04:00.000Z"
+        },
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
@@ -399,28 +433,34 @@
       "region_norm": "ставропольский край тверь"
     },
     {
-      "fingerprint": "12b2e1a5f991af6bfa87a1300d6455b8a25d14d9",
+      "fingerprint": "910e2b7555c4fe0cff4c0fed60343f2007365b41",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
       "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
       "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-18 00:20:58",
+      "created_at": "2026-10-19 00:20:58",
       "verdict": "confirmed",
-      "ai_summary": "Исследование установило причину гибели пингвинов на Антарктиде",
+      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера",
       "product": null,
       "series": null,
       "region": "Антарктида",
       "disease": "птичья холера",
       "order_no": null,
-      "ai_at": "2026-10-18 00:21:26",
+      "ai_at": "2026-10-19 00:21:22",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 14,
+      "dup_count": 15,
       "dups": [
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
@@ -472,12 +512,6 @@
         {
           "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T05:20:00.000Z"
         }
@@ -1136,50 +1170,34 @@
       "region_norm": null
     },
     {
-      "fingerprint": "9874ae78d8d8062ca35a1049b6156195f96eeb81",
+      "fingerprint": "18d334be6d0eb55c48b44008630cfaa3abd9a4c6",
       "signal_type": "recall",
       "matched": "[\"приостанов\"]",
       "source_id": "bing-recall-series",
       "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad373aec6f942fb966b6efbecb4f149&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff6f8c0466d9c4a2f429259c29f&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
       "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
       "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-17 14:20:58",
+      "created_at": "2026-10-19 00:20:58",
       "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение чешского ветпрепарата \"Лецирелин\"",
-      "product": null,
-      "series": null,
-      "region": "Рязанская и Тамбовская области",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-17 16:21:05",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "рязанская и тамбовская области"
-    },
-    {
-      "fingerprint": "fc81ffd0a9857253a4cd93b811de008f68223a93",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "bing-recall-series",
-      "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2d6beb5d34837bf6c60340189be53&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-      "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
-      "published_at": "2026-10-12T15:59:00.000Z",
-      "created_at": "2026-10-17 02:20:20",
-      "verdict": "confirmed",
-      "ai_summary": "Приостановлено обращение ветеринарного препарата",
+      "ai_summary": "Приостановлено обращение серии ветпрепарата в Рязанской и Тамбовской областях",
       "product": "Лецирелин",
       "series": null,
       "region": "Рязанская и Тамбовская области",
       "disease": null,
       "order_no": null,
-      "ai_at": "2026-10-17 02:20:25",
+      "ai_at": "2026-10-19 00:21:26",
       "product_norm": "лецирелин",
       "series_digits": null,
       "region_norm": "рязанская и тамбовская области",
-      "dup_count": 12,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2d6beb5d34837bf6c60340189be53&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+          "source_id": "bing-recall-series",
+          "published_at": "2026-10-12T15:59:00.000Z"
+        },
         {
           "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad29e77c53b4428ae5219c780cc2fb9&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
@@ -1203,44 +1221,30 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad114f4d6d24e5b98eef7f5faae9304&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
           "source_id": "bing-recall-series",
           "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad06c27f22d4739a438c341b50e7687&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad033f9e8c845279905e40dc44e041a&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfc2d549104f61959cf98103f736bb&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec31b4f4addb43fabb482632254&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aceb97080104b5392a518d33d414098&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
-        },
-        {
-          "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace8df236714de991e87d08f05564a5&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-12T15:59:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "9874ae78d8d8062ca35a1049b6156195f96eeb81",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "В Рязанской и Тамбовской областях приостановили обращение серии чешского ветпрепарата ...",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad373aec6f942fb966b6efbecb4f149&url=https%3a%2f%2fryazannews.ru%2ffn_1968455.html&c=4850402282436878964&mkt=en-us",
+      "summary": "Управление Россельхознадзора по Рязанской и Тамбовской областям сообщило о приостановлении обращения ветеринарного препарата &#171;Лецирелин&#187; производства чешской компании Bioveta, a.s.",
+      "published_at": "2026-10-12T15:59:00.000Z",
+      "created_at": "2026-10-17 14:20:58",
+      "verdict": "confirmed",
+      "ai_summary": "Приостановлено обращение чешского ветпрепарата \"Лецирелин\"",
+      "product": null,
+      "series": null,
+      "region": "Рязанская и Тамбовская области",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-17 16:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "рязанская и тамбовская области"
     }
   ]
 }
