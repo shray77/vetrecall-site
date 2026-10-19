@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-19T18:22:35.514Z",
+  "generated_at": "2026-10-19T22:15:30.050Z",
   "items": [
     {
       "fingerprint": "3c202fe56d5d1845b83eb5569f75e4dcbe537bd5",
@@ -26,60 +26,15 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "f42fac1401bf71c93caea68a0ba09f0d815384c6",
+      "fingerprint": "a18ecd83a3f6e6d624e2d61a652eb1fc5171e220",
       "signal_type": "outbreak",
       "matched": "[\"ачс\",\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Саратовской области отступили АЧС и птичий грипп",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6931bd7ed4ed0ae560a57a4257798&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
       "summary": "С начала текущего года саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных ...",
       "published_at": "2026-10-17T17:00:00.000Z",
-      "created_at": "2026-10-19 16:20:58",
-      "verdict": "probable",
-      "ai_summary": "Саратовские ветеринары привили свыше 4,5 миллиона сельскохозяйственных животных",
-      "product": null,
-      "series": null,
-      "region": "Саратовская область",
-      "disease": "АЧС и птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-19 16:21:05",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "саратовская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "16fa4b2b8c1072d415a88e7f5f984e2e60aa51eb",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Саратовской области отступили АЧС и птичий грипп",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-      "summary": "С начала текущего года саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных ...",
-      "published_at": "2026-10-17T17:00:00.000Z",
-      "created_at": "2026-10-19 10:20:58",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-19 10:20:59",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "ad1b28e922ca25f7376d8a1b4d2dfb3f29d87ecd",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Саратовской области отступили АЧС и птичий грипп",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-      "summary": "С начала текущего года саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных ...",
-      "published_at": "2026-10-17T17:00:00.000Z",
-      "created_at": "2026-10-19 06:20:58",
+      "created_at": "2026-10-19 22:14:32",
       "verdict": "probable",
       "ai_summary": "Саратовские ветеринарные врачи привили свыше 4,5 миллиона сельскохозяйственных животных",
       "product": null,
@@ -87,12 +42,30 @@
       "region": "Саратовская область",
       "disease": "АЧС, птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-19 06:21:06",
+      "ai_at": "2026-10-19 22:14:37",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 3,
+      "dup_count": 6,
       "dups": [
+        {
+          "title": "В Саратовской области отступили АЧС и птичий грипп",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T17:00:00.000Z"
+        },
+        {
+          "title": "В Саратовской области отступили АЧС и птичий грипп",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T17:00:00.000Z"
+        },
+        {
+          "title": "В Саратовской области отступили АЧС и птичий грипп",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T17:00:00.000Z"
+        },
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
@@ -128,36 +101,43 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "ad0ef6cadbf00e5472334ced881921220e08bbcd",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
-      "published_at": "2026-10-17T03:54:00.000Z",
-      "created_at": "2026-10-19 00:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Выявили высокопатогенный вирус птичьего гриппа на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "вирус птичьего гриппа H5",
-      "order_no": null,
-      "ai_at": "2026-10-19 00:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 3,
+      "dup_count": 8,
       "dups": [
+        {
+          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T03:54:00.000Z"
+        },
+        {
+          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-17T03:54:00.000Z"
+        },
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T03:54:00.000Z"
+        },
+        {
+          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T21:52:00.000Z"
+        },
+        {
+          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T21:52:00.000Z"
+        },
+        {
+          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T21:52:00.000Z"
         },
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
@@ -168,65 +148,46 @@
       ]
     },
     {
-      "fingerprint": "eb6f0ba390d50f8dfbafacd3da1f1138da850065",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
-      "published_at": "2026-10-17T03:54:00.000Z",
-      "created_at": "2026-10-18 00:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Выявлен высокопатогенный вирус птичьего гриппа H5 на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "птичьий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-18 00:21:04",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 3,
-      "dups": [
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "f9518466d3d64869d364fda3869b263c35683bcd",
+      "fingerprint": "e88f40c12a0db7259b346ba2269279b2967f37a1",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6931bd7ed4ed0ae560a57a4257798&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
       "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
       "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-19 16:20:58",
+      "created_at": "2026-10-19 22:14:32",
       "verdict": "noise",
-      "ai_summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в Австралии",
+      "ai_summary": "Вирус птичьего гриппа H5 впервые обнаружен у морского млекопитающего в Австралии",
       "product": null,
       "series": null,
       "region": null,
-      "disease": "птичий грипп H5",
+      "disease": "Птичий грипп H5",
       "order_no": null,
-      "ai_at": "2026-10-19 16:21:10",
+      "ai_at": "2026-10-19 22:14:42",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 3,
+      "dup_count": 13,
       "dups": [
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
@@ -235,38 +196,25 @@
         },
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "74a002f1a1fd9072fe2d0b85f87b556414227d16",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
-      "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-19 10:20:58",
-      "verdict": "probable",
-      "ai_summary": "В Австралии выявлен случай заражения птичьим гриппом H5 у морского млекопитающего на острове Маккуори.",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-19 10:21:04",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 6,
-      "dups": [
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         },
@@ -281,120 +229,44 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
-        },
-        {
-          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T02:19:00.000Z"
         }
       ]
     },
     {
-      "fingerprint": "8b013da6998b239b50c638c52b88ecc8b502008a",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
-      "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-19 06:20:58",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-19 06:21:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "a030758fefce2fd8ae500d1264a57a0834585c53",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
-      "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-18 18:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "В Антарктике обнаружены зараженные птичий гриппом животные",
-      "product": null,
-      "series": null,
-      "region": "Антарктика",
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-18 18:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "антарктика",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "967cf24541e18e8df2a9909b51a4c5b8662e8a7d",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-      "summary": "У южного морского слона и доминиканской чайки на субантарктическом острове Маккуори обнаружили высокопатогенный штамм птичьего гриппа H5. Заражение подтвердила главный ветеринарный врач Австралии Бет ...",
-      "published_at": "2026-10-16T21:52:00.000Z",
-      "created_at": "2026-10-18 00:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "птичьего гриппа H5",
-      "order_no": null,
-      "ai_at": "2026-10-18 00:21:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "967437934dd5c14a0722812a35f5f580d2f3a6d2",
+      "fingerprint": "2917328beffeb28e440589080de59099bc452cc5",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
       "source_id": "bing-outbreak-other",
       "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6931bd7ed4ed0ae560a57a4257798&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
       "summary": "&#171;Исследования, проведенные в Австралийском центре готовности к заболеваниям Государственного объединения научных и прикладных исследований Австралии, подтвердили наличие высокопатогенного вируса ...",
       "published_at": "2026-10-16T20:04:00.000Z",
-      "created_at": "2026-10-19 16:20:58",
-      "verdict": "confirmed",
-      "ai_summary": null,
+      "created_at": "2026-10-19 22:14:32",
+      "verdict": "probable",
+      "ai_summary": "Исследования подтвердили наличие высокопатогенного вируса птичьего гриппа на острове Маккуори",
       "product": null,
       "series": null,
       "region": "Австралия",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-10-19 16:21:17",
+      "ai_at": "2026-10-19 22:14:47",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 8,
+      "dup_count": 10,
       "dups": [
+        {
+          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T20:04:00.000Z"
+        },
+        {
+          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T20:04:00.000Z"
+        },
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
@@ -440,29 +312,6 @@
       ]
     },
     {
-      "fingerprint": "c7ab5fabf4febd0285cd9ccf2c5a9a8b0d5f6542",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-      "summary": "&#171;Исследования, проведенные в Австралийском центре готовности к заболеваниям Государственного объединения научных и прикладных исследований Австралии, подтвердили наличие высокопатогенного вируса ...",
-      "published_at": "2026-10-16T20:04:00.000Z",
-      "created_at": "2026-10-19 10:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Исследования подтвердили высокопатогенный вирус на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "птичий грипп, высокопатогенный",
-      "order_no": null,
-      "ai_at": "2026-10-19 10:21:08",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 1
-    },
-    {
       "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
       "signal_type": "recall",
       "matched": "[\"изъят\"]",
@@ -482,7 +331,8 @@
       "ai_at": "2026-10-16 12:20:55",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "тульская область"
+      "region_norm": "тульская область",
+      "dup_count": 1
     },
     {
       "fingerprint": "c2fe94fce80cd74bcfecc1c2c167289d5a3120cb",
@@ -504,7 +354,8 @@
       "ai_at": "2026-10-16 12:21:00",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "челябинская область"
+      "region_norm": "челябинская область",
+      "dup_count": 1
     },
     {
       "fingerprint": "bf5b97d532f622e14509e7b07c2bdea2840b4d86",
@@ -526,7 +377,8 @@
       "ai_at": "2026-10-15 22:20:57",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "аэропорт сургута"
+      "region_norm": "аэропорт сургута",
+      "dup_count": 1
     },
     {
       "fingerprint": "adfe8ea4b4ffe7d2b85bbcbf9ea3d81d798e83bc",
@@ -549,39 +401,20 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "подмосковье",
-      "dup_count": 2,
+      "dup_count": 4,
       "dups": [
+        {
+          "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T19:42:00.000Z"
+        },
         {
           "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T19:42:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "356513c68fc7dc52a1d70cf5667d7387230850aa",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
-      "summary": "Пятерых жителей подмосковного Жуковского госпитализировали с подозрением на оспу обезьян – все они проживали в ...",
-      "published_at": "2026-10-15T19:42:00.000Z",
-      "created_at": "2026-10-18 00:20:58",
-      "verdict": "probable",
-      "ai_summary": "Подмосковное селение ожидают результаты диагностик для подтверждения вспышки оспы обезьян",
-      "product": null,
-      "series": null,
-      "region": "Россия",
-      "disease": "оспа обезьян",
-      "order_no": null,
-      "ai_at": "2026-10-18 00:21:21",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "россия",
-      "dup_count": 2,
-      "dups": [
+        },
         {
           "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
@@ -610,7 +443,8 @@
       "ai_at": "2026-10-15 18:21:03",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": "ставропольский край тверь"
+      "region_norm": "ставропольский край тверь",
+      "dup_count": 1
     },
     {
       "fingerprint": "00505bed2c060337240c791ccab899308e4d90a6",
@@ -633,7 +467,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 16,
+      "dup_count": 23,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
@@ -655,71 +489,16 @@
         },
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
         },
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
         },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        },
-        {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "643ff66fc3d5b48f7a76fd6c1026026f8b3783c3",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-17 10:20:58",
-      "verdict": "probable",
-      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичья холера",
-      "order_no": null,
-      "ai_at": "2026-10-17 10:21:16",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 4,
-      "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
@@ -733,56 +512,24 @@
           "published_at": "2026-10-15T11:55:00.000Z"
         },
         {
-          "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T05:20:00.000Z"
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "2075d4e6a99c4c1674b2fab4bb43f6ff879c90ba",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-17 06:20:58",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-17 06:21:05",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "1e6065f9755ef8a9c9e428fda5f52105a4c730d6",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-16 06:20:57",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-16 06:21:00",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
     },
     {
       "fingerprint": "7144460b1d10e62854245b96e7e66fced0a4a721",
@@ -805,7 +552,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "южная георгия",
-      "dup_count": 7,
+      "dup_count": 10,
       "dups": [
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
@@ -827,6 +574,18 @@
         },
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T06:04:00.000Z"
+        },
+        {
+          "title": "Ученые узнали, что убило тысячи пингвинов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T06:04:00.000Z"
+        },
+        {
+          "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T06:04:00.000Z"
@@ -839,86 +598,17 @@
         },
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T06:04:00.000Z"
+        },
+        {
+          "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0e1dc2b70435b9442771b84ac38df&url=https%3a%2f%2fnews.rambler.ru%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=13889402626345348515&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T06:04:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "4ab67b301745235e74bc4e72af671b911d69e0c8",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Ученые узнали, что убило тысячи пингвинов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-      "summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии. Ученые опасались катастрофы для пингвинов, живущих огромными колониями. Архипелаг ...",
-      "published_at": "2026-10-15T06:04:00.000Z",
-      "created_at": "2026-10-16 14:20:58",
-      "verdict": "probable",
-      "ai_summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии",
-      "product": null,
-      "series": null,
-      "region": "Антарктика",
-      "disease": "Птичий грипп H5N1",
-      "order_no": null,
-      "ai_at": "2026-10-16 14:21:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "антарктика",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "Ученые узнали, что убило тысячи пингвинов",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T06:04:00.000Z"
-        }
-      ]
-    },
-    {
-      "fingerprint": "a6d71588016e78942471b039b639c75d7c16ff7b",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Ученые узнали, что убило тысячи пингвинов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-      "summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии. Ученые опасались катастрофы для пингвинов, живущих огромными колониями. Архипелаг ...",
-      "published_at": "2026-10-15T06:04:00.000Z",
-      "created_at": "2026-10-15 20:20:52",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-15 20:20:55",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
-    },
-    {
-      "fingerprint": "796becded8abcf658e1c992efa69f3d80251247b",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выяснили причину гибели тысяч пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fnaked-science.ru%2farticle%2fbiology%2fptichya-holera-pingviny&c=10544562043205904362&mkt=en-us",
-      "summary": "Ученые узнали, что убило тысячи пингвинов на удаленных островах Антарктиды. Анализ остатков 49 погибших птиц показал, что виновата птичья холера, а не птичий грипп H5N1, который подозревали ранее.",
-      "published_at": "2026-10-15T05:20:00.000Z",
-      "created_at": "2026-10-16 06:20:57",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-16 06:21:08",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
     },
     {
       "fingerprint": "122bda79e2c68036c1ec134f78215a407a727191",
@@ -941,7 +631,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "остров маккуори",
-      "dup_count": 7,
+      "dup_count": 9,
       "dups": [
         {
           "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
@@ -978,31 +668,20 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T02:19:00.000Z"
+        },
+        {
+          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0e1dc2b70435b9442771b84ac38df&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T02:19:00.000Z"
+        },
+        {
+          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0885b8daf43238f56cf0fdc211d36&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-14T12:19:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "51bd2ae55db4cb76bc0439cee3e3c60f5fb38c41",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0e1dc2b70435b9442771b84ac38df&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-      "summary": "Птичий грипп H5 обнаружили в образцах южного морского слона и водорослевой чайки на австралийском острове Маккуори.",
-      "published_at": "2026-10-15T02:19:00.000Z",
-      "created_at": "2026-10-15 16:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Птичий грипп H5 обнаружен в образцах южного морского слона и водорослевой чайки на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "австралийский остров Маккуори",
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-15 16:21:13",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралийский остров маккуори",
-      "dup_count": 1
     },
     {
       "fingerprint": "527a0193eaa3087a29fbf950c43c81988661fa8b",
@@ -1025,11 +704,17 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "средний урал",
-      "dup_count": 7,
+      "dup_count": 8,
       "dups": [
         {
           "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-14T22:04:00.000Z"
+        },
+        {
+          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-14T22:04:00.000Z"
         },
@@ -1066,52 +751,6 @@
       ]
     },
     {
-      "fingerprint": "cd1e7dda5fb9d1bd0e2e6e3efd086fb58c3ea27a",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-      "summary": "Классическая чума птиц — так ветеринары называют птичий грипп. Для владельцев кур, уток и гусей это не абстрактная угроза, а реальный риск потерять все хозяйство за несколько дней. Вирус распространяе ...",
-      "published_at": "2026-10-14T22:04:00.000Z",
-      "created_at": "2026-10-16 14:20:58",
-      "verdict": "probable",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-16 14:21:26",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "8722d9bdd2d9584b195af3257dde9c7667edaa94",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0885b8daf43238f56cf0fdc211d36&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-      "summary": "Птичий грипп H5 обнаружили в образцах южного морского слона и водорослевой чайки на австралийском острове Маккуори.",
-      "published_at": "2026-10-14T12:19:00.000Z",
-      "created_at": "2026-10-15 08:20:56",
-      "verdict": "confirmed",
-      "ai_summary": "Птичий грипп H5 обнаружен на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Австралия, остров Маккуори",
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-15 08:21:03",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия остров маккуори",
-      "dup_count": 1
-    },
-    {
       "fingerprint": "b8800333088264f15de150261668b0cc7394acd9",
       "signal_type": "outbreak",
       "matched": "[\"бешенств\"]",
@@ -1132,7 +771,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "башкирия",
-      "dup_count": 5,
+      "dup_count": 4,
       "dups": [
         {
           "title": "В Башкирии за год выявили 26 случаев бешенства",
@@ -1151,60 +790,8 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-13T17:00:00.000Z"
-        },
-        {
-          "title": "В Башкирии за год выявили 26 случаев бешенства",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf52f05691482ab7c6480509dbb751&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-13T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "4b2080db43deb99f8452df69fac2c9d2ba0c2e32",
-      "signal_type": "outbreak",
-      "matched": "[\"грипп птиц\",\"болезнь ньюкасла\"]",
-      "source_id": "fsvps-news",
-      "title": "В Красноярский край под контролем Россельхознадзора ввезено порядка 130 тысяч инкубационных яиц из Узбекистана",
-      "url": "https://fsvps.gov.ru/news/v-krasnoyarskij-kraj-pod-kontrolem-rosselhoznadzora-vvezeno-poryadka-130-tysyach-inkubaczionnyh-yaicz-iz-uzbekistana/",
-      "summary": "Специалистами Управления Россельхознадзора по Красноярскому краю 10 октября проведен ветеринарный контроль 17 с начала 2026 года партии инкубационных яиц кур. 129,6 тыс. яиц завезено из Узбекистана на одну из птицефабрик региона для дальнейшего выращивания. Яйца исследованы на сальмонеллёз, болезнь Ньюкасла, инфекционный бронхит, пуллороз и грипп птиц. Также проведена их влажная дезинфекция. В ходе [&#8230;]",
-      "published_at": "2026-10-13T06:09:24Z",
-      "created_at": "2026-10-13 16:20:56",
-      "verdict": "probable",
-      "ai_summary": "Проведен ветеринарный контроль партии инкубационных яиц из Узбекистана",
-      "product": null,
-      "series": null,
-      "region": "Красноярский край",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-13 16:21:00",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "красноярский край",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "cc3752a6d7d6e7b51b81807840cc8a5cf508af22",
-      "signal_type": "outbreak",
-      "matched": "[\"грипп птиц\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad033f8a95d47eb88cf669dca82518e&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
-      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
-      "published_at": "2026-10-12T23:32:00.000Z",
-      "created_at": "2026-10-15 02:20:53",
-      "verdict": "probable",
-      "ai_summary": "исследовано более 9 тысяч проб на грипп птиц",
-      "product": null,
-      "series": null,
-      "region": "Брянский филиал",
-      "disease": "вируса гриппа птиц",
-      "order_no": null,
-      "ai_at": "2026-10-15 02:21:10",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "брянский филиал",
-      "dup_count": 1
     }
   ]
 }
