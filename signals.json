@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-19T12:21:15.660Z",
+  "generated_at": "2026-10-19T14:21:02.611Z",
   "items": [
+    {
+      "fingerprint": "3c202fe56d5d1845b83eb5569f75e4dcbe537bd5",
+      "signal_type": "outbreak",
+      "matched": "[\"бешенств\"]",
+      "source_id": "fsvps-news",
+      "title": "В подведомственном Россельхознадзору ФГБУ «ВНИИЗЖ» во Владимире прошло обучение по лабораторной диагностике бешенства",
+      "url": "https://fsvps.gov.ru/news/v-podvedomstvennom-rosselhoznadzoru-fgbu-vniizzh-vo-vladimire-proshlo-obuchenie-po-laboratornoj-diagnostike-beshenstva/",
+      "summary": "С 12 по 16 октября 2026 года в референтной лаборатории по бешенству и BSE подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» прошло обучение по теме: «Лабораторная диагностика бешенства животных (метод флуоресцирующих антител, биологическая проба на мышах)». Обучение в форме индивидуальной стажировки было организовано для специалистов ФГБУ «ЦОК АПК». Заведующий лабораторией, кандидат ветеринарных наук Елена Чернышова ознакомила участников программы с используемыми методами [&#8230;]",
+      "published_at": "2026-10-19T12:18:42Z",
+      "created_at": "2026-10-19 14:20:58",
+      "verdict": "probable",
+      "ai_summary": "Обучение по лабораторной диагностике бешенства",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "бешенства животных",
+      "order_no": null,
+      "ai_at": "2026-10-19 14:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "16fa4b2b8c1072d415a88e7f5f984e2e60aa51eb",
       "signal_type": "outbreak",
@@ -1215,28 +1238,6 @@
       "series_digits": null,
       "region_norm": "брянск",
       "dup_count": 1
-    },
-    {
-      "fingerprint": "0204461d5e412aa8b2d219a247d209589b580e65",
-      "signal_type": "outbreak",
-      "matched": "[\"грипп птиц\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Брянском филиале ФГБУ &#171;ВНИИЗЖ&#187; исследовано более 9 тысяч проб на грипп птиц",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acefec2062c4707af5db59e7b453e2a&url=https%3a%2f%2fwww.bryansk.kp.ru%2fonline%2fnews%2f7220754%2f%3ferid%3d2W5zFHnJWim&c=16568007499666205574&mkt=en-us",
-      "summary": "С начала текущего года специалистами Брянской испытательной лаборатории Брянского филиала ФГБУ &#171;ВНИИЗЖ&#187; было исследовано более 9 тысяч образцов биоматериала на наличие вируса гриппа птиц, в том числе ...",
-      "published_at": "2026-10-12T23:32:00.000Z",
-      "created_at": "2026-10-14 04:21:03",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-14 04:21:07",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null
     }
   ]
 }
