@@ -362,12 +362,15 @@ function card(it) {
 
 /* ---------- группировка дублей ---------- */
 /* одна и та же новость приходит из разных фидов (bing-*, fsvps-*):
-   recall группируем по препарату+серии, outbreak по болезни+региону */
+   recall группируем по препарату+серии, outbreak по болезни+региону,
+   фолбэк для строк без AI-полей — по источнику+заголовку (зеркало воркера) */
 function dupKey(it) {
   const pn = pnOf(it);
   if (it.signal_type === "recall" && pn) return "r|" + pn + "|" + (sdOf(it) || "");
   const dn = normTxt(it.disease || ""), rn = it.region_norm || normTxt(it.region || "");
   if (it.signal_type === "outbreak" && (dn || rn)) return "o|" + dn + "|" + rn;
+  const tn = normTxt(it.title || "");
+  if (tn && it.source_id) return "t|" + it.source_id + "|" + tn;
   return null;
 }
 const plural = (n) => n === 1 ? "дубль" : n < 5 ? "дубля" : "дублей";
