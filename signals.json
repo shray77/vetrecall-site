@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-20T06:21:32.592Z",
+  "generated_at": "2026-10-20T18:21:05.581Z",
   "items": [
+    {
+      "fingerprint": "0d98affc2d16e69b50f01f07155b7a87e54009f7",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "В Архангельской области по материалам Россельхознадзора судом у фермера изъят сельхозучасток",
+      "url": "https://fsvps.gov.ru/news/v-arhangelskoj-oblasti-po-materialam-rosselhoznadzora-sudom-u-fermera-izyat-selhozuchastok/",
+      "summary": "19 октября 2026 года в адрес Североморского межрегионального управления Россельхознадзора поступило решение Арбитражного суда Архангельской области об изъятии у главы КФХ Панютина И.В. земельного участка сельскохозяйственного назначения в связи с неиспользованием по целевому назначению. Ранее в апреле 2026 года межрегиональное управление Россельхознадзора направило в адрес Министерства имущественных отношений Архангельской области материалы, подтверждающие, что земельный [&#8230;]",
+      "published_at": "2026-10-20T15:46:01Z",
+      "created_at": "2026-10-20 18:20:52",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": "Архангельская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-20 18:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "архангельская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "8d871b02b1137ea779b307e6c045934380a6df97",
+      "signal_type": "recall",
+      "matched": "[\"незарегистрир\"]",
+      "source_id": "fsvps-news",
+      "title": "В Красноярском крае Россельхознадзором установлена реализация сортов семян и саженцев плодовых культур, незарегистрированных в Госреестре",
+      "url": "https://fsvps.gov.ru/news/v-krasnoyarskom-krae-rosselhoznadzorom-ustanovlena-realizacziya-sortov-semyan-i-sazhenczev-plodovyh-kultur-nezaregistrirovannyh-v-gosreestre/",
+      "summary": "Специалистами Управления Россельхознадзора по Красноярскому краю установлено, что 17% семян и 42% саженцев плодовых культур, реализующихся через интернет-магазин «Райский сад», относятся к сортам, которые не зарегистрированы в Государственном реестре сортов и гибридов сельскохозяйственных растений, допущенных к использованию. Нарушение установлено при мониторинге соблюдения законодательства в области семеноводства в период с 12 по 16 октября. Через [&#8230;]",
+      "published_at": "2026-10-20T15:43:08Z",
+      "created_at": "2026-10-20 18:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Установлено нарушение законодательства в области семеноводства при реализации незарегистрированных сортов семян и саженцев",
+      "product": null,
+      "series": null,
+      "region": "Красноярский край",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-20 18:21:04",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "красноярский край",
+      "dup_count": 1
+    },
     {
       "fingerprint": "ad9283758a483622b918ff0479ecafb10ea5873c",
       "signal_type": "recall",
@@ -745,7 +791,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "средний урал",
-      "dup_count": 8,
+      "dup_count": 6,
       "dups": [
         {
           "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
@@ -774,18 +820,6 @@
         {
           "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad11d524b4d418cb6448eb51a77f30f&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad0e1dc2b70435b9442771b84ac38df&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-14T22:04:00.000Z"
         }
