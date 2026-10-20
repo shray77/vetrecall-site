@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-19T22:15:30.050Z",
+  "generated_at": "2026-10-20T00:20:57.597Z",
   "items": [
+    {
+      "fingerprint": "ad9283758a483622b918ff0479ecafb10ea5873c",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "В аэропорту Челябинска Россельхознадзором изъято порядка 400 кг небезопасной продукции",
+      "url": "https://fsvps.gov.ru/news/v-aeroportu-chelyabinska-rosselhoznadzorom-izyato-poryadka-400-kg-nebezopasnoj-produkczii/",
+      "summary": "",
+      "published_at": "2026-10-19T20:15:54Z",
+      "created_at": "2026-10-20 00:20:51",
+      "verdict": "confirmed",
+      "ai_summary": "В аэропорту Челябинска Россельхознадзором изъято порядка 400 кг небезопасной продукции",
+      "product": null,
+      "series": null,
+      "region": "Челябинск",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-20 00:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "челябинск",
+      "dup_count": 1
+    },
     {
       "fingerprint": "3c202fe56d5d1845b83eb5569f75e4dcbe537bd5",
       "signal_type": "outbreak",
@@ -771,7 +794,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "башкирия",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "В Башкирии за год выявили 26 случаев бешенства",
@@ -782,12 +805,6 @@
         {
           "title": "В Башкирии за год выявили 26 случаев бешенства",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acff5e4bcc74ed88d8ef8867dda076f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-13T17:00:00.000Z"
-        },
-        {
-          "title": "В Башкирии за год выявили 26 случаев бешенства",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acfa74194b041cc91a57aff3822208f&url=https%3a%2f%2fgorobzor.ru%2fnovosti%2fobschestvo%2f222028-v-bashkirii-za-god-vyyavili-26-sluchaev-beshenstva&c=5813264389707418450&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-13T17:00:00.000Z"
         }
