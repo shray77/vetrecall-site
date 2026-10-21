@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-20T18:21:05.581Z",
+  "generated_at": "2026-10-21T00:20:56.165Z",
   "items": [
     {
       "fingerprint": "0d98affc2d16e69b50f01f07155b7a87e54009f7",
@@ -46,6 +46,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "красноярский край",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "83fc892526a42190a883fd27e7057dae087aeb20",
+      "signal_type": "outbreak",
+      "matched": "[\"оспа\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Оспа обезьян снова напомнила о себе. Что надо знать туристам",
+      "url": "https://rg.ru/2026/10/21/virus-pod-podozreniem.html",
+      "summary": "В России снова случаи оспы обезьян (ВОЗ официально называет эту инфекцию mpox). В конце прошлой недели стало известно, что в подмосковном Жуковском пять человек отправили в больницу из-за возможного к ...",
+      "published_at": "2026-10-20T03:48:00.000Z",
+      "created_at": "2026-10-21 00:20:52",
+      "verdict": "probable",
+      "ai_summary": "В России снова выявлены случаи оспы обезьян (mpox)",
+      "product": null,
+      "series": null,
+      "region": "Россия",
+      "disease": "mpox",
+      "order_no": null,
+      "ai_at": "2026-10-21 00:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "россия",
       "dup_count": 1
     },
     {
@@ -791,7 +814,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "средний урал",
-      "dup_count": 6,
+      "dup_count": 5,
       "dups": [
         {
           "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
@@ -814,12 +837,6 @@
         {
           "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-14T22:04:00.000Z"
         }
