@@ -1,7 +1,76 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-22T14:21:03.713Z",
+  "generated_at": "2026-10-22T18:21:06.127Z",
   "items": [
+    {
+      "fingerprint": "1d251a939d950bcd71e96356ac048f04dbabf7a2",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Ставропольская биофабрика подала заявку на регистрацию комбинированной вакцины против гриппа ...",
+      "url": "https://vetandlife.ru/pet-business/stavropolskaya-biofabrika-podala-zayavku-na-registraciju-kombinirovannoj-vakciny-protiv-grippa-ptic-i-bolezni-njukasla/",
+      "summary": "Ставропольская биофабрика подала заявку на регистрацию вакцины &#171;Флу Протект H5+НБ&#187; для профилактики высокопатогенного гриппа птиц подтипа H5 и болезни Ньюкасла. Сведения размещены в информационной сис ...",
+      "published_at": "2026-10-22T04:27:00.000Z",
+      "created_at": "2026-10-22 18:20:53",
+      "verdict": "probable",
+      "ai_summary": "Ставропольская биофабрика подала заявку на регистрацию вакцины",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-22 18:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "991e8c3c6314ed8f87501f32812dc7be2c67271f",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "&#171;ВНИИЗЖ&#187; выпустил чек-лист из 119 вопросов для аудита биобезопасности птицефабрик",
+      "url": "https://meatinfo.ru/news/vniizg-vipustil-chek-list-iz-119-512345",
+      "summary": "Рекомендации направлены на предупреждение заноса возбудителей особо опасных инфекционных болезней птиц, включая высокопатогенный грипп птиц ...",
+      "published_at": "2026-10-22T01:42:00.000Z",
+      "created_at": "2026-10-22 18:20:53",
+      "verdict": "probable",
+      "ai_summary": "Рекомендации для предупреждения заноса особо опасных инфекционных болезней птиц",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-22 18:21:01",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "52560b1da818bfec992bae6e4fa19bf8802361e2",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В парке Аддо в ЮАР подтвердили ящур у куду — Daily Maverick",
+      "url": "https://ua.news/ru/dovkolo-svitu/u-parku-addo-v-par-pidtverdili-iashchur-u-kudu-daily-maverick",
+      "summary": "Повторные исследования подтвердили ящур у куду в Национальном парке слонов Аддо в ЮАР. Клинические признаки также выявили у канн и красных бубалов.",
+      "published_at": "2026-10-21T21:18:00.000Z",
+      "created_at": "2026-10-22 18:20:53",
+      "verdict": "confirmed",
+      "ai_summary": "Повторные исследования подтвердили ящур у куду в Национальном парке слонов Аддо в ЮАР.",
+      "product": null,
+      "series": null,
+      "region": "ЮАР",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-10-22 18:21:05",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "юар",
+      "dup_count": 1
+    },
     {
       "fingerprint": "0d98affc2d16e69b50f01f07155b7a87e54009f7",
       "signal_type": "recall",
@@ -837,27 +906,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "средний урал",
-      "dup_count": 4,
-      "dups": [
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        },
-        {
-          "title": "Птичий грипп: владельцам птицы на Среднем Урале напомнили о защите",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2ftagilcity.ru%2fnews%2f2026-10-15%2fptichiy-gripp-vladeltsam-ptitsy-na-srednem-urale-napomnili-o-zaschite-5708099&c=1213939330059352866&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-14T22:04:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
