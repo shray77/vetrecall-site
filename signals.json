@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-23T04:20:56.795Z",
+  "generated_at": "2026-10-23T22:20:58.675Z",
   "items": [
+    {
+      "fingerprint": "cb1edcc9332962f15a980d27a570df585be0ee4b",
+      "signal_type": "outbreak",
+      "matched": "[\"бешенств\"]",
+      "source_id": "fsvps-news",
+      "title": "В референтной лаборатории подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» прошло обучение по диагностике бешенства",
+      "url": "https://fsvps.gov.ru/news/v-referentnoj-laboratorii-podvedomstvennogo-rosselhoznadzoru-fgbu-vniizzh-proshlo-obuchenie-po-diagnostike-beshenstva-2/",
+      "summary": "С 19 по 23 октября 2026 года в референтной лаборатории по бешенству и BSE подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» прошло обучение по теме: «Лабораторная диагностика бешенства животных (метод флуоресцирующих антител, биологическая проба на мышах)». Обучение в форме индивидуальной стажировки было организовано для специалистов государственных бюджетных учреждений «Пензенская областная ветеринарная лаборатория», «Каменская районная станция по борьбе с болезнями [&#8230;]",
+      "published_at": "2026-10-23T20:42:10Z",
+      "created_at": "2026-10-23 22:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "c7ac3fa99ff6e06d7bfc2b3df94097f3dfc4e0e1",
       "signal_type": "recall",
@@ -977,7 +1000,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "остров маккуори",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
@@ -988,12 +1011,6 @@
         {
           "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T02:19:00.000Z"
-        },
-        {
-          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T02:19:00.000Z"
         }
