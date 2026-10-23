@@ -12,50 +12,63 @@
 <meta name="twitter:card" content="summary">
 <link rel="alternate" type="application/rss+xml" title="VetRecall — отзывы ветпрепаратов и вспышки — RSS" href="./signals.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚨</text></svg>">
+<link rel="stylesheet" href="./vet-ds.css">
 <style>
   .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 920px; margin: 0 auto; padding: 12px 20px 0; }
   .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
   .hub a:hover { color: var(--text); border-color: #2c3543; }
-  .hub a.on { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
+  .hub a.on { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
+    /* Ядро — vet-ds (./vet-ds.css). Ниже — локальные алиасы: существующая вёрстка
+     читает токены ДС, значения не дублируются. */
   :root {
     color-scheme: dark;
-    --bg: #0b0e14; --surface: #12161f; --border: #1f2530;
-    --text: #e8ecf3; --muted: #93a0b4; --faint: #7e8899;
-    --red: #f87171; --red-dim: rgba(248,113,113,.12);
-    --amber: #fbbf24; --amber-dim: rgba(251,191,36,.12);
-    --green: #34d399; --green-dim: rgba(52,211,153,.1);
-    --blue: #7dd3fc; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+    --ds-accent: #f87171; --ds-accent-strong: #ef4444; --ds-accent-ink: #0b0e14;
+    --bg: var(--ds-bg);
+    --accent: var(--ds-accent);
+    --surface: var(--ds-surface);
+    --border: var(--ds-border);
+    --text: var(--ds-text);
+    --muted: var(--ds-muted);
+    --faint: var(--ds-faint);
+    --red: var(--ds-red);
+    --amber: var(--ds-amber);
+    --green: var(--ds-green);
+    --blue: var(--ds-blue);
+    --mono: var(--ds-font-mono);
+    --red-dim: color-mix(in srgb, var(--red) 12%, transparent);
+    --amber-dim: color-mix(in srgb, var(--amber) 12%, transparent);
+    --green-dim: color-mix(in srgb, var(--green) 10%, transparent);
   }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
   :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
-  body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
+  input::placeholder { color: var(--faint); opacity: 1; }
+  body { background: var(--bg); color: var(--text); font: 16px/1.6 var(--ds-font-sans); margin: 0; }
 
   header.top {
-    background: linear-gradient(180deg, rgba(248,113,113,.07), transparent 70%);
     border-bottom: 1px solid var(--border); padding: 28px 0 22px;
   }
   .wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
   .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .brand { display: flex; align-items: center; gap: 16px; }
   .logo {
-    width: 52px; height: 52px; border-radius: 14px; background: var(--red-dim);
-    border: 1px solid rgba(248,113,113,.35); display: grid; place-items: center; font-size: 26px;
+    width: 52px; height: 52px; border-radius: var(--ds-radius); background: var(--red-dim);
+    border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); display: grid; place-items: center; font-size: 26px; color: var(--accent);
   }
   h1 { font-size: 24px; margin: 0; letter-spacing: -.02em; }
   .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
   .live { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; font-family: var(--mono); }
   .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); flex: none; }
-  .dot.ok { background: var(--red); box-shadow: 0 0 8px rgba(248,113,113,.7); }
+  .dot.ok { background: var(--red); box-shadow: 0 0 8px color-mix(in srgb, var(--red) 70%, transparent); }
   .dot.err { background: var(--faint); box-shadow: none; }
 
   .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 24px 0 8px; }
-  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--ds-radius); padding: 14px 16px; }
   .stat b { display: block; font-size: 24px; font-weight: 700; letter-spacing: -.02em; }
   .stat span { color: var(--muted); font-size: 12.5px; }
 
   .check-card {
-    background: var(--surface); border: 1px solid rgba(248,113,113,.35); border-radius: 14px;
+    background: var(--surface); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); border-radius: var(--ds-radius);
     padding: 16px 18px; margin: 18px 0 8px;
   }
   .check-head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
@@ -66,18 +79,18 @@
     flex: 1 1 200px; background: var(--bg); border: 1px solid var(--border); color: var(--text);
     border-radius: 10px; padding: 9px 12px; font-size: 14px; outline: none;
   }
-  .check-row input:focus { border-color: rgba(248,113,113,.5); }
+  .check-row input:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   #check-go {
-    background: var(--red-dim); border: 1px solid rgba(248,113,113,.5); color: var(--red);
+    background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 50%, transparent); color: var(--red);
     border-radius: 10px; padding: 9px 16px; font: 600 13px var(--mono); cursor: pointer;
   }
-  #check-go:hover { background: rgba(248,113,113,.2); }
+  #check-go:hover { background: color-mix(in srgb, var(--red) 20%, transparent); }
   .check-row.shake { animation: shake .3s; }
   @keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
   .check-res { margin-top: 10px; border-radius: 10px; padding: 12px 14px; font-size: 14px; line-height: 1.55; }
-  .check-res.bad { background: rgba(248,113,113,.09); border: 1px solid rgba(248,113,113,.4); }
-  .check-res.warn { background: rgba(251,191,36,.07); border: 1px solid rgba(251,191,36,.35); }
-  .check-res.ok { background: rgba(52,211,153,.07); border: 1px solid rgba(52,211,153,.3); }
+  .check-res.bad { background: color-mix(in srgb, var(--red) 9%, transparent); border: 1px solid color-mix(in srgb, var(--red) 40%, transparent); }
+  .check-res.warn { background: color-mix(in srgb, var(--amber) 7%, transparent); border: 1px solid color-mix(in srgb, var(--amber) 35%, transparent); }
+  .check-res.ok { background: color-mix(in srgb, var(--accent) 7%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
   .check-res b { display: block; margin-bottom: 4px; font-size: 14.5px; }
   .check-res .small { color: var(--faint); font-size: 12px; margin-top: 8px; }
   .check-res a { color: var(--blue); }
@@ -88,19 +101,19 @@
     flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
     border-radius: 10px; padding: 9px 14px; font-size: 14px; outline: none;
   }
-  #q:focus { border-color: rgba(248,113,113,.5); }
+  #q:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   #region {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     border-radius: 10px; padding: 9px 12px; font-size: 13px; outline: none; max-width: 240px; cursor: pointer;
   }
-  #region:focus { border-color: rgba(248,113,113,.5); }
+  #region:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 6px; }
   .chip-btn {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     font: 12px var(--mono); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: .15s;
   }
   .chip-btn:hover { color: var(--text); }
-  .chip-btn.active { color: var(--red); border-color: rgba(248,113,113,.45); background: var(--red-dim); }
+  .chip-btn.active { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
   .chip-btn.dim { border-style: dashed; }
 
   .date-sep {
@@ -111,7 +124,7 @@
 
   .card {
     background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--red-dim);
-    border-radius: 14px; padding: 16px 18px 12px; margin-bottom: 12px; transition: border-color .15s, opacity .15s;
+    border-radius: var(--ds-radius); padding: 16px 18px 12px; margin-bottom: 12px; transition: border-color .15s, opacity .15s;
   }
   .card.recall:hover { border-left-color: var(--red); }
   .card.outbreak { border-left-color: var(--amber-dim); }
@@ -120,23 +133,23 @@
   .card-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; align-items: center; flex-wrap: wrap; }
   .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
   .type, .verdict { font: 700 11px var(--mono); letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; }
-  .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid rgba(248,113,113,.3); }
-  .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(251,191,36,.3); }
-  .verdict.confirmed { color: var(--red); background: var(--red-dim); border: 1px solid rgba(248,113,113,.4); }
-  .verdict.probable { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(251,191,36,.35); }
+  .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 30%, transparent); }
+  .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); }
+  .verdict.confirmed { color: var(--red); background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 40%, transparent); }
+  .verdict.probable { color: var(--amber); background: var(--amber-dim); border: 1px solid color-mix(in srgb, var(--amber) 35%, transparent); }
   .verdict.noise { color: var(--faint); background: #171c27; border: 1px solid var(--border); }
   .verdict.pending { color: var(--muted); background: #171c27; border: 1px dashed var(--border); }
   .pub { color: var(--faint); font-size: 12.5px; font-family: var(--mono); white-space: nowrap; }
   .card h2 { font-size: 16.5px; line-height: 1.45; margin: 0 0 8px; font-weight: 650; }
   .card h2 a { color: var(--text); text-decoration: none; }
   .card h2 a:hover { color: var(--red); }
-  .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; border-left: 2px solid rgba(52,211,153,.4); padding-left: 10px; }
+  .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent); padding-left: 10px; }
   .matched { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
   .kw {
     font: 11.5px var(--mono); color: var(--muted); background: #171c27; border: 1px solid var(--border);
     padding: 2px 9px; border-radius: 999px; cursor: pointer; transition: .15s;
   }
-  .kw:hover { color: var(--red); border-color: rgba(248,113,113,.4); }
+  .kw:hover { color: var(--red); border-color: color-mix(in srgb, var(--red) 40%, transparent); }
   .fields { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; font: 12.5px var(--mono); color: var(--blue); }
   .fields span { white-space: nowrap; }
   .fields i { font-style: normal; color: var(--faint); margin-right: 4px; }
@@ -146,9 +159,9 @@
   .empty { color: var(--muted); text-align: center; padding: 48px 0; }
   .empty b { display: block; font-size: 18px; color: var(--text); margin-bottom: 6px; }
 
-  .skel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; margin-bottom: 12px; }
-  .sk { position: relative; overflow: hidden; background: #1a2030; border-radius: 6px; height: 12px; margin-bottom: 10px; }
-  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(232,236,243,.07), transparent); animation: shimmer 1.4s infinite; }
+  .skel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--ds-radius); padding: 16px 18px; margin-bottom: 12px; }
+  .sk { position: relative; overflow: hidden; background: #1a2030; border-radius: var(--ds-radius-s); height: 12px; margin-bottom: 10px; }
+  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--text) 7%, transparent), transparent); animation: shimmer 1.4s infinite; }
   @keyframes shimmer { 100% { transform: translateX(100%); } }
   .sk.t { height: 15px; width: 62%; }
   .sk.w40 { width: 40%; }
@@ -158,7 +171,7 @@
   .dup-toggle { margin: -4px 0 14px; }
   .dup-list { margin: -6px 0 14px; display: grid; gap: 6px; }
   .dup-row { display: flex; gap: 12px; align-items: baseline; background: var(--surface); border: 1px dashed var(--border); border-radius: 10px; padding: 8px 12px; color: var(--muted); font-size: 13px; text-decoration: none; }
-  .dup-row:hover { color: var(--text); border-color: rgba(248,113,113,.35); }
+  .dup-row:hover { color: var(--text); border-color: color-mix(in srgb, var(--red) 35%, transparent); }
   .dup-row .pub { margin-left: auto; flex: none; }
 
   #totop {
@@ -167,7 +180,7 @@
     cursor: pointer; opacity: 0; pointer-events: none; transition: .2s; z-index: 50;
   }
   #totop.show { opacity: 1; pointer-events: auto; }
-  #totop:hover { color: var(--red); border-color: rgba(248,113,113,.45); }
+  #totop:hover { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); }
 
   footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 18px 0 30px; }
   .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
@@ -187,7 +200,7 @@
 <header class="top">
   <div class="wrap topbar">
     <div class="brand">
-      <div class="logo"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#f87171" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" opacity=".35"/><circle cx="12" cy="12" r="5.5" opacity=".6"/><circle cx="12" cy="12" r="1.6"/><path d="M12 12L17.5 6.5"/></svg></div>
+      <div class="logo"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" opacity=".35"/><circle cx="12" cy="12" r="5.5" opacity=".6"/><circle cx="12" cy="12" r="1.6"/><path d="M12 12L17.5 6.5"/></svg></div>
       <div>
         <h1>VetRecall</h1>
         <p>Радар Россельхознадзора: отозванные серии, фальсификат, недоброкачественные препараты и вспышки болезней. Ключевые слова ловят, ИИ сортирует.</p>
