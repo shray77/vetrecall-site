@@ -139,6 +139,7 @@
   .kw:hover { color: var(--red); border-color: rgba(248,113,113,.4); }
   .fields { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; font: 12.5px var(--mono); color: var(--blue); }
   .fields span { white-space: nowrap; }
+  .fields i { font-style: normal; color: var(--faint); margin-right: 4px; }
   .card-foot { display: flex; gap: 14px; align-items: center; margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--border); }
   .card-foot a, .card-foot span { color: var(--faint); font-size: 12.5px; font-family: var(--mono); text-decoration: none; }
   .card-foot a:hover { color: var(--blue); }
@@ -176,17 +177,17 @@
 </head>
 <body>
 <nav class="hub">
-  <a href="https://shray77.github.io/vetdigest-site/" data-s="vetdigest-site">🐾 Дайджест науки</a>
-  <a href="https://shray77.github.io/vetrecall-site/" data-s="vetrecall-site" class="on">🚨 Отзывы и вспышки РФ</a>
-  <a href="https://shray77.github.io/biothreat-site/" data-s="biothreat-site">🌍 Биоугрозы мира</a>
-  <a href="https://shray77.github.io/vet-heatmap/">🗺 ВетКарта</a>
-  <a href="https://shray77.github.io/vetflu-site/" data-s="vetflu-site">🦆 Окна риска ВПГП</a>
-  <a href="https://shray77.github.io/rss-core-site/" data-s="rss-core-site">🛰️ Статус ядра</a>
+  <a href="https://shray77.github.io/vetdigest-site/" data-s="vetdigest-site">Дайджест науки</a>
+  <a href="https://shray77.github.io/vetrecall-site/" data-s="vetrecall-site" class="on">Отзывы и вспышки РФ</a>
+  <a href="https://shray77.github.io/biothreat-site/" data-s="biothreat-site">Биоугрозы мира</a>
+  <a href="https://shray77.github.io/vet-heatmap/">ВетКарта</a>
+  <a href="https://shray77.github.io/vetflu-site/" data-s="vetflu-site">Окна риска ВПГП</a>
+  <a href="https://shray77.github.io/rss-core-site/" data-s="rss-core-site">Статус ядра</a>
 </nav>
 <header class="top">
   <div class="wrap topbar">
     <div class="brand">
-      <div class="logo">🚨</div>
+      <div class="logo"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#f87171" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" opacity=".35"/><circle cx="12" cy="12" r="5.5" opacity=".6"/><circle cx="12" cy="12" r="1.6"/><path d="M12 12L17.5 6.5"/></svg></div>
       <div>
         <h1>VetRecall</h1>
         <p>Радар Россельхознадзора: отозванные серии, фальсификат, недоброкачественные препараты и вспышки болезней. Ключевые слова ловят, ИИ сортирует.</p>
@@ -300,7 +301,7 @@ function runCheck() {
     const ex = same[0];
     const extra = [...new Set(same.map(h => fmtDT(h.published_at)))].slice(0, 4).join(", ");
     res.innerHTML = `<div class="check-res bad">
-      🚫 <b>Серия значится в радаре</b>
+      ✗ <b>Серия значится в радаре</b>
       ${esc(ex.product)} · серия ${esc(ex.series || "—")} · ${fmtDT(ex.published_at)}${ex.region ? " · " + esc(ex.region) : ""}${extra ? " · сигналы: " + extra : ""}<br>
       ${esc(ex.ai_summary || ex.title || "")}<br>
       <a href="${esc(ex.url)}" target="_blank" rel="noopener">первоисточник ↗</a><br>
@@ -341,11 +342,11 @@ function card(it) {
   const kws = JSON.parse(it.matched || "[]").map(k => `<button class="kw" title="найти в ленте">${esc(k)}</button>`).join("");
   const v = it.verdict || "pending";
   const fields = [
-    it.product && `💊 ${esc(it.product)}`,
-    it.series && `🧪 серия ${esc(it.series)}`,
-    it.region && `📍 ${esc(it.region)}`,
-    it.disease && `🦠 ${esc(it.disease)}`,
-    it.order_no && `📄 приказ ${esc(it.order_no)}`,
+    it.product && `<span><i>препарат</i> ${esc(it.product)}</span>`,
+    it.series && `<span><i>серия</i> ${esc(it.series)}</span>`,
+    it.region && `<span><i>регион</i> ${esc(it.region)}</span>`,
+    it.disease && `<span><i>возбудитель</i> ${esc(it.disease)}</span>`,
+    it.order_no && `<span><i>приказ</i> ${esc(it.order_no)}</span>`,
   ].filter(Boolean).join("");
   return `<article class="card ${it.signal_type} ${v === "noise" ? "noise" : ""}">
     <div class="card-top">
