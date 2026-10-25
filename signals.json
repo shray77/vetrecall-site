@@ -1,7 +1,61 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-24T00:21:04.597Z",
+  "generated_at": "2026-10-25T20:21:02.639Z",
   "items": [
+    {
+      "fingerprint": "1d4da374a0894a53727831e2cae1a4908bd738dc",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Вспышка птичьего гриппа в Дании: под угрозой тысячи птиц",
+      "url": "https://korrespondent.net/world/4923202-vspyshka-ptycheho-hryppa-v-danyy-pod-uhrozoi-tysiachy-ptyts",
+      "summary": "В Дании подтвердили новый всплеск высокопатогенного птичьего гриппа. На острове Лолланд из-за заражения придется уничтожить 27 тысяч индеек — это уже второй такой случай за неделю.",
+      "published_at": "2026-10-25T10:35:00.000Z",
+      "created_at": "2026-10-25 20:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В Дании подтвердили новый всплеск высокопатогенного птичьего гриппа.",
+      "product": null,
+      "series": null,
+      "region": "Дания",
+      "disease": "птичьий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-25 20:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "дания",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "4fd602f9dd3a469a5225c77412e4efb4f721e7c2",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Полярные медведи в Арктике стали чаще погибать от птичьего гриппа",
+      "url": "https://www.vesti.ru/ns/polyarnye-medvedi-v-arktike-stali-chashche-pogibat-ot-ptichego-grippa",
+      "summary": "Последние новости на сайте Вести: Доля белых (полярных) медведей, перенесших птичий грипп, выросла вдвое. Изучившие 109 образцов крови медведей из Восточной Гренландии специалисты из Дании и США обнар ...",
+      "published_at": "2026-10-24T10:35:00.000Z",
+      "created_at": "2026-10-25 20:20:52",
+      "verdict": "probable",
+      "ai_summary": "Доля белых медведей, перенесших птичий грипп, выросла вдвое",
+      "product": null,
+      "series": null,
+      "region": "Арктика",
+      "disease": "птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-25 20:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "арктика",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Птичий грипп добрался до Арктики: белые медведи заразились смертельно опасной инфекцией",
+          "url": "https://www.hibiny.ru/murmanskaya-oblast/news/item-ptichiy-gripp-dobralsya-doarktiki-belye-medvedi-zarazilis-smertelno-opasnoy-infekciey-474797/",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-22T13:43:00.000Z"
+        }
+      ]
+    },
     {
       "fingerprint": "cb1edcc9332962f15a980d27a570df585be0ee4b",
       "signal_type": "outbreak",
@@ -115,29 +169,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "монголия",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "beab66bf9631d11f5a31dad1fd4fb53025634022",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп добрался до Арктики: белые медведи заразились смертельно опасной инфекцией",
-      "url": "https://www.hibiny.ru/murmanskaya-oblast/news/item-ptichiy-gripp-dobralsya-doarktiki-belye-medvedi-zarazilis-smertelno-opasnoy-infekciey-474797/",
-      "summary": "Специалисты пришли к выводу, что гнездящиеся в Арктике перелётные птицы способны заражать медведей птичьим гриппом. Вирусы могут стать новой угрозой для арктических млекопитающих, считают эксперты, ...",
-      "published_at": "2026-10-22T13:43:00.000Z",
-      "created_at": "2026-10-22 22:20:52",
-      "verdict": "probable",
-      "ai_summary": "Эксперты обеспокоены потенциальной угрозой для арктических млекопитающих",
-      "product": null,
-      "series": null,
-      "region": "Арктика",
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-22 22:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "арктика",
       "dup_count": 1
     },
     {
@@ -1000,21 +1031,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "остров маккуори",
-      "dup_count": 3,
-      "dups": [
-        {
-          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T02:19:00.000Z"
-        },
-        {
-          "title": "H5 обнаружили в образцах морского слона и чайки на острове Маккуори — ABC News Australia",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fua.news%2fru%2fworld%2fna-ostrovi-makkuori-u-zrazkakh-morskogo-slona-ta-chaiki-viiavili-h5-abc-news-australia&c=11784770202559614562&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T02:19:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
