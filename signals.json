@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-27T00:20:53.115Z",
+  "generated_at": "2026-10-27T18:21:09.751Z",
   "items": [
     {
       "fingerprint": "5f182088aeba3a10e29f8286d7737543ccf91c4f",
@@ -12,17 +12,17 @@
       "summary": "С начала 2026 года в Волгоградской области приостановлено действие 158 деклараций о соответствии на продукцию животного происхождения. Нарушения выявлены в ходе мониторинга документов производителей, ...",
       "published_at": "2026-10-26T07:38:00.000Z",
       "created_at": "2026-10-27 00:20:52",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "Приостановлено действие 158 деклараций о соответствии на продукцию животного происхождения в Волгоградской области",
       "product": null,
       "series": null,
-      "region": null,
+      "region": "Волгоградская область",
       "disease": null,
       "order_no": null,
-      "ai_at": null,
+      "ai_at": "2026-10-27 18:21:05",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null,
+      "region_norm": "волгоградская область",
       "dup_count": 1
     },
     {
