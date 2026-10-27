@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-26T20:21:21.729Z",
+  "generated_at": "2026-10-27T00:20:53.115Z",
   "items": [
+    {
+      "fingerprint": "5f182088aeba3a10e29f8286d7737543ccf91c4f",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "В Волгоградской области Россельхознадзор выявил нарушения при декларировании продукции у ...",
+      "url": "https://volpromex.ru/proizvodstvo/apk/v-volgogradskoj-oblasti-rosselhoznadzor-vyyavil-narusheniya-pri-deklarirovanii-produkcii-u-bolee-100-proizvoditelej.html",
+      "summary": "С начала 2026 года в Волгоградской области приостановлено действие 158 деклараций о соответствии на продукцию животного происхождения. Нарушения выявлены в ходе мониторинга документов производителей, ...",
+      "published_at": "2026-10-26T07:38:00.000Z",
+      "created_at": "2026-10-27 00:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "409c0a069e14333913f0901cef3f7c9d17f92d83",
       "signal_type": "recall",
@@ -1036,7 +1059,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 15,
+      "dup_count": 14,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
