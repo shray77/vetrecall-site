@@ -10,6 +10,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://shray77.github.io/vetrecall-site/">
 <meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://shray77.github.io/vetrecall-site/">
 <link rel="alternate" type="application/rss+xml" title="VetRecall — отзывы ветпрепаратов и вспышки — RSS" href="./signals.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚨</text></svg>">
 <link rel="stylesheet" href="./vet-ds.css">
@@ -297,9 +298,11 @@ const timeAgo = (iso) => {
   return Math.floor(h / 24) + " дн назад";
 };
 const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
-const fmtDay = (s) => new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+const fmtDay = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "long" }) : "—";
 const ts = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : 0;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+/* битый matched не должен ронять ленту (Task 183): разбор не удался — пустой список */
+const safeJson = (s) => { try { return JSON.parse(s || "[]"); } catch (e) { return []; } };
 
 const VERDICT_RU = { confirmed: "подтверждено", probable: "вероятно", noise: "шум", pending: "ждёт ИИ" };
 
@@ -358,7 +361,7 @@ function runCheck() {
     </div>`;
   } else if (hits.length) {
     const series = [...new Set(hits.map(h => (h.series || "").replace(/\s+/g, " ").trim()).filter(Boolean))].slice(0, 6).map(esc).join(" · ");
-    const dates = [...new Set(hits.map(h => fmtDT(h.published_at)))].slice(0, 5).join(", ");
+    const dates = [...new Set(hits.map(h => fmtDT(h.published_at)))].slice(0, 5).join(", ").replace(/\.$/, "");
     res.innerHTML = `<div class="check-res warn">
       ⚠ <b>Препарат фигурирует в сигналах${sd ? " — серия не совпала" : " (серия не указана)"}</b>
       ${series ? "Серии из сигналов: " + series + "." : ""}${dates ? " Даты сигналов: " + dates + "." : ""}<br>
@@ -366,11 +369,19 @@ function runCheck() {
       <div class="small">указанная серия в списке не значится — сверьте упаковку ещё раз перед применением</div>
     </div>`;
   } else {
-    res.innerHTML = `<div class="check-res ok">
-      ✓ <b>В радаре не значится</b>
-      По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет.
-      <div class="small">радар покрывает только публичные сигналы за последние недели — официальный статус проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
-    </div>`;
+    /* честность покрытия (Task 183): «не значится» ≠ «безопасна», если радар не знает номеров серий */
+    const known = ALL.reduce((n, it) => n + (sdOf(it) ? 1 : 0), 0);
+    res.innerHTML = known
+      ? `<div class="check-res ok">
+        ✓ <b>В радаре не значится</b>
+        По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет.
+        <div class="small">в радаре ${known} ${seriesPlural(known)} за период — покрытие ограничено, отсутствия серии в радаре недостаточно для вывода. Официальный статус серии проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
+      </div>`
+      : `<div class="check-res warn">
+        ⚠ <b>Проверка серии сейчас неинформативна</b>
+        По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет, но в радаре 0 серий за период — покрытие ограничено, отсутствия серии в радаре недостаточно для вывода.
+        <div class="small">официальный статус серии проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
+      </div>`;
   }
   res.querySelectorAll(".show-in-feed").forEach(b => b.onclick = () => {
     const target = hits[0];
@@ -387,7 +398,7 @@ document.getElementById("check-go").onclick = runCheck;
 
 /* ---------- карточки и лента ---------- */
 function card(it) {
-  const kws = JSON.parse(it.matched || "[]").map(k => `<button class="kw" title="найти в ленте">${esc(k)}</button>`).join("");
+  const kws = safeJson(it.matched).map(k => `<button class="kw" title="найти в ленте">${esc(k)}</button>`).join("");
   const v = it.verdict || "pending";
   const fields = [
     it.product && `<span><i>препарат</i> ${esc(it.product)}</span>`,
@@ -405,7 +416,7 @@ function card(it) {
     ${it.ai_summary ? `<p class="ai-sum">${esc(it.ai_summary)}</p>` : ""}
     ${kws ? `<div class="matched">${kws}</div>` : ""}
     ${fields ? `<div class="fields">${fields}</div>` : ""}
-    <div class="card-foot"><a href="${esc(it.url)}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(it.source_id.replace("bing-", ""))}</span></div>
+    <div class="card-foot"><a href="${esc(it.url)}" target="_blank" rel="noopener">первоисточник ↗</a><span>${esc(String(it.source_id || "").replace("bing-", ""))}</span></div>
   </article>`;
 }
 
@@ -423,6 +434,11 @@ function dupKey(it) {
   return null;
 }
 const plural = (n) => n === 1 ? "дубль" : n < 5 ? "дубля" : "дублей";
+const seriesPlural = (n) => n === 1 ? "серия" : n < 5 ? "серии" : "серий";
+
+/* битая запись пропускается, а не роняет ленту (Task 183): card в гварде, счёт — для честного пустого рендера */
+let brokenCards = 0;
+const safeCard = (it) => { try { return card(it); } catch (e) { brokenCards++; return "" } };
 
 /* воркер с v3 сам дедуплицирует ленту: свернутые дубли лежат в it.dups —
    сеем их в группу, чтобы кнопка «ещё N дублей» не потеряла старые ссылки */
@@ -446,7 +462,7 @@ function renderGroups(list) {
   for (const g of seq) {
     const d = (g.main.published_at || "").slice(0, 10);
     if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(g.main.published_at)}</div>`; }
-    html += card(g.main);
+    html += safeCard(g.main);
     if (g.members.length) {
       html +=
         `<button class="chip-btn dup-toggle">▸ ещё ${g.members.length} ${plural(g.members.length)} этой новости</button>
@@ -476,15 +492,19 @@ function render() {
     feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбрось фильтры или запусти скан (run-now в репозитории).</div>`;
     return;
   }
+  brokenCards = 0;
   feed.innerHTML = groupDup ? renderGroups(list) : (() => {
     let html = "", last = "";
     for (const it of list) {
       const d = (it.published_at || "").slice(0, 10);
       if (d !== last) { last = d; html += `<div class="date-sep">${fmtDay(it.published_at)}</div>`; }
-      html += card(it);
+      html += safeCard(it);
     }
     return html;
   })();
+  if (brokenCards && !feed.querySelector(".card")) {
+    feed.innerHTML = `<div class="empty"><b>Не удалось разобрать записи радара</b>Данные повреждены — попробуй обновить страницу позже.</div>`;
+  }
 }
 
 function tickMeta() {
@@ -494,11 +514,12 @@ function tickMeta() {
 }
 
 function renderMeta(j) {
-  lastGen = j.generated_at;
-  document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span class="t">скан ${timeAgo(j.generated_at)}</span>`;
-  const n = (p) => j.items.filter(p).length;
+  lastGen = j.generated_at || null;
+  document.getElementById("meta").innerHTML = `<span class="dot ok"></span><span class="t">${lastGen ? "скан " + timeAgo(lastGen) : "радар онлайн"}</span>`;
+  const items = Array.isArray(j.items) ? j.items : [];
+  const n = (p) => items.filter(p).length;
   document.getElementById("stats").innerHTML =
-    `<div class="stat"><b>${j.items.length}</b><span>сигналов в радаре</span></div>` +
+    `<div class="stat"><b>${items.length}</b><span>сигналов в радаре</span></div>` +
     `<div class="stat"><b style="color:var(--red)">${n(i => i.verdict === "confirmed")}</b><span>подтверждено ИИ</span></div>` +
     `<div class="stat"><b style="color:var(--amber)">${n(i => i.verdict === "probable")}</b><span>вероятных</span></div>` +
     `<div class="stat"><b style="color:var(--faint)">${n(i => i.verdict === "noise")}</b><span>отсеяно как шум</span></div>` +
@@ -545,15 +566,17 @@ document.getElementById("q").oninput = (e) => { q = e.target.value.toLowerCase()
 document.getElementById("region").onchange = (e) => { region = e.target.value; render(); };
 
 async function refresh() {
+  let j;
   try {
-    const j = await (await fetch("./signals.json", { cache: "no-store" })).json();
-    ALL = j.items || [];
-    renderMeta(j); renderChips(); render();
-    if (lastCheck) runCheck();
+    j = await (await fetch("./signals.json", { cache: "no-store" })).json();
   } catch (e) {
     document.getElementById("meta").innerHTML = `<span class="dot err"></span><span>signals.json недоступен</span>`;
     document.getElementById("feed").innerHTML = `<div class="empty"><b>Не удалось загрузить signals.json</b>Обнови страницу или зайди позже.</div>`;
+    return;
   }
+  ALL = Array.isArray(j.items) ? j.items : [];
+  renderMeta(j); renderChips(); render();
+  if (lastCheck) runCheck();
 }
 refresh();
 setInterval(refresh, 5 * 60 * 1000);
