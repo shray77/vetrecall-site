@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-28T00:20:52.510Z",
+  "generated_at": "2026-10-28T12:20:57.428Z",
   "items": [
+    {
+      "fingerprint": "9d1c66cf1720cd346c2d82b112aea810949718b6",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Азербайджане проведут мониторинг на птичий грипп - ФОТО",
+      "url": "https://1news.az/news/20261028145144278-V-Azerbaidzhane-provedut-monitoring-na-ptichii-gripp-FOTO",
+      "summary": "С 2 по 6 ноября в Азербайджане проведут очередной эпизоотологический мониторинг среди диких и домашних птиц для выявления птичьего гриппа ...",
+      "published_at": "2026-10-28T03:58:00.000Z",
+      "created_at": "2026-10-28 12:20:53",
+      "verdict": "probable",
+      "ai_summary": "В Азербайджане проведут мониторинг на птичий грипп",
+      "product": null,
+      "series": null,
+      "region": "Азербайджан",
+      "disease": "птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-28 12:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "азербайджан",
+      "dup_count": 1
+    },
     {
       "fingerprint": "e8e6e2c697224dbdb081cf1e74d60b81101023ef",
       "signal_type": "outbreak",
@@ -1236,7 +1259,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "южная георгия",
-      "dup_count": 8,
+      "dup_count": 7,
       "dups": [
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
@@ -1271,12 +1294,6 @@
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T06:04:00.000Z"
-        },
-        {
-          "title": "Ученые узнали, что убило тысячи пингвинов",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1693d0a3041238676d0d822fffd6c&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T06:04:00.000Z"
         }
