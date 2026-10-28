@@ -12,7 +12,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://shray77.github.io/vetrecall-site/">
 <link rel="alternate" type="application/rss+xml" title="VetRecall — отзывы ветпрепаратов и вспышки — RSS" href="./signals.xml">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚨</text></svg>">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f87171' stroke-width='1.7' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9' opacity='.35'/%3E%3Ccircle cx='12' cy='12' r='5.5' opacity='.6'/%3E%3Ccircle cx='12' cy='12' r='1.6'/%3E%3Cpath d='M12 12L17.5 6.5'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="./vet-ds.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,6 @@
     --mono: var(--ds-font-mono);
     --red-dim: color-mix(in srgb, var(--red) 12%, transparent);
     --amber-dim: color-mix(in srgb, var(--amber) 12%, transparent);
-    --green-dim: color-mix(in srgb, var(--green) 10%, transparent);
   }
   [data-theme="dark"] {
     --ds-accent: #F87171; --ds-accent-strong: #FCA5A5; --ds-accent-ink: #0B0E14;
@@ -263,15 +262,15 @@
 
   <section class="filters">
     <input id="q" type="search" placeholder="Поиск: препарат, серия, регион, болезнь, приказ…">
-    <select id="region"><option value="">все регионы</option></select>
+    <select id="region" aria-label="регион"><option value="">все регионы</option></select>
   </section>
   <div class="chips" id="chips-verdict"></div>
   <div class="chips" id="chips-type"></div>
   <div class="chips" id="chips-dup"></div>
   <section id="feed">
-    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
-    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk w85"></div></div>
-    <div class="skel"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
+    <div class="skel" aria-hidden="true"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
+    <div class="skel" aria-hidden="true"><div class="sk w40"></div><div class="sk t"></div><div class="sk w85"></div></div>
+    <div class="skel" aria-hidden="true"><div class="sk w40"></div><div class="sk t"></div><div class="sk"></div><div class="sk w85"></div></div>
   </section>
 </main>
 
@@ -292,10 +291,10 @@ const timeAgo = (iso) => {
   if (isNaN(ms)) return "";
   const m = Math.floor(ms / 60000);
   if (m < 1) return "только что";
-  if (m < 60) return m + " мин назад";
+  if (m < 60) return m + "\u00A0мин назад";
   const h = Math.floor(m / 60);
-  if (h < 24) return h + " ч назад";
-  return Math.floor(h / 24) + " дн назад";
+  if (h < 24) return h + "\u00A0ч назад";
+  return Math.floor(h / 24) + "\u00A0дн назад";
 };
 const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
 const fmtDay = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "long" }) : "—";
@@ -361,10 +360,10 @@ function runCheck() {
     </div>`;
   } else if (hits.length) {
     const series = [...new Set(hits.map(h => (h.series || "").replace(/\s+/g, " ").trim()).filter(Boolean))].slice(0, 6).map(esc).join(" · ");
-    const dates = [...new Set(hits.map(h => fmtDT(h.published_at)))].slice(0, 5).join(", ").replace(/\.$/, "");
+    const dates = [...new Set(hits.map(h => fmtDT(h.published_at)))].slice(0, 5).join(", ");
     res.innerHTML = `<div class="check-res warn">
       ⚠ <b>Препарат фигурирует в сигналах${sd ? " — серия не совпала" : " (серия не указана)"}</b>
-      ${series ? "Серии из сигналов: " + series + "." : ""}${dates ? " Даты сигналов: " + dates + "." : ""}<br>
+      ${series ? "Серии из сигналов: " + series + "." : ""}${dates ? " Даты сигналов: " + dates : ""}<br>
       <button class="chip-btn show-in-feed">показать в ленте →</button>
       <div class="small">указанная серия в списке не значится — сверьте упаковку ещё раз перед применением</div>
     </div>`;
@@ -465,7 +464,7 @@ function renderGroups(list) {
     html += safeCard(g.main);
     if (g.members.length) {
       html +=
-        `<button class="chip-btn dup-toggle">▸ ещё ${g.members.length} ${plural(g.members.length)} этой новости</button>
+        `<button class="chip-btn dup-toggle" aria-expanded="false">▸ ещё ${g.members.length} ${plural(g.members.length)} этой новости</button>
          <div class="dup-list" hidden>${g.members.map(m =>
            `<a class="dup-row" href="${esc(m.url)}" target="_blank" rel="noopener"><span>${esc(m.title)}</span><span class="pub">${fmtDT(m.published_at)} · ${esc((m.source_id || "").replace("bing-", ""))}</span></a>`).join("")}</div>`;
     }
@@ -551,6 +550,7 @@ document.getElementById("feed").addEventListener("click", (e) => {
     if (listEl && listEl.classList.contains("dup-list")) {
       const willOpen = listEl.hidden;
       listEl.hidden = !willOpen;
+      dt.setAttribute("aria-expanded", String(willOpen));
       dt.textContent = dt.textContent.replace(willOpen ? "▸" : "▾", willOpen ? "▾" : "▸");
     }
     return;
@@ -582,10 +582,11 @@ refresh();
 setInterval(refresh, 5 * 60 * 1000);
 setInterval(tickMeta, 30 * 1000);
 
-/* автопроверка из ссылки: #check=Мультикан-8|20 */
+/* автопроверка из ссылки: #check=Мультикан-8|20 — битый escape (напр. #check=%) не должен обрывать скрипт */
 const mh = location.hash.match(/check=([^&]+)/);
 if (mh) {
-  const [p, s] = decodeURIComponent(mh[1]).split("|");
+  let p = "", s = "";
+  try { [p, s] = decodeURIComponent(mh[1]).split("|"); } catch (e) {}
   if (p) document.getElementById("check-product").value = p;
   if (s) document.getElementById("check-series").value = s;
   runCheck();
