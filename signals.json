@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-28T12:20:57.428Z",
+  "generated_at": "2026-10-28T18:21:02.974Z",
   "items": [
+    {
+      "fingerprint": "348429f0417766e336b8c332ead7e7cc86b69d61",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Микробиолог: дроны заходили в воздушное пространство РФ и что-то распыляли",
+      "url": "https://glavny.tv/last-news/russia/mikrobiolog-drony-zahodili-v-vozdushnoe-prostranstvo-rf-i-chto-to-raspylyali/",
+      "summary": "Микробиолог Игорь Никулин не исключил, что вспышки заболеваний животных в России могут быть связаны с диверсиями. В интервью &#171;Царьграду&#187; он заявил, что беспилотники неоднократно распыляли неизвестные ...",
+      "published_at": "2026-10-28T06:16:00.000Z",
+      "created_at": "2026-10-28 18:20:52",
+      "verdict": "probable",
+      "ai_summary": "Микробиолог Игорь Никулин высказал предположение о возможной связи вспышек заболеваний животных с диверсиями",
+      "product": null,
+      "series": null,
+      "region": "Россия",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-28 18:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "россия",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "61efa29c170c7b68834d09d9f66e151004949e9e",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп угрожает популяциям грифов во всем мире",
+      "url": "https://science.mail.ru/news/59541-ptichij-gripp-ugrozhaet-populyaciyam-grifov/",
+      "summary": "Вирус птичьего гриппа H5N1 добрался до популяций грифов, которые и без того сокращаются: калифорнийского кондора за шесть недель стало на 6% меньше.",
+      "published_at": "2026-10-28T05:00:00.000Z",
+      "created_at": "2026-10-28 18:20:52",
+      "verdict": "probable",
+      "ai_summary": "Вирус птичьего гриппа H5N1 угрожает популяциям грифов во всем мире",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "птичий грипп H5N1",
+      "order_no": null,
+      "ai_at": "2026-10-28 18:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "9d1c66cf1720cd346c2d82b112aea810949718b6",
       "signal_type": "outbreak",
@@ -1259,7 +1305,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "южная георгия",
-      "dup_count": 7,
+      "dup_count": 5,
       "dups": [
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
@@ -1282,18 +1328,6 @@
         {
           "title": "Ученые узнали, что убило тысячи пингвинов",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T06:04:00.000Z"
-        },
-        {
-          "title": "Ученые узнали, что убило тысячи пингвинов",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T06:04:00.000Z"
-        },
-        {
-          "title": "Ученые узнали, что убило тысячи пингвинов",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T06:04:00.000Z"
         }
