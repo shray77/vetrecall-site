@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-27T22:21:15.229Z",
+  "generated_at": "2026-10-28T00:20:52.510Z",
   "items": [
     {
       "fingerprint": "e8e6e2c697224dbdb081cf1e74d60b81101023ef",
@@ -119,7 +119,7 @@
     },
     {
       "fingerprint": "409c0a069e14333913f0901cef3f7c9d17f92d83",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании уничтожат 27 тысяч индеек из-за вспышки птичьего гриппа",
@@ -150,7 +150,7 @@
     },
     {
       "fingerprint": "e52e906077fe0620af3125ee976846e58ee05fe1",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании зарегистрирована вторая вспышка птичьего гриппа: уничтожат еще 27 тыс. индеек",
@@ -173,7 +173,7 @@
     },
     {
       "fingerprint": "78bacd4b8ad510564a07067776e3ef525b23186a",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании из-за птичьего гриппа уничтожат 27 000 индеек",
@@ -196,7 +196,7 @@
     },
     {
       "fingerprint": "b5ffd5d55556849758f6924444dbbcbe71b304cb",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании из-за птичьего гриппа уничтожат 27 тыс. индеек",
@@ -242,7 +242,7 @@
     },
     {
       "fingerprint": "9a2ba25cdec9a1edd40c591f136389feca87c430",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании из-за птичьего гриппа уничтожат тысячи индеек",
@@ -265,7 +265,7 @@
     },
     {
       "fingerprint": "297f3e93d3fca11a8bc7875fc63aa9bee93c6fc5",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании из-за птичьего гриппа уничтожат 27 тысяч индеек",
@@ -288,7 +288,7 @@
     },
     {
       "fingerprint": "1d4da374a0894a53727831e2cae1a4908bd738dc",
-      "signal_type": "outbreak",
+      "signal_type": "recall",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "Вспышка птичьего гриппа в Дании: под угрозой тысячи птиц",
