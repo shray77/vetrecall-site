@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-28T18:21:02.974Z",
+  "generated_at": "2026-10-29T00:20:53.825Z",
   "items": [
     {
       "fingerprint": "348429f0417766e336b8c332ead7e7cc86b69d61",
@@ -188,7 +188,7 @@
     },
     {
       "fingerprint": "409c0a069e14333913f0901cef3f7c9d17f92d83",
-      "signal_type": "recall",
+      "signal_type": "outbreak",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании уничтожат 27 тысяч индеек из-за вспышки птичьего гриппа",
@@ -210,16 +210,16 @@
       "dup_count": 2,
       "dups": [
         {
-          "title": "В Дании уничтожат 27 тысяч индеек из-за вспышки птичьего гриппа",
-          "url": "https://www.gazeta.press/social/news/2026/10/26/29605423.shtml",
+          "title": "В Дании из-за птичьего гриппа уничтожат тысячи индеек",
+          "url": "https://www.rbc.ru/life/news/6adf1667f98ac3abf29cbd35",
           "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-25T15:24:00.000Z"
+          "published_at": "2026-10-26T02:39:00.000Z"
         }
       ]
     },
     {
       "fingerprint": "e52e906077fe0620af3125ee976846e58ee05fe1",
-      "signal_type": "recall",
+      "signal_type": "outbreak",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании зарегистрирована вторая вспышка птичьего гриппа: уничтожат еще 27 тыс. индеек",
@@ -238,11 +238,31 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дания",
-      "dup_count": 1
+      "dup_count": 4,
+      "dups": [
+        {
+          "title": "В Дании из-за птичьего гриппа уничтожат 27 тыс. индеек",
+          "url": "https://woman.rambler.ru/beauty/57302679-v-danii-iz-za-ptichego-grippa-unichtozhat-27-tys-indeek/",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-26T04:09:00.000Z"
+        },
+        {
+          "title": "В Дании из-за птичьего гриппа уничтожат 27 тысяч индеек",
+          "url": "https://nsn.fm/in-the-world/v-danii-iz-za-ptichego-grippa-unichtozhat-27-tysyach-indeek",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-25T19:00:00.000Z"
+        },
+        {
+          "title": "Вспышка птичьего гриппа в Дании: под угрозой тысячи птиц",
+          "url": "https://korrespondent.net/world/4923202-vspyshka-ptycheho-hryppa-v-danyy-pod-uhrozoi-tysiachy-ptyts",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-25T10:35:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "78bacd4b8ad510564a07067776e3ef525b23186a",
-      "signal_type": "recall",
+      "signal_type": "outbreak",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "В Дании из-за птичьего гриппа уничтожат 27 000 индеек",
@@ -261,30 +281,15 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "дания",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "b5ffd5d55556849758f6924444dbbcbe71b304cb",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Дании из-за птичьего гриппа уничтожат 27 тыс. индеек",
-      "url": "https://woman.rambler.ru/beauty/57302679-v-danii-iz-za-ptichego-grippa-unichtozhat-27-tys-indeek/",
-      "summary": "СТОКГОЛЬМ, 26 октября. /ТАСС/. Высокопатогенный вариант птичьего гриппа обнаружен на острове Лолланд в Дании. В связи с этим на острове будет уничтожено около 27 тыс. индеек, сообщает ...",
-      "published_at": "2026-10-26T04:09:00.000Z",
-      "created_at": "2026-10-26 20:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В Дании обнаружен высокопатогенный вариант птичьего гриппа, будут уничтожены 27 тыс. индеек",
-      "product": null,
-      "series": null,
-      "region": "Дания",
-      "disease": "птичьий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-26 20:21:12",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дания",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Дании уничтожат 27 тысяч индеек из-за вспышки птичьего гриппа",
+          "url": "https://www.gazeta.press/social/news/2026/10/26/29605423.shtml",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-25T15:24:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "b9034df46583985e86f1f183f0151d2062a88f03",
@@ -307,75 +312,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "датский остров лолланн",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "9a2ba25cdec9a1edd40c591f136389feca87c430",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Дании из-за птичьего гриппа уничтожат тысячи индеек",
-      "url": "https://www.rbc.ru/life/news/6adf1667f98ac3abf29cbd35",
-      "summary": "В Дании из-за вспышки птичьего гриппа уничтожат 27 тыс. индеек, пишет The Copenhagen Post. Власти приняли такое решение после того, как патоген обнаружили среди птиц поголовья в Стоккемарке на ...",
-      "published_at": "2026-10-26T02:39:00.000Z",
-      "created_at": "2026-10-26 12:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В Дании из-за вспышки птичьего гриппа уничтожат 27 тыс. индеек",
-      "product": null,
-      "series": null,
-      "region": "Дания",
-      "disease": "птичьего гриппа",
-      "order_no": null,
-      "ai_at": "2026-10-26 12:20:58",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дания",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "297f3e93d3fca11a8bc7875fc63aa9bee93c6fc5",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Дании из-за птичьего гриппа уничтожат 27 тысяч индеек",
-      "url": "https://nsn.fm/in-the-world/v-danii-iz-za-ptichego-grippa-unichtozhat-27-tysyach-indeek",
-      "summary": "Высокопатогенный вариант птичьего гриппа выявили на острове Лолланд в Дании, из-за этого будет уничтожено почти 30 тысяч индеек ...",
-      "published_at": "2026-10-25T19:00:00.000Z",
-      "created_at": "2026-10-26 20:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В Дании из-за птичьего гриппа уничтожат 27 тысяч индеек",
-      "product": null,
-      "series": null,
-      "region": "Дания",
-      "disease": "птичьий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-26 20:21:20",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дания",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "1d4da374a0894a53727831e2cae1a4908bd738dc",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Вспышка птичьего гриппа в Дании: под угрозой тысячи птиц",
-      "url": "https://korrespondent.net/world/4923202-vspyshka-ptycheho-hryppa-v-danyy-pod-uhrozoi-tysiachy-ptyts",
-      "summary": "В Дании подтвердили новый всплеск высокопатогенного птичьего гриппа. На острове Лолланд из-за заражения придется уничтожить 27 тысяч индеек — это уже второй такой случай за неделю.",
-      "published_at": "2026-10-25T10:35:00.000Z",
-      "created_at": "2026-10-25 20:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В Дании подтвердили новый всплеск высокопатогенного птичьего гриппа.",
-      "product": null,
-      "series": null,
-      "region": "Дания",
-      "disease": "птичьий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-25 20:20:56",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "дания",
       "dup_count": 1
     },
     {
@@ -1178,7 +1114,7 @@
     },
     {
       "fingerprint": "e0eb328cb6c1708b72d6c3ab42a8a8e4de38df2e",
-      "signal_type": "recall",
+      "signal_type": "outbreak",
       "matched": "[\"фальсифиц\"]",
       "source_id": "fsvps-news",
       "title": "Россельхознадзор выявил несоответствия в мясной продукции 3 российских производителей",
