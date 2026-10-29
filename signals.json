@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-29T04:21:14.413Z",
+  "generated_at": "2026-10-29T14:21:03.723Z",
   "items": [
+    {
+      "fingerprint": "b4b61c1ba674fefc194d7ef360508b602007145c",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором выявлены нарушения на предприятии по уничтожению биологических отходов в Смоленске",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-vyyavleny-narusheniya-na-predpriyatii-po-unichtozheniyu-biologicheskih-othodov-v-smolenske/",
+      "summary": "С 13 по 26 октября 2026 года Управление Россельхознадзора по Брянской, Смоленской и Калужской областям совместно с прокуратурой Смоленской области провело выездную проверку ООО «Крокус». Выявлены нарушения ветеринарного законодательства. Согласно данным ФГИС «ВетИС», на указанной производственной площадке зарегистрирован объект вида «крематор», предназначенный для уничтожения биологических отходов и отходов животноводства. В ходе контрольно-надзорного мероприятия [&#8230;]",
+      "published_at": "2026-10-29T12:05:47Z",
+      "created_at": "2026-10-29 14:20:52",
+      "verdict": "probable",
+      "ai_summary": "Выявлены нарушения ветеринарного законодательства на предприятии в Смоленске",
+      "product": null,
+      "series": null,
+      "region": "Смоленск",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-29 14:21:01",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "смоленск",
+      "dup_count": 1
+    },
     {
       "fingerprint": "7e85d48a72aca9ba0bb617b4e372bbec9bdefde1",
       "signal_type": "outbreak",
@@ -1296,29 +1319,6 @@
           "published_at": "2026-10-15T11:55:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "7144460b1d10e62854245b96e7e66fced0a4a721",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Ученые узнали, что убило тысячи пингвинов",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fnews.rambler.ua%2ftech%2f57239419-uchenye-uznali-chto-ubilo-tysyachi-pingvinov%2f&c=6842133536430430111&mkt=en-us",
-      "summary": "Птичий грипп H5N1 впервые достиг Антарктики в начале 2024 года — вирус нашли у погибших птиц на Южной Георгии. Ученые опасались катастрофы для пингвинов, живущих огромными колониями. Архипелаг ...",
-      "published_at": "2026-10-15T06:04:00.000Z",
-      "created_at": "2026-10-17 10:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "В Антарктике обнаружен вирус птичьего гриппа H5N1 у погибших пингвинов",
-      "product": null,
-      "series": null,
-      "region": "Южная Георгия",
-      "disease": "Птичий грипп H5N1",
-      "order_no": null,
-      "ai_at": "2026-10-17 10:21:21",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "южная георгия",
-      "dup_count": 1
     }
   ]
 }
