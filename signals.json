@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-30T00:20:58.182Z",
+  "generated_at": "2026-10-30T02:21:10.920Z",
   "items": [
     {
       "fingerprint": "c76f8920aacb803143601ff863812cf566f2d86d",
@@ -26,6 +26,102 @@
       "dup_count": 1
     },
     {
+      "fingerprint": "2e2790a4122370cefd08927e87666cd61791ceac",
+      "signal_type": "outbreak",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В США тревога из-за птичьего гриппа: уничтожен 1 миллион кур",
+      "url": "https://ru.haberler.com/russian-news-2324078/",
+      "summary": "В США объявлена новая тревога по птичьему гриппу, которая может перевернуть рынок яиц. Из-за вспышки на огромном предприятии в штате Иллинойс было уничтожено около 935 тысяч кур-несушек, а огромные по ...",
+      "published_at": "2026-10-29T15:20:00.000Z",
+      "created_at": "2026-10-30 02:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В США объявлена новая тревога по птичьему гриппу",
+      "product": null,
+      "series": null,
+      "region": "США",
+      "disease": "птичьий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-30 02:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "сша",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "b4e327f1e6b8bbfe8b8fb235d0c041471dc66cbe",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичья холера вызвала массовую гибель пингвинов Адели в Антарктиде — NPR",
+      "url": "https://ua.news/ru/dovkolo-svitu/ptashina-kholera-sprichinila-masovu-zagibel-pingviniv-adeli-v-antarktidi-npr",
+      "summary": "Ученые установили, что птичья холера, а не птичий грипп H5N1, вызвала массовую гибель пингвинов Адели на островах Опасности в начале 2024 года.",
+      "published_at": "2026-10-29T15:09:00.000Z",
+      "created_at": "2026-10-30 02:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Ученые установили, что птичья холера, а не птичий грипп H5N1, вызвала массовую гибель пингвинов Адели на островах Опасности в начале 2024 года.",
+      "product": null,
+      "series": null,
+      "region": "Антарктида",
+      "disease": "птичья холера",
+      "order_no": null,
+      "ai_at": "2026-10-30 02:21:06",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "антарктида",
+      "dup_count": 9,
+      "dups": [
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        },
+        {
+          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-15T11:55:00.000Z"
+        }
+      ]
+    },
+    {
       "fingerprint": "b4b61c1ba674fefc194d7ef360508b602007145c",
       "signal_type": "recall",
       "matched": "[\"уничтож\"]",
@@ -49,6 +145,37 @@
       "dup_count": 1
     },
     {
+      "fingerprint": "319f7a3e8bb7c025a9b4d92c1e387532d6da0206",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп снова распространяется в Европе. Может ли он добраться до Беларуси с перелётными ...",
+      "url": "https://smartpress.by/news/ptichiy-gripp-snova-rasprostranyaetsya-v-evrope-mozhet-li-on-dobratsya-do-belarusi-s-perelyetnymi-pt/",
+      "summary": "В Европе зафиксировали новые вспышки птичьего гриппа. Могут ли перелётные птицы занести вирус в Беларусь, опасны ли голуби и утки и что делать при обнаружении мёртвой птицы?",
+      "published_at": "2026-10-29T06:25:00.000Z",
+      "created_at": "2026-10-30 02:20:52",
+      "verdict": "probable",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "Птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-10-30 02:21:09",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Птичий грипп наступает: в Нидерландах ввели ограничения, в США уничтожили миллион кур",
+          "url": "https://mail.kz/ru/news/world-news/ptichii-gripp-nastupaet-v-niderlandah-vveli-ogranicheniya-v-ssha-unichtozhili-million-kur",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "fingerprint": "7e85d48a72aca9ba0bb617b4e372bbec9bdefde1",
       "signal_type": "outbreak",
       "matched": "[\"вспышк\"]",
@@ -69,29 +196,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "нидерланды",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "07169e81ac81dc96862f65de287d9cfc633a7403",
-      "signal_type": "outbreak",
-      "matched": "[\"уничтож\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп наступает: в Нидерландах ввели ограничения, в США уничтожили миллион кур",
-      "url": "https://mail.kz/ru/news/world-news/ptichii-gripp-nastupaet-v-niderlandah-vveli-ogranicheniya-v-ssha-unichtozhili-million-kur",
-      "summary": "Власти Нидерландов обязали фермеров держать домашнюю птицу в закрытых помещениях или защищенных вольерах после трех случаев выявления птичьего гриппа за последние дни, сообщает Zakon.kz. Как пишет The ...",
-      "published_at": "2026-10-28T17:00:00.000Z",
-      "created_at": "2026-10-29 04:20:52",
-      "verdict": "probable",
-      "ai_summary": "Власти Нидерландов обязали фермеров держать домашнюю птицу в закрытых помещениях или защищенных вольерах после трех случаев выявления птичьего гриппа за последн",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-29 04:21:02",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -1257,91 +1361,6 @@
       "series_digits": null,
       "region_norm": "ставропольский край тверь",
       "dup_count": 1
-    },
-    {
-      "fingerprint": "00505bed2c060337240c791ccab899308e4d90a6",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-      "summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера, а не птичий грипп H5N1, как считалось ранее. Анализ остатков сорока девяти погибших пти ...",
-      "published_at": "2026-10-15T11:55:00.000Z",
-      "created_at": "2026-10-19 06:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "Исследование показало, что причиной гибели тысяч пингвинов на удаленных островах Антарктиды стала птичья холера",
-      "product": null,
-      "series": null,
-      "region": "Антарктида",
-      "disease": "птичья холера",
-      "order_no": null,
-      "ai_at": "2026-10-19 06:21:30",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "антарктида",
-      "dup_count": 11,
-      "dups": [
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad2baaaec854c73b563661990611cbf&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad270fc16f44b41866eb16982f54332&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad22e3bc82b434a8baa9f5f23dceb41&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1f17fc68747fca9b2de302b00cbae&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1aec84bd241049e866425f1841bce&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        }
-      ]
     }
   ]
 }
