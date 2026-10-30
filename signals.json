@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-29T14:21:03.723Z",
+  "generated_at": "2026-10-30T00:20:58.182Z",
   "items": [
+    {
+      "fingerprint": "c76f8920aacb803143601ff863812cf566f2d86d",
+      "signal_type": "recall",
+      "matched": "[\"незарегистрир\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором в Пензенской области выявлен факт реализации сортов семян, не зарегистрированных в Госреестре",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-v-penzenskoj-oblasti-vyyavlen-fakt-realizaczii-sortov-semyan-ne-zaregistrirovannyh-v-gosreestre/",
+      "summary": "19 октября 2026 года в Пензенской области Управлением Россельхознадзора по Саратовской, Самарской и Пензенской областям установлен факт реализации через интернет-магазин «РАЙДЕР СНГ» сортов семян, незарегистрированных в Государственном реестре. В каталоге интернет-магазина выявлено 10 отсутствующих в Госреестре сортов томата. По фактам нарушений владельцу сайта объявлено предостережение, указано на необходимость реализации только тех партий семян [&#8230;]",
+      "published_at": "2026-10-29T20:50:04Z",
+      "created_at": "2026-10-30 00:20:52",
+      "verdict": "probable",
+      "ai_summary": "Владельцу сайта объявлено предостережение по поводу реализации незарегистрированных сортов томата",
+      "product": null,
+      "series": null,
+      "region": "Пензенская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-10-30 00:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "пензенская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "b4b61c1ba674fefc194d7ef360508b602007145c",
       "signal_type": "recall",
@@ -1256,7 +1279,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 12,
+      "dup_count": 11,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
