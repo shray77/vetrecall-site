@@ -1,7 +1,62 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-31T00:20:56.520Z",
+  "generated_at": "2026-10-31T08:20:56.917Z",
   "items": [
+    {
+      "fingerprint": "6eee02ee705265aad02791e20901cc746cf992ba",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Австралии у мертвого дельфина подтвердили H5 — ABC News Australia",
+      "url": "https://ua.news/ru/dovkolo-svitu/v-avstraliyi-u-mertvogo-delfina-pidtverdili-h5-abc-news-australia",
+      "summary": "У мертвого обыкновенного дельфина, выброшенного на берег в заливе Энкаунтер в Австралии, подтвердили птичий грипп H5. Власти считают риск масштабной вспышки среди дельфинов низким.",
+      "published_at": "2026-10-30T21:54:00.000Z",
+      "created_at": "2026-10-31 08:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В Австралии у мертвого дельфина подтвердили птичий грипп H5",
+      "product": null,
+      "series": null,
+      "region": "Австралия",
+      "disease": "птичий грипп H5",
+      "order_no": null,
+      "ai_at": "2026-10-31 08:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "австралия",
+      "dup_count": 6,
+      "dups": [
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad37fa27ff34489902c7c9cf2c3371e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T23:21:00.000Z"
+        },
+        {
+          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-10-16T21:52:00.000Z"
+        }
+      ]
+    },
     {
       "fingerprint": "c40d4ae846c7e3a5507750fbdf9921eca6e8aff4",
       "signal_type": "recall",
@@ -146,7 +201,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 6,
+      "dup_count": 5,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
@@ -169,12 +224,6 @@
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
         }
@@ -1114,7 +1163,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 13,
+      "dup_count": 8,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
@@ -1125,12 +1174,6 @@
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         },
@@ -1160,19 +1203,7 @@
         },
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad37fa27ff34489902c7c9cf2c3371e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         }
