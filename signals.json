@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-10-31T10:20:57.956Z",
+  "generated_at": "2026-11-01T02:20:59.929Z",
   "items": [
     {
       "fingerprint": "6eee02ee705265aad02791e20901cc746cf992ba",
@@ -101,6 +101,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "cc14226ec27e060295f19ba5fe658d2e1db924cd",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Роспотребнадзор опроверг слухи о вспышке мышиной лихорадки в Нижегородской области",
+      "url": "https://zur-nn.ru/news/article/rospotrebnadzor-oproverg-sluhi-o-vspyshke-myshinoy-lihoradki-v-nijegorodskoy-oblasti-190757/",
+      "summary": "Роспотребнадзор опроверг сообщения о вспышке мышиной лихорадки (ГЛПС) в России. По данным ведомства, с начала 2026 года на территории страны не зафиксировано вспышек, а заболеваемость находится в пред ...",
+      "published_at": "2026-10-30T06:24:00.000Z",
+      "created_at": "2026-11-01 02:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Роспотребнадзор опроверг сообщения о вспышке мышиной лихорадки (ГЛПС) в России",
+      "product": null,
+      "series": null,
+      "region": "Россия",
+      "disease": "ГЛПС",
+      "order_no": null,
+      "ai_at": "2026-11-01 02:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "россия",
       "dup_count": 1
     },
     {
@@ -224,7 +247,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
@@ -235,12 +258,6 @@
         {
           "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T11:55:00.000Z"
         }
