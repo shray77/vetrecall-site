@@ -39,22 +39,28 @@
   [data-theme="dark"] {
     --ds-accent: #F87171; --ds-accent-strong: #FCA5A5; --ds-accent-ink: #0B0E14;
   }
+  /* Task 223 (QA Ш4): литерал-фолбэк токена-тинта через @supports-слой (ДС §25a) */
+  @supports not (color: color-mix(in srgb, red, blue)) {
+    :root { --accent-dim: rgba(179,38,30,.12); }
+    [data-theme="dark"] { --accent-dim: rgba(248,113,113,.12); }
+  }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } } /* Task 223 (QA П6) */
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   body { background: var(--bg); color: var(--text); font: 16px/1.65 var(--ds-font-sans); margin: 0; }
   .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 860px; margin: 0 auto; padding: 12px 20px 0; }
   .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
   .hub a:hover { color: var(--text); border-color: var(--ds-border-strong); }
-  .hub a.on { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, transparent); background: var(--accent-dim); }
+  .hub a.on { color: var(--accent); border-color: rgba(179,38,30,.45); border-color: color-mix(in srgb, var(--accent) 45%, transparent); background: var(--accent-dim); }
   header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   header.top { border-bottom: 1px solid var(--border); padding: 26px 0 22px; }
   .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
   .brand { display: flex; align-items: center; gap: 16px; }
-  .logo { width: 52px; height: 52px; border-radius: var(--ds-radius); background: var(--accent-dim); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); display: grid; place-items: center; font-size: 26px; flex: none; color: var(--accent); }
+  .logo { width: 52px; height: 52px; border-radius: var(--ds-radius); background: var(--accent-dim); border: 1px solid rgba(179,38,30,.35); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); display: grid; place-items: center; font-size: 26px; flex: none; color: var(--accent); }
   h1 { font-size: 23px; margin: 0; letter-spacing: -.02em; }
   .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
-  .tldr { background: var(--accent-dim); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); border-radius: var(--ds-radius); padding: 16px 20px; margin: 26px 0 8px; }
+  .tldr { background: var(--accent-dim); border: 1px solid rgba(179,38,30,.35); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); border-radius: var(--ds-radius); padding: 16px 20px; margin: 26px 0 8px; }
   .tldr h2 { margin: 0 0 10px; font-size: 14px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
   .tldr ul { margin: 0; padding-left: 20px; }
   .tldr li { margin: 6px 0; font-size: 15px; }

@@ -22,7 +22,7 @@
   .hub { display: flex; gap: 6px; flex-wrap: wrap; font: 12.5px var(--mono); max-width: 920px; margin: 0 auto; padding: 12px 20px 0; }
   .hub a { color: var(--muted); text-decoration: none; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; padding: 5px 12px; }
   .hub a:hover { color: var(--text); border-color: var(--ds-border-strong); }
-  .hub a.on { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
+  .hub a.on { color: var(--red); border-color: rgba(179,38,30,.45); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
     /* Ядро — vet-ds (./vet-ds.css). Ниже — локальные алиасы: существующая вёрстка
      читает токены ДС, значения не дублируются. */
   :root {
@@ -47,8 +47,15 @@
   [data-theme="dark"] {
     --ds-accent: #F87171; --ds-accent-strong: #FCA5A5; --ds-accent-ink: #0B0E14;
   }
+  /* Task 223 (QA Ш4): токены-тинты с color-mix несут литерал-фолбэк через @supports-слой —
+     «литерал до color-mix» для custom property не работает (ДС §25a, vet-ds.css:1473) */
+  @supports not (color: color-mix(in srgb, red, blue)) {
+    :root { --red-dim: rgba(179,38,30,.12); --amber-dim: rgba(138,90,20,.12); }
+    [data-theme="dark"] { --red-dim: rgba(232,121,99,.12); --amber-dim: rgba(217,162,74,.12); }
+  }
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } } /* Task 223 (QA П6) */
   :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
   input::placeholder { color: var(--faint); opacity: 1; }
   body { background: var(--bg); color: var(--text); font: 16px/1.6 var(--ds-font-sans); margin: 0; }
@@ -61,13 +68,13 @@
   .brand { display: flex; align-items: center; gap: 16px; }
   .logo {
     width: 52px; height: 52px; border-radius: var(--ds-radius); background: var(--red-dim);
-    border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); display: grid; place-items: center; font-size: 26px; color: var(--accent);
+    border: 1px solid rgba(179,38,30,.35); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); display: grid; place-items: center; font-size: 26px; color: var(--accent);
   }
   h1 { font-family: var(--ds-font-display); font-weight: 400; font-size: 29px; margin: 0; letter-spacing: -.01em; }
   .brand p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
   .live { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; font-family: var(--mono); }
   .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); flex: none; }
-  .dot.ok { background: var(--red); box-shadow: 0 0 8px color-mix(in srgb, var(--red) 70%, transparent); }
+  .dot.ok { background: var(--red); box-shadow: 0 0 8px rgba(179,38,30,.7); box-shadow: 0 0 8px color-mix(in srgb, var(--red) 70%, transparent); }
   .dot.err { background: var(--faint); box-shadow: none; }
 
   .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 24px 0 8px; }
@@ -76,7 +83,7 @@
   .stat span { color: var(--muted); font-size: 12.5px; }
 
   .check-card {
-    background: var(--surface); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); border-radius: var(--ds-radius);
+    background: var(--surface); border: 1px solid rgba(179,38,30,.35); border: 1px solid color-mix(in srgb, var(--red) 35%, transparent); border-radius: var(--ds-radius);
     padding: 16px 18px; margin: 18px 0 8px;
   }
   .check-head { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 10px; }
@@ -85,20 +92,20 @@
   .check-row { display: flex; gap: 8px; flex-wrap: wrap; }
   .check-row input {
     flex: 1 1 200px; background: var(--bg); border: 1px solid var(--border); color: var(--text);
-    border-radius: 10px; padding: 9px 12px; font-size: 14px; outline: none;
+    border-radius: 10px; padding: 9px 12px; font-size: 14px; /* Task 223 (QA П3): outline:none убран — фокус-контур из :focus-visible */
   }
-  .check-row input:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
+  .check-row input:focus { border-color: rgba(179,38,30,.5); border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   #check-go {
-    background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 50%, transparent); color: var(--red);
+    background: var(--red-dim); border: 1px solid rgba(179,38,30,.5); border: 1px solid color-mix(in srgb, var(--red) 50%, transparent); color: var(--red);
     border-radius: 10px; padding: 9px 16px; font: 600 13px var(--mono); cursor: pointer;
   }
-  #check-go:hover { background: color-mix(in srgb, var(--red) 20%, transparent); }
+  #check-go:hover { background: rgba(179,38,30,.2); background: color-mix(in srgb, var(--red) 20%, transparent); }
   .check-row.shake { animation: shake .3s; }
   @keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
-  .check-res { margin-top: 10px; border-radius: 10px; padding: 12px 14px; font-size: 14px; line-height: 1.55; }
-  .check-res.bad { background: color-mix(in srgb, var(--red) 9%, transparent); border: 1px solid color-mix(in srgb, var(--red) 40%, transparent); }
-  .check-res.warn { background: color-mix(in srgb, var(--amber) 7%, transparent); border: 1px solid color-mix(in srgb, var(--amber) 35%, transparent); }
-  .check-res.ok { background: color-mix(in srgb, var(--accent) 7%, transparent); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+  .check-res { margin-top: 10px; border-radius: 10px; padding: 12px 14px; font-size: 14px; line-height: 1.55; overflow-wrap: anywhere; } /* Task 223 (QA Б2): «а»×200 не раздувает блок и документ */
+  .check-res.bad { background: rgba(179,38,30,.09); background: color-mix(in srgb, var(--red) 9%, transparent); border: 1px solid rgba(179,38,30,.4); border-color: color-mix(in srgb, var(--red) 40%, transparent); }
+  .check-res.warn { background: rgba(138,90,20,.07); background: color-mix(in srgb, var(--amber) 7%, transparent); border: 1px solid rgba(138,90,20,.35); border-color: color-mix(in srgb, var(--amber) 35%, transparent); }
+  .check-res.ok { background: rgba(179,38,30,.07); background: color-mix(in srgb, var(--accent) 7%, transparent); border: 1px solid rgba(179,38,30,.3); border-color: color-mix(in srgb, var(--accent) 30%, transparent); }
   .check-res b { display: block; margin-bottom: 4px; font-size: 14.5px; }
   .check-res .small { color: var(--faint); font-size: 12px; margin-top: 8px; }
   .check-res a { color: var(--blue); }
@@ -107,21 +114,21 @@
   .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 18px 0 4px; }
   #q {
     flex: 1 1 260px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
-    border-radius: 10px; padding: 9px 14px; font-size: 14px; outline: none;
+    border-radius: 10px; padding: 9px 14px; font-size: 14px; /* Task 223 (QA П3): outline:none убран */
   }
-  #q:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
+  #q:focus { border-color: rgba(179,38,30,.5); border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   #region {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
-    border-radius: 10px; padding: 9px 12px; font-size: 13px; outline: none; max-width: 240px; cursor: pointer;
+    border-radius: 10px; padding: 9px 12px; font-size: 13px; max-width: 240px; cursor: pointer; /* Task 223 (QA П3): outline:none убран */
   }
-  #region:focus { border-color: color-mix(in srgb, var(--red) 50%, transparent); }
+  #region:focus { border-color: rgba(179,38,30,.5); border-color: color-mix(in srgb, var(--red) 50%, transparent); }
   .chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 6px; }
   .chip-btn {
     background: var(--surface); border: 1px solid var(--border); color: var(--muted);
     font: 12px var(--mono); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: .15s;
   }
   .chip-btn:hover { color: var(--text); }
-  .chip-btn.active { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
+  .chip-btn.active { color: var(--red); border-color: rgba(179,38,30,.45); border-color: color-mix(in srgb, var(--red) 45%, transparent); background: var(--red-dim); }
   .chip-btn.dim { border-style: dashed; }
 
   .date-sep {
@@ -141,26 +148,28 @@
   .card-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; align-items: center; flex-wrap: wrap; }
   .badges { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
   .type, .verdict { font: 700 11px var(--mono); letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; text-transform: uppercase; }
-  .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 30%, transparent); }
-  .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid color-mix(in srgb, var(--amber) 30%, transparent); }
-  .verdict.confirmed { color: var(--red); background: var(--red-dim); border: 1px solid color-mix(in srgb, var(--red) 40%, transparent); }
-  .verdict.probable { color: var(--amber); background: var(--amber-dim); border: 1px solid color-mix(in srgb, var(--amber) 35%, transparent); }
+  .type.recall { color: var(--red); background: var(--red-dim); border: 1px solid rgba(179,38,30,.3); border-color: color-mix(in srgb, var(--red) 30%, transparent); }
+  .type.outbreak { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(138,90,20,.3); border-color: color-mix(in srgb, var(--amber) 30%, transparent); }
+  .verdict.confirmed { color: var(--red); background: var(--red-dim); border: 1px solid rgba(179,38,30,.4); border-color: color-mix(in srgb, var(--red) 40%, transparent); }
+  .verdict.probable { color: var(--amber); background: var(--amber-dim); border: 1px solid rgba(138,90,20,.35); border-color: color-mix(in srgb, var(--amber) 35%, transparent); }
   .verdict.noise { color: var(--muted); background: var(--surface2); border: 1px solid var(--border-strong); }
   .verdict.pending { color: var(--muted); background: var(--surface2); border: 1px dashed var(--border-strong); }
   .pub { color: var(--faint); font-size: 12.5px; font-family: var(--mono); white-space: nowrap; }
   .card h2 { font-family: var(--ds-font-display); font-weight: 400; font-size: 19px; line-height: 1.35; margin: 0 0 8px; letter-spacing: -.01em; }
   .card h2 a { color: var(--text); text-decoration: none; }
   .card h2 a:hover { color: var(--red); }
-  .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent); padding-left: 10px; }
+  .ai-sum { margin: 0 0 8px; color: var(--green); font-size: 14px; max-width: 65ch; border-left: 2px solid rgba(179,38,30,.4); border-color: color-mix(in srgb, var(--accent) 40%, transparent); padding-left: 10px; } /* Task 223 (QA П1): строка ~65 зн., а не ~120 */
   .matched { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
   .kw {
     font: 11.5px var(--mono); color: var(--muted); background: var(--surface2); border: 1px solid var(--border-strong);
     padding: 2px 9px; border-radius: 999px; cursor: pointer; transition: .15s;
   }
-  .kw:hover { color: var(--red); border-color: color-mix(in srgb, var(--red) 40%, transparent); }
+  .kw:hover { color: var(--red); border-color: rgba(179,38,30,.4); border-color: color-mix(in srgb, var(--red) 40%, transparent); }
   .fields { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; font: 12.5px var(--mono); color: var(--blue); }
   .fields span { white-space: nowrap; }
   .fields i { font-style: normal; color: var(--faint); margin-right: 4px; }
+  /* Task 223 (QA Б2): неразрывная строка переносится, а не рвёт карточку */
+  .card h2, .ai-sum, .fields span, .dup-row span { overflow-wrap: anywhere; }
   .card-foot { display: flex; gap: 14px; align-items: center; margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--border); }
   .card-foot a, .card-foot span { color: var(--faint); font-size: 12.5px; font-family: var(--mono); text-decoration: none; }
   .card-foot a:hover { color: var(--blue); }
@@ -169,7 +178,7 @@
 
   .skel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--ds-radius); padding: 16px 18px; margin-bottom: 12px; }
   .sk { position: relative; overflow: hidden; background: var(--surface2); border-radius: var(--ds-radius-s); height: 12px; margin-bottom: 10px; }
-  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--text) 7%, transparent), transparent); animation: shimmer 1.4s infinite; }
+  .sk::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%); background: linear-gradient(90deg, transparent, rgba(28,27,26,.07), transparent); background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--text) 7%, transparent), transparent); animation: shimmer 1.4s infinite; }
   @keyframes shimmer { 100% { transform: translateX(100%); } }
   .sk.t { height: 15px; width: 62%; }
   .sk.w40 { width: 40%; }
@@ -179,7 +188,7 @@
   .dup-toggle { margin: -4px 0 14px; }
   .dup-list { margin: -6px 0 14px; display: grid; gap: 6px; }
   .dup-row { display: flex; gap: 12px; align-items: baseline; background: var(--surface); border: 1px dashed var(--border); border-radius: 10px; padding: 8px 12px; color: var(--muted); font-size: 13px; text-decoration: none; }
-  .dup-row:hover { color: var(--text); border-color: color-mix(in srgb, var(--red) 35%, transparent); }
+  .dup-row:hover { color: var(--text); border-color: rgba(179,38,30,.35); border-color: color-mix(in srgb, var(--red) 35%, transparent); }
   .dup-row .pub { margin-left: auto; flex: none; }
 
   #totop {
@@ -188,7 +197,7 @@
     cursor: pointer; opacity: 0; pointer-events: none; transition: .2s; z-index: 50;
   }
   #totop.show { opacity: 1; pointer-events: auto; }
-  #totop:hover { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); }
+  #totop:hover { color: var(--red); border-color: rgba(179,38,30,.45); border-color: color-mix(in srgb, var(--red) 45%, transparent); }
 
   footer { border-top: 1px solid var(--border); margin-top: 40px; padding: 18px 0 30px; }
   .foot { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--faint); }
@@ -214,6 +223,8 @@
     -webkit-overflow-scrolling:touch;padding-bottom:2px}
   .hub::-webkit-scrollbar{display:none}
   .hub a{flex:none;white-space:nowrap}
+  .fields span{white-space:normal;min-width:0;overflow-wrap:anywhere} /* Task 223 (QA Б3): nowrap полей давал 15px гориз. скролла на 375px */
+  .kw,.chip-btn{min-height:44px} /* Task 223 (QA П4): тач-таргеты ≥44px (были 21/29px) */
   footer{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
 }
 </style>
@@ -253,8 +264,8 @@
   <section class="check-card" id="check">
     <div class="check-head"><b>Проверка серии</b><span>введите препарат и номер серии — сверим с радаром</span></div>
     <div class="check-row" id="check-row">
-      <input id="check-product" placeholder="Препарат, напр. Мультикан-8" autocomplete="off">
-      <input id="check-series" placeholder="Серия, напр. 20" autocomplete="off">
+      <input id="check-product" placeholder="Препарат, напр. Мультикан-8" autocomplete="off" maxlength="200">
+      <input id="check-series" placeholder="Серия, напр. 20" autocomplete="off" maxlength="200">
       <button id="check-go">Проверить</button>
     </div>
     <div id="check-result"></div>
@@ -285,6 +296,8 @@
 
 <script>
 let ALL = [], q = "", verdict = "real", type = "", region = "", lastGen = null, groupDup = true;
+/* Task 223 (QA П6): smooth-скролл — тоже движение, гасим при prefers-reduced-motion */
+const smoothOk = () => !matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const timeAgo = (iso) => {
   const ms = Date.now() - new Date(iso).getTime();
@@ -299,7 +312,15 @@ const timeAgo = (iso) => {
 const fmtDT = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "short" }) : "—";
 const fmtDay = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").toLocaleDateString("ru-RU", { day: "numeric", month: "long" }) : "—";
 const ts = (s) => s ? new Date(s.includes("T") ? s : s.replace(" ", "T") + "Z").getTime() : 0;
-const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+/* Task 223 (QA Б1): данные из RSS хранят entity-последовательности (&#171;, &#8230; и т.п.) —
+   экранируем только после одноразового декодирования, иначе esc() удваивает escape
+   и заголовок показывает сырой текст «&#171;…». Круг замкнут: decode → esc, инъекций нет */
+const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: "\u00A0", laquo: "\u00AB", raquo: "\u00BB", mdash: "\u2014", ndash: "\u2013", hellip: "\u2026" };
+const decodeEnt = (s) => String(s)
+  .replace(/&#(\d{1,7});/g, (m, d) => { const c = +d; return c > 0 && c <= 0x10ffff ? String.fromCodePoint(c) : m; })
+  .replace(/&#x([0-9a-f]{1,6});/gi, (m, h) => { const c = parseInt(h, 16); return c > 0 && c <= 0x10ffff ? String.fromCodePoint(c) : m; })
+  .replace(/&(amp|lt|gt|quot|apos|nbsp|laquo|raquo|mdash|ndash|hellip);/g, (m, n) => ENT[n]);
+const esc = (s) => decodeEnt(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 /* битый matched не должен ронять ленту (Task 183): разбор не удался — пустой список */
 const safeJson = (s) => { try { return JSON.parse(s || "[]"); } catch (e) { return []; } };
 
@@ -335,6 +356,7 @@ let lastCheck = null;
 function runCheck() {
   const pIn = document.getElementById("check-product").value.trim();
   const sIn = document.getElementById("check-series").value.trim();
+  const pShow = pIn.length > 200 ? pIn.slice(0, 200) + "…" : pIn; /* Task 223 (QA Ш3): echo не длиннее лимита поля */
   const res = document.getElementById("check-result");
   if (!pIn) {
     const row = document.getElementById("check-row");
@@ -365,7 +387,7 @@ function runCheck() {
       ⚠ <b>Препарат фигурирует в сигналах${sd ? " — серия не совпала" : " (серия не указана)"}</b>
       ${series ? "Серии из сигналов: " + series + "." : ""}${dates ? " Даты сигналов: " + dates : ""}<br>
       <button class="chip-btn show-in-feed">показать в ленте →</button>
-      <div class="small">указанная серия в списке не значится — сверьте упаковку ещё раз перед применением</div>
+      <div class="small">${sd ? "указанная серия в списке не значится — сверьте упаковку ещё раз перед применением" : "серия не указана — сравнить не с чем, сверьте упаковку"}</div>
     </div>`;
   } else {
     /* честность покрытия (Task 183): «не значится» ≠ «безопасна», если радар не знает номеров серий */
@@ -373,12 +395,12 @@ function runCheck() {
     res.innerHTML = known
       ? `<div class="check-res ok">
         ✓ <b>В радаре не значится</b>
-        По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет.
+        По «${esc(pShow)}» сигналов брака/отзыва в текущем радаре нет.
         <div class="small">в радаре ${known} ${seriesPlural(known)} за период — покрытие ограничено, отсутствия серии в радаре недостаточно для вывода. Официальный статус серии проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
       </div>`
       : `<div class="check-res warn">
         ⚠ <b>Проверка серии сейчас неинформативна</b>
-        По «${esc(pIn)}» сигналов брака/отзыва в текущем радаре нет, но в радаре 0 серий за период — покрытие ограничено, отсутствия серии в радаре недостаточно для вывода.
+        По «${esc(pShow)}» сигналов брака/отзыва в текущем радаре нет, но в радаре 0 серий за период — покрытие ограничено, отсутствия серии в радаре недостаточно для вывода.
         <div class="small">официальный статус серии проверяйте в <a href="https://fsvps.gov.ru" target="_blank" rel="noopener">системе ФСВПС ↗</a></div>
       </div>`;
   }
@@ -388,7 +410,7 @@ function runCheck() {
     q = (target && target.product ? target.product : pIn).toLowerCase();
     document.getElementById("q").value = q;
     renderChips(); render();
-    document.getElementById("feed").scrollIntoView({ behavior: "smooth" });
+    document.getElementById("feed").scrollIntoView({ behavior: smoothOk() ? "smooth" : "auto" });
   });
 }
 document.getElementById("check-go").onclick = runCheck;
@@ -488,7 +510,7 @@ function render() {
   }).sort((a, b) => ts(b.published_at) - ts(a.published_at));
 
   if (!list.length) {
-    feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбрось фильтры или запусти скан (run-now в репозитории).</div>`;
+    feed.innerHTML = `<div class="empty"><b>Ничего не нашлось</b>Сбросьте фильтры или запустите скан (run-now в репозитории).</div>`;
     return;
   }
   brokenCards = 0;
@@ -502,7 +524,7 @@ function render() {
     return html;
   })();
   if (brokenCards && !feed.querySelector(".card")) {
-    feed.innerHTML = `<div class="empty"><b>Не удалось разобрать записи радара</b>Данные повреждены — попробуй обновить страницу позже.</div>`;
+    feed.innerHTML = `<div class="empty"><b>Не удалось разобрать записи радара</b>Данные повреждены — попробуйте обновить страницу позже.</div>`;
   }
 }
 
@@ -571,7 +593,7 @@ async function refresh() {
     j = await (await fetch("./signals.json", { cache: "no-store" })).json();
   } catch (e) {
     document.getElementById("meta").innerHTML = `<span class="dot err"></span><span>signals.json недоступен</span>`;
-    document.getElementById("feed").innerHTML = `<div class="empty"><b>Не удалось загрузить signals.json</b>Обнови страницу или зайди позже.</div>`;
+    document.getElementById("feed").innerHTML = `<div class="empty"><b>Не удалось загрузить signals.json</b>Обновите страницу или зайдите позже.</div>`;
     return;
   }
   ALL = Array.isArray(j.items) ? j.items : [];
@@ -589,12 +611,12 @@ if (mh) {
   try { [p, s] = decodeURIComponent(mh[1]).split("|"); } catch (e) {}
   if (p) document.getElementById("check-product").value = p;
   if (s) document.getElementById("check-series").value = s;
-  runCheck();
+  if (p) runCheck(); /* Task 223 (QA Ш2): пустой продукт из битого hash не зовёт warn+shake без действия пользователя */
 }
 
 const totop = document.getElementById("totop");
 addEventListener("scroll", () => totop.classList.toggle("show", scrollY > 600), { passive: true });
-totop.onclick = () => scrollTo({ top: 0, behavior: "smooth" });
+totop.onclick = () => scrollTo({ top: 0, behavior: smoothOk() ? "smooth" : "auto" });
 </script>
 <script>
 (function(){
