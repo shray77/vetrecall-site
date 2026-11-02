@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-01T02:20:59.929Z",
+  "generated_at": "2026-11-02T04:21:02.960Z",
   "items": [
     {
       "fingerprint": "6eee02ee705265aad02791e20901cc746cf992ba",
@@ -247,21 +247,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 3,
-      "dups": [
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        },
-        {
-          "title": "Биологи выявили причину гибели пингвинов в Антарктиде",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fsamaraonline24.ru%2fscience%2fview%2fbiologi-vyavili-pricinu-gibeli-pingvinov-v-antarktide&c=1555958984774972355&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T11:55:00.000Z"
-        }
-      ]
+      "dup_count": 1
     },
     {
       "fingerprint": "b4b61c1ba674fefc194d7ef360508b602007145c",
@@ -1439,6 +1425,52 @@
           "published_at": "2026-10-15T19:42:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "cabf4b9be77ec4d1901cb334ec553526ad3e6972",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-fals",
+      "title": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
+      "url": "https://www.interfax.ru/russia/1122750",
+      "summary": "Москва. 15 октября. INTERFAX.RU - Россельхознадзор обратился в инспекционный орган по ...",
+      "published_at": "2026-10-15T13:59:00.000Z",
+      "created_at": "2026-11-02 04:20:52",
+      "verdict": "probable",
+      "ai_summary": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
+      "product": null,
+      "series": null,
+      "region": "Армения",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-02 04:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "армения",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "991a6dea047237e6c7264276cddf685d9309933b",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
+      "url": "https://www.interfax.ru/russia/1122750",
+      "summary": "Москва. 15 октября. INTERFAX.RU - Россельхознадзор обратился в инспекционный орган по ...",
+      "published_at": "2026-10-15T13:59:00.000Z",
+      "created_at": "2026-11-02 04:20:52",
+      "verdict": "probable",
+      "ai_summary": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-02 04:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
     },
     {
       "fingerprint": "e0eb328cb6c1708b72d6c3ab42a8a8e4de38df2e",
