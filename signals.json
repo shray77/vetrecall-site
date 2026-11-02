@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-02T04:21:02.960Z",
+  "generated_at": "2026-11-02T06:20:57.847Z",
   "items": [
+    {
+      "fingerprint": "7b1aa111881766ef7f081d6beff82dbdd49b9c3d",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Улётовском округе прошли командно-штабные учения по ликвидации очага высокопатогенного ...",
+      "url": "https://75.ru/news/460256",
+      "summary": "Если Вы не согласны с осуществлением такой обработки данных, Вы можете соответствующим образом установить настройки своего браузера или покинуть сайт.",
+      "published_at": "2026-11-01T11:32:00.000Z",
+      "created_at": "2026-11-02 06:20:52",
+      "verdict": "noise",
+      "ai_summary": "Если Вы не согласны с осуществлением такой обработки данных, Вы можете соответствующим образом установить настройки своего браузера или покинуть сайт.",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-02 06:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "6eee02ee705265aad02791e20901cc746cf992ba",
       "signal_type": "outbreak",
@@ -1470,29 +1493,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "e0eb328cb6c1708b72d6c3ab42a8a8e4de38df2e",
-      "signal_type": "outbreak",
-      "matched": "[\"фальсифиц\"]",
-      "source_id": "fsvps-news",
-      "title": "Россельхознадзор выявил несоответствия в мясной продукции 3 российских производителей",
-      "url": "https://fsvps.gov.ru/news/rosselhoznadzor-vyyavil-nesootvetstviya-v-myasnoj-produkczii-3-rossijskih-proizvoditelej/",
-      "summary": "Россельхознадзор в ходе лабораторного мониторинга пищевой продукции выявил несоответствия в продуктах нескольких российских производителей, входящих в реестр экспортеров и Таможенного союза. Зафиксированы поставки небезопасных и фальсифицированных товаров, в том числе в социально значимые учреждения страны. Ставропольский край – ООО «Ставропольский Бройлер», филиал «Мясоптицекомбинат «Благодарненский». В окорочках цыплят-бройлеров обнаружены бактерии сальмонеллы. Пробы были отобраны в тверской школе. Россельхознадзор [&#8230;]",
-      "published_at": "2026-10-15T13:45:31Z",
-      "created_at": "2026-10-15 18:20:58",
-      "verdict": "confirmed",
-      "ai_summary": "В продукции нескольких российских производителей выявлены несоответствия",
-      "product": null,
-      "series": null,
-      "region": "Ставропольский край, Тверь",
-      "disease": "сальмонеллы",
-      "order_no": null,
-      "ai_at": "2026-10-15 18:21:03",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "ставропольский край тверь",
       "dup_count": 1
     }
   ]
