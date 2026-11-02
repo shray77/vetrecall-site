@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-02T06:20:57.847Z",
+  "generated_at": "2026-11-02T18:20:57.665Z",
   "items": [
+    {
+      "fingerprint": "b029591a665af4056dbeeacb9e94b02d075b0f57",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп стучит в стекло: когда ждать новую пандемию",
+      "url": "https://www.mk.ru/social/2026/11/02/ptichiy-gripp-stuchit-v-steklo-kogda-zhdat-novuyu-pandemiyu.html",
+      "summary": "Птичий грипп H5N1 уже давно причислили к потенциально способным вызвать новую пандемию. Пока официально подтвержденных случаев передачи вируса от человека к человеку не зарегистрировано, однако в посл ...",
+      "published_at": "2026-11-02T05:29:00.000Z",
+      "created_at": "2026-11-02 18:20:52",
+      "verdict": "noise",
+      "ai_summary": "Птичий грипп H5N1 уже давно причислили к потенциально способным вызвать новую пандемию.",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-02 18:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "7b1aa111881766ef7f081d6beff82dbdd49b9c3d",
       "signal_type": "outbreak",
@@ -1470,29 +1493,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "армения",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "991a6dea047237e6c7264276cddf685d9309933b",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "bing-recall-series",
-      "title": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
-      "url": "https://www.interfax.ru/russia/1122750",
-      "summary": "Москва. 15 октября. INTERFAX.RU - Россельхознадзор обратился в инспекционный орган по ...",
-      "published_at": "2026-10-15T13:59:00.000Z",
-      "created_at": "2026-11-02 04:20:52",
-      "verdict": "probable",
-      "ai_summary": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-11-02 04:21:02",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
       "dup_count": 1
     }
   ]
