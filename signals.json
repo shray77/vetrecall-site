@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-03T08:20:58.639Z",
+  "generated_at": "2026-11-03T18:20:56.003Z",
   "items": [
     {
       "fingerprint": "4a8199209b7dc7a2d51235593a7e62845b1f262a",
@@ -1023,6 +1023,29 @@
       "dup_count": 1
     },
     {
+      "fingerprint": "0ae92d824fd1f03e2beead7b448409f958ca9f3d",
+      "signal_type": "recall",
+      "matched": "[\"фальсифиц\"]",
+      "source_id": "bing-recall-fals",
+      "title": "Укрфармагентство получило четыре жалобы на препарат для похудения Biopatid",
+      "url": "https://ru.interfax.com.ua/news/pharmacy/1223057.html",
+      "summary": "Укрфармагентство получило четыре жалобы на фальсифицированный препарат для похудения ...",
+      "published_at": "2026-10-20T04:17:00.000Z",
+      "created_at": "2026-11-03 18:20:52",
+      "verdict": "probable",
+      "ai_summary": null,
+      "product": "Biopatid",
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-03 18:20:55",
+      "product_norm": "biopatid",
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
       "fingerprint": "83fc892526a42190a883fd27e7057dae087aeb20",
       "signal_type": "outbreak",
       "matched": "[\"оспа\"]",
@@ -1473,7 +1496,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "подмосковье",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
@@ -1484,12 +1507,6 @@
         {
           "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T19:42:00.000Z"
-        },
-        {
-          "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad300287f34435cba778150ccb2d53d&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-15T19:42:00.000Z"
         }
