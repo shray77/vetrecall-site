@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-02T18:20:57.665Z",
+  "generated_at": "2026-11-03T08:20:58.639Z",
   "items": [
+    {
+      "fingerprint": "4a8199209b7dc7a2d51235593a7e62845b1f262a",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "fsvps-news",
+      "title": "По материалам Россельхознадзора судом повторно приостановлена деятельность пункта по убою свиней в Калужской области",
+      "url": "https://fsvps.gov.ru/news/po-materialam-rosselhoznadzora-sudom-povtorno-priostanovlena-deyatelnost-punkta-po-uboyu-svinej-v-kaluzhskoj-oblasti/",
+      "summary": "В Калужской области по решению суда повторно установлен временный запрет деятельности пункта по убою животных и производству продукции животного происхождения, принадлежащего ИП Робакидзе Т.З. Поводом послужили многочисленные нарушения ветеринарного законодательства, выявленные в ходе плановой проверки Управления Россельхознадзора по Брянской, Смоленской и Калужской областям еще в июле 2026 года. Так, предприниматель осуществлял убой животных, ввезенных [&#8230;]",
+      "published_at": "2026-11-03T06:27:25Z",
+      "created_at": "2026-11-03 08:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В Калужской области по решению суда повторно установлен временный запрет деятельности пункта по убою животных и производству продукции животного происхождения",
+      "product": null,
+      "series": null,
+      "region": "Калужская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-03 08:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "калужская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "b029591a665af4056dbeeacb9e94b02d075b0f57",
       "signal_type": "outbreak",
@@ -1471,29 +1494,6 @@
           "published_at": "2026-10-15T19:42:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "cabf4b9be77ec4d1901cb334ec553526ad3e6972",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
-      "url": "https://www.interfax.ru/russia/1122750",
-      "summary": "Москва. 15 октября. INTERFAX.RU - Россельхознадзор обратился в инспекционный орган по ...",
-      "published_at": "2026-10-15T13:59:00.000Z",
-      "created_at": "2026-11-02 04:20:52",
-      "verdict": "probable",
-      "ai_summary": "Россельхознадзор попросил Армению приостановить ветсертификацию продукции производителя ...",
-      "product": null,
-      "series": null,
-      "region": "Армения",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-11-02 04:20:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "армения",
-      "dup_count": 1
     }
   ]
 }
