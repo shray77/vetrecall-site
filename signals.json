@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-03T18:20:56.003Z",
+  "generated_at": "2026-11-04T14:21:03.137Z",
   "items": [
+    {
+      "fingerprint": "6c1c1fad0e9a6b308ec5ae959737a8386eaa0357",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На птицеферме в Йончхоне выявлен первый в этом сезоне антиген H5 птичьего гриппа: объявлен ...",
+      "url": "https://news.jkn.co.kr/editions/russian/post/1069404",
+      "summary": "На птицеферме по производству яиц в уезде Йончхон (провинция Кёнги) впервые в этом сезоне среди домашних хозяйств страны обнаружен антиген высокопатогенного птичьего гриппа типа H5. Органы ветеринарно ...",
+      "published_at": "2026-11-04T03:56:00.000Z",
+      "created_at": "2026-11-04 14:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "На птицеферме в Йончхоне выявлен первый в этом сезоне антиген H5 птичьего гриппа",
+      "product": null,
+      "series": null,
+      "region": "Йончхон, провинция Кёнги",
+      "disease": "птичьего гриппа типа H5",
+      "order_no": null,
+      "ai_at": "2026-11-04 14:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "йончхон провинция кенги",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "d41eb6e652160dd11b44abfe21901722268c0625",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Улётовском округе провели учения по борьбе с птичьим гриппом",
+      "url": "https://zabnews.ru/lenta/75329-v_ulyotovskom_okruge_proveli_ucheniya_po_borbe_s_ptichim_grippom",
+      "summary": "Высокопатогенный грипп птиц — опасная вирусная инфекция, которая может привести к массовой гибели птиц. Учения помогли проверить готовность служб.",
+      "published_at": "2026-11-04T03:30:00.000Z",
+      "created_at": "2026-11-04 14:20:52",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-04 14:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "4a8199209b7dc7a2d51235593a7e62845b1f262a",
       "signal_type": "recall",
@@ -1496,21 +1542,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "подмосковье",
-      "dup_count": 3,
-      "dups": [
-        {
-          "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T19:42:00.000Z"
-        },
-        {
-          "title": "В России подозревают вспышку еще одного заболевания, речь идет не о чуме. Что известно",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fgordonua.com%2fsection-worldnews%2fnews-u-rosiyi-pidozryuyut-spalakh-shche-odnoho-zakhvoryuvannya-ydetsya-ne-pro-chumu-shcho-vidomo-16-10-2026.html&c=15592454654325557086&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-15T19:42:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
