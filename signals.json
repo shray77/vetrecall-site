@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-05T06:20:59.188Z",
+  "generated_at": "2026-11-05T20:20:56.067Z",
   "items": [
+    {
+      "fingerprint": "b9e784cac990908c905db81230615ecc21f159f5",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "В Тюменской области по материалам Россельхознадзора суд вынес решение об изъятии у собственника участка сельхозназначения",
+      "url": "https://fsvps.gov.ru/news/v-tyumenskoj-oblasti-po-materialam-rosselhoznadzora-sud-vynes-reshenie-ob-izyatii-u-sobstvennika-uchastka-selhoznaznacheniya/",
+      "summary": "7 октября 2026 года Тюменский районный суд Тюменской области вынес решение об изъятии у собственника неиспользуемого земельного участка сельскохозяйственного назначения. Ранее, в 2022 году по результатам выездного обследования Управлением Россельхознадзора по Тюменской области, Ямало-Ненецкому и Ханты-Мансийскому автономным округам было установлено, что земельный участок площадью 6,8 тыс. кв. м, расположенный в Тюменском районе, зарос сорной [&#8230;]",
+      "published_at": "2026-11-05T14:58:27Z",
+      "created_at": "2026-11-05 20:20:52",
+      "verdict": "confirmed",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": "Тюменская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-05 20:20:55",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тюменская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "f665aac74075109445e8b8aff690cfe49d1a6e3a",
       "signal_type": "outbreak",
@@ -1519,29 +1542,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "тульская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "c2fe94fce80cd74bcfecc1c2c167289d5a3120cb",
-      "signal_type": "recall",
-      "matched": "[\"запрещен\"]",
-      "source_id": "fsvps-news",
-      "title": "В Челябинской области Россельхознадзором запрещен импорт 17,4 тонны фруктов из-за недействительного фитосанитарного сертификата",
-      "url": "https://fsvps.gov.ru/news/v-chelyabinskoj-oblasti-rosselhoznadzorom-zapreshhen-import-174-tonny-fruktov-iz-za-nedejstvitelnogo-fitosanitarnogo-sertifikata/",
-      "summary": "16 октября должностные лица Уральского межрегионального управления Россельхознадзора во время проведения проверки документов на 145 км автодороги А310 Екатеринбург-Алматы установили, что на территорию России из Казахстана с нарушениями ввезен подкарантинный груз высокого фитосанитарного риска. ТС с 17,4 т фруктов китайского происхождения (11,4 т манго и 6 т груш) следовала из Казахстана в Екатеринбург. При проверке [&#8230;]",
-      "published_at": "2026-10-16T08:39:16Z",
-      "created_at": "2026-10-16 12:20:50",
-      "verdict": "confirmed",
-      "ai_summary": "миграционный запрет на импорт фруктов из-за недействительного фитосертификата",
-      "product": null,
-      "series": null,
-      "region": "Челябинская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-16 12:21:00",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "челябинская область",
       "dup_count": 1
     }
   ]
