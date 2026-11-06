@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-06T20:21:03.599Z",
+  "generated_at": "2026-11-06T22:20:57.976Z",
   "items": [
     {
       "fingerprint": "cca9735795740388ad44c34913901dd6976daa9d",
@@ -46,6 +46,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "ивановская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "4ed33edbba6d2421abdddb00c4a72e11828a8751",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Суд оштрафовал жительницу Удмуртии за распространение птичьего гриппа в четырех регионах",
+      "url": "https://gorodglazov.com/udmurtia/45599",
+      "summary": "Суд оштрафовал жительницу Можгинского района Удмуртии на 40 тысяч рублей: она продавала птиц без ветеринарных документов, и птичий грипп выявили в четырех регионах.",
+      "published_at": "2026-11-06T11:15:00.000Z",
+      "created_at": "2026-11-06 22:20:52",
+      "verdict": "probable",
+      "ai_summary": "Суд оштрафовал жительницу Удмуртии за распространение птичьего гриппа в четырех регионах",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "птичьий грипп",
+      "order_no": null,
+      "ai_at": "2026-11-06 22:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -1511,7 +1534,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 9,
+      "dup_count": 8,
       "dups": [
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
@@ -1552,12 +1575,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T20:04:00.000Z"
         }
