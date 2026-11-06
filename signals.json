@@ -1,7 +1,38 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-05T20:20:56.067Z",
+  "generated_at": "2026-11-06T12:20:54.454Z",
   "items": [
+    {
+      "fingerprint": "60469a3b5144ff478d059336153e59c1c116d66e",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Монголия закупила в РФ более 3 млн доз вакцины от ящура двух видов",
+      "url": "https://ulan.mk.ru/social/2026/11/06/mongoliya-zakupila-v-rf-bolee-3-mln-doz-vakciny-ot-yashhura-dvukh-vidov.html",
+      "summary": "Вакцинация скота на пастбищах Монголии, которая закупила в России &#160;3,6 млн доз препарата против ящура, стартует 8 ноября и продлится до 1 декабря 2026 года, сообщает ТАСС со ссылкой на &#160;данные Главног ...",
+      "published_at": "2026-11-06T01:42:00.000Z",
+      "created_at": "2026-11-06 12:20:52",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-06 12:20:54",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Монголия закупила в РФ более 3 млн доз вакцины от ящура двух видов",
+          "url": "https://kvedomosti.ru/?p=1222949",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-11-04T19:21:00.000Z"
+        }
+      ]
+    },
     {
       "fingerprint": "b9e784cac990908c905db81230615ecc21f159f5",
       "signal_type": "recall",
@@ -23,29 +54,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "тюменская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "f665aac74075109445e8b8aff690cfe49d1a6e3a",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Монголия закупила в РФ более 3 млн доз вакцины от ящура двух видов",
-      "url": "https://kvedomosti.ru/?p=1222949",
-      "summary": "Иммунизация пастбищных животных в Монголии закупленными в РФ 3,6 млн дозами вакцины от ящура начнется 8 ноября и завершится 1 декабря 2026 года. Об этом сообщило Главное ветеринарное управление страны ...",
-      "published_at": "2026-11-04T19:21:00.000Z",
-      "created_at": "2026-11-05 06:20:51",
-      "verdict": "probable",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-11-05 06:20:54",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -1520,29 +1528,6 @@
           "published_at": "2026-10-16T20:04:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "329b6e9f9e7d7529108fba6ce78dc98ccbae9ac4",
-      "signal_type": "recall",
-      "matched": "[\"изъят\"]",
-      "source_id": "fsvps-news",
-      "title": "По материалам Россельхознадзора в Тульской области судом у собственников изъято около 25 га сельхозземель",
-      "url": "https://fsvps.gov.ru/news/po-materialam-rosselhoznadzora-v-tulskoj-oblasti-sudom-u-sobstvennikov-izyato-okolo-25-ga-selhozzemel/",
-      "summary": "14 октября 2026 года в Управление Россельхознадзора по городу Москва, Московской и Тульской областям поступило решение суда, которым были удовлетворены требования об изъятии у собственников земельного участка сельскохозяйственного назначения площадью 24,9 га, расположенного в Чернском районе Тульской области, и о его продаже с публичных торгов. Собственниками земельного участка являются Пекарский Р.Ф., Пекарский Ф.Р. и Пекарский [&#8230;]",
-      "published_at": "2026-10-16T09:48:35Z",
-      "created_at": "2026-10-16 12:20:50",
-      "verdict": "confirmed",
-      "ai_summary": "Судом изъят земельный участок в Тульской области",
-      "product": null,
-      "series": null,
-      "region": "Тульская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-16 12:20:55",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "тульская область",
-      "dup_count": 1
     }
   ]
 }
