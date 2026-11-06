@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-06T18:21:01.268Z",
+  "generated_at": "2026-11-06T20:21:03.599Z",
   "items": [
+    {
+      "fingerprint": "cca9735795740388ad44c34913901dd6976daa9d",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\",\"нодулярн\"]",
+      "source_id": "fsvps-news",
+      "title": "В Херсонской области Россельхознадзором отобрано более 500 проб для обеспечения эпизоотической безопасности",
+      "url": "https://fsvps.gov.ru/news/v-hersonskoj-oblasti-rosselhoznadzorom-otobrano-bolee-500-prob-dlya-obespecheniya-epizooticheskoj-bezopasnosti/",
+      "summary": "С 1 января по 3 ноября 2026 года сотрудниками отдела ветеринарного контроля и надзора по Херсонской области Азово-Черноморского межрегионального управления Россельхознадзора проведен мониторинг эпизоотического состояния области. Инспекторами было отобрано 548 проб (цельной крови, сыворотки крови, биоматериала) на такие заболевания как ящур, лейкоз крупного рогатого скота, контагиозная плевропневмония крупного рогатого скота, нодулярный дерматит крупного рогатого [&#8230;]",
+      "published_at": "2026-11-06T17:23:42Z",
+      "created_at": "2026-11-06 20:20:52",
+      "verdict": "noise",
+      "ai_summary": "Сотрудниками отдела ветеринарного контроля и надзора по Херсонской области проведен мониторинг эпизоотического состояния области.",
+      "product": null,
+      "series": null,
+      "region": "Херсонская область",
+      "disease": "ящур, лейкоз крупного рогатого скота, контагиозная плевропневмония крупного рогатого скота, нодулярный дерматит крупного рогатого",
+      "order_no": null,
+      "ai_at": "2026-11-06 20:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "херсонская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "c5f692e31a9d0884a952209bab46eedc7cb28dbb",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "В Ивановской области по материалам Россельхознадзора судом вынесено решение об изъятии участка сельхозназначения у собственника",
+      "url": "https://fsvps.gov.ru/news/v-ivanovskoj-oblasti-po-materialam-rosselhoznadzora-sudom-vyneseno-reshenie-ob-izyatii-uchastka-selhoznaznacheniya-u-sobstvennika/",
+      "summary": "5 ноября 2026 года в Управление Россельхознадзора по Владимирской, Костромской и Ивановской областям поступило решение Фурмановского городского суда Ивановской области об изъятии земельного участка путем продажи с публичных торгов. 27 октября 2026 года Фурмановский городской суд Ивановской области вынес решение об изъятии у собственника неиспользуемого земельного участка сельскохозяйственного назначения, расположенного в Ивановской области. [&#8230;]",
+      "published_at": "2026-11-06T14:39:53Z",
+      "created_at": "2026-11-06 20:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Судом вынесено решение об изъятии участка сельхозназначения у собственника в Ивановской области",
+      "product": null,
+      "series": null,
+      "region": "Ивановская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-06 20:21:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "ивановская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "e55f82e9a7fe9576db6fb8ca772a3a44cd6e7996",
       "signal_type": "outbreak",
@@ -1465,7 +1511,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 11,
+      "dup_count": 9,
       "dups": [
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
@@ -1512,18 +1558,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad37fa27ff34489902c7c9cf2c3371e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T20:04:00.000Z"
         }
