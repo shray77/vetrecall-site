@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-06T22:20:57.976Z",
+  "generated_at": "2026-11-08T14:21:03.369Z",
   "items": [
     {
       "fingerprint": "cca9735795740388ad44c34913901dd6976daa9d",
@@ -69,6 +69,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "0c4ca99c8a3df2aa2347db0fc5d2711666485b8b",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Германии у границы с Польшей у дикой гусыни выявили птичий грипп — RMF24",
+      "url": "https://ua.news/ru/dovkolo-svitu/u-nimechchini-bilia-kordonu-z-polshcheiu-u-dikoyi-guski-viiavili-ptashinii-grip-rmf24",
+      "summary": "Птичий грипп выявили у дикой гусыни у границы Германии с Польшей, а очаги H5N1 подтвердили на фермах индеек в нескольких немецких землях.",
+      "published_at": "2026-11-06T10:08:00.000Z",
+      "created_at": "2026-11-08 14:20:52",
+      "verdict": "noise",
+      "ai_summary": "В Германии у дикой гусыни выявили птичий грипп",
+      "product": null,
+      "series": null,
+      "region": "Германия",
+      "disease": "птичий грипп (H5N1)",
+      "order_no": null,
+      "ai_at": "2026-11-08 14:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "германия",
       "dup_count": 1
     },
     {
@@ -1534,7 +1557,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 8,
+      "dup_count": 7,
       "dups": [
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
@@ -1569,12 +1592,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T20:04:00.000Z"
         }
