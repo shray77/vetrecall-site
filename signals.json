@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-08T14:21:03.369Z",
+  "generated_at": "2026-11-09T08:21:02.891Z",
   "items": [
+    {
+      "fingerprint": "139b996bdd937e90a636db7d5025ac015c4489e1",
+      "signal_type": "recall",
+      "matched": "[\"запрещен\"]",
+      "source_id": "fsvps-news",
+      "title": "В Свердловской области Россельхознадзором запрещен импорт более 3,5 тыс. зараженных цветов",
+      "url": "https://fsvps.gov.ru/news/v-sverdlovskoj-oblasti-rosselhoznadzorom-zapreshhen-import-bolee-35-tys-zarazhennyh-czvetov/",
+      "summary": "7 ноября 2026 года под контролем Уральского межрегионального управления Россельхознадзора в Екатеринбург автотранспортом прибыла подкарантинная продукция китайского происхождения – срезы цветов в ассортименте. Продукция поступила в сопровождении фитосанитарного сертификата. Инспектором совместно со специалистом Уральского филиала подведомственного Россельхознадзору ФГБУ «ВНИИЗЖ» в отношении ввезенной продукции проведены обязательные мероприятия по контролю: досмотр с отбором образцов, проведение исследования и экспертизы. В [&#8230;]",
+      "published_at": "2026-11-09T06:34:30Z",
+      "created_at": "2026-11-09 08:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Запрещен импорт более 3,5 тыс. зараженных цветов",
+      "product": null,
+      "series": null,
+      "region": "Свердловская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-09 08:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "свердловская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "faf47198531b3878a1577084563237eddbb5f4d6",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"болезнь ньюкасла\"]",
+      "source_id": "fsvps-news",
+      "title": "На красноярскую птицефабрику под контролем Россельхознадзора ввезено более 140 тысяч инкубационных яиц из-за рубежа",
+      "url": "https://fsvps.gov.ru/news/na-krasnoyarskuyu-pticzefabriku-pod-kontrolem-rosselhoznadzora-vvezeno-bolee-140-tysyach-inkubaczionnyh-yaicz-iz-za-rubezha/",
+      "summary": "5 ноября 2026 года специалистами Управления Россельхознадзора по Красноярскому краю проведен ветеринарный контроль 24 партий инкубационных яиц кур. На одну из птицефабрик региона для дальнейшего выращивания из Узбекистана ввезено 144,7 тыс. шт. инкубационных яиц. Яйцо исследовано на сальмонеллёз, болезнь Ньюкасла, инфекционный бронхит, пуллороз и грипп птиц. Также проведена влажная дезинфекция. В ходе проведения документарного [&#8230;]",
+      "published_at": "2026-11-09T06:33:01Z",
+      "created_at": "2026-11-09 08:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Введено 144,7 тыс. инкубационных яиц из Узбекистана",
+      "product": null,
+      "series": null,
+      "region": "Красноярский край",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-09 08:21:02",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "красноярский край",
+      "dup_count": 1
+    },
     {
       "fingerprint": "cca9735795740388ad44c34913901dd6976daa9d",
       "signal_type": "outbreak",
@@ -1557,7 +1603,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 7,
+      "dup_count": 5,
       "dups": [
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
@@ -1580,18 +1626,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T20:04:00.000Z"
         }
