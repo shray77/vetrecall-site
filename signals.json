@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-09T08:21:02.891Z",
+  "generated_at": "2026-11-09T14:21:02.157Z",
   "items": [
     {
       "fingerprint": "139b996bdd937e90a636db7d5025ac015c4489e1",
@@ -46,6 +46,52 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "красноярский край",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "d65a116f884c39bb87315f888e624256db887533",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"бешенств\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Эпизоотическая ситуация в Молдове: и бешенство, и птичий грипп, и чума",
+      "url": "https://logos-pres.md/ru/novosti/epizooticheskaya-situatsiya-v-moldove-i-beshenstvo-i-ptichiy-gripp-i-chuma/",
+      "summary": "За прошлую неделю на территории страны было зарегистрировано пять вспышек заболеваний животных – три случая бешенства и два случая птичьего гриппа.",
+      "published_at": "2026-11-09T04:53:00.000Z",
+      "created_at": "2026-11-09 14:20:52",
+      "verdict": "probable",
+      "ai_summary": "За прошлую неделю на территории страны было зарегистрировано пять вспышек заболеваний животных",
+      "product": null,
+      "series": null,
+      "region": "Молдавия",
+      "disease": "бешенство, птичий грипп, чума",
+      "order_no": null,
+      "ai_at": "2026-11-09 14:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "молдавия",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "62ee5783567595f70d4b1241673098cc8598184b",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Японии зафиксирован первый в сезоне случай высокопатогенного гриппа птиц",
+      "url": "https://vetandlife.ru/sobytiya/v-yaponii-zafiksirovan-pervyj-v-sezone-sluchaj-vysokopatogennogo-grippa-ptic/",
+      "summary": "Министерство окружающей среды Японии подтвердило первый в этом сезоне случай обнаружения высокопатогенного вируса птичьего гриппа подтипа H5 у дикой птицы. Инфекцию выявили у большеклювой вороны, обна ...",
+      "published_at": "2026-11-08T16:29:00.000Z",
+      "created_at": "2026-11-09 14:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Министерство окружающей среды Японии подтвердило первый в этом сезоне случай обнаружения высокопатогенного вируса птичьего гриппа подтипа H5 у дикой птицы",
+      "product": null,
+      "series": null,
+      "region": "Япония",
+      "disease": "грипп птиц",
+      "order_no": null,
+      "ai_at": "2026-11-09 14:21:01",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "япония",
       "dup_count": 1
     },
     {
@@ -1603,7 +1649,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 5,
+      "dup_count": 3,
       "dups": [
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
@@ -1614,18 +1660,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T20:04:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fmoskva%2fnews%2fzdorove%2f2026%2fnews_364569%2f&c=8961677078421059155&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T20:04:00.000Z"
         }
