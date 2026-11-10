@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-09T22:20:57.885Z",
+  "generated_at": "2026-11-10T00:21:02.366Z",
   "items": [
+    {
+      "fingerprint": "913ff3244ca87b7d450483a40101224e312a547b",
+      "signal_type": "recall",
+      "matched": "[\"аннулирован\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором выявлены нарушения при декларировании молочной и мясной продукции в Кабардино-Балкарии",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-vyyavleny-narusheniya-pri-deklarirovanii-molochnoj-i-myasnoj-produkczii-v-kabardino-balkarii/",
+      "summary": "С 10 октября по 6 ноября 2026 года в ходе контрольно-надзорных мероприятий Управлением Россельхознадзора по Кабардино-Балкарской Республике и Республике Северная Осетия – Алания установлены нарушения обязательных требований при оформлении деклараций о соответствии на пищевую продукцию. По итогам рассмотрения документов принято решение о признании недействительными 12 деклараций. Из общего числа аннулированных документов 8 деклараций касались [&#8230;]",
+      "published_at": "2026-11-09T15:44:39Z",
+      "created_at": "2026-11-10 00:20:52",
+      "verdict": "probable",
+      "ai_summary": "Россельхознадзором выявлены нарушения при декларировании молочной и мясной продукции в Кабардино-Балкарии",
+      "product": null,
+      "series": null,
+      "region": "Кабардино-Балкария",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-10 00:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "кабардино балкария",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "a52cb956c81392ed7a2db8e1be7185091b024c35",
+      "signal_type": "recall",
+      "matched": "[\"не соответствует\"]",
+      "source_id": "fsvps-news",
+      "title": "В Оренбургской области Россельхознадзором пресечена попытка незаконного ввоза более 19 тонн мяса птицы из-за рубежа",
+      "url": "https://fsvps.gov.ru/news/v-orenburgskoj-oblasti-rosselhoznadzorom-presechena-popytka-nezakonnogo-vvoza-bolee-19-tonn-myasa-pticzy-iz-za-rubezha/",
+      "summary": "6 ноября 2026 года должностными лицами Управления Россельхознадзора по Оренбургской области во взаимодействии с контролирующими органами при проведении контрольных мероприятий на федеральной автомобильной дороге Р-239 пресечена попытка незаконного перемещения 19,5 т мяса птицы (замороженные куриные грудки) из Казахстана. Установлено, что данная партия груза не соответствует предоставленным ВСД: при сканировании QR-кода, нанесенного на ветеринарном сертификате, [&#8230;]",
+      "published_at": "2026-11-09T14:03:14Z",
+      "created_at": "2026-11-10 00:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "попытка незаконного ввоза более 19 тонн мяса птицы из-за рубежа",
+      "product": null,
+      "series": null,
+      "region": "Оренбургская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-10 00:21:01",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "оренбургская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "4c4ab7af17de69753f6936791e8dba80eeba901e",
       "signal_type": "outbreak",
@@ -1555,7 +1601,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 9,
+      "dup_count": 8,
       "dups": [
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
@@ -1596,12 +1642,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T21:52:00.000Z"
         }
@@ -1673,29 +1713,6 @@
           "published_at": "2026-10-16T23:21:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "5bffcdae89865926cac1c21be33934d3aa2cc8d3",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "url": "https://newsroom24.ru/moskva/news/zdorove/2026/news_364569/",
-      "summary": "&#171;Исследования, проведенные в Австралийском центре готовности к заболеваниям Государственного объединения научных и прикладных исследований Австралии, подтвердили наличие высокопатогенного вируса ...",
-      "published_at": "2026-10-16T20:04:00.000Z",
-      "created_at": "2026-10-20 06:20:51",
-      "verdict": "confirmed",
-      "ai_summary": "На острове Маккуори нашли высокопатогенный птичий грипп у животных",
-      "product": null,
-      "series": null,
-      "region": "Австралия",
-      "disease": "птичий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-20 06:21:16",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "австралия",
-      "dup_count": 1
     }
   ]
 }
