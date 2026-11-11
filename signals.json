@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-10T00:21:02.366Z",
+  "generated_at": "2026-11-11T16:21:01.631Z",
   "items": [
+    {
+      "fingerprint": "8409f62d6cd9fb8c0f980f089b069395242aa605",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Тверские специалисты исследовали почти 5 тысяч образцов на опасный птичий грипп",
+      "url": "https://runews24.ru/tver/11/11/2026/tverskie-speczialistyi-issledovali-pochti-5-tyisyach-obrazczov-na-opasnyij-ptichij-gripp",
+      "summary": "С начала 2026 года специалисты Тверской испытательной лаборатории межрегионального филиала ФГБУ &#171;ВНИИЗЖ&#187; исследовали 4 740 образцов биоматериала на наличие высокопатогенного гриппа птиц.",
+      "published_at": "2026-11-11T04:39:00.000Z",
+      "created_at": "2026-11-11 16:20:53",
+      "verdict": "noise",
+      "ai_summary": "С начала 2026 года специалисты Тверской испытательной лаборатории межрегионального филиала ФГБУ «ВНИИЗЖ» исследовали 4 740 образцов биоматериала на наличие высо",
+      "product": null,
+      "series": null,
+      "region": "Тверская область",
+      "disease": "высокопатогенный грипп птиц",
+      "order_no": null,
+      "ai_at": "2026-11-11 16:21:01",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "тверская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "913ff3244ca87b7d450483a40101224e312a547b",
       "signal_type": "recall",
@@ -1601,7 +1624,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 8,
+      "dup_count": 7,
       "dups": [
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
@@ -1636,12 +1659,6 @@
         {
           "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fnewsroom24.ru%2fnews%2fzdorove%2f2026%2fnews_364659%2f&c=6006305443609917974&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T21:52:00.000Z"
         }
