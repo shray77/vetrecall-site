@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-11T22:20:58.597Z",
+  "generated_at": "2026-11-12T02:20:57.820Z",
   "items": [
     {
       "fingerprint": "e3f997211a65c6dab44b7fadd3a1adeffb75d039",
@@ -46,6 +46,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "север",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "c4f600238e628cf11fd432e1dabe2848431df128",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "В Рязанской области приостановили продажу ветпрепарата &#171;Метробиотик&#187;",
+      "url": "https://rzn.mk.ru/social/2026/11/11/v-ryazanskoy-oblasti-priostanovili-prodazhu-vetpreparata-metrobiotik.html",
+      "summary": "В Рязанской области приостановлено обращение ветеринарного препарата &#171;Метробиотик&#187; серии 15 производства российской компании &#171;БиоХимФарм&#187; ...",
+      "published_at": "2026-11-11T06:18:00.000Z",
+      "created_at": "2026-11-12 02:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Приостановлено обращение ветеринарного препарата «Метробиотик» серии 15 производства российской компании «БиоХимФарм»",
+      "product": "Метробиотик",
+      "series": "15",
+      "region": "Рязанская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-12 02:20:57",
+      "product_norm": "метробиотик",
+      "series_digits": "15",
+      "region_norm": "рязанская область",
       "dup_count": 1
     },
     {
@@ -1664,7 +1687,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 6,
+      "dup_count": 5,
       "dups": [
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
@@ -1689,12 +1712,6 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T03:54:00.000Z"
-        },
-        {
-          "title": "На острове Маккуори нашли высокопатогенный вирус птичьего гриппа H5",
-          "url": "https://newsroom24.ru/news/zdorove/2026/news_364659/",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T21:52:00.000Z"
         }
       ]
     },
