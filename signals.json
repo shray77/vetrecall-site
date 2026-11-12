@@ -1,29 +1,37 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-12T14:20:58.524Z",
+  "generated_at": "2026-11-12T18:20:58.604Z",
   "items": [
     {
-      "fingerprint": "60af5ecb15a66f0dc5f2201bc0c84cd6abd20b3b",
+      "fingerprint": "526362cc8d317a682d5fff65b8c552ceaa6cdd9f",
       "signal_type": "outbreak",
       "matched": "[\"уничтож\"]",
       "source_id": "bing-outbreak-other",
       "title": "Будет уничтожено 200 тысяч кур — обнаружен птичий грипп",
-      "url": "https://todaypress.tv/ru/interesnoe/budet-unictozeno-200-tysiac-kur-obnaruzen-pticii-gripp",
+      "url": "https://todaypress.tv/ru/v-mire/budet-unictozeno-200-tysiac-kur-obnaruzen-pticii-gripp",
       "summary": "В префектуре Киото в Японии зафиксирована вспышка птичьего гриппа. В целях предотвращения распространения вируса объявлено об уничтожении 200 тысяч кур.",
-      "published_at": "2026-11-11T16:31:00.000Z",
-      "created_at": "2026-11-12 14:20:52",
+      "published_at": "2026-11-12T06:30:00.000Z",
+      "created_at": "2026-11-12 18:20:52",
       "verdict": "confirmed",
-      "ai_summary": "В префектуре Киото в Японии зафиксирована вспышка птичьего гриппа. В целях предотвращения распространения вируса объявлено об уничтожении 200 тысяч кур.",
+      "ai_summary": "В префектуре Киото объявлено об уничтожении 200 тысяч кур",
       "product": null,
       "series": null,
       "region": "Япония",
       "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": "2026-11-12 14:20:58",
+      "ai_at": "2026-11-12 18:20:58",
       "product_norm": null,
       "series_digits": null,
       "region_norm": "япония",
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Будет уничтожено 200 тысяч кур — обнаружен птичий грипп",
+          "url": "https://todaypress.tv/ru/interesnoe/budet-unictozeno-200-tysiac-kur-obnaruzen-pticii-gripp",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-11-11T16:31:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "e3f997211a65c6dab44b7fadd3a1adeffb75d039",
@@ -1770,7 +1778,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 8,
+      "dup_count": 7,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
@@ -1805,12 +1813,6 @@
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         }
