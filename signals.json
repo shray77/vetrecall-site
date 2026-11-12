@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-12T02:20:57.820Z",
+  "generated_at": "2026-11-12T06:20:57.006Z",
   "items": [
     {
       "fingerprint": "e3f997211a65c6dab44b7fadd3a1adeffb75d039",
@@ -620,7 +620,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 5,
+      "dup_count": 4,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
@@ -637,12 +637,6 @@
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad37fa27ff34489902c7c9cf2c3371e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad33cbe141349ad8b1c097aa34bcf4b&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         }
@@ -1508,6 +1502,29 @@
       "disease": null,
       "order_no": null,
       "ai_at": "2026-10-22 14:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "705bec6fa997e72bd1742607e7b4f1ee26bb0550",
+      "signal_type": "outbreak",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор уничтожил 550 африканских роз с трипсом из Беларуси",
+      "url": "https://smolnarod.ru/news/rosselxoznadzor-unichtozhil-550-afrikanskix-roz-s-tripsom-iz-belarusi/",
+      "summary": "550 роз сожгли на границе: что везли в Смоленскую область? Инспекторы Россельхознадзора не ...",
+      "published_at": "2026-10-20T08:23:00.000Z",
+      "created_at": "2026-11-12 06:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "550 роз сожгли на границе: что везли в Смоленскую область?",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "трипс",
+      "order_no": null,
+      "ai_at": "2026-11-12 06:20:56",
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
