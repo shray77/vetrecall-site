@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-12T18:20:58.604Z",
+  "generated_at": "2026-11-13T02:22:16.830Z",
   "items": [
     {
       "fingerprint": "526362cc8d317a682d5fff65b8c552ceaa6cdd9f",
@@ -32,6 +32,29 @@
           "published_at": "2026-11-11T16:31:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "0636cb92c310273c285e5713d8c41d0990927838",
+      "signal_type": "outbreak",
+      "matched": "[\"ящур\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На ферме по разведению крупного рогатого скота в Йечхоне выявлен ящур: 16-й случай в стране за год",
+      "url": "https://news.jkn.co.kr/editions/russian/post/1089775",
+      "summary": "На ферме в уезде Йечхон провинции Кёнсан-Пукто зафиксирована вспышка ящура, что довело общее число случаев заболевания в стране в текущем году до 16. Органы ветеринарного контроля отложили утилизацию ...",
+      "published_at": "2026-11-12T06:12:00.000Z",
+      "created_at": "2026-11-13 02:20:51",
+      "verdict": "confirmed",
+      "ai_summary": "На ферме в уезде Йечхон провинции Кёнсан-Пукто зафиксирована вспышка ящура",
+      "product": null,
+      "series": null,
+      "region": "Йечхон, Кёнсан-Пукто",
+      "disease": "ящур",
+      "order_no": null,
+      "ai_at": "2026-11-13 02:22:16",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "йечхон кенсан пукто",
+      "dup_count": 1
     },
     {
       "fingerprint": "e3f997211a65c6dab44b7fadd3a1adeffb75d039",
@@ -651,17 +674,11 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "австралия",
-      "dup_count": 3,
+      "dup_count": 2,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         }
