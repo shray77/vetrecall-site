@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-13T02:22:16.830Z",
+  "generated_at": "2026-11-14T18:20:58.462Z",
   "items": [
+    {
+      "fingerprint": "afb2e67efa9551af80262652b5c330f4bfb695b9",
+      "signal_type": "outbreak",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Норвегии уничтожат 13 тысяч кур",
+      "url": "https://minval.az/news/124562632",
+      "summary": "В норвежском регионе Акерсхус обнаружили вспышку птичьего гриппа на птицеферме в муниципалитете Вестбю. Из-за распространения инфекции власти приняли решение ...",
+      "published_at": "2026-11-14T08:19:00.000Z",
+      "created_at": "2026-11-14 18:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В норвежском регионе Акерсхус обнаружили вспышку птичьего гриппа на птицеферме в муниципалитете Вестбю. Из-за распространения инфекции власти приняли решение...",
+      "product": null,
+      "series": null,
+      "region": "Норвегия",
+      "disease": "птичьего гриппа",
+      "order_no": null,
+      "ai_at": "2026-11-14 18:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "норвегия",
+      "dup_count": 1
+    },
     {
       "fingerprint": "526362cc8d317a682d5fff65b8c552ceaa6cdd9f",
       "signal_type": "outbreak",
@@ -1795,7 +1818,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 7,
+      "dup_count": 6,
       "dups": [
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
@@ -1824,12 +1847,6 @@
         {
           "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-16T23:21:00.000Z"
-        },
-        {
-          "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad44482be724bbb8bd15c4ae4430359&url=https%3a%2f%2fvfokuse.mail.ru%2farticles%2f69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa%2f&c=8290183537038106586&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-16T23:21:00.000Z"
         }
