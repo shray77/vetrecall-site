@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-16T18:21:16.837Z",
+  "generated_at": "2026-11-16T20:21:00.385Z",
   "items": [
     {
       "fingerprint": "c57c5a02ce14e62130ddbc814289198031c5714d",
@@ -35,17 +35,17 @@
       "summary": "Вирус передается через помет, корма, воду, инвентарь, транспорт и одежду персонала, поэтому владельцам хозяйств важно внимательно следить за состоянием поголовья. Внимание нужно обращать на такие ...",
       "published_at": "2026-11-16T05:36:00.000Z",
       "created_at": "2026-11-16 18:20:52",
-      "verdict": null,
-      "ai_summary": null,
+      "verdict": "probable",
+      "ai_summary": "В Мурманске проверили 100 проб на опасный для человека птичий грипп",
       "product": null,
       "series": null,
-      "region": null,
-      "disease": null,
+      "region": "Мурманская область",
+      "disease": "птичий грипп",
       "order_no": null,
-      "ai_at": null,
+      "ai_at": "2026-11-16 20:21:00",
       "product_norm": null,
       "series_digits": null,
-      "region_norm": null,
+      "region_norm": "мурманская область",
       "dup_count": 1
     },
     {
