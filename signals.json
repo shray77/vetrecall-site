@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-16T20:21:00.385Z",
+  "generated_at": "2026-11-17T00:21:01.070Z",
   "items": [
+    {
+      "fingerprint": "7bd8a7861cdfbec83d52aa61e999d5da26222725",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "fsvps-news",
+      "title": "В Калужской области Россельхознадзором ликвидировано 10 скотомогильников и оштрафованы владельцы объектов с нарушениями",
+      "url": "https://fsvps.gov.ru/news/v-kaluzhskoj-oblasti-rosselhoznadzorom-likvidirovano-10-skotomogilnikov-i-oshtrafovany-vladelczy-obektov-s-narusheniyami/",
+      "summary": "На подконтрольной территории Калужской области расположено 32 скотомогильника, 3 из которых являются сибиреязвенными. С 1 января по 15 ноября 2026 года во исполнение приказа Комитета ветеринарии при Правительстве Калужской области от 28 марта 2025 года № 99 о формировании перечня мест уничтожения биологических отходов, подлежащих ликвидации в 2025 году, в регионе ликвидировано 10 таких объектов. [&#8230;]",
+      "published_at": "2026-11-16T19:29:15Z",
+      "created_at": "2026-11-17 00:20:52",
+      "verdict": "probable",
+      "ai_summary": "В Калужской области Россельхознадзором ликвидировано 10 скотомогильников и оштрафованы владельцы объектов с нарушениями",
+      "product": null,
+      "series": null,
+      "region": "Калужская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-17 00:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "калужская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "cac93a3a40e03ec7f5bc3d5d90719f60a7eb9a28",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "В Архангельской области по материалам Россельхознадзора у фермера изъят земельный участок сельскохозяйственного назначения",
+      "url": "https://fsvps.gov.ru/news/v-arhangelskoj-oblasti-po-materialam-rosselhoznadzora-u-fermera-izyat-zemelnyj-uchastok-selskohozyajstvennogo-naznacheniya/",
+      "summary": "12 ноября 2026 года в адрес Североморского межрегионального управления Россельхознадзора поступило решение Арбитражного суда Архангельской области об изъятии у главы КФХ Гафарова А.А.о. земельного участка сельскохозяйственного назначения в связи с неиспользованием его по целевому назначению. Ранее, в апреле 2026 года Служба направила в адрес Министерства имущественных отношений Архангельской области материалы контрольных и профилактических мероприятий, подтверждающие, [&#8230;]",
+      "published_at": "2026-11-16T18:47:28Z",
+      "created_at": "2026-11-17 00:20:52",
+      "verdict": "noise",
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-17 00:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "c57c5a02ce14e62130ddbc814289198031c5714d",
       "signal_type": "outbreak",
@@ -1869,7 +1915,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 5,
+      "dup_count": 4,
       "dups": [
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
@@ -1888,37 +1934,8 @@
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T03:54:00.000Z"
-        },
-        {
-          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad3ca0fe787420190033c6bbed5c9aa&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T03:54:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "e5fda2c460ccfaf2332ed2bafa64cc9ae7d9421c",
-      "signal_type": "outbreak",
-      "matched": "[\"птичий грипп\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Птичий грипп H5 уже в Антарктике: заражены морской слон и чайка",
-      "url": "https://vfokuse.mail.ru/articles/69647930-na-ostrove-makkuori-vyiyavili-vyisokopatogennyij-virus-ptichego-grippa/",
-      "summary": "Вирус птичьего гриппа H5 впервые выявили у морского млекопитающего в австралийском штате Тасмания. Зараженные животные обнаружены на острове Маккуори, при этом признаков массовой гибели и передачи вир ...",
-      "published_at": "2026-10-16T23:21:00.000Z",
-      "created_at": "2026-10-20 06:20:51",
-      "verdict": "probable",
-      "ai_summary": "Вирус птичьего гриппа H5 впервые выявлен у морского млекопитающего в Австралии",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": "Птичий грипп H5",
-      "order_no": null,
-      "ai_at": "2026-10-20 06:21:06",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 1
     }
   ]
 }
