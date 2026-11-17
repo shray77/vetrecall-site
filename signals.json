@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T18:21:04.264Z",
+  "generated_at": "2026-11-17T22:20:57.313Z",
   "items": [
     {
       "fingerprint": "7f13688cbaec987230b8142bfb47d15441f58641",
@@ -32,6 +32,29 @@
           "published_at": "2026-11-17T01:36:00.000Z"
         }
       ]
+    },
+    {
+      "fingerprint": "b726fead2d64e831f4c4e6810fc17c36dd1c62be",
+      "signal_type": "outbreak",
+      "matched": "[\"птичий грипп\",\"высокопатогенн\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В одном из частных хозяйств Лимбажского края выявлен высокопатогенный птичий грипп",
+      "url": "https://gorod.lv/novosti/370787-v-odnom-iz-chastnyh-hozyaistv-limbazhskogo-kraya-vyyavlen-vysokopatogennyi-ptichii-gripp",
+      "summary": "В одном из частных хозяйств города Стайцеле (Лимбажский край) обнаружена вспышка высокопатогенного птичьего гриппа штамма H5N1. Заболевание выявлено примерно у 30 домашних птиц разных видов. Результат ...",
+      "published_at": "2026-11-17T05:55:00.000Z",
+      "created_at": "2026-11-17 22:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В частном хозяйстве Лимбажского края выявлен высокопатогенный птичий грипп",
+      "product": null,
+      "series": null,
+      "region": "Лимбажский край",
+      "disease": "больная птица (H5N1)",
+      "order_no": null,
+      "ai_at": "2026-11-17 22:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "лимбажский край",
+      "dup_count": 1
     },
     {
       "fingerprint": "2c0a7afdb86538b114c203c2f043d2add84d17d6",
@@ -1962,7 +1985,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 5,
+      "dup_count": 4,
       "dups": [
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
@@ -1979,12 +2002,6 @@
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T17:00:00.000Z"
-        },
-        {
-          "title": "В Саратовской области отступили АЧС и птичий грипп",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T17:00:00.000Z"
         }
