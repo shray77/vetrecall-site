@@ -1,7 +1,38 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T10:20:57.946Z",
+  "generated_at": "2026-11-17T16:20:57.218Z",
   "items": [
+    {
+      "fingerprint": "ac26030057df34767d8506d8fb151c4c13d585e8",
+      "signal_type": "outbreak",
+      "matched": "[\"высокопатогенн\",\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "В Латвии выявлен очаг высокопатогенного птичьего гриппа",
+      "url": "https://www.grani.lv/latvia/163995-v-latvii-vyyavlen-ochag-vysokopatogennogo-ptichego-grippa.html",
+      "summary": "Вспышка высокопатогенного птичьего гриппа H5N1 лабораторно подтверждена в приусадебном хозяйстве, где содержится около 30 домашних птиц разных видов. Чтобы не допустить дальнейшего распространения ...",
+      "published_at": "2026-11-17T01:44:00.000Z",
+      "created_at": "2026-11-17 16:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Вспышка высокопатогенного птичьего гриппа H5N1 лабораторно подтверждена в приусадебном хозяйстве",
+      "product": null,
+      "series": null,
+      "region": "Латвия",
+      "disease": "птичьего гриппа H5N1",
+      "order_no": null,
+      "ai_at": "2026-11-17 16:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "латвия",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Объявлено, что в Латвии выявлен очаг высокопатогенного птичьего гриппа",
+          "url": "https://rus.jauns.lv/article/novosti/738336-obieiavleno-cto-v-latvii-vyiavlen-ocag-vysokopatogennogo-pticego-grippa",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-11-16T07:20:00.000Z"
+        }
+      ]
+    },
     {
       "fingerprint": "3d0090208757043a276f254b6f0bc72ba691bc27",
       "signal_type": "outbreak",
@@ -92,29 +123,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "кедайняйский район",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "c57c5a02ce14e62130ddbc814289198031c5714d",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\",\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Объявлено, что в Латвии выявлен очаг высокопатогенного птичьего гриппа",
-      "url": "https://rus.jauns.lv/article/novosti/738336-obieiavleno-cto-v-latvii-vyiavlen-ocag-vysokopatogennogo-pticego-grippa",
-      "summary": "В приусадебном хозяйстве в Стайцеле Лимбажского края, где содержится около 30 домашних птиц разных видов, выявлена вспышка высокопатогенного птичьего гриппа H5N1. Это подтверждают результаты лаборатор ...",
-      "published_at": "2026-11-16T07:20:00.000Z",
-      "created_at": "2026-11-16 18:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В приусадебном хозяйстве в Стайцеле Лимбажского края, где содержится около 30 домашних птиц разных видов, выявлена вспышка высокопатогенного птичьего гриппа H5N",
-      "product": null,
-      "series": null,
-      "region": "Латвия",
-      "disease": "птичьего гриппа H5N1",
-      "order_no": null,
-      "ai_at": "2026-11-16 18:20:59",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "латвия",
       "dup_count": 1
     },
     {
@@ -1962,29 +1970,6 @@
           "published_at": "2026-10-17T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "81eb4f2f77fa8ca532d64ec589f1255d7df75dba",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-      "url": "https://360.ru/news/ekologiya/na-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa/",
-      "summary": "На заповедном острове Маккуори, расположенном между Австралией и Антарктидой, нашли высокопатогенный вирус птичьего гриппа H5 у южного морского слона и доминиканской чайки. Об этом сообщило министерст ...",
-      "published_at": "2026-10-17T03:54:00.000Z",
-      "created_at": "2026-10-20 06:20:51",
-      "verdict": "confirmed",
-      "ai_summary": "Выявили высокопатогенный вирус птичьего гриппа на острове Маккуори",
-      "product": null,
-      "series": null,
-      "region": "Антарктида",
-      "disease": "птичьего гриппа H5",
-      "order_no": null,
-      "ai_at": "2026-10-20 06:21:02",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "антарктида",
-      "dup_count": 1
     }
   ]
 }
