@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T06:21:09.476Z",
+  "generated_at": "2026-11-17T10:20:57.946Z",
   "items": [
+    {
+      "fingerprint": "3d0090208757043a276f254b6f0bc72ba691bc27",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Литве произошла вспышка африканской чумы свиней",
+      "url": "https://news.rambler.ru/incidents/57429310-v-litve-proizoshla-vspyshka-afrikanskoy-chumy-sviney/",
+      "summary": "ВИЛЬНЮС, 17 ноября. /ТАСС/. Вспышку африканской чумы свиней (АЧС) зафиксировали на сельхозпредприятии в Кедайняйском районе в Литве, где содержат 26 тыс. голов. Об этом сообщил портал Delfi ...",
+      "published_at": "2026-11-17T01:36:00.000Z",
+      "created_at": "2026-11-17 10:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Вспышка африканской чумы свиней зафиксирована на сельхозпредприятии в Литве.",
+      "product": null,
+      "series": null,
+      "region": "Литва",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-11-17 10:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "литва",
+      "dup_count": 1
+    },
     {
       "fingerprint": "7bd8a7861cdfbec83d52aa61e999d5da26222725",
       "signal_type": "recall",
@@ -1961,15 +1984,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T03:54:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
