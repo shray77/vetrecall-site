@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T00:21:01.070Z",
+  "generated_at": "2026-11-17T06:21:09.476Z",
   "items": [
     {
       "fingerprint": "7bd8a7861cdfbec83d52aa61e999d5da26222725",
@@ -46,6 +46,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "f7c3cbd033501f00022233a018afc4015ce68816",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Кедайняйском районе – вспышка африканской чумы свиней: в хозяйстве держат 26 000 голов",
+      "url": "https://www.delfi.lt/ru/news/lithuania/v-kedaynyayskom-rayone-vspyshka-afrikanskoy-chumy-sviney-v-hozyaystve-derzhat-26-000-golov-120334933",
+      "summary": "В хозяйстве Кедайняйского района в понедельник, 16 ноября, была подтверждена вспышка африканской чумы свиней. Это первый в этом году случай данного заболевания в хозяйстве, сообщает Государственная пр ...",
+      "published_at": "2026-11-16T16:00:00.000Z",
+      "created_at": "2026-11-17 06:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В хозяйстве Кедайняйского района в понедельник, 16 ноября, была подтверждена вспышка африканской чумы свиней.",
+      "product": null,
+      "series": null,
+      "region": "Кедайняйский район",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-11-17 06:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "кедайняйский район",
       "dup_count": 1
     },
     {
@@ -169,6 +192,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "финляндия",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "49ca3ac7829b372c3b2260d5f7871f63b0750a16",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В Калининградской области обнаружили новую вспышку АЧС",
+      "url": "https://ruwest.ru/news/84201/",
+      "summary": "На территории личного подсобного хозяйства Гвардейского района 6 июня 2018 года была зафиксирована вспышка АЧС. Об этом сообщает пресс-служба ...",
+      "published_at": "2026-11-13T21:22:00.000Z",
+      "created_at": "2026-11-17 06:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В Калининградской области обнаружили новую вспышку АЧС",
+      "product": null,
+      "series": null,
+      "region": "Калининградская область",
+      "disease": "АЧС",
+      "order_no": null,
+      "ai_at": "2026-11-17 06:21:03",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "калининградская область",
       "dup_count": 1
     },
     {
@@ -1915,23 +1961,11 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 4,
+      "dup_count": 2,
       "dups": [
         {
           "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T03:54:00.000Z"
-        },
-        {
-          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T03:54:00.000Z"
-        },
-        {
-          "title": "На австралийском острове Маккуори выявили высокопатогенный вирус птичьего гриппа",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad40bdb8a644c2093a1673d7e77b69e&url=https%3a%2f%2f360.ru%2fnews%2fekologiya%2fna-avstralijskom-ostrove-makkuori-vyjavili-vysokopatogennyj-virus-ptichego-grippa%2f&c=3679244053017745100&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T03:54:00.000Z"
         }
