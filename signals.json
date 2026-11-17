@@ -1,7 +1,61 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T16:20:57.218Z",
+  "generated_at": "2026-11-17T18:21:04.264Z",
   "items": [
+    {
+      "fingerprint": "7f13688cbaec987230b8142bfb47d15441f58641",
+      "signal_type": "outbreak",
+      "matched": "[\"ачс\",\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "В районе Литвы со вспышкой инфекции на свинокомплексе ввели экстремальную ситуацию",
+      "url": "https://kvedomosti.ru/?p=1223657",
+      "summary": "Экстремальная ситуация муниципального уровня объявлена в Кедайнском районе Литвы, где на свиноводческом комплексе сельхозпредприятия Bekonas LT зафиксирована вспышка африканской чумы свиней (АЧС).\"Реш ...",
+      "published_at": "2026-11-17T07:56:00.000Z",
+      "created_at": "2026-11-17 18:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Экстремальная ситуация объявлена в Кедайнском районе Литвы из-за вспышки африканской чумы свиней на свиноводческом комплексе сельхозпредприятия Bekonas LT",
+      "product": null,
+      "series": null,
+      "region": "Литва",
+      "disease": "африканская чума свиней",
+      "order_no": null,
+      "ai_at": "2026-11-17 18:20:58",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "литва",
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "В Литве произошла вспышка африканской чумы свиней",
+          "url": "https://news.rambler.ru/incidents/57429310-v-litve-proizoshla-vspyshka-afrikanskoy-chumy-sviney/",
+          "source_id": "bing-outbreak-achs",
+          "published_at": "2026-11-17T01:36:00.000Z"
+        }
+      ]
+    },
+    {
+      "fingerprint": "2c0a7afdb86538b114c203c2f043d2add84d17d6",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-recall-series",
+      "title": "В Рязанской области приостановили обращение ветеринарного препарата",
+      "url": "https://rzn.mk.ru/social/2026/11/17/v-ryazanskoy-oblasti-priostanovili-obrashhenie-veterinarnogo-preparata.html",
+      "summary": "В Рязанской области приостановлено обращение лекарственного препарата для ветеринарного применения &#171;Метровит&#187; (серия 11, срок годности 03 ...",
+      "published_at": "2026-11-17T03:22:00.000Z",
+      "created_at": "2026-11-17 18:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "В Рязанской области приостановлено обращение лекарственного препарата для ветеринарного применения «Метровит» (серия 11, срок годности 03 ...",
+      "product": "Метровит",
+      "series": "11",
+      "region": "Рязанская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-17 18:21:04",
+      "product_norm": "метровит",
+      "series_digits": "11",
+      "region_norm": "рязанская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "ac26030057df34767d8506d8fb151c4c13d585e8",
       "signal_type": "outbreak",
@@ -32,29 +86,6 @@
           "published_at": "2026-11-16T07:20:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "3d0090208757043a276f254b6f0bc72ba691bc27",
-      "signal_type": "outbreak",
-      "matched": "[\"ачс\",\"вспышк\"]",
-      "source_id": "bing-outbreak-achs",
-      "title": "В Литве произошла вспышка африканской чумы свиней",
-      "url": "https://news.rambler.ru/incidents/57429310-v-litve-proizoshla-vspyshka-afrikanskoy-chumy-sviney/",
-      "summary": "ВИЛЬНЮС, 17 ноября. /ТАСС/. Вспышку африканской чумы свиней (АЧС) зафиксировали на сельхозпредприятии в Кедайняйском районе в Литве, где содержат 26 тыс. голов. Об этом сообщил портал Delfi ...",
-      "published_at": "2026-11-17T01:36:00.000Z",
-      "created_at": "2026-11-17 10:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "Вспышка африканской чумы свиней зафиксирована на сельхозпредприятии в Литве.",
-      "product": null,
-      "series": null,
-      "region": "Литва",
-      "disease": "африканская чума свиней",
-      "order_no": null,
-      "ai_at": "2026-11-17 10:20:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "литва",
-      "dup_count": 1
     },
     {
       "fingerprint": "7bd8a7861cdfbec83d52aa61e999d5da26222725",
@@ -1931,7 +1962,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 7,
+      "dup_count": 5,
       "dups": [
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
@@ -1954,18 +1985,6 @@
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5a7a51c224f65a90adbcb0b42a1f4&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T17:00:00.000Z"
-        },
-        {
-          "title": "В Саратовской области отступили АЧС и птичий грипп",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad55ff4b26644fcbf43f698572827a0&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T17:00:00.000Z"
-        },
-        {
-          "title": "В Саратовской области отступили АЧС и птичий грипп",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5095f97cd4ddf855e521413c3d5be&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T17:00:00.000Z"
         }
