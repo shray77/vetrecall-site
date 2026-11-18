@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-18T20:21:00.151Z",
+  "generated_at": "2026-11-18T22:20:57.537Z",
   "items": [
+    {
+      "fingerprint": "d49b4703fb02029d3d9873df109bec9eb1243396",
+      "signal_type": "recall",
+      "matched": "[\"аннулирован\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором выявлено оформление хабаровским предприятием около 1,9 тонны мясной продукции по аннулированным эВСД",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-vyyavleno-oformlenie-habarovskim-predpriyatiem-okolo-19-tonny-myasnoj-produkczii-po-annulirovannym-evsd/",
+      "summary": "18 ноября 2026 года Приморским межрегиональным управлением Россельхознадзора объявлено предостережение ООО «Телец» за ввод в оборот с площадки в городе Хабаровске (Хабаровский край) мяса курицы общим весом почти 1,9 т. Продукция оформлена по аннулированным электронным ветеринарным сопроводительным документам (эВСД). В ходе анализа данных компонента «Меркурий» установлено, что с 16 по 29 сентября уполномоченными лицами общества [&#8230;]",
+      "published_at": "2026-11-18T20:32:53Z",
+      "created_at": "2026-11-18 22:20:52",
+      "verdict": "probable",
+      "ai_summary": "Россельхознадзором выявлено оформление хабаровским предприятием около 1,9 тонны мясной продукции по аннулированным эВСД",
+      "product": null,
+      "series": null,
+      "region": "Хабаровский край",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-18 22:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "хабаровский край",
+      "dup_count": 1
+    },
     {
       "fingerprint": "74d90520b9b4fff614d0b2e8c7d9e4b1ca674b0c",
       "signal_type": "recall",
@@ -2031,15 +2054,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "В Саратовской области отступили АЧС и птичий грипп",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad6931bd7ed4ed0ae560a57a4257798&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T17:00:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
