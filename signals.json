@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-17T22:20:57.313Z",
+  "generated_at": "2026-11-18T08:20:56.515Z",
   "items": [
+    {
+      "fingerprint": "74d90520b9b4fff614d0b2e8c7d9e4b1ca674b0c",
+      "signal_type": "recall",
+      "matched": "[\"изъят\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором инициировано изъятие 53 га заросшей пашни у недобросовестного собственника в Курганской области",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-inicziirovano-izyatie-53-ga-zarosshej-pashni-u-nedobrosovestnogo-sobstvennika-v-kurganskoj-oblasti/",
+      "summary": "18 ноября 2026 года Уральское межрегиональное управление Россельхознадзора направило материалы на изъятие 4 неиспользуемых земельных участков сельскохозяйственного назначения в Департамент имущественных и земельных отношений Курганской области. Впервые должностные лица ведомства выявили нарушение земельного законодательства РФ на 4 участках сельскохозяйственного назначения, расположенных в Шадринском муниципальном округе Курганской области, в октябре 2023 года. Тогда по итогам [&#8230;]",
+      "published_at": "2026-11-18T06:54:24Z",
+      "created_at": "2026-11-18 08:20:51",
+      "verdict": "confirmed",
+      "ai_summary": "Исключительно в рамках надзорной деятельности выявлены нарушения земельного законодательства РФ на 4 участках сельскохозяйственного назначения в Шадринском муни",
+      "product": null,
+      "series": null,
+      "region": "Курганская область",
+      "disease": null,
+      "order_no": null,
+      "ai_at": "2026-11-18 08:20:56",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "курганская область",
+      "dup_count": 1
+    },
     {
       "fingerprint": "7f13688cbaec987230b8142bfb47d15441f58641",
       "signal_type": "outbreak",
@@ -1985,7 +2008,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "саратовская область",
-      "dup_count": 4,
+      "dup_count": 3,
       "dups": [
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
@@ -1996,12 +2019,6 @@
         {
           "title": "В Саратовской области отступили АЧС и птичий грипп",
           "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad63ebf665c44ac83efb2650386615b&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-17T17:00:00.000Z"
-        },
-        {
-          "title": "В Саратовской области отступили АЧС и птичий грипп",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5ea616f1f49c8909ba4fe1184356e&url=https%3a%2f%2fwww.saratov.kp.ru%2fonline%2fnews%2f7227969%2f&c=17891336148114831&mkt=en-us",
           "source_id": "bing-outbreak-other",
           "published_at": "2026-10-17T17:00:00.000Z"
         }
