@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-19T08:21:09.868Z",
+  "generated_at": "2026-11-19T14:21:04.696Z",
   "items": [
+    {
+      "fingerprint": "597449a6c23fd71fba66845957f3870d6ea8b116",
+      "signal_type": "outbreak",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птичий грипп атакует Кералу: в Индии уничтожат более 26 тысяч птиц",
+      "url": "https://argumenti.ru/world/ptichiy-gripp-atakuet-keralu-v-indii-unichtozhat-bolee-26-tysyach-ptic-1015121",
+      "summary": "Индийский штат Керала столкнулся с серьезной вспышкой птичьего гриппа. На двух фермах округа Алаппужа зафиксирован опасный вирус, и теперь власти намерены уничтожить более 26 тысяч домашних птиц, чтоб ...",
+      "published_at": "2026-11-19T03:39:00.000Z",
+      "created_at": "2026-11-19 14:20:51",
+      "verdict": "confirmed",
+      "ai_summary": "В Индии уничтожат более 26 тысяч птиц из-за вспышки птичьего гриппа.",
+      "product": null,
+      "series": null,
+      "region": "Керала",
+      "disease": "птичий грипп",
+      "order_no": null,
+      "ai_at": "2026-11-19 14:21:00",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": "керала",
+      "dup_count": 1
+    },
     {
       "fingerprint": "9031b6fc80b7dd5c55ec4d88153b90a4cb51173f",
       "signal_type": "outbreak",
@@ -23,8 +46,14 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "индия",
-      "dup_count": 2,
+      "dup_count": 3,
       "dups": [
+        {
+          "title": "Власти Индии уничтожат более 26 тысяч домашних птиц из-за птичьего гриппа",
+          "url": "https://riamo.ru/news/zdravoohranenie/vlasti-indii-unichtozhat-bolee-26-tysjach-domashnih-ptits-iz-za-ptichego-grippa/",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-11-18T17:26:00.000Z"
+        },
         {
           "title": "В Индии уничтожат тысячи домашних птиц из-за опасного вируса",
           "url": "https://news.rambler.ru/tech/57443380-v-indii-unichtozhat-tysyachi-domashnih-ptits-iz-za-opasnogo-virusa/",
@@ -1994,52 +2023,6 @@
           "published_at": "2026-10-20T08:23:00.000Z"
         }
       ]
-    },
-    {
-      "fingerprint": "0ae92d824fd1f03e2beead7b448409f958ca9f3d",
-      "signal_type": "recall",
-      "matched": "[\"фальсифиц\"]",
-      "source_id": "bing-recall-fals",
-      "title": "Укрфармагентство получило четыре жалобы на препарат для похудения Biopatid",
-      "url": "https://ru.interfax.com.ua/news/pharmacy/1223057.html",
-      "summary": "Укрфармагентство получило четыре жалобы на фальсифицированный препарат для похудения ...",
-      "published_at": "2026-10-20T04:17:00.000Z",
-      "created_at": "2026-11-03 18:20:52",
-      "verdict": "probable",
-      "ai_summary": null,
-      "product": "Biopatid",
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-11-03 18:20:55",
-      "product_norm": "biopatid",
-      "series_digits": null,
-      "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "83fc892526a42190a883fd27e7057dae087aeb20",
-      "signal_type": "outbreak",
-      "matched": "[\"оспа\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Оспа обезьян снова напомнила о себе. Что надо знать туристам",
-      "url": "https://rg.ru/2026/10/21/virus-pod-podozreniem.html",
-      "summary": "В России снова случаи оспы обезьян (ВОЗ официально называет эту инфекцию mpox). В конце прошлой недели стало известно, что в подмосковном Жуковском пять человек отправили в больницу из-за возможного к ...",
-      "published_at": "2026-10-20T03:48:00.000Z",
-      "created_at": "2026-10-21 00:20:52",
-      "verdict": "probable",
-      "ai_summary": "В России снова выявлены случаи оспы обезьян (mpox)",
-      "product": null,
-      "series": null,
-      "region": "Россия",
-      "disease": "mpox",
-      "order_no": null,
-      "ai_at": "2026-10-21 00:20:56",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "россия",
-      "dup_count": 1
     }
   ]
 }
