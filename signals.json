@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-19T14:21:04.696Z",
+  "generated_at": "2026-11-19T18:20:58.294Z",
   "items": [
     {
       "fingerprint": "597449a6c23fd71fba66845957f3870d6ea8b116",
@@ -965,6 +965,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "тюменская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "b71385b24c302a993a22189540e3bbcc5012aeb3",
+      "signal_type": "outbreak",
+      "matched": "[\"брак\"]",
+      "source_id": "bing-recall-series",
+      "title": "Россельхознадзор забраковал 19 тонн импортных томатов, поступивших в Россию через ...",
+      "url": "https://kubnews.ru/obshchestvo/2026/11/05/rosselkhoznadzor-zabrakoval-19-tonn-importnykh-tomatov-postupivshikh-v-rossiyu-cherez-krasnodarskiy-/",
+      "summary": "Партия свежих томатов, поступившая из Казахстана, оказалась заражена вирусом коричневой морщинистости плодов. Сотрудники Южного ...",
+      "published_at": "2026-11-05T02:52:00.000Z",
+      "created_at": "2026-11-19 18:20:52",
+      "verdict": "confirmed",
+      "ai_summary": "Партия свежих томатов, поступившая из Казахстана, оказалась заражена вирусом коричневой морщинистости плодов.",
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": "коричневой морщинистости плодов",
+      "order_no": null,
+      "ai_at": "2026-11-19 18:20:57",
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -2014,15 +2037,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "Россельхознадзор уничтожил 550 африканских роз с трипсом из Беларуси",
-          "url": "https://smolnarod.ru/news/rosselxoznadzor-unichtozhil-550-afrikanskix-roz-s-tripsom-iz-belarusi/",
-          "source_id": "bing-recall-series",
-          "published_at": "2026-10-20T08:23:00.000Z"
-        }
-      ]
+      "dup_count": 1
     }
   ]
 }
