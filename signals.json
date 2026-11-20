@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-20T08:20:52.635Z",
+  "generated_at": "2026-11-20T18:20:52.312Z",
   "items": [
     {
       "fingerprint": "2723ea5c6b7b6c8a516d5663769beca8fcd06121",
@@ -12,6 +12,29 @@
       "summary": "Специалисты Управления Россельхознадзора по Забайкальскому краю выявили некачественные семена пшеницы у забайкальского сельхозтоваропроизводителя. Согласно протоколу исследований от 17 ноября 2026 года, семенной материал не соответствует требованиям ГОСТ Р 52325‑2005 «Семена сельскохозяйственных растений. Сортовые и посевные качества. Общие технические условия» по показателю «отход семян» – 200 шт/кг при нормативе не более 40 шт/кг. Таким образом, содержание [&#8230;]",
       "published_at": "2026-11-20T06:29:01Z",
       "created_at": "2026-11-20 08:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "aa97d50e2e11ffeacd24eac0e7c6fd210a135434",
+      "signal_type": "recall",
+      "matched": "[\"приостанов\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "На птицефабрике &#171;Свердловская&#187; ввели карантин из-за вспышки гриппа птиц",
+      "url": "https://ural24.com/news/na_ptitsefabrike_sverdlovskaya_vveli_karantin_iz_za_vspyshki_grippa_ptits",
+      "summary": "На птицефабрике &#171;Свердловская&#187; ввели карантин и приостановили поставки продукции. Власти региона сообщили о дополнительных поставках яиц из соседних областей.",
+      "published_at": "2026-11-20T00:01:00.000Z",
+      "created_at": "2026-11-20 18:20:51",
       "verdict": null,
       "ai_summary": null,
       "product": null,
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "юар",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "81d9e45f68985a105f52499a611a46de1923e6d5",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "bing-recall-series",
-      "title": "В Рязанской области остановили обращение ветпрепарата из-за рисков для животных",
-      "url": "https://62info.ru/news/obshchestvo/156242-v-ryazanskoy-oblasti-ostanovili-obrashchenie-vetpreparata-iz-za-riskov-dlya-zhivotnykh/",
-      "summary": "В Рязанской области приостановлено обращение одного из ветеринарных препаратов. Об этом сообщил региональный Россельхознадзор.",
-      "published_at": "2026-10-21T08:39:00.000Z",
-      "created_at": "2026-10-22 22:20:52",
-      "verdict": "probable",
-      "ai_summary": "Приостановлено обращение ветеринарного препарата",
-      "product": null,
-      "series": null,
-      "region": "Рязанская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-22 22:21:09",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "рязанская область",
       "dup_count": 1
     }
   ]
