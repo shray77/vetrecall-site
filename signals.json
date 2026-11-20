@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-19T22:21:00.772Z",
+  "generated_at": "2026-11-20T06:20:53.360Z",
   "items": [
     {
       "fingerprint": "c191de204d8c358c5413e2e375b1ed30073d03af",
@@ -46,6 +46,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "якутия",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "020773255d12ff54deef523726335123ca88ead8",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"высокопатогенн\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Почему низкопатогенный грипп птиц остается угрозой и как минимизировать риски — колонка ...",
+      "url": "https://vetandlife.ru/livestock/pochemu-nizkopatogennyj-gripp-ptic-ostaetsya-ugrozoj-i-kak-minimizirovat-riski-kolonka-vetvracha/",
+      "summary": "Высокопатогенный грипп птиц (ВГП) — главный герой новостных лент, и это заслуженно. Во-первых, он наносит птицеводству максимальный экономический ущерб: ликвидация поголовья и закрытие предприятия на ...",
+      "published_at": "2026-11-19T16:00:00.000Z",
+      "created_at": "2026-11-20 06:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "архангельская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "8d871b02b1137ea779b307e6c045934380a6df97",
-      "signal_type": "recall",
-      "matched": "[\"незарегистрир\"]",
-      "source_id": "fsvps-news",
-      "title": "В Красноярском крае Россельхознадзором установлена реализация сортов семян и саженцев плодовых культур, незарегистрированных в Госреестре",
-      "url": "https://fsvps.gov.ru/news/v-krasnoyarskom-krae-rosselhoznadzorom-ustanovlena-realizacziya-sortov-semyan-i-sazhenczev-plodovyh-kultur-nezaregistrirovannyh-v-gosreestre/",
-      "summary": "Специалистами Управления Россельхознадзора по Красноярскому краю установлено, что 17% семян и 42% саженцев плодовых культур, реализующихся через интернет-магазин «Райский сад», относятся к сортам, которые не зарегистрированы в Государственном реестре сортов и гибридов сельскохозяйственных растений, допущенных к использованию. Нарушение установлено при мониторинге соблюдения законодательства в области семеноводства в период с 12 по 16 октября. Через [&#8230;]",
-      "published_at": "2026-10-20T15:43:08Z",
-      "created_at": "2026-10-20 18:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "Установлено нарушение законодательства в области семеноводства при реализации незарегистрированных сортов семян и саженцев",
-      "product": null,
-      "series": null,
-      "region": "Красноярский край",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-20 18:21:04",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "красноярский край",
       "dup_count": 1
     }
   ]
