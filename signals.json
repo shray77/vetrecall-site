@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-20T06:20:53.360Z",
+  "generated_at": "2026-11-20T08:20:52.635Z",
   "items": [
+    {
+      "fingerprint": "2723ea5c6b7b6c8a516d5663769beca8fcd06121",
+      "signal_type": "recall",
+      "matched": "[\"не соответствует\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором выявлены некачественные семена пшеницы у забайкальского сельхозтоваропроизводителя",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-vyyavleny-nekachestvennye-semena-psheniczy-u-zabajkalskogo-selhoztovaroproizvoditelya/",
+      "summary": "Специалисты Управления Россельхознадзора по Забайкальскому краю выявили некачественные семена пшеницы у забайкальского сельхозтоваропроизводителя. Согласно протоколу исследований от 17 ноября 2026 года, семенной материал не соответствует требованиям ГОСТ Р 52325‑2005 «Семена сельскохозяйственных растений. Сортовые и посевные качества. Общие технические условия» по показателю «отход семян» – 200 шт/кг при нормативе не более 40 шт/кг. Таким образом, содержание [&#8230;]",
+      "published_at": "2026-11-20T06:29:01Z",
+      "created_at": "2026-11-20 08:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "c191de204d8c358c5413e2e375b1ed30073d03af",
       "signal_type": "recall",
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "рязанская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "0d98affc2d16e69b50f01f07155b7a87e54009f7",
-      "signal_type": "recall",
-      "matched": "[\"изъят\"]",
-      "source_id": "fsvps-news",
-      "title": "В Архангельской области по материалам Россельхознадзора судом у фермера изъят сельхозучасток",
-      "url": "https://fsvps.gov.ru/news/v-arhangelskoj-oblasti-po-materialam-rosselhoznadzora-sudom-u-fermera-izyat-selhozuchastok/",
-      "summary": "19 октября 2026 года в адрес Североморского межрегионального управления Россельхознадзора поступило решение Арбитражного суда Архангельской области об изъятии у главы КФХ Панютина И.В. земельного участка сельскохозяйственного назначения в связи с неиспользованием по целевому назначению. Ранее в апреле 2026 года межрегиональное управление Россельхознадзора направило в адрес Министерства имущественных отношений Архангельской области материалы, подтверждающие, что земельный [&#8230;]",
-      "published_at": "2026-10-20T15:46:01Z",
-      "created_at": "2026-10-20 18:20:52",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": "Архангельская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-20 18:20:56",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "архангельская область",
       "dup_count": 1
     }
   ]
