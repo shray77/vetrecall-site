@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-20T18:20:52.312Z",
+  "generated_at": "2026-11-21T04:20:53.387Z",
   "items": [
+    {
+      "fingerprint": "02c809bb99f8f486d557ceee60c64bfb97b7087d",
+      "signal_type": "recall",
+      "matched": "[\"уничтож\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Вспышка птичьего гриппа произошла в Свердловской области — пропадут ли из магазинов яйца",
+      "url": "https://www.e1.ru/text/gorod/2026/11/21/76780902/",
+      "summary": "Болезнь официально не называют. &#171;Ъ-Урал&#187; же со ссылкой на источник пишет, что на фабрике произошла вспышка птичьего гриппа. По данным &#171;Коммерсанта&#187;, из-за этого уничтожат 2,5 млн голов несушек.",
+      "published_at": "2026-11-20T17:34:00.000Z",
+      "created_at": "2026-11-21 04:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "2723ea5c6b7b6c8a516d5663769beca8fcd06121",
       "signal_type": "recall",
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "52560b1da818bfec992bae6e4fa19bf8802361e2",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В парке Аддо в ЮАР подтвердили ящур у куду — Daily Maverick",
-      "url": "https://ua.news/ru/dovkolo-svitu/u-parku-addo-v-par-pidtverdili-iashchur-u-kudu-daily-maverick",
-      "summary": "Повторные исследования подтвердили ящур у куду в Национальном парке слонов Аддо в ЮАР. Клинические признаки также выявили у канн и красных бубалов.",
-      "published_at": "2026-10-21T21:18:00.000Z",
-      "created_at": "2026-10-22 18:20:53",
-      "verdict": "confirmed",
-      "ai_summary": "Повторные исследования подтвердили ящур у куду в Национальном парке слонов Аддо в ЮАР.",
-      "product": null,
-      "series": null,
-      "region": "ЮАР",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-22 18:21:05",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "юар",
       "dup_count": 1
     }
   ]
