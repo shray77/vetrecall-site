@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-21T10:20:53.581Z",
+  "generated_at": "2026-11-21T16:20:52.688Z",
   "items": [
     {
       "fingerprint": "02c809bb99f8f486d557ceee60c64bfb97b7087d",
@@ -12,6 +12,29 @@
       "summary": "Болезнь официально не называют. &#171;Ъ-Урал&#187; же со ссылкой на источник пишет, что на фабрике произошла вспышка птичьего гриппа. По данным &#171;Коммерсанта&#187;, из-за этого уничтожат 2,5 млн голов несушек.",
       "published_at": "2026-11-20T17:34:00.000Z",
       "created_at": "2026-11-21 04:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "c727d74bfdda48ec7ec8daae0103f658635be827",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птицефабрика &#171;Свердловская&#187; на карантине: у пернатых нашли серьезное заболевание",
+      "url": "https://tagilcity.ru/news/2026-11-21/ptitsefabrika-sverdlovskaya-na-karantine-u-pernatyh-nashli-serieznoe-zabolevanie-5738140",
+      "summary": "Вечером 20 ноября правительство Свердловской области сообщило о введении жесткого карантина на одной из производственных площадок птицефабрики &#171;Свердловская&#187;. Причина — вспышка заболевания среди птиц.",
+      "published_at": "2026-11-20T16:00:00.000Z",
+      "created_at": "2026-11-21 16:20:52",
       "verdict": null,
       "ai_summary": null,
       "product": null,
@@ -118,15 +141,15 @@
       "dup_count": 1
     },
     {
-      "fingerprint": "80baae65a219f1457a3613c95b09c3030330985c",
+      "fingerprint": "f1087cbd7d1cc2fc583ecbb7dc4d8c804beb0dac",
       "signal_type": "outbreak",
       "matched": "[\"птичий грипп\"]",
       "source_id": "bing-outbreak-other",
       "title": "Птичий грипп выявлен у молочного скота в 22 штатах США",
-      "url": "https://dairynews.today/kz/news/bird_flu_reaches_dairy_cattle_in_22_us_states_as_officials_seek_vaccines_7796127.html",
-      "summary": "После выявления новых случаев заражения в Оклахоме, Орегоне и Индиане число штатов США, где птичий грипп обнаружен у молочного скота, достигло 22. Руководители сельскохозяйственных и ветеринарных ведо ...",
+      "url": "https://dairynews.today/kz/ru/news/bird_flu_reaches_dairy_cattle_in_22_us_states_as_officials_seek_vaccines_7796127.html",
+      "summary": "После выявления новых случаев заражения в Оклахоме, Орегоне и Индиане число штатов США, где птичий грипп обнаружен у молочного скота, достигло 22. Руководители сельскохозяйственных и ветеринарных ...",
       "published_at": "2026-11-19T16:00:00.000Z",
-      "created_at": "2026-11-21 10:20:52",
+      "created_at": "2026-11-21 16:20:52",
       "verdict": null,
       "ai_summary": null,
       "product": null,
@@ -138,7 +161,15 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
+      "dup_count": 2,
+      "dups": [
+        {
+          "title": "Птичий грипп выявлен у молочного скота в 22 штатах США",
+          "url": "https://dairynews.today/kz/news/bird_flu_reaches_dairy_cattle_in_22_us_states_as_officials_seek_vaccines_7796127.html",
+          "source_id": "bing-outbreak-other",
+          "published_at": "2026-11-19T16:00:00.000Z"
+        }
+      ]
     },
     {
       "fingerprint": "020773255d12ff54deef523726335123ca88ead8",
@@ -1891,15 +1922,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "арктика",
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "Птичий грипп добрался до Арктики: белые медведи заразились смертельно опасной инфекцией",
-          "url": "https://www.hibiny.ru/murmanskaya-oblast/news/item-ptichiy-gripp-dobralsya-doarktiki-belye-medvedi-zarazilis-smertelno-opasnoy-infekciey-474797/",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-22T13:43:00.000Z"
-        }
-      ]
+      "dup_count": 1
     },
     {
       "fingerprint": "cb1edcc9332962f15a980d27a570df585be0ee4b",
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "монголия",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "1d251a939d950bcd71e96356ac048f04dbabf7a2",
-      "signal_type": "outbreak",
-      "matched": "[\"высокопатогенн\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Ставропольская биофабрика подала заявку на регистрацию комбинированной вакцины против гриппа ...",
-      "url": "https://vetandlife.ru/pet-business/stavropolskaya-biofabrika-podala-zayavku-na-registraciju-kombinirovannoj-vakciny-protiv-grippa-ptic-i-bolezni-njukasla/",
-      "summary": "Ставропольская биофабрика подала заявку на регистрацию вакцины &#171;Флу Протект H5+НБ&#187; для профилактики высокопатогенного гриппа птиц подтипа H5 и болезни Ньюкасла. Сведения размещены в информационной сис ...",
-      "published_at": "2026-10-22T04:27:00.000Z",
-      "created_at": "2026-10-22 18:20:53",
-      "verdict": "probable",
-      "ai_summary": "Ставропольская биофабрика подала заявку на регистрацию вакцины",
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-22 18:20:58",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
       "dup_count": 1
     }
   ]
