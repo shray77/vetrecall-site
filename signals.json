@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-22T08:20:53.131Z",
+  "generated_at": "2026-11-22T16:20:53.176Z",
   "items": [
+    {
+      "fingerprint": "32d8c9879ffd3682f46098eda9d9d00177e82fdf",
+      "signal_type": "outbreak",
+      "matched": "[\"грипп птиц\",\"птичий грипп\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Осень пришла, и птичий грипп вернулся: в 18 странах Европы за месяц выявили 108 очагов инфекции",
+      "url": "https://www.newsinfo.ru/news/avian-flu-europe/975779/",
+      "summary": "Грипп птиц в Европе и ветеринарная безопасность в России: сезонная ситуация, мониторинг, вакцины ВНИИЗЖ и защита птицеводческих хозяйств.",
+      "published_at": "2026-11-22T01:21:00.000Z",
+      "created_at": "2026-11-22 16:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "02c809bb99f8f486d557ceee60c64bfb97b7087d",
       "signal_type": "recall",
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "московская область",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "629553b4798ee7bc696989c3a48ba393385d50d4",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "fsvps-news",
-      "title": "В подведомственном Россельхознадзору ФГБУ «ВНИИЗЖ» разработали методические рекомендации по повышению эффективности производства вакцин против ящура",
-      "url": "https://fsvps.gov.ru/news/v-podvedomstvennom-rosselhoznadzoru-fgbu-vniizzh-razrabotali-metodicheskie-rekomendaczii-po-povysheniyu-effektivnosti-proizvodstva-vakczin-protiv-yashhura/",
-      "summary": "Специалисты ФГБУ «ВНИИЗЖ» разработали методические рекомендации по оптимизации получения вирусного антигена для производства вакцин против ящура серотипа А. Документ утвержден на заседании Ученого совета 16 октября 2026 года. Разработка направлена на совершенствование одного из этапов производства противоящурных вакцин – получения антигена, необходимого для создания препарата. Применение предложенного подхода позволяет увеличить выход целевого компонента и [&#8230;]",
-      "published_at": "2026-10-22T18:04:45Z",
-      "created_at": "2026-10-22 22:20:52",
-      "verdict": "noise",
-      "ai_summary": null,
-      "product": null,
-      "series": null,
-      "region": null,
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-22 22:21:02",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": null,
       "dup_count": 1
     }
   ]
