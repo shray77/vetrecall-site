@@ -1,6 +1,6 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-21T16:20:52.688Z",
+  "generated_at": "2026-11-22T08:20:53.131Z",
   "items": [
     {
       "fingerprint": "02c809bb99f8f486d557ceee60c64bfb97b7087d",
@@ -321,6 +321,29 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "курганская область",
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "5a24ffb7aafe187fe35b7d68322d8d68e84426c1",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-achs",
+      "title": "Вспышка африканской чумы свиней произошла на крупной ферме в Литве",
+      "url": "https://meat-expert.ru/news/21122-vspyska-afrikanskoi-cumy-svinei-proizosla-na-krupnoi-ferme-v-litve",
+      "summary": "На территории Кедайнского районного самоуправления в центральной части Литвы зарегистрирована вспышка африканской чумы свиней, передает ТАСС со ссылкой портал Delfi.",
+      "published_at": "2026-11-18T01:01:00.000Z",
+      "created_at": "2026-11-22 08:20:52",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
       "dup_count": 1
     },
     {
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "592bb914e9db91efcadcf87e4f7d8ba4cb5d8119",
-      "signal_type": "outbreak",
-      "matched": "[\"ящур\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "В Монголии привили вакциной из РФ пять млн пастбищных животных",
-      "url": "https://kvedomosti.ru/?p=1222023",
-      "summary": "Около пяти млн голов домашнего скота в 13 аймаках (регионах) Монголии были привиты российской вакциной от ящура штаммов O и SAT-1. Об этом сообщило министерство продовольствия, сельского хозяйства и л ...",
-      "published_at": "2026-10-22T16:36:00.000Z",
-      "created_at": "2026-10-23 04:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "В Монголии привиты 5 миллионов пастбищных животных российской вакциной от ящура",
-      "product": null,
-      "series": null,
-      "region": "Монголия",
-      "disease": "ящур",
-      "order_no": null,
-      "ai_at": "2026-10-23 04:20:56",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "монголия",
       "dup_count": 1
     }
   ]
