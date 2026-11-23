@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-23T06:20:52.856Z",
+  "generated_at": "2026-11-23T10:20:52.705Z",
   "items": [
+    {
+      "fingerprint": "3f7399e92b38381b46fd530780b2b8f6acc58bd1",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Птицефабрика &#171;Свердловская&#187; остановлена после вспышки гриппа птиц",
+      "url": "https://agroexpert.press/zhivotnye-ryba-pticza/pticzefabrika-sverdlovskaya-ostanovlena-posle-vspyshki-grippa-pticz/",
+      "summary": "Птицефабрика &#171;Свердловская&#187;, обеспечивающая более 60% рынка региона, остановлена после вспышки гриппа птиц. Дефицита яиц в области не наблюдается, налажены поставки из других областей, сообщили в прес ...",
+      "published_at": "2026-11-22T16:00:00.000Z",
+      "created_at": "2026-11-23 10:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "32d8c9879ffd3682f46098eda9d9d00177e82fdf",
       "signal_type": "outbreak",
@@ -2014,29 +2037,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "c7ac3fa99ff6e06d7bfc2b3df94097f3dfc4e0e1",
-      "signal_type": "recall",
-      "matched": "[\"приостанов\"]",
-      "source_id": "fsvps-news",
-      "title": "В Волгоградской области Россельхознадзором прекращено действие 158 деклараций на продукцию животного происхождения",
-      "url": "https://fsvps.gov.ru/news/v-volgogradskoj-oblasti-rosselhoznadzorom-prekrashheno-dejstvie-158-deklaraczij-na-produkcziyu-zhivotnogo-proishozhdeniya/",
-      "summary": "С 1 января по 21 октября 2026 года Управлением Россельхознадзора по Ростовской, Волгоградской и Астраханской областям и Республике Калмыкия приостановлено действие 158 деклараций о соответствии на продукцию животного происхождения производителей Волгоградской области, которые зарегистрированы в системе Росаккредитации. В частности, прекращено 38 деклараций о соответствии на молочную продукцию, 80 &#8212; на мясную, 30 &#8212; на [&#8230;]",
-      "published_at": "2026-10-22T20:09:04Z",
-      "created_at": "2026-10-22 22:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "Приостановлено действие 158 деклараций на продукцию животного происхождения",
-      "product": "продукция животного происхождения",
-      "series": null,
-      "region": "Волгоградская область",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-22 22:20:56",
-      "product_norm": "продукция животного происхождения",
-      "series_digits": null,
-      "region_norm": "волгоградская область",
       "dup_count": 1
     }
   ]
