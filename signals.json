@@ -1,7 +1,53 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-27T08:20:52.228Z",
+  "generated_at": "2026-11-27T22:20:52.759Z",
   "items": [
+    {
+      "fingerprint": "40933f1c0b783d36f91af7f3e30bb045d9552496",
+      "signal_type": "recall",
+      "matched": "[\"запрещен\"]",
+      "source_id": "fsvps-news",
+      "title": "Россельхознадзором в Санкт-Петербурге запрещен ввоз заражённого вьетнамского риса",
+      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-v-sankt-peterburge-zapreshhen-vvoz-zarazhyonnogo-vetnamskogo-risa/",
+      "summary": "23 ноября 2026 года в морском порту Санкт-Петербурга государственным инспектором Северо-Западного межрегионального управления Россельхознадзора в рамках контроля качества и безопасности зерна и продуктов его переработки при ввозе 10 т риса из Вьетнама было выявлено нарушение ТР ТС «О безопасности пищевой продукции» по показателям «зараженность вредителями» и «загрязнённость вредителями хлебных запасов (насекомыми и клещами)». Проведенные лабораторные [&#8230;]",
+      "published_at": "2026-11-27T20:44:31Z",
+      "created_at": "2026-11-27 22:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
+    {
+      "fingerprint": "8bc9b58a829dc87867f16a9ab578f27373bceb78",
+      "signal_type": "recall",
+      "matched": "[\"запрещен\"]",
+      "source_id": "fsvps-news",
+      "title": "В Северной Осетии – Алании запрещен ввоз 20 тонн импортных мандаринов, зараженных средиземноморской мухой",
+      "url": "https://fsvps.gov.ru/news/v-severnoj-osetii-alanii-zapreshhen-vvoz-20-tonn-importnyh-mandarinov-zarazhennyh-sredizemnomorskoj-muhoj/",
+      "summary": "25 ноября 2026 году Управление Россельхознадзора по Кабардино-Балкарской Республике и Республике Северная Осетия – Алания на территории Республики Северная Осетия-Алания при досмотре партии мандарины свежие массой 20,2 т выявило карантинный для Российской Федерации объект – Средиземноморская плодовая муха (Ceratitis capitata (Wiedemann)). Продукция поступила на склад временного хранения «Южные ворота» из Турции. Наличие карантинного объекта в [&#8230;]",
+      "published_at": "2026-11-27T20:41:05Z",
+      "created_at": "2026-11-27 22:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "892569b1d0f355bc721c948813ddd7b0a24266ec",
       "signal_type": "outbreak",
@@ -1672,15 +1718,7 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": null,
-      "dup_count": 2,
-      "dups": [
-        {
-          "title": "Птичий грипп снова распространяется в Европе. Может ли он добраться до Беларуси с перелётными ...",
-          "url": "https://smartpress.by/news/ptichiy-gripp-snova-rasprostranyaetsya-v-evrope-mozhet-li-on-dobratsya-do-belarusi-s-perelyetnymi-pt/",
-          "source_id": "bing-outbreak-other",
-          "published_at": "2026-10-29T06:25:00.000Z"
-        }
-      ]
+      "dup_count": 1
     },
     {
       "fingerprint": "60469a3b5144ff478d059336153e59c1c116d66e",
@@ -2125,29 +2163,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "антарктида",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "b4b61c1ba674fefc194d7ef360508b602007145c",
-      "signal_type": "recall",
-      "matched": "[\"уничтож\"]",
-      "source_id": "fsvps-news",
-      "title": "Россельхознадзором выявлены нарушения на предприятии по уничтожению биологических отходов в Смоленске",
-      "url": "https://fsvps.gov.ru/news/rosselhoznadzorom-vyyavleny-narusheniya-na-predpriyatii-po-unichtozheniyu-biologicheskih-othodov-v-smolenske/",
-      "summary": "С 13 по 26 октября 2026 года Управление Россельхознадзора по Брянской, Смоленской и Калужской областям совместно с прокуратурой Смоленской области провело выездную проверку ООО «Крокус». Выявлены нарушения ветеринарного законодательства. Согласно данным ФГИС «ВетИС», на указанной производственной площадке зарегистрирован объект вида «крематор», предназначенный для уничтожения биологических отходов и отходов животноводства. В ходе контрольно-надзорного мероприятия [&#8230;]",
-      "published_at": "2026-10-29T12:05:47Z",
-      "created_at": "2026-10-29 14:20:52",
-      "verdict": "probable",
-      "ai_summary": "Выявлены нарушения ветеринарного законодательства на предприятии в Смоленске",
-      "product": null,
-      "series": null,
-      "region": "Смоленск",
-      "disease": null,
-      "order_no": null,
-      "ai_at": "2026-10-29 14:21:01",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "смоленск",
       "dup_count": 1
     }
   ]
