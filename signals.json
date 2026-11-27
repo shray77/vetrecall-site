@@ -1,7 +1,30 @@
 {
   "service": "vetrecall",
-  "generated_at": "2026-11-27T02:20:52.150Z",
+  "generated_at": "2026-11-27T08:20:52.228Z",
   "items": [
+    {
+      "fingerprint": "892569b1d0f355bc721c948813ddd7b0a24266ec",
+      "signal_type": "outbreak",
+      "matched": "[\"вспышк\"]",
+      "source_id": "bing-outbreak-other",
+      "title": "Забытые болезни возвращаются: почему в России снова фиксируют краснуху, свинку и вспышки кори ...",
+      "url": "https://msk1.ru/text/health/2026/11/27/76791694/",
+      "summary": "Эпидемический паротит широко известен в народе как свинка: при заражении отекают слюнные железы, лицо раздувает. Вирус способен привести как к мужскому, так и к женскому бесплодию. Среди последствий — ...",
+      "published_at": "2026-11-26T23:00:00.000Z",
+      "created_at": "2026-11-27 08:20:51",
+      "verdict": null,
+      "ai_summary": null,
+      "product": null,
+      "series": null,
+      "region": null,
+      "disease": null,
+      "order_no": null,
+      "ai_at": null,
+      "product_norm": null,
+      "series_digits": null,
+      "region_norm": null,
+      "dup_count": 1
+    },
     {
       "fingerprint": "6a9f1ebf0d0cdd84ffc42971c75accb4065022c0",
       "signal_type": "outbreak",
@@ -2125,29 +2148,6 @@
       "product_norm": null,
       "series_digits": null,
       "region_norm": "смоленск",
-      "dup_count": 1
-    },
-    {
-      "fingerprint": "7e85d48a72aca9ba0bb617b4e372bbec9bdefde1",
-      "signal_type": "outbreak",
-      "matched": "[\"вспышк\"]",
-      "source_id": "bing-outbreak-other",
-      "title": "Карантинные меры из-за вспышек птичьего гриппа ввели в Нидерландах",
-      "url": "https://www.inform.kz/ru/karantinnie-meri-iz-za-vspishek-ptichego-grippa-vveli-v-niderlandah-94e8eb6f",
-      "summary": "Власти Нидерландов обязали птицеводческие хозяйства по всей стране содержать птицу в закрытых помещениях из-за вспышки птичьего гриппа, передает Kazinform со ссылкой на ТАСС .",
-      "published_at": "2026-10-28T18:57:00.000Z",
-      "created_at": "2026-10-29 04:20:52",
-      "verdict": "confirmed",
-      "ai_summary": "Карантинные меры из-за вспышек птичьего гриппа ввели в Нидерландах",
-      "product": null,
-      "series": null,
-      "region": "Нидерланды",
-      "disease": "птичьий грипп",
-      "order_no": null,
-      "ai_at": "2026-10-29 04:20:57",
-      "product_norm": null,
-      "series_digits": null,
-      "region_norm": "нидерланды",
       "dup_count": 1
     }
   ]
